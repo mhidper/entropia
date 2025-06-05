@@ -1,0 +1,274 @@
+\documentclass[5p,authoryear]{elsarticle}
+\makeatletter 
+\def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \let\@evenfoot\@oddfoot} % Supprimer le bas de page ELSEVIER
+\makeatother
+\usepackage[utf8]{inputenc} % En unicode
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[babel=true]{csquotes} % permet de faire \enquote{a} (« a »)
+\usepackage[fleqn]{amsmath} % pour certains signes mathématiques
+\usepackage{amsthm} % Pour \begin{gather}
+\usepackage{booktabs} % pour \toprule (un style de tableau)
+\usepackage{multirow} % Pour colonnes multiples des tableaux
+\usepackage{amssymb} % Pour \leqslant (<=, >=)
+\usepackage{float}
+\usepackage{hyperref} % DOIT ETRE EN DERNIER
+\usepackage[english]{cleveref} % permet de faire \cref au lieu de \ref (DOIT ETRE EN DERNIER)
+\usepackage{tikz}
+\usepackage{array, longtable, tabularx}% added long table
+\usepackage{adjustbox}
+
+
+
+\begin{document}
+
+\begin{frontmatter}
+
+
+\title{A Multidimensional Framework for Economic Uncertainty Quantification}    
+
+\author[1]{Manuel Hidalgo-Pérez\corref{cor1}%
+ \fnref{fn1}}
+\ead{mhidper@upo.es} 
+
+\author[2]{Leandro Airef\fnref{fn2}}
+\ead{email de Leandro}
+
+
+\cortext[cor1]{Corresponding author}
+
+\affiliation[1]{organization={Universidad Pablo de Olavide},
+                addressline={Ctra Utrera s/n},
+                postcode={41013},
+                city={Sevilla},
+                country={España}}
+
+\affiliation[2]{organization={Airef},
+                addressline={C. de Mateo Inurria, 25, 27},
+                postcode={28036},
+                city={Madrid},
+                country={España}}
+
+\begin{abstract}
+This paper proposes a comprehensive framework for quantifying economic uncertainty through a multidimensional index that captures various sources of predictive ambiguity. We identify three primary dimensions of uncertainty: model dispersion, within-model variability, and temporal instability. By combining these dimensions into a normalized composite index, our approach provides a nuanced view of economic uncertainty that can inform both academic research and practical decision-making. The framework establishes empirically-derived thresholds for different uncertainty levels, offering actionable guidance for policymakers and financial practitioners. Our theoretical construction builds upon foundations in decision theory while addressing practical implementation challenges, bridging the gap between conceptual uncertainty measures and applied economic forecasting.
+\end{abstract}
+
+\begin{keyword}
+Economic uncertainty \sep Forecasting \sep Composite index \sep Bayesian methods \sep Financial crises
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction}
+
+Economic forecasting faces inherent challenges in capturing the complex, dynamic nature of macroeconomic systems. Traditional point forecasts provide limited insight into the underlying uncertainty of economic projections, potentially leading to overconfidence in policy decisions and risk management strategies. This paper proposes a comprehensive framework for quantifying economic uncertainty through a multidimensional index that captures various sources of predictive ambiguity.
+
+The quantification of economic uncertainty has garnered increasing attention in both academic literature and policy circles, particularly following the 2008 financial crisis and subsequent global economic shocks. While several uncertainty indices have been developed—including news-based measures \citep{Baker2016}, implied volatility indicators \citep{Bloom2009}, and survey-based approaches \citep{Rossi2019}—these typically capture only single dimensions of uncertainty. Our framework synthesizes multiple uncertainty dimensions into a coherent, interpretable index that provides a more comprehensive assessment of economic ambiguity.
+
+\section{Economic Uncertainty Measurement: Existing Methods and Our Proposal}
+
+The quantification of economic uncertainty is a crucial field in macroeconomic and financial research, given its significant influence on the decisions of economic agents and aggregate dynamics. Historically, the fundamental distinction between risk (measurable probability) and uncertainty (non-measurable probability) was established by \cite{Knight1921} and explored in the context of decision-making by \cite{Ellsberg1961}, laying the theoretical foundations for differentiating various types of ambiguity.
+
+Recent empirical literature has developed diverse methodologies to measure uncertainty, each with its particular approaches and data sources. Among the most prominent approaches are:
+
+\subsection*{Text-Based Methods}
+For example, \cite{baker_epu} proposed the Economic Policy Uncertainty (EPU) index, constructed by counting the frequency of news articles containing terms related to economics, policy, and uncertainty in relevant newspapers \cite{baker_epu}. This methodology captures uncertainty as reflected in media discourse about policy decisions (fiscal, monetary, regulatory).
+
+\subsection*{Predictability-Based Methods}
+\cite{jurado2015} developed measures of macroeconomic and firm-level uncertainty based on the "unpredictable volatility" of a large set of economic variables. Their approach uses factor models and large-dimensional VARs to isolate the purely unobservable and unpredictable component of economic series and measure their conditional volatility.
+
+\subsection*{Survey Forecast-Based Methods}
+Another line of research focuses on uncertainty revealed by surveys of professional forecasters. \cite{clark2017} uses point forecasts (e.g., from the Survey of Professional Forecasters or Greenbook) and stochastic volatility (SV) or VAR-SV models to measure uncertainty in expectations, focusing on the volatility of forecast errors. \cite{carriero2018} and \cite{rossi2016} extend this approach using complete density forecasts from surveys, allowing for a richer decomposition of uncertainty into "ex-ante" and "ex-post" components. \cite{berge2020} applies similar ideas to the uncertainty surrounding output gap estimates using institutional forecasts.
+
+\subsection*{Structural and Impact Methods}
+\cite{bloomuncer} focuses on the impact of uncertainty shocks on the economy, particularly at the firm level. While not primarily a measure of uncertainty *quantification* per se, his work highlights the importance of uncertainty (approximated by stock market volatility) as a driver of investment and hiring decisions under adjustment costs. His methodology employs structural models and simulation to analyze firms' response to uncertainty.
+
+\subsection*{Our Multidimensional Proposal}
+
+While existing methodologies have significantly advanced the measurement of different facets of economic uncertainty, they often focus on a single source or type of ambiguity (policy, unpredictability, forecast dispersion). Our proposal seeks to offer a more **comprehensive and multidimensional** framework for quantifying economic uncertainty.
+
+The added value of our methodology lies in the combination of **three primary dimensions** of uncertainty that are often treated separately in the existing literature:
+\begin{enumerate}
+    \item **Model Dispersion:** Captures the heterogeneity in predictions generated by different models or forecasting sources.
+    \item **Within-Model Variability:** Measures the intrinsic volatility or conditional variance of forecasts within a given model or source (similar to the "unpredictable volatility" of \cite{jurado2015} or Clark's stochastic volatility \cite{clark2017}).
+    \item **Temporal Instability:** Reflects changes over time in model structure or in the persistence of uncertainty (related to the temporal dynamics of stochastic volatility \cite{clark2017}).
+\end{enumerate}
+
+By integrating these dimensions into a **normalized composite index** our methodology provides a more **nuanced and comprehensive** view of economic uncertainty. Unlike unidimensional measures, our index can differentiate periods where uncertainty arises from, for example, high unexpected volatility versus periods where there is strong disagreement among experts or models.
+
+\subsubsection*{What do we gain from this methodology?}
+
+The main benefit of our multidimensional approach is its capacity to offer a more **granular and precise** diagnosis about the nature of uncertainty at a given moment. This translates into several advantages:
+\begin{itemize}
+    \item **Greater analytical capacity:** Allows researchers and analysts to understand not only *how much* uncertainty there is, but *where it predominantly comes from*. This is crucial for analyzing the transmission channels of uncertainty to the economy.
+    \item **Relevance for decision-making:** By identifying the sources of uncertainty, economic policymakers can design more specific responses. For example, high dispersion among models may suggest the need to clarify the regulatory landscape, while high within-model variability may require tools to manage unexpected shocks. Our methodology establishes **empirically-derived thresholds** for different levels of uncertainty, offering **practical and actionable guidance** for policymakers and financial practitioners \cite{risk_analysis}.
+    \item **Conceptual and applied bridge:** Our framework seeks to bridge the gap between theoretical conceptualizations of uncertainty and ambiguity and their practical application in economic measurement, addressing implementation challenges \cite{risk_analysis}.
+    \item **Complete vision:** The combination of dimensions captures aspects that, if measured separately, could offer an incomplete or misleading picture of the total uncertainty perceived by agents.
+\end{itemize}
+
+In summary, while the existing literature has provided valuable tools for measuring specific aspects of uncertainty, our methodology proposes a synthetic index that, by integrating multiple dimensions of predictive ambiguity, offers a more powerful tool for analysis and decision-making in environments of high economic uncertainty.
+
+%*********************************************************
+\section{Conceptual Foundations}
+
+\subsection{Dimensions of Economic Uncertainty}
+
+The proposed framework acknowledges that economic uncertainty stems from multiple sources that should be independently quantified and then systematically integrated. We identify three primary dimensions of uncertainty:
+
+\subsubsection{Model Dispersion Uncertainty}
+
+This dimension captures the disagreement across different modeling approaches when forecasting the same economic variables. When diverse methodologies (e.g., dynamic factor models, Bayesian vector autoregressions, and neural network architectures) produce divergent forecasts despite being trained on identical data, this signals inherent uncertainty in the economic system that transcends any single modeling paradigm.
+
+Formally, for a target variable $y$ and forecasting horizon $h$, given $M$ different models producing forecasts $\hat{y}_{m,t+h|t}$ for $m \in \{1,2,...,M\}$, we define model dispersion as:
+
+\begin{equation}
+D_{t+h|t} = \frac{1}{M} \sum_{m=1}^{M} (\hat{y}_{m,t+h|t} - \bar{y}_{t+h|t})^2
+\end{equation}
+
+where $\bar{y}_{t+h|t}$ represents the ensemble mean forecast. High dispersion values indicate substantial disagreement among modeling approaches, suggesting elevated structural uncertainty.
+
+\subsubsection{Within-Model Variability}
+
+This dimension addresses the uncertainty inherent within each individual model, capturing the range of plausible outcomes from a single modeling framework. For probabilistic models, this relates to the width of prediction intervals; for ensemble methods, it reflects the variance across ensemble members.
+
+For a given model $m$ producing a predictive distribution with cumulative distribution function $F_m$, we quantify within-model uncertainty using the interquartile range:
+
+\begin{equation}
+W_{m,t+h|t} = F_m^{-1}(0.75) - F_m^{-1}(0.25)
+\end{equation}
+
+Aggregating across models yields the average within-model uncertainty:
+
+\begin{equation}
+W_{t+h|t} = \frac{1}{M} \sum_{m=1}^{M} W_{m,t+h|t}
+\end{equation}
+
+\subsubsection{Temporal Instability}
+
+This dimension measures how forecasts for a specific future period evolve as new information becomes available. Substantial revisions to forecasts over time indicate higher underlying uncertainty about the economic trajectory.
+
+For a fixed target period $T$, we examine forecasts made at different points in time $t \in \{T-k, T-k+1, ..., T-1\}$. Denoting the ensemble forecast for period $T$ made at time $t$ as $\hat{y}_{T|t}$, we define temporal instability as:
+
+\begin{equation}
+I_T = \frac{1}{k-1} \sum_{t=T-k}^{T-2} |\hat{y}_{T|t+1} - \hat{y}_{T|t}|
+\end{equation}
+
+This captures the average magnitude of forecast revisions as new information becomes available.
+
+\subsection{Normalization and Interpretability}
+
+To ensure the uncertainty index remains interpretable and actionable for decision-makers, we propose a systematic approach to normalization and threshold definition:
+
+\subsubsection{Historical Normalization}
+
+Each uncertainty dimension is normalized relative to its historical distribution:
+
+\begin{equation}
+D^N_{t+h|t} = \frac{D_{t+h|t} - \mu_D}{\sigma_D}
+\end{equation}
+
+where $\mu_D$ and $\sigma_D$ represent the historical mean and standard deviation of the model dispersion metric. Similar transformations are applied to within-model variability and temporal instability.
+
+The normalized metrics are then rescaled to a 0-100 range using a cumulative distribution function transformation:
+
+\begin{equation}
+D^{0-100}_{t+h|t} = 100 \times \Phi(D^N_{t+h|t})
+\end{equation}
+
+where $\Phi$ represents the standard normal cumulative distribution function.
+
+\subsubsection{Threshold Definition}
+
+We establish empirically-derived thresholds for the aggregate uncertainty index through analysis of historical economic episodes:
+
+\begin{itemize}
+    \item \textbf{Normal uncertainty (0-50)}: Values within $\pm$0.67 standard deviations of the historical mean, representing typical economic conditions
+    \item \textbf{Elevated uncertainty (50-75)}: Values between 0.67 and 1.28 standard deviations above the mean, suggesting heightened economic ambiguity
+    \item \textbf{High uncertainty (75-90)}: Values between 1.28 and 1.65 standard deviations above the mean, indicating significant uncertainty that warrants close monitoring
+    \item \textbf{Extreme uncertainty (90-100)}: Values exceeding 1.65 standard deviations above the mean, signaling conditions historically associated with economic regime changes or crises
+\end{itemize}
+
+These thresholds correspond approximately to standard normal probabilities and provide decision-makers with actionable guidance regarding the severity of current uncertainty conditions.
+
+\section{Composite Index Construction}
+
+The three dimensions of uncertainty are combined into a composite index using weights that reflect their relative importance in capturing economically significant uncertainty:
+
+\begin{equation}
+CI_{t+h|t} = w_D \times D^{0-100}_{t+h|t} + w_W \times W^{0-100}_{t+h|t} + w_I \times I^{0-100}_{t+h|t}
+\end{equation}
+
+where $w_D$, $w_W$, and $w_I$ represent the weights assigned to model dispersion, within-model variability, and temporal instability, respectively, with $w_D + w_W + w_I = 1$.
+
+The optimal weights are determined through a historical optimization process that maximizes the index's ability to identify periods of economic stress, specifically recessions and financial crises, using:
+
+\begin{equation}
+\{w_D^*, w_W^*, w_I^*\} = \argmax_{w_D, w_W, w_I} \text{AUC}(CI_{t+h|t}, \text{Crisis}_{t+h})
+\end{equation}
+
+where $\text{AUC}$ represents the area under the receiver operating characteristic curve, measuring the index's discriminative power in identifying crisis periods, and $\text{Crisis}_{t+h}$ is a binary indicator of recession or financial crisis at time $t+h$.
+
+\section{Theoretical Implications}
+
+This multidimensional approach to uncertainty quantification offers several advantages over single-metric approaches:
+
+\begin{enumerate}
+    \item \textbf{Comprehensive uncertainty capture}: By incorporating multiple dimensions, the index detects uncertainty that might be missed by any single metric.
+    
+    \item \textbf{Robust to model misspecification}: The inclusion of multiple modeling paradigms mitigates the risk of systematic bias from any particular approach.
+    
+    \item \textbf{Forward-looking design}: Unlike uncertainty measures based solely on historical volatility, this framework incorporates predictive distributions that can anticipate future uncertainty.
+    
+    \item \textbf{Structural insight}: The decomposition of uncertainty into distinct dimensions provides researchers and policymakers with deeper insights into the nature of economic ambiguity.
+\end{enumerate}
+
+The proposed framework builds upon theoretical foundations in decision theory, specifically addressing the distinction between risk (known probability distributions) and uncertainty (ambiguity about the distributions themselves), as articulated by \citet{Knight1921} and \citet{Ellsberg1961}.
+
+\section{Empirical Implementation}
+
+\subsection{Model Selection}
+
+The implementation of our framework requires the selection of diverse modeling approaches to ensure comprehensive uncertainty capture. We recommend including:
+
+\begin{itemize}
+    \item Traditional econometric models (VAR, BVAR, DFM)
+    \item Machine learning approaches (Random Forests, Gradient Boosting)
+    \item Deep learning architectures (LSTM, Transformer-based models)
+    \item Ensemble methods (Model Averaging, Stacking)
+\end{itemize}
+
+Each model class contributes unique perspectives on uncertainty, with econometric models providing theory-consistent projections, machine learning capturing nonlinear relationships, and deep learning addressing complex temporal dependencies.
+
+\subsection{Calibration Process}
+
+The framework requires calibration against historical data to establish meaningful uncertainty thresholds. This calibration process involves:
+
+\begin{enumerate}
+    \item Training all component models on rolling windows of historical data
+    \item Computing uncertainty metrics for each past period
+    \item Aligning uncertainty spikes with known economic crisis events
+    \item Optimizing threshold values to maximize crisis detection while minimizing false positives
+\end{enumerate}
+
+\section{Conclusion}
+
+This paper outlines a theoretically grounded and empirically implementable framework for quantifying economic uncertainty across multiple dimensions. The resulting index provides a nuanced view of economic uncertainty that can inform both academic research and practical decision-making. Future research should focus on empirical validation across diverse economic environments and exploration of additional uncertainty dimensions that may arise from specific economic sectors or policy domains.
+
+
+
+
+\pagebreak
+\section*{References} \label{sec:references}
+%\nocite{*}
+\renewcommand{\bibsection}{}
+\bibliographystyle{elsarticle-harv}
+\bibliography{bib}
+\pagebreak
+
+
+
+\end{document}
+

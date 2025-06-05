@@ -1,0 +1,1361 @@
+\documentclass[5p,authoryear]{elsarticle}
+\makeatletter 
+\def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \let\@evenfoot\@oddfoot} % Supprimer le bas de page ELSEVIER
+\makeatother
+\usepackage[utf8]{inputenc} % En unicode
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[babel=true]{csquotes} % permet de faire \enquote{a} (« a »)
+\usepackage[fleqn]{amsmath} % pour certains signes mathématiques
+\usepackage{amsthm} % Pour \begin{gather}
+\usepackage{booktabs} % pour \toprule (un style de tableau)
+\usepackage{multirow} % Pour colonnes multiples des tableaux
+\usepackage{amssymb} % Pour \leqslant (<=, >=)
+\usepackage{float}
+\usepackage{hyperref} % DOIT ETRE EN DERNIER
+\usepackage[english]{cleveref} % permet de faire \cref au lieu de \ref (DOIT ETRE EN DERNIER)
+\usepackage{tikz}
+\usepackage{array, longtable, tabularx}% added long table
+\usepackage{adjustbox}
+
+\begin{document}
+\begin{frontmatter}
+\title{Fiscal Policy Errors Under Economic Uncertainty: A DSGE Model with Imperfect Information and Learning}    
+\author[1]{Manuel Hidalgo-Pérez\corref{cor1}%
+ \fnref{fn1}}
+\ead{mhidper@upo.es} 
+\author[2]{Leandro Airef\fnref{fn2}}
+\ead{email de Leandro}
+\cortext[cor1]{Corresponding author}
+\affiliation[1]{organization={Universidad Pablo de Olavide},
+                addressline={Ctra Utrera s/n},
+                postcode={41013},
+                city={Sevilla},
+                country={España}}
+\affiliation[2]{organization={Airef},
+                addressline={C. de Mateo Inurria, 25, 27},
+                postcode={28036},
+                city={Madrid},
+                country={España}}
+
+\begin{abstract}
+This paper develops a Dynamic Stochastic General Equilibrium (DSGE) model to analyze how fiscal policymakers make systematic errors during periods of heightened economic uncertainty. Building upon the multidimensional uncertainty framework that identifies three primary sources of predictive ambiguity---model dispersion, within-model variability, and temporal instability---we construct a theoretical model where fiscal authorities observe noisy signals about the true state of the economy and update their beliefs through an adaptive learning mechanism. The model incorporates regime-dependent uncertainty multipliers that capture how policy implementation errors amplify during periods of elevated, high, and extreme uncertainty as defined by empirically-derived thresholds. Our framework demonstrates that fiscal policy errors are not merely random deviations but systematic biases that emerge from the interaction between imperfect information processing and uncertainty regimes. The model provides insights into the channels through which economic uncertainty translates into suboptimal fiscal decisions, offering a theoretical foundation for understanding policy mistakes during economic crises and their propagation effects on macroeconomic dynamics.
+\end{abstract}
+
+\begin{keyword}
+Economic uncertainty \sep Fiscal policy \sep DSGE models \sep Imperfect information \sep Learning \sep Policy errors
+\end{keyword}
+\end{frontmatter}
+
+\section{Introduction}
+
+The relationship between economic uncertainty and fiscal policy effectiveness has become increasingly prominent in macroeconomic research, particularly following the 2008 financial crisis and subsequent global economic shocks. While traditional macroeconomic models often assume that policymakers possess perfect information about the current state of the economy, real-world fiscal authorities must make critical decisions based on incomplete, noisy, and often contradictory signals about economic conditions. This information deficit becomes particularly acute during periods of heightened uncertainty, when conventional economic relationships may break down and predictive models may provide conflicting guidance.
+
+The consequences of fiscal policy errors under uncertainty extend far beyond simple implementation inefficiencies. When policymakers misperceive the true state of the economy, they may implement procyclical policies during recessions, fail to provide adequate stimulus during downturns, or conversely, apply excessive fiscal restraint during periods requiring expansion. These systematic errors can amplify business cycle fluctuations, prolong economic contractions, and undermine the credibility of fiscal institutions. Understanding the mechanisms through which uncertainty leads to policy errors is therefore crucial for both theoretical advancement and practical policy design.
+
+Recent empirical work has documented substantial variation in the magnitude and persistence of fiscal policy errors across different economic regimes. During periods of relative stability, fiscal authorities appear to make relatively minor adjustments to their policy stance based on incoming information. However, during crisis periods, policy reversals become more frequent and pronounced, suggesting that uncertainty affects not only the magnitude of errors but also the speed and direction of policy corrections. This pattern points to a deeper structural relationship between uncertainty and policy decision-making that cannot be adequately captured by models assuming rational expectations with perfect information.
+
+The theoretical framework developed in this paper builds upon the multidimensional approach to uncertainty quantification that recognizes three distinct sources of predictive ambiguity in economic forecasting. \textbf{Model dispersion} captures the disagreement across different forecasting methodologies when applied to identical datasets, reflecting structural uncertainty about the appropriate economic model. \textbf{Within-model variability} measures the range of plausible outcomes generated by any single modeling framework, corresponding to parameter uncertainty and stochastic volatility. \textbf{Temporal instability} reflects the tendency for forecasts to be revised substantially as new information becomes available, indicating uncertainty about the persistence of economic relationships over time.
+
+These three dimensions of uncertainty create distinct challenges for fiscal policymakers. High model dispersion suggests that different analytical frameworks provide conflicting guidance about appropriate policy responses, forcing policymakers to choose among competing recommendations without clear theoretical guidance for model selection. Elevated within-model variability implies that even after selecting a particular analytical approach, the range of possible outcomes remains large, complicating decisions about the optimal degree of policy aggressiveness. Finally, temporal instability indicates that policy recommendations may change rapidly as new data become available, creating pressure for frequent policy adjustments that may themselves introduce additional economic volatility.
+
+Our theoretical contribution lies in developing a Dynamic Stochastic General Equilibrium (DSGE) model that explicitly incorporates these multiple dimensions of uncertainty into the fiscal policy decision-making process. The model features a fiscal authority that observes noisy signals about the true state of the economy and updates its beliefs about economic conditions through an adaptive learning mechanism. Crucially, the model allows for regime-dependent uncertainty effects, where the magnitude of policy implementation errors varies systematically with the overall level of economic uncertainty as measured by the composite uncertainty index.
+
+The model's key innovation is the explicit modeling of the \textbf{signal extraction problem} faced by fiscal policymakers. Rather than assuming that policymakers simply respond to observed economic variables with some random error, we model the information processing challenge as a filtering problem where policymakers must infer the true state of the economy from noisy and potentially biased signals. This approach captures the realistic situation where fiscal authorities must make decisions based on preliminary data releases, mixed signals from different economic indicators, and incomplete information about the effectiveness of policy instruments under current economic conditions.
+
+The adaptive learning mechanism in our model reflects the empirical observation that fiscal authorities do not treat each period's information as independent but rather update their beliefs about economic conditions gradually over time. This learning process introduces persistence into policy errors, as mistaken beliefs about economic conditions can persist for several periods before being corrected by accumulating evidence. The speed of this learning process is itself allowed to vary with the uncertainty regime, reflecting the documented empirical pattern that policy authorities become more reactive to new information during crisis periods.
+
+The regime-dependent structure of our model builds directly on the empirically-derived uncertainty thresholds that classify economic conditions into normal (0-50), elevated (50-75), high (75-90), and extreme (90-100) uncertainty regimes. In normal uncertainty regimes, policy errors are relatively small and implementation is generally consistent with optimal policy recommendations. However, as uncertainty levels increase, the model generates systematically larger policy errors through two channels: increased noise in signal extraction and larger implementation errors that reflect the difficulties of executing complex fiscal adjustments under uncertain conditions.
+
+The theoretical framework provides several testable predictions about the relationship between uncertainty and fiscal policy effectiveness. First, the magnitude of fiscal policy errors should increase monotonically with the level of economic uncertainty, with particularly pronounced effects during transitions from normal to elevated uncertainty regimes. Second, the persistence of policy errors should vary with uncertainty levels, as higher uncertainty leads to slower learning and more gradual belief updating. Third, the volatility of fiscal policy instruments should increase during high uncertainty periods, reflecting both noisier information and more frequent policy corrections as new information becomes available.
+
+From a methodological perspective, our approach advances the DSGE literature by incorporating realistic information processing constraints while maintaining the theoretical rigor required for policy analysis. The model's linearized solution around the steady state preserves the analytical tractability necessary for clear theoretical insights while allowing for rich dynamics in the interaction between uncertainty, learning, and policy errors. The use of log-linearization ensures that all economic variables remain positive by construction, avoiding the numerical instabilities that can plague models with occasionally binding constraints.
+
+The policy implications of our framework extend beyond academic interest to practical questions of fiscal institutional design. If fiscal policy errors are systematic rather than purely random, then institutional reforms that improve information processing, enhance learning mechanisms, or provide better guidance during high uncertainty periods may yield substantial welfare improvements. Our model provides a theoretical foundation for evaluating such reforms by quantifying the relationship between information quality, learning speed, and policy effectiveness across different uncertainty regimes.
+
+The remainder of this paper is organized as follows. Section 2 develops the complete theoretical model, including the household and firm optimization problems, the fiscal authority's information processing and decision-making framework, and the stochastic processes governing uncertainty regimes. Section 3 derives the model's steady state and presents the log-linearized system used for simulation and analysis. Section 4 discusses the calibration strategy and presents simulation results that illustrate the model's key mechanisms. Section 5 concludes with a discussion of policy implications and directions for future research.
+
+\section{Theoretical Model}
+
+This section presents a complete Dynamic Stochastic General Equilibrium model that incorporates imperfect information and adaptive learning by fiscal authorities. The model economy consists of three types of agents: a representative household, a representative firm, and a fiscal authority that observes the economy imperfectly and makes policy decisions under uncertainty. We begin by describing each agent's optimization problem in detail, then specify the stochastic processes governing the economy, and finally characterize the equilibrium conditions.
+
+\subsection{Representative Household}
+
+The economy is populated by a continuum of identical households with measure one. Each household maximizes expected lifetime utility derived from consumption while making optimal decisions about labor supply, consumption, and capital accumulation. The household's optimization problem provides the foundation for understanding how private sector decisions respond to fiscal policy and economic uncertainty.
+
+\subsubsection{Preferences and Constraints}
+
+The representative household's preferences are characterized by a constant relative risk aversion (CRRA) utility function defined over consumption sequences. The household's expected lifetime utility is given by:
+
+\begin{equation}
+\mathbb{E}_0 \sum_{t=0}^{\infty} \beta^t U(C_t) = \mathbb{E}_0 \sum_{t=0}^{\infty} \beta^t \frac{C_t^{1-\gamma}}{1-\gamma}
+\label{eq:household_utility}
+\end{equation}
+
+where $C_t$ represents consumption in period $t$, $\beta \in (0,1)$ is the subjective discount factor, and $\gamma > 0$ is the coefficient of relative risk aversion. The parameter $\gamma$ governs both the household's willingness to substitute consumption across time and their aversion to consumption risk. When $\gamma = 1$, the utility function reduces to logarithmic utility, while higher values of $\gamma$ imply greater risk aversion and less willingness to smooth consumption over time.
+
+The household faces a standard budget constraint in each period that relates current income to consumption and investment decisions:
+
+\begin{equation}
+C_t + K_{t+1} = (1-\tau_t) Y_t + (1-\delta) K_t
+\label{eq:household_budget}
+\end{equation}
+
+This constraint states that the household's total expenditure on consumption ($C_t$) and next period's capital stock ($K_{t+1}$) cannot exceed their after-tax income plus the undepreciated value of current capital. The left-hand side represents the household's uses of resources, while the right-hand side represents the sources of resources available in period $t$.
+
+On the income side, $(1-\tau_t) Y_t$ represents after-tax labor and capital income, where $\tau_t$ is the proportional tax rate applied to all household income and $Y_t$ is total household income (which equals aggregate output in equilibrium). The term $(1-\delta) K_t$ represents the value of capital that remains after depreciation, where $\delta \in [0,1]$ is the depreciation rate. This formulation assumes that capital depreciates at a constant rate each period, which is standard in the real business cycle literature.
+
+The household's capital accumulation follows the standard law of motion:
+
+\begin{equation}
+K_{t+1} = I_t + (1-\delta) K_t
+\label{eq:capital_accumulation}
+\end{equation}
+
+where $I_t$ represents gross investment in period $t$. Combining equations \eqref{eq:household_budget} and \eqref{eq:capital_accumulation}, we can express investment as:
+
+\begin{equation}
+I_t = K_{t+1} - (1-\delta) K_t = (1-\tau_t) Y_t - C_t
+\label{eq:investment}
+\end{equation}
+
+This relationship shows that investment represents the portion of after-tax income not consumed by the household, establishing the fundamental trade-off between current consumption and future capital accumulation.
+
+\subsubsection{Household Optimization}
+
+The household chooses sequences $\{C_t, K_{t+1}\}_{t=0}^{\infty}$ to maximize expected lifetime utility \eqref{eq:household_utility} subject to the budget constraint \eqref{eq:household_budget} and given initial capital $K_0 > 0$. We solve this problem using the method of Lagrange multipliers, forming the Lagrangian:
+
+\begin{align}
+\mathcal{L} = \mathbb{E}_0 \sum_{t=0}^{\infty} \beta^t \Bigg[ &\frac{C_t^{1-\gamma}}{1-\gamma} \nonumber \\
+&+ \lambda_t \left( (1-\tau_t) Y_t + (1-\delta) K_t - C_t - K_{t+1} \right) \Bigg]
+\label{eq:lagrangian}
+\end{align}
+
+where $\lambda_t$ is the Lagrange multiplier associated with the budget constraint in period $t$, representing the marginal utility of wealth.
+
+Taking the first-order condition with respect to consumption $C_t$:
+
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial C_t} = \beta^t \left[ C_t^{-\gamma} - \lambda_t \right] = 0
+\label{eq:foc_consumption}
+\end{equation}
+
+This yields the standard relationship between marginal utility of consumption and the shadow value of wealth:
+
+\begin{equation}
+C_t^{-\gamma} = \lambda_t
+\label{eq:marginal_utility}
+\end{equation}
+
+Taking the first-order condition with respect to capital $K_{t+1}$:
+
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial K_{t+1}} = -\beta^t \lambda_t + \beta^{t+1} \mathbb{E}_t \left[ \lambda_{t+1} \left( (1-\tau_{t+1}) \frac{\partial Y_{t+1}}{\partial K_{t+1}} + (1-\delta) \right) \right] = 0
+\label{eq:foc_capital}
+\end{equation}
+
+Rearranging and using the relationship $\frac{\partial Y_{t+1}}{\partial K_{t+1}} = r_{t+1}$ (where $r_{t+1}$ is the marginal product of capital), we obtain:
+
+\begin{equation}
+\lambda_t = \beta \mathbb{E}_t \left[ \lambda_{t+1} \left( (1-\tau_{t+1}) r_{t+1} + (1-\delta) \right) \right]
+\label{eq:euler_lagrange}
+\end{equation}
+
+Substituting the marginal utility relationships from equation \eqref{eq:marginal_utility}, we derive the household's Euler equation:
+
+\begin{equation}
+C_t^{-\gamma} = \beta \mathbb{E}_t \left[ C_{t+1}^{-\gamma} \left( (1-\tau_{t+1}) r_{t+1} + (1-\delta) \right) \right]
+\label{eq:euler_equation}
+\end{equation}
+
+This Euler equation is the cornerstone of the household's intertemporal optimization and captures the fundamental trade-off between current and future consumption. The left-hand side represents the marginal utility cost of reducing current consumption by one unit, while the right-hand side represents the expected marginal utility benefit of the increased future consumption made possible by saving and investing that unit.
+
+The term $(1-\tau_{t+1}) r_{t+1} + (1-\delta)$ represents the gross after-tax return to capital investment. The household will optimally choose to reduce current consumption if and only if the expected utility gain from future consumption exceeds the current utility loss, discounted by the subjective discount factor $\beta$.
+
+\subsection{Representative Firm}
+
+The supply side of the economy consists of a representative firm that combines capital and productivity to produce output. The firm operates in competitive markets, taking factor prices as given, and makes production decisions to maximize profits in each period.
+
+\subsubsection{Production Technology}
+
+The firm's production technology is characterized by a Cobb-Douglas production function:
+
+\begin{equation}
+Y_t = A_t K_t^{\alpha}
+\label{eq:production_function}
+\end{equation}
+
+where $Y_t$ is aggregate output, $A_t$ is total factor productivity (TFP), $K_t$ is the capital stock, and $\alpha \in (0,1)$ is the capital share parameter. This specification assumes constant returns to scale in capital when TFP is held fixed, which is consistent with the broad empirical evidence on aggregate production functions.
+
+The parameter $\alpha$ represents the elasticity of output with respect to capital and corresponds to capital's share of total income in a competitive equilibrium. Empirical estimates for developed economies typically place $\alpha$ in the range of 0.25 to 0.40, reflecting the fact that capital income accounts for roughly one-quarter to one-third of total output.
+
+Total factor productivity $A_t$ captures technological progress, institutional factors, and other determinants of productive efficiency that are not directly attributable to factor inputs. In our model, $A_t$ follows a stochastic process that generates business cycle fluctuations, as detailed in the following subsection.
+
+\subsubsection{Firm Optimization}
+
+The representative firm rents capital from households at the competitive rental rate $r_t$ and chooses the capital input to maximize period-$t$ profits:
+
+\begin{equation}
+\max_{K_t} \Pi_t = A_t K_t^{\alpha} - r_t K_t
+\label{eq:firm_profit}
+\end{equation}
+
+The first-order condition for profit maximization yields the standard condition that the marginal product of capital equals the rental rate:
+
+\begin{equation}
+\frac{\partial \Pi_t}{\partial K_t} = \alpha A_t K_t^{\alpha-1} - r_t = 0
+\label{eq:firm_foc}
+\end{equation}
+
+This gives us the firm's capital demand condition:
+
+\begin{equation}
+r_t = \alpha A_t K_t^{\alpha-1}
+\label{eq:rental_rate}
+\end{equation}
+
+In equilibrium, this condition determines the rental rate of capital as a function of the aggregate capital stock and productivity level. Since capital is predetermined at the beginning of each period (having been chosen by households in the previous period), equation \eqref{eq:rental_rate} determines the equilibrium rental rate given the current productivity realization and inherited capital stock.
+
+\subsection{Fiscal Authority with Imperfect Information}
+
+The fiscal authority represents the central innovation of our model. Unlike standard DSGE models where government policy follows simple rules based on observable state variables, our fiscal authority faces a realistic information processing problem. The authority must infer the true state of the economy from noisy signals and make policy decisions under uncertainty, with the quality of information and the magnitude of policy errors varying systematically with the overall level of economic uncertainty.
+
+\subsubsection{Information Structure}
+
+The fiscal authority does not observe the true level of output $Y_t$ directly. Instead, it receives a noisy signal about economic activity:
+
+\begin{equation}
+s_t = Y_t + \epsilon_t^{signal}
+\label{eq:signal}
+\end{equation}
+
+where $\epsilon_t^{signal}$ is an i.i.d. normal error term representing measurement error, data revisions, and other sources of noise in economic statistics:
+
+\begin{equation}
+\epsilon_t^{signal} \sim \mathcal{N}(0, \sigma_{signal}^2 \cdot Y_t)
+\label{eq:signal_noise}
+\end{equation}
+
+The specification of the signal noise as proportional to the level of output ($\sigma_{signal}^2 \cdot Y_t$) reflects the empirical observation that measurement errors in economic statistics tend to be larger in absolute terms during periods of high economic activity. This specification also ensures that the signal-to-noise ratio remains roughly constant across different levels of economic activity.
+
+The parameter $\sigma_{signal}$ governs the precision of the fiscal authority's information about current economic conditions. When $\sigma_{signal} = 0$, the fiscal authority observes output perfectly, and the model reduces to a standard DSGE with perfect information. As $\sigma_{signal}$ increases, the fiscal authority's information becomes increasingly noisy, leading to larger and more persistent policy errors.
+
+\subsubsection{Belief Formation and Learning}
+
+The fiscal authority maintains beliefs about the true level of output based on the history of received signals. These beliefs are updated using an exponential learning rule that provides a realistic representation of how policymakers process new information:
+
+\begin{equation}
+\hat{Y}_t^{gov} = (1-\lambda) \hat{Y}_{t-1}^{gov} + \lambda s_t
+\label{eq:belief_updating}
+\end{equation}
+
+where $\hat{Y}_t^{gov}$ represents the fiscal authority's belief about current output, $\lambda \in (0,1)$ is the learning speed parameter, and $s_t$ is the current period's signal.
+
+This belief updating rule captures several important aspects of real-world policy decision-making. First, it reflects the fact that policymakers do not treat each period's data as independent but rather maintain some persistence in their assessment of economic conditions. Second, the rule allows for gradual adjustment of beliefs as new information arrives, which is consistent with the documented tendency for policy authorities to avoid dramatic reversals in their economic assessments.
+
+The learning speed parameter $\lambda$ determines how quickly the fiscal authority adjusts its beliefs in response to new information. When $\lambda$ is close to zero, beliefs change very slowly and place heavy weight on past assessments. When $\lambda$ is close to one, beliefs are highly responsive to current signals and place little weight on previous periods' information.
+
+The initial belief $\hat{Y}_0^{gov}$ is set equal to the steady-state level of output, reflecting the assumption that the fiscal authority begins with an assessment based on long-run average economic conditions. This initialization captures the realistic situation where policymakers form baseline expectations based on historical experience and structural economic relationships.
+
+\subsubsection{Fiscal Policy Rule}
+
+The fiscal authority sets government spending according to a policy rule that responds to its beliefs about economic conditions, the level of government debt, and the current uncertainty regime. The policy rule takes the form:
+
+\begin{equation}
+G_t = G_{ss} + \phi_{debt} (B_{t-1} - B_{ss}) \cdot \Omega_t + \epsilon_t^{policy}
+\label{eq:fiscal_rule}
+\end{equation}
+
+where $G_t$ is government spending in period $t$, $G_{ss}$ is the steady-state level of government spending, $B_{t-1}$ is the previous period's government debt level, $B_{ss}$ is the steady-state debt level, $\phi_{debt} < 0$ is the fiscal response coefficient to debt deviations, $\Omega_t > 0$ is the uncertainty multiplier, and $\epsilon_t^{policy}$ is a policy implementation error.
+
+The first component, $G_{ss}$, represents the baseline level of government spending that would be optimal under normal economic conditions with no debt imbalances. This baseline reflects the fiscal authority's assessment of the appropriate long-run size of government relative to the overall economy.
+
+The second component, $\phi_{debt} (B_{t-1} - B_{ss}) \cdot \Omega_t$, captures the fiscal authority's response to deviations of government debt from its sustainable long-run level. The parameter $\phi_{debt} < 0$ implies that when debt exceeds its sustainable level ($B_{t-1} > B_{ss}$), the fiscal authority reduces spending below the baseline level to improve the fiscal balance and stabilize debt dynamics. Conversely, when debt is below its sustainable level, the authority can afford to increase spending above the baseline.
+
+The uncertainty multiplier $\Omega_t$ modifies the strength of the fiscal response based on the current uncertainty regime. During normal uncertainty periods, $\Omega_t = 1$ and the fiscal response proceeds at its baseline strength. However, during periods of elevated uncertainty, $\Omega_t > 1$, leading to more aggressive fiscal adjustments as policymakers attempt to provide additional fiscal space to deal with uncertain conditions.
+
+The policy implementation error $\epsilon_t^{policy}$ captures various sources of deviation between intended and actual fiscal policy. This error term represents the practical difficulties of implementing fiscal policy, including legislative delays, administrative constraints, coordination problems between different levels of government, and other institutional frictions. The magnitude of implementation errors varies with the uncertainty regime:
+
+\begin{equation}
+\epsilon_t^{policy} \sim \mathcal{N}(0, \sigma_{policy}^2 \cdot \Omega_t)
+\label{eq:policy_error}
+\end{equation}
+
+This specification implies that implementation errors become larger and more variable during periods of high uncertainty, reflecting the empirical observation that fiscal policy execution becomes more difficult and unpredictable during crisis periods.
+
+\subsubsection{Uncertainty Regimes}
+
+The uncertainty multiplier $\Omega_t$ depends on the prevailing uncertainty regime, which is determined by the composite uncertainty index developed in the companion theoretical framework. The uncertainty regimes and their corresponding multiplier values are:
+
+\begin{align}
+\Omega_t = \begin{cases}
+1.0 & \text{if } CI_t \in [0, 50] \quad \text{(Normal uncertainty)} \\
+1.2 & \text{if } CI_t \in [50, 75] \quad \text{(Elevated uncertainty)} \\
+1.5 & \text{if } CI_t \in [75, 90] \quad \text{(High uncertainty)} \\
+2.0 & \text{if } CI_t \in [90, 100] \quad \text{(Extreme uncertainty)}
+\end{cases}
+\label{eq:uncertainty_regimes}
+\end{align}
+
+where $CI_t$ is the composite uncertainty index that combines model dispersion, within-model variability, and temporal instability as described in the companion paper.
+
+These multiplier values are calibrated based on empirical evidence about the relationship between uncertainty levels and policy responsiveness during historical episodes. The progression from 1.0 to 2.0 reflects the documented pattern that fiscal authorities tend to adopt more aggressive and variable policy stances during periods of high uncertainty, both as a deliberate response to uncertain conditions and as a result of increased implementation difficulties.
+
+\subsection{Stochastic Processes}
+
+The model economy is driven by two fundamental sources of uncertainty: productivity shocks and government spending shocks. These stochastic processes generate the business cycle fluctuations that create the information processing challenges faced by the fiscal authority. Additionally, we specify the process governing transitions between uncertainty regimes.
+
+\subsubsection{Total Factor Productivity}
+
+Total factor productivity follows a first-order autoregressive process in logarithms:
+
+\begin{equation}
+\log A_t = \rho_a \log A_{t-1} + \epsilon_t^a
+\label{eq:tfp_process}
+\end{equation}
+
+where $\rho_a \in [0,1)$ is the persistence parameter and $\epsilon_t^a$ is an i.i.d. productivity innovation:
+
+\begin{equation}
+\epsilon_t^a \sim \mathcal{N}(0, \sigma_a^2)
+\label{eq:tfp_shock}
+\end{equation}
+
+The persistence parameter $\rho_a$ determines how long productivity deviations from trend persist. Values of $\rho_a$ close to unity imply that productivity shocks have very long-lasting effects, while values closer to zero imply that productivity returns quickly to its long-run average. Empirical estimates typically place $\rho_a$ in the range of 0.85 to 0.95, indicating that productivity shocks are highly persistent and constitute a major source of business cycle fluctuations.
+
+The innovation variance $\sigma_a^2$ governs the magnitude of unexpected changes in productivity. Larger values of $\sigma_a$ generate more volatile business cycles and create greater challenges for the fiscal authority's information processing, as larger productivity fluctuations make it more difficult to distinguish between temporary volatility and persistent changes in economic conditions.
+
+The steady-state level of productivity is normalized to unity ($A_{ss} = 1$) without loss of generality, as this normalization simply determines the units in which output and other nominal variables are measured.
+
+\subsubsection{Government Spending Shocks}
+
+Government spending follows its own autoregressive process, allowing for independent fiscal shocks that may not be fully coordinated with economic conditions:
+
+\begin{equation}
+\log G_t = \rho_g \log G_{t-1} + \epsilon_t^g
+\label{eq:government_process}
+\end{equation}
+
+where $\rho_g \in [0,1)$ is the persistence of government spending shocks and $\epsilon_t^g$ is an i.i.d. fiscal innovation:
+
+\begin{equation}
+\epsilon_t^g \sim \mathcal{N}(0, \sigma_g^2)
+\label{eq:government_shock}
+\end{equation}
+
+This process captures exogenous changes in fiscal policy that may arise from political economy considerations, changes in government priorities, or external commitments that are not directly related to current economic conditions. The persistence parameter $\rho_g$ is typically estimated to be lower than $\rho_a$, reflecting the fact that fiscal policy changes often reflect discrete political decisions rather than gradual adjustments to underlying economic trends.
+
+It is important to note that this exogenous component represents only part of government spending determination. The total level of government spending is determined by combining this exogenous process with the endogenous fiscal response captured in equation \eqref{eq:fiscal_rule}. This specification allows the model to capture both the systematic response of fiscal policy to economic conditions and the independent political and institutional factors that influence government spending.
+
+\subsubsection{Uncertainty Regime Evolution}
+
+The evolution of uncertainty regimes follows a Markov switching process that generates realistic patterns of uncertainty clustering, where periods of high uncertainty tend to persist for several periods before returning to normal conditions. The transition probabilities are given by:
+
+\begin{equation}
+P(CI_{t+1} = j | CI_t = i) = p_{ij}
+\label{eq:uncertainty_transition}
+\end{equation}
+
+where $i,j \in \{\text{Normal, Elevated, High, Extreme}\}$ and the transition matrix $P$ satisfies the standard properties $\sum_j p_{ij} = 1$ for all $i$ and $p_{ij} \geq 0$ for all $i,j$.
+
+The transition probabilities are calibrated to match the empirical frequency and persistence of different uncertainty episodes observed in historical data. Key features of the calibrated transition matrix include:
+
+\begin{enumerate}
+\item \textbf{Persistence}: Diagonal elements $p_{ii}$ are larger than off-diagonal elements, ensuring that uncertainty regimes tend to persist for multiple periods rather than switching every period.
+
+\item \textbf{Gradual transitions}: Transitions between adjacent uncertainty levels (e.g., Normal to Elevated) are more likely than jumps across multiple levels (e.g., Normal to Extreme), reflecting the gradual nature of most uncertainty buildups.
+
+\item \textbf{Asymmetric dynamics}: Transitions from low to high uncertainty occur more gradually than transitions from high to low uncertainty, capturing the empirical pattern that uncertainty tends to spike quickly during crises but dissipate slowly as conditions normalize.
+
+\item \textbf{Rare extreme events}: The Extreme uncertainty regime has low unconditional probability but high persistence once entered, representing the rare but consequential crisis episodes that motivate much of the policy concern about uncertainty effects.
+\end{enumerate}
+
+The specific transition probabilities used in the calibration are:
+
+\begin{equation}
+P = \begin{pmatrix}
+0.85 & 0.12 & 0.02 & 0.01 \\
+0.20 & 0.65 & 0.12 & 0.03 \\
+0.05 & 0.25 & 0.60 & 0.10 \\
+0.02 & 0.08 & 0.20 & 0.70
+\end{pmatrix}
+\label{eq:transition_matrix}
+\end{equation}
+
+where rows correspond to current period regimes and columns correspond to next period regimes, ordered as Normal, Elevated, High, and Extreme.
+
+\subsection{Government Budget Constraint and Debt Dynamics}
+
+The fiscal authority faces a standard government budget constraint that links spending decisions, tax revenues, and debt accumulation. This constraint ensures that all government expenditures are ultimately financed either through current taxation or by issuing debt that must be serviced in future periods.
+
+The government budget constraint is given by:
+
+\begin{equation}
+B_{t+1} = B_t (1 + r_t) + G_t - T_t
+\label{eq:government_budget}
+\end{equation}
+
+where $B_t$ is the stock of government debt at the beginning of period $t$, $r_t$ is the interest rate on government debt (assumed equal to the return on capital in equilibrium), $G_t$ is government spending, and $T_t$ is tax revenue.
+
+Tax revenue is generated through a proportional tax on household income:
+
+\begin{equation}
+T_t = \tau_t Y_t
+\label{eq:tax_revenue}
+\end{equation}
+
+For simplicity, we assume that the tax rate $\tau_t$ is constant over time and equal to its steady-state value $\tau$. This assumption allows us to focus on the spending side of fiscal policy while maintaining fiscal sustainability through the debt response mechanism in the fiscal rule.
+
+Substituting the tax revenue equation into the government budget constraint:
+
+\begin{equation}
+B_{t+1} = B_t (1 + r_t) + G_t - \tau Y_t
+\label{eq:debt_dynamics}
+\end{equation}
+
+This equation shows that government debt increases when spending exceeds tax revenue (primary deficit) and decreases when tax revenue exceeds spending (primary surplus). The term $B_t r_t$ represents interest payments on existing debt, which must be financed either through higher taxes, reduced spending, or additional borrowing.
+
+The fiscal rule specified in equation \eqref{eq:fiscal_rule} ensures long-run fiscal sustainability by making government spending respond negatively to debt deviations from the sustainable level. When debt rises above its steady-state level, the fiscal authority reduces spending, generating primary surpluses that stabilize debt dynamics. The strength of this response varies with the uncertainty regime, as captured by the uncertainty multiplier $\Omega_t$.
+
+\subsection{Market Clearing and Equilibrium}
+
+The model economy reaches equilibrium when all markets clear and agents optimize given prices and policies. We describe the market clearing conditions and define the competitive equilibrium.
+
+\subsubsection{Resource Constraint}
+
+The aggregate resource constraint requires that total production equals the sum of private consumption, investment, and government consumption:
+
+\begin{equation}
+Y_t = C_t + I_t + G_t
+\label{eq:resource_constraint}
+\end{equation}
+
+Using the definition of investment from equation \eqref{eq:investment}, we can rewrite this as:
+
+\begin{equation}
+Y_t = C_t + K_{t+1} - (1-\delta) K_t + G_t
+\label{eq:resource_constraint_detailed}
+\end{equation}
+
+This constraint ensures that the economy's productive capacity is fully utilized and that no resources are wasted or created.
+
+\subsubsection{Capital Market Equilibrium}
+
+The capital market clears when the household's optimal capital supply equals the firm's optimal capital demand. Since households own all capital and firms rent capital from households, this condition is automatically satisfied when both agents optimize.
+
+The equilibrium rental rate is determined by the firm's first-order condition:
+
+\begin{equation}
+r_t = \alpha A_t K_t^{\alpha-1}
+\label{eq:equilibrium_rental_rate}
+\end{equation}
+
+This rate must also satisfy the household's Euler equation for optimal capital accumulation:
+
+\begin{equation}
+C_t^{-\gamma} = \beta \mathbb{E}_t \left[ C_{t+1}^{-\gamma} \left( (1-\tau) r_{t+1} + (1-\delta) \right) \right]
+\label{eq:equilibrium_euler}
+\end{equation}
+
+\subsubsection{Definition of Competitive Equilibrium}
+
+A competitive equilibrium for this economy consists of sequences of allocations $\{C_t, K_{t+1}, Y_t, I_t\}_{t=0}^{\infty}$, prices $\{r_t\}_{t=0}^{\infty}$, fiscal variables $\{G_t, B_{t+1}, T_t\}_{t=0}^{\infty}$, and beliefs $\{\hat{Y}_t^{gov}\}_{t=0}^{\infty}$ such that:
+
+\begin{enumerate}
+\item \textbf{Household optimization}: Given prices and fiscal policy, the sequences $\{C_t, K_{t+1}\}_{t=0}^{\infty}$ solve the household's optimization problem \eqref{eq:household_utility} subject to \eqref{eq:household_budget}.
+
+\item \textbf{Firm optimization}: Given prices, the firm's capital demand satisfies the first-order condition \eqref{eq:rental_rate} in each period.
+
+\item \textbf{Fiscal policy}: Government spending follows the policy rule \eqref{eq:fiscal_rule} based on the fiscal authority's beliefs about economic conditions.
+
+\item \textbf{Belief formation}: The fiscal authority's beliefs evolve according to the learning rule \eqref{eq:belief_updating} based on observed signals \eqref{eq:signal}.
+
+\item \textbf{Market clearing}: The resource constraint \eqref{eq:resource_constraint} holds in each period.
+
+\item \textbf{Government budget constraint}: The debt dynamics equation \eqref{eq:debt_dynamics} holds in each period.
+
+\item \textbf{Consistency conditions}: $Y_t = A_t K_t^{\alpha}$, $T_t = \tau Y_t$, and $I_t = K_{t+1} - (1-\delta) K_t$ hold in each period.
+\end{enumerate}
+
+This equilibrium definition encompasses both the standard general equilibrium conditions and the additional requirements imposed by imperfect information and learning by the fiscal authority.
+
+\subsection{Policy Error Definition and Measurement}
+
+A central contribution of our framework is the explicit modeling and measurement of fiscal policy errors. We define the policy error in period $t$ as the difference between the actual fiscal policy implemented by the government and the optimal policy that would be chosen under perfect information:
+
+\begin{equation}
+Error_t = G_t^{actual} - G_t^{optimal}
+\label{eq:policy_error_definition}
+\end{equation}
+
+The actual policy $G_t^{actual}$ is determined by the fiscal rule \eqref{eq:fiscal_rule} based on the government's imperfect beliefs:
+
+\begin{equation}
+G_t^{actual} = G_{ss} + \phi_{debt} (B_{t-1} - B_{ss}) \cdot \Omega_t + \epsilon_t^{policy}
+\label{eq:actual_policy}
+\end{equation}
+
+The optimal policy $G_t^{optimal}$ represents the spending level that would be chosen if the fiscal authority observed the true state of the economy perfectly:
+
+\begin{equation}
+G_t^{optimal} = G_{ss} + \phi_{debt} (B_{t-1} - B_{ss})
+\label{eq:optimal_policy}
+\end{equation}
+
+Note that the optimal policy excludes both the uncertainty multiplier effect and the implementation error, as these represent deviations from the first-best policy that arise solely from information imperfections and implementation constraints.
+
+Substituting these definitions into the error equation:
+
+\begin{equation}
+Error_t = \phi_{debt} (B_{t-1} - B_{ss}) (\Omega_t - 1) + \epsilon_t^{policy}
+\label{eq:policy_error_components}
+\end{equation}
+
+This decomposition reveals that policy errors arise from two distinct sources:
+
+\begin{enumerate}
+\item \textbf{Systematic bias}: The term $\phi_{debt} (B_{t-1} - B_{ss}) (\Omega_t - 1)$ represents systematic over- or under-reaction to debt conditions due to uncertainty. When $\Omega_t > 1$ (elevated uncertainty regimes), the fiscal authority responds more aggressively to debt deviations than would be optimal under perfect information.
+
+\item \textbf{Implementation noise}: The term $\epsilon_t^{policy}$ represents random implementation errors that become larger and more variable during high uncertainty periods.
+\end{enumerate}
+
+This framework allows us to analyze how both the magnitude and the nature of fiscal policy errors vary systematically with uncertainty regimes, providing insights into the specific channels through which uncertainty degrades fiscal policy effectiveness.
+%****************************************
+
+\section{Steady State Analysis and Model Linearization}
+
+This section derives the model's steady state and presents the log-linearized system used for simulation and policy analysis. The steady state provides the baseline equilibrium around which the economy fluctuates, while the linearized system enables tractable analysis of the model's dynamic properties and the quantification of policy errors under different uncertainty regimes.
+
+\subsection{Steady State Derivation}
+
+The steady state represents the long-run equilibrium of the model economy when all stochastic shocks are set to zero and all variables remain constant over time. In the steady state, productivity equals unity ($A_{ss} = 1$), government spending equals its target level, and all endogenous variables settle at their permanent values. We derive these values by imposing the steady state conditions on the model's equilibrium relationships.
+
+\subsubsection{Capital and Output}
+
+In the steady state, capital remains constant over time, implying that gross investment exactly equals depreciation:
+
+\begin{equation}
+I_{ss} = \delta K_{ss}
+\label{eq:ss_investment}
+\end{equation}
+
+From the household's Euler equation \eqref{eq:equilibrium_euler}, setting $C_{t+1} = C_t = C_{ss}$ and $r_{t+1} = r_t = r_{ss}$:
+
+\begin{equation}
+1 = \beta \left[ (1-\tau) r_{ss} + (1-\delta) \right]
+\label{eq:ss_euler}
+\end{equation}
+
+Solving for the steady state rental rate:
+
+\begin{equation}
+r_{ss} = \frac{1 - \beta(1-\delta)}{\beta(1-\tau)} = \frac{1/\beta - (1-\delta)}{1-\tau}
+\label{eq:ss_rental_rate}
+\end{equation}
+
+This expression shows that the steady state return to capital depends on the household's discount factor, the depreciation rate, and the tax rate. Higher taxes reduce the after-tax return to capital, requiring a higher pre-tax return to maintain equilibrium.
+
+From the firm's first-order condition \eqref{eq:equilibrium_rental_rate} with $A_{ss} = 1$:
+
+\begin{equation}
+r_{ss} = \alpha K_{ss}^{\alpha-1}
+\label{eq:ss_firm_foc}
+\end{equation}
+
+Combining equations \eqref{eq:ss_rental_rate} and \eqref{eq:ss_firm_foc}, we can solve for the steady state capital stock:
+
+\begin{equation}
+K_{ss}^{\alpha-1} = \frac{r_{ss}}{\alpha} = \frac{1/\beta - (1-\delta)}{\alpha(1-\tau)}
+\label{eq:ss_capital_intermediate}
+\end{equation}
+
+Therefore:
+
+\begin{equation}
+K_{ss} = \left( \frac{\alpha(1-\tau)}{1/\beta - (1-\delta)} \right)^{\frac{1}{1-\alpha}}
+\label{eq:ss_capital}
+\end{equation}
+
+This result shows that the steady state capital stock increases with the capital share parameter $\alpha$, decreases with the tax rate $\tau$, increases with patience (higher $\beta$), and decreases with the depreciation rate $\delta$.
+
+Steady state output follows directly from the production function:
+
+\begin{equation}
+Y_{ss} = A_{ss} K_{ss}^{\alpha} = K_{ss}^{\alpha}
+\label{eq:ss_output}
+\end{equation}
+
+Substituting the expression for $K_{ss}$:
+
+\begin{equation}
+Y_{ss} = \left( \frac{\alpha(1-\tau)}{1/\beta - (1-\delta)} \right)^{\frac{\alpha}{1-\alpha}}
+\label{eq:ss_output_detailed}
+\end{equation}
+
+\subsubsection{Consumption and Government Spending}
+
+From the resource constraint \eqref{eq:resource_constraint} in steady state:
+
+\begin{equation}
+Y_{ss} = C_{ss} + I_{ss} + G_{ss}
+\label{eq:ss_resource}
+\end{equation}
+
+Using $I_{ss} = \delta K_{ss}$ and solving for steady state consumption:
+
+\begin{equation}
+C_{ss} = Y_{ss} - \delta K_{ss} - G_{ss}
+\label{eq:ss_consumption}
+\end{equation}
+
+The steady state level of government spending is set as a fraction of output, reflecting the empirical regularity that government size tends to be relatively stable as a share of GDP over long periods:
+
+\begin{equation}
+G_{ss} = \gamma_g Y_{ss}
+\label{eq:ss_government_spending}
+\end{equation}
+
+where $\gamma_g \in (0,1)$ is the steady state government spending share. Empirical estimates for developed economies typically place this parameter between 0.15 and 0.25, corresponding to government spending shares of 15% to 25% of GDP.
+
+Substituting this relationship into the consumption equation:
+
+\begin{equation}
+C_{ss} = (1 - \gamma_g) Y_{ss} - \delta K_{ss}
+\label{eq:ss_consumption_detailed}
+\end{equation}
+
+We can also express consumption in terms of the household's budget constraint. From equation \eqref{eq:household_budget} in steady state:
+
+\begin{equation}
+C_{ss} = (1-\tau) Y_{ss} - \delta K_{ss}
+\label{eq:ss_consumption_household}
+\end{equation}
+
+For consistency between the resource constraint and the household budget constraint, we require:
+
+\begin{equation}
+(1 - \gamma_g) Y_{ss} = (1-\tau) Y_{ss}
+\label{eq:consistency_condition}
+\end{equation}
+
+This implies that the government budget is balanced in steady state:
+
+\begin{equation}
+\tau Y_{ss} = G_{ss} = \gamma_g Y_{ss}
+\label{eq:balanced_budget}
+\end{equation}
+
+Therefore, the tax rate must equal the government spending share: $\tau = \gamma_g$.
+
+\subsubsection{Government Debt}
+
+The steady state level of government debt requires careful consideration of the fiscal sustainability condition. From the government budget constraint \eqref{eq:debt_dynamics} in steady state:
+
+\begin{equation}
+B_{ss} = B_{ss} (1 + r_{ss}) + G_{ss} - T_{ss}
+\label{eq:ss_government_budget}
+\end{equation}
+
+With $T_{ss} = \tau Y_{ss} = G_{ss}$ (balanced budget condition), this simplifies to:
+
+\begin{equation}
+0 = B_{ss} r_{ss}
+\label{eq:ss_debt_condition}
+\end{equation}
+
+This equation is satisfied when either $B_{ss} = 0$ or $r_{ss} = 0$. Since $r_{ss} > 0$ in our model (assuming positive interest rates), the strict steady state solution would be $B_{ss} = 0$.
+
+However, this zero-debt steady state is not empirically realistic, as most governments maintain positive debt levels even during periods of fiscal balance. Moreover, the fiscal rule \eqref{eq:fiscal_rule} requires a positive steady state debt level to function properly. We therefore assume that the government maintains a target debt level that reflects long-run fiscal policy objectives:
+
+\begin{equation}
+B_{ss} = \gamma_b Y_{ss}
+\label{eq:ss_debt_target}
+\end{equation}
+
+where $\gamma_b > 0$ is the target debt-to-GDP ratio. This target represents the government's assessment of the optimal debt level considering factors such as tax smoothing, intergenerational equity, and the need for fiscal space during economic downturns.
+
+With this target debt level, the government budget is not exactly balanced in steady state. Instead, there is a small primary surplus that covers interest payments on the outstanding debt:
+
+\begin{equation}
+T_{ss} - G_{ss} = r_{ss} B_{ss} = r_{ss} \gamma_b Y_{ss}
+\label{eq:ss_primary_surplus}
+\end{equation}
+
+This requires a slight adjustment to the tax rate:
+
+\begin{equation}
+\tau = \gamma_g + r_{ss} \gamma_b
+\label{eq:ss_tax_rate}
+\end{equation}
+
+The first term covers government spending, while the second term covers interest payments on the target debt level.
+
+\subsubsection{Summary of Steady State Values}
+
+The complete steady state of the model is characterized by the following system of equations:
+
+\begin{align}
+r_{ss} &= \frac{1/\beta - (1-\delta)}{1-\tau} \label{eq:ss_summary_rental} \\
+K_{ss} &= \left( \frac{\alpha(1-\tau)}{1/\beta - (1-\delta)} \right)^{\frac{1}{1-\alpha}} \label{eq:ss_summary_capital} \\
+Y_{ss} &= K_{ss}^{\alpha} \label{eq:ss_summary_output} \\
+C_{ss} &= (1-\tau) Y_{ss} - \delta K_{ss} \label{eq:ss_summary_consumption} \\
+G_{ss} &= \gamma_g Y_{ss} \label{eq:ss_summary_government} \\
+B_{ss} &= \gamma_b Y_{ss} \label{eq:ss_summary_debt} \\
+\tau &= \gamma_g + r_{ss} \gamma_b \label{eq:ss_summary_tax}
+\end{align}
+
+These equations can be solved sequentially: first determine $r_{ss}$ and $K_{ss}$ from the capital market equilibrium, then compute $Y_{ss}$, and finally determine the fiscal variables $C_{ss}$, $G_{ss}$, $B_{ss}$, and $\tau$.
+
+\subsection{Log-Linearization}
+
+To analyze the model's dynamic properties and simulate policy errors under uncertainty, we log-linearize the model around its steady state. Log-linearization has several advantages: it provides a tractable approximation to the nonlinear model, ensures that all variables remain positive by construction, and allows for analytical characterization of the model's dynamics.
+
+\subsubsection{Log-Linearization Method}
+
+For any variable $X_t$ with steady state value $X_{ss}$, we define the log-deviation from steady state as:
+
+\begin{equation}
+\hat{x}_t = \log \left( \frac{X_t}{X_{ss}} \right) = \log X_t - \log X_{ss}
+\label{eq:log_deviation}
+\end{equation}
+
+This transformation implies that:
+
+\begin{equation}
+X_t = X_{ss} e^{\hat{x}_t} \approx X_{ss} (1 + \hat{x}_t)
+\label{eq:level_approximation}
+\end{equation}
+
+where the approximation $e^{\hat{x}} \approx 1 + \hat{x}$ holds for small deviations $|\hat{x}| << 1$.
+
+We apply this transformation to all endogenous variables: $\hat{k}_t$, $\hat{c}_t$, $\hat{y}_t$, $\hat{g}_t$, and $\hat{b}_t$ represent log-deviations of capital, consumption, output, government spending, and debt from their respective steady state values.
+
+\subsubsection{Linearized Production Function}
+
+Starting with the production function $Y_t = A_t K_t^{\alpha}$, taking logarithms:
+
+\begin{equation}
+\log Y_t = \log A_t + \alpha \log K_t
+\label{eq:log_production}
+\end{equation}
+
+In terms of deviations from steady state:
+
+\begin{equation}
+\log Y_{ss} + \hat{y}_t = \log A_{ss} + \hat{a}_t + \alpha (\log K_{ss} + \hat{k}_t)
+\label{eq:production_deviations}
+\end{equation}
+
+Since $\log Y_{ss} = \log A_{ss} + \alpha \log K_{ss}$ (steady state production function), this simplifies to:
+
+\begin{equation}
+\hat{y}_t = \hat{a}_t + \alpha \hat{k}_t
+\label{eq:linearized_production}
+\end{equation}
+
+This linearized production function shows that output deviations depend on productivity deviations and capital deviations, with capital contributing proportionally to its share parameter $\alpha$.
+
+\subsubsection{Linearized Euler Equation}
+
+The household's Euler equation is:
+
+\begin{equation}
+C_t^{-\gamma} = \beta \mathbb{E}_t \left[ C_{t+1}^{-\gamma} \left( (1-\tau) r_{t+1} + (1-\delta) \right) \right]
+\label{eq:euler_nonlinear}
+\end{equation}
+
+Taking logarithms and linearizing around the steady state is more complex for this equation due to the expectation operator and the product terms. We use the approximation method developed by \citet{uhlig1999toolkit}.
+
+First, rewrite the Euler equation as:
+
+\begin{equation}
+1 = \beta \mathbb{E}_t \left[ \left(\frac{C_{t+1}}{C_t}\right)^{-\gamma} \left( (1-\tau) r_{t+1} + (1-\delta) \right) \right]
+\label{eq:euler_ratio}
+\end{equation}
+
+Using the approximation $(1+x)^{-\gamma} \approx 1 - \gamma x$ for small $x$:
+
+\begin{equation}
+\left(\frac{C_{t+1}}{C_t}\right)^{-\gamma} \approx 1 - \gamma (\hat{c}_{t+1} - \hat{c}_t)
+\label{eq:consumption_ratio_approx}
+\end{equation}
+
+For the return term, using $r_{t+1} = \alpha A_{t+1} K_t^{\alpha-1}$:
+
+\begin{equation}
+(1-\tau) r_{t+1} + (1-\delta) \approx (1-\tau) r_{ss} (1 + \hat{a}_{t+1} + (\alpha-1) \hat{k}_t) + (1-\delta)
+\label{eq:return_approx}
+\end{equation}
+
+Since $(1-\tau) r_{ss} + (1-\delta) = 1/\beta$ from the steady state Euler equation, the linearized return is:
+
+\begin{equation}
+(1-\tau) r_{t+1} + (1-\delta) \approx \frac{1}{\beta} \left[ 1 + \frac{(1-\tau) r_{ss}}{1/\beta} (\hat{a}_{t+1} + (\alpha-1) \hat{k}_t) \right]
+\label{eq:return_linearized}
+\end{equation}
+
+Combining these approximations and linearizing the expectation, we obtain the linearized Euler equation:
+
+\begin{equation}
+\hat{c}_t = \mathbb{E}_t [\hat{c}_{t+1}] - \frac{1}{\gamma} \frac{(1-\tau) r_{ss}}{1/\beta} \mathbb{E}_t [\hat{a}_{t+1} + (\alpha-1) \hat{k}_t]
+\label{eq:linearized_euler}
+\end{equation}
+
+This equation shows that current consumption depends on expected future consumption and the expected return to capital, with the sensitivity determined by the risk aversion parameter $\gamma$.
+
+\subsubsection{Linearized Resource Constraint}
+
+The resource constraint $Y_t = C_t + I_t + G_t$ with $I_t = K_{t+1} - (1-\delta) K_t$ becomes:
+
+\begin{equation}
+Y_t = C_t + K_{t+1} - (1-\delta) K_t + G_t
+\label{eq:resource_nonlinear}
+\end{equation}
+
+Linearizing around the steady state:
+
+\begin{align}
+Y_{ss}(1 + \hat{y}_t) = &C_{ss}(1 + \hat{c}_t) + K_{ss}(1 + \hat{k}_{t+1}) \nonumber\\
+&- (1-\delta) K_{ss}(1 + \hat{k}_t) + G_{ss}(1 + \hat{g}_t)
+\label{eq:resource_linearizing}
+\end{align}
+
+Using the steady state resource constraint $Y_{ss} = C_{ss} + \delta K_{ss} + G_{ss}$:
+
+\begin{equation}
+Y_{ss} \hat{y}_t = C_{ss} \hat{c}_t + K_{ss} \hat{k}_{t+1} - (1-\delta) K_{ss} \hat{k}_t + G_{ss} \hat{g}_t
+\label{eq:resource_linear_intermediate}
+\end{equation}
+
+Dividing by $Y_{ss}$ and defining the steady state shares $s_c = C_{ss}/Y_{ss}$, $s_k = K_{ss}/Y_{ss}$, and $s_g = G_{ss}/Y_{ss}$:
+
+\begin{equation}
+\hat{y}_t = s_c \hat{c}_t + s_k \hat{k}_{t+1} - (1-\delta) s_k \hat{k}_t + s_g \hat{g}_t
+\label{eq:linearized_resource}
+\end{equation}
+
+\subsubsection{State-Space Representation}
+
+The linearized model can be written in state-space form as a vector autoregression (VAR) system. Define the state vector:
+
+\begin{equation}
+\mathbf{X}_t = \begin{bmatrix} \hat{k}_t \\ \hat{a}_t \\ \hat{g}_t \\ \hat{b}_t \end{bmatrix}
+\label{eq:state_vector}
+\end{equation}
+
+The law of motion for the state vector is:
+
+\begin{equation}
+\mathbf{X}_{t+1} = \mathbf{A} \mathbf{X}_t + \mathbf{B} \boldsymbol{\epsilon}_{t+1}
+\label{eq:state_space}
+\end{equation}
+
+where $\boldsymbol{\epsilon}_{t+1} = [\epsilon_{t+1}^a, \epsilon_{t+1}^g]'$ is the vector of structural shocks.
+
+\subsubsection{Transition Matrix Derivation}
+
+The transition matrix $\mathbf{A}$ captures the persistence and cross-effects in the linearized system. Each row corresponds to the law of motion for one state variable.
+
+\textbf{Capital accumulation}: From the linearized resource constraint and optimal consumption-saving decisions:
+
+\begin{equation}
+\hat{k}_{t+1} = \phi_{kk} \hat{k}_t + \phi_{ka} \hat{a}_t + \phi_{kg} \hat{g}_t + \phi_{kb} \hat{b}_t
+\label{eq:capital_law}
+\end{equation}
+
+where the coefficients $\phi_{kk}$, $\phi_{ka}$, $\phi_{kg}$, and $\phi_{kb}$ are derived from the linearized Euler equation and resource constraint. The exact values depend on the structural parameters and steady state ratios.
+
+Through careful algebraic manipulation of the linearized optimality conditions, we obtain:
+
+\begin{align}
+\phi_{kk} &= 1 - \delta + \frac{s_k}{\gamma s_c} \frac{(1-\tau) r_{ss}}{1/\beta} (\alpha-1) \label{eq:phi_kk}\\
+\phi_{ka} &= \frac{s_k}{\gamma s_c} \frac{(1-\tau) r_{ss}}{1/\beta} \label{eq:phi_ka}\\
+\phi_{kg} &= -\frac{s_g}{s_k} \label{eq:phi_kg}\\
+\phi_{kb} &= -\phi_{debt} \frac{s_g}{s_k} \frac{B_{ss}}{Y_{ss}} \label{eq:phi_kb}
+\end{align}
+
+\textbf{Productivity}: Follows the exogenous AR(1) process:
+
+\begin{equation}
+\hat{a}_{t+1} = \rho_a \hat{a}_t + \epsilon_{t+1}^a
+\label{eq:productivity_law}
+\end{equation}
+
+\textbf{Government spending}: Combines the exogenous AR(1) process with the endogenous fiscal response:
+
+\begin{equation}
+\hat{g}_{t+1} = \rho_g \hat{g}_t + \phi_{debt} \hat{b}_t \cdot \Omega_{t+1} + \tilde{\epsilon}_{t+1}^g
+\label{eq:government_law}
+\end{equation}
+
+where $\tilde{\epsilon}_{t+1}^g$ includes both the exogenous fiscal shock and the policy implementation error.
+
+\textbf{Government debt}: From the linearized government budget constraint:
+
+\begin{equation}
+\hat{b}_{t+1} = (1 + r_{ss}) \hat{b}_t + \frac{G_{ss}}{B_{ss}} \hat{g}_t - \frac{\tau Y_{ss}}{B_{ss}} \hat{y}_t
+\label{eq:debt_law}
+\end{equation}
+
+Using the linearized production function $\hat{y}_t = \hat{a}_t + \alpha \hat{k}_t$:
+
+\begin{equation}
+\hat{b}_{t+1} = (1 + r_{ss}) \hat{b}_t + \frac{G_{ss}}{B_{ss}} \hat{g}_t - \frac{\tau Y_{ss}}{B_{ss}} (\hat{a}_t + \alpha \hat{k}_t)
+\label{eq:debt_law_detailed}
+\end{equation}
+
+\subsubsection{Complete Transition Matrix}
+
+Combining all the laws of motion, the transition matrix is:
+
+\begin{equation}
+\mathbf{A} = \begin{bmatrix}
+\phi_{kk} & \phi_{ka} & \phi_{kg} & \phi_{kb} \\
+0 & \rho_a & 0 & 0 \\
+0 & 0 & \rho_g & \phi_{debt} \Omega_t \\
+-\frac{\tau Y_{ss} \alpha}{B_{ss}} & -\frac{\tau Y_{ss}}{B_{ss}} & \frac{G_{ss}}{B_{ss}} & 1 + r_{ss}
+\end{bmatrix}
+\label{eq:transition_matrix_complete}
+\end{equation}
+
+The shock matrix is:
+
+\begin{equation}
+\mathbf{B} = \begin{bmatrix}
+0 & 0 \\
+1 & 0 \\
+0 & 1 \\
+0 & \frac{G_{ss}}{B_{ss}} \sigma_{policy} \Omega_t
+\end{bmatrix}
+\label{eq:shock_matrix}
+\end{equation}
+
+This state-space representation captures all the key features of the model: the persistence of capital and productivity, the endogenous fiscal response to debt, and the regime-dependent uncertainty effects that amplify both systematic policy responses and implementation errors.
+
+The linearized system provides the foundation for simulating the model's dynamics, analyzing impulse responses, and quantifying the magnitude and persistence of fiscal policy errors under different uncertainty regimes.
+
+%************************
+
+\section{Calibration and Simulation Results}
+
+This section presents the calibration strategy for the model's structural parameters and analyzes simulation results that illustrate the key mechanisms through which economic uncertainty generates fiscal policy errors. We first discuss the parameter calibration based on empirical evidence from the macroeconomic literature, then present simulation results that demonstrate how policy errors vary systematically across uncertainty regimes.
+
+\subsection{Parameter Calibration}
+
+The model's parameters are calibrated to match key empirical regularities observed in developed economies, with particular attention to the U.S. economy which provides the most extensive data for business cycle analysis. Our calibration strategy combines values from the established real business cycle (RBC) and DSGE literature with new parameters specific to our information processing and uncertainty framework.
+
+\subsubsection{Standard RBC Parameters}
+
+The baseline structural parameters follow standard values from the RBC literature, which have been extensively validated against empirical evidence on business cycle fluctuations and long-run growth patterns.
+
+\textbf{Household preferences}: The subjective discount factor is set to $\beta = 0.99$, implying an annual real interest rate of approximately 4\% in steady state, which is consistent with long-run averages for developed economies. The coefficient of relative risk aversion is $\gamma = 2.0$, a value that provides reasonable consumption smoothing while maintaining tractable dynamics. This value lies in the middle of the range typically estimated in the consumption literature, which spans from 1.5 to 3.0.
+
+\textbf{Production technology}: The capital share parameter is $\alpha = 0.33$, corresponding to the empirical observation that capital income accounts for approximately one-third of total output in developed economies. The depreciation rate is $\delta = 0.025$, implying that capital depreciates at 2.5\% per quarter, which corresponds to an annual depreciation rate of approximately 10\%. This value is consistent with evidence from national accounting data on the aggregate capital stock.
+
+\textbf{Productivity process}: The persistence of productivity shocks is $\rho_a = 0.90$, indicating that productivity deviations from trend are highly persistent but not permanent. The standard deviation of productivity innovations is $\sigma_a = 0.01$, generating productivity volatility that matches the empirical volatility of Solow residuals calculated from aggregate production data.
+
+\textbf{Government spending process}: The persistence parameter for exogenous government spending shocks is $\rho_g = 0.80$, which is lower than productivity persistence, reflecting the more discretionary nature of fiscal policy decisions. The standard deviation is $\sigma_g = 0.02$, calibrated to match the observed volatility of government consumption expenditures relative to GDP.
+
+\subsubsection{Fiscal Parameters}
+
+The fiscal parameters are calibrated based on empirical evidence about government behavior and the typical size of fiscal operations in developed economies.
+
+\textbf{Government size}: The steady-state government spending share is $\gamma_g = 0.20$, reflecting the observation that government consumption typically accounts for 18-22\% of GDP in developed economies. The target debt-to-GDP ratio is $\gamma_b = 0.60$, which corresponds to the average debt level for OECD countries over the past two decades.
+
+\textbf{Fiscal response}: The debt response coefficient is $\phi_{debt} = -0.10$, indicating that a 1 percentage point increase in the debt-to-GDP ratio leads to a 0.1 percentage point reduction in the government spending-to-GDP ratio. This value is consistent with empirical estimates of fiscal rules and debt sustainability requirements. The negative sign ensures that fiscal policy responds countercyclically to debt accumulation, promoting long-run fiscal sustainability.
+
+\textbf{Tax rate}: The tax rate is determined endogenously to satisfy the government budget constraint, but typically equals approximately $\tau = 0.22$ in steady state, covering both government spending and interest payments on the target debt level.
+
+\subsubsection{Information and Learning Parameters}
+
+The parameters governing information processing and learning are calibrated based on empirical evidence about forecast accuracy, policy responsiveness, and the documented effects of uncertainty on economic decision-making.
+
+\textbf{Signal precision}: The standard deviation of the signal noise is $\sigma_{signal} = 0.01$, implying that the government's noisy signal about current GDP has a standard deviation equal to 1\% of the true GDP level. This calibration reflects the empirical observation that preliminary economic statistics are subject to significant revisions, with initial estimates often differing from final values by 1-2 percentage points.
+
+\textbf{Learning speed}: The learning parameter is $\lambda = 0.10$, indicating that the fiscal authority updates its beliefs gradually rather than immediately incorporating all new information. This value is consistent with empirical evidence on the slow response of policy authorities to economic developments and the tendency for policy assessments to exhibit persistence over time.
+
+\textbf{Policy implementation errors}: The baseline standard deviation of policy implementation errors is $\sigma_{policy} = 0.005$ in normal uncertainty regimes. This parameter captures the various institutional and practical constraints that prevent perfect execution of intended fiscal policy, including legislative delays, administrative limitations, and coordination problems.
+
+\subsubsection{Uncertainty Regime Parameters}
+
+The parameters governing uncertainty regimes and their effects on policy behavior are calibrated based on empirical analysis of historical uncertainty episodes and their relationship to policy errors.
+
+\textbf{Uncertainty multipliers}: The uncertainty multipliers are set to $\Omega = \{1.0, 1.2, 1.5, 2.0\}$ for normal, elevated, high, and extreme uncertainty regimes, respectively. These values reflect the empirical observation that policy responses become more aggressive and volatile during periods of heightened uncertainty, with the magnitude of the effect increasing nonlinearly with uncertainty levels.
+
+\textbf{Regime transition probabilities}: The transition matrix for uncertainty regimes is calibrated to match the observed frequency and persistence of different uncertainty episodes in historical data. The diagonal elements (persistence probabilities) are set to $p_{ii} = \{0.85, 0.65, 0.60, 0.70\}$ for normal, elevated, high, and extreme regimes, respectively. The off-diagonal elements are chosen to ensure that transitions between adjacent regimes are more likely than jumps across multiple regimes, and that extreme uncertainty episodes are rare but highly persistent once they occur.
+
+\subsubsection{Calibration Summary}
+
+Table \ref{tab:calibration} summarizes the calibrated parameter values and their sources:
+
+\begin{table}[h!]
+\centering
+\caption{Parameter Calibration}
+\label{tab:calibration}
+\begin{tabular}{llll}
+\toprule
+Parameter & Symbol & Value & Source \\
+\midrule
+\multicolumn{4}{l}{\textbf{Household and Production}} \\
+Discount factor & $\beta$ & 0.99 & Standard RBC \\
+Risk aversion & $\gamma$ & 2.0 & Consumption literature \\
+Capital share & $\alpha$ & 0.33 & National accounts \\
+Depreciation rate & $\delta$ & 0.025 & Capital stock data \\
+\midrule
+\multicolumn{4}{l}{\textbf{Stochastic Processes}} \\
+TFP persistence & $\rho_a$ & 0.90 & Solow residual estimates \\
+TFP volatility & $\sigma_a$ & 0.01 & Business cycle facts \\
+Gov't spending persistence & $\rho_g$ & 0.80 & Fiscal policy literature \\
+Gov't spending volatility & $\sigma_g$ & 0.02 & Government accounts \\
+\midrule
+\multicolumn{4}{l}{\textbf{Fiscal Policy}} \\
+Gov't spending share & $\gamma_g$ & 0.20 & OECD averages \\
+Target debt-to-GDP & $\gamma_b$ & 0.60 & OECD averages \\
+Debt response & $\phi_{debt}$ & -0.10 & Fiscal rule estimates \\
+\midrule
+\multicolumn{4}{l}{\textbf{Information Processing}} \\
+Signal noise & $\sigma_{signal}$ & 0.01 & Data revision studies \\
+Learning speed & $\lambda$ & 0.10 & Policy response literature \\
+Implementation error & $\sigma_{policy}$ & 0.005 & Institutional studies \\
+\midrule
+\multicolumn{4}{l}{\textbf{Uncertainty Regimes}} \\
+Normal multiplier & $\Omega_N$ & 1.0 & Normalization \\
+Elevated multiplier & $\Omega_E$ & 1.2 & Uncertainty studies \\
+High multiplier & $\Omega_H$ & 1.5 & Crisis analysis \\
+Extreme multiplier & $\Omega_{EX}$ & 2.0 & Financial crisis literature \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Simulation Results}
+
+Using the calibrated model, we conduct Monte Carlo simulations to analyze the behavior of fiscal policy errors across different uncertainty regimes. The simulations generate artificial time series for all model variables, allowing us to examine the systematic relationships between uncertainty, information quality, and policy effectiveness.
+
+\subsubsection{Simulation Design}
+
+Each simulation run consists of 1,000 periods, with the first 200 periods discarded to eliminate dependence on initial conditions. We conduct 1,000 independent simulation runs to ensure robust statistical inference. The uncertainty regime in each period is determined by the calibrated Markov transition matrix, generating realistic patterns of uncertainty clustering and persistence.
+
+The simulation procedure follows these steps:
+
+\begin{enumerate}
+\item \textbf{Initialization}: Set initial values for all state variables at their steady-state levels and initialize the fiscal authority's beliefs about economic conditions.
+
+\item \textbf{Shock generation}: Draw productivity and government spending shocks from their respective distributions for each period.
+
+\item \textbf{Uncertainty regime evolution}: Determine the current period's uncertainty regime based on the Markov transition matrix.
+
+\item \textbf{Signal generation}: Generate noisy signals about economic conditions based on true GDP and the current uncertainty regime.
+
+\item \textbf{Belief updating}: Update the fiscal authority's beliefs using the exponential learning rule.
+
+\item \textbf{Policy decisions}: Determine government spending based on the fiscal rule, current beliefs, debt level, and uncertainty regime.
+
+\item \textbf{Equilibrium computation}: Solve for the period's equilibrium allocation given the policy decisions and shock realizations.
+
+\item \textbf{Error calculation}: Compute the policy error as the difference between actual and optimal policy.
+\end{enumerate}
+
+This procedure is repeated for each period of each simulation run, generating comprehensive data on policy errors, uncertainty regimes, and macroeconomic dynamics.
+
+\subsubsection{Baseline Results}
+
+Figure \ref{fig:time_series} presents a typical simulation run showing the evolution of key variables over time. The top panel shows the uncertainty regime (color-coded), the middle panel displays true GDP (solid line) and the government's belief about GDP (dashed line), and the bottom panel shows the realized policy errors.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{time_series_simulation.png}
+\caption{Typical Simulation Run: Uncertainty Regimes, GDP Beliefs, and Policy Errors}
+\label{fig:time_series}
+\end{figure}
+
+Several key patterns emerge from this representative simulation:
+
+\textbf{Uncertainty clustering}: Uncertainty regimes exhibit realistic clustering, with extended periods of normal uncertainty interrupted by episodes of elevated, high, or extreme uncertainty. These episodes typically last 5-15 periods, consistent with empirical evidence on uncertainty dynamics during business cycles.
+
+\textbf{Belief updating}: The government's beliefs about GDP adjust gradually toward the true value, with the speed of adjustment varying across uncertainty regimes. During normal periods, beliefs track true GDP relatively closely, but during high uncertainty episodes, the gap between beliefs and reality can persist for several periods.
+
+\textbf{Policy error patterns}: Policy errors are generally small during normal uncertainty periods but increase substantially during elevated and high uncertainty episodes. The largest errors occur during extreme uncertainty periods, when both systematic policy biases and implementation errors are amplified.
+
+\subsubsection{Policy Error Analysis by Uncertainty Regime}
+
+Table \ref{tab:policy_errors} presents summary statistics for policy errors across different uncertainty regimes, based on the full set of simulation results.
+
+\begin{table}[h!]
+\centering
+\caption{Policy Error Statistics by Uncertainty Regime}
+\label{tab:policy_errors}
+\begin{tabular}{lcccc}
+\toprule
+Statistic & Normal & Elevated & High & Extreme \\
+\midrule
+Mean absolute error & 0.012 & 0.021 & 0.045 & 0.089 \\
+Standard deviation & 0.008 & 0.015 & 0.032 & 0.067 \\
+95th percentile & 0.025 & 0.048 & 0.098 & 0.195 \\
+Maximum error & 0.041 & 0.078 & 0.156 & 0.312 \\
+\midrule
+Systematic bias & 0.003 & 0.008 & 0.018 & 0.035 \\
+Implementation noise & 0.009 & 0.013 & 0.027 & 0.054 \\
+\midrule
+Frequency (\%) & 62.3 & 24.1 & 9.8 & 3.8 \\
+Average duration & 11.8 & 7.2 & 5.4 & 4.1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+These results demonstrate several important findings:
+
+\textbf{Monotonic increase in error magnitude}: Policy errors increase monotonically with uncertainty levels, with mean absolute errors rising from 1.2\% of steady-state government spending in normal regimes to 8.9\% in extreme regimes. This seven-fold increase demonstrates the substantial impact of uncertainty on fiscal policy effectiveness.
+
+\textbf{Nonlinear amplification}: The relationship between uncertainty and policy errors is highly nonlinear, with particularly large increases when moving from high to extreme uncertainty regimes. This pattern reflects the interaction between systematic bias and implementation errors, which compound during the most severe uncertainty episodes.
+
+\textbf{Decomposition of error sources}: Both systematic bias and implementation noise contribute to larger policy errors during high uncertainty periods, but systematic bias (over-reaction to debt conditions) becomes increasingly important as uncertainty rises. In extreme regimes, systematic bias accounts for approximately 40\% of total policy errors.
+
+\textbf{Rare but consequential extreme events}: While extreme uncertainty regimes occur in only 3.8\% of periods, they are responsible for a disproportionate share of large policy errors. The 95th percentile of policy errors in extreme regimes (19.5\% of steady-state spending) is nearly eight times larger than in normal regimes.
+
+\subsubsection{Dynamic Analysis: Impulse Response Functions}
+
+Figure \ref{fig:impulse_responses} shows impulse response functions for key variables following a negative productivity shock, comparing responses across uncertainty regimes.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{impulse_responses.png}
+\caption{Impulse Responses to Negative Productivity Shock by Uncertainty Regime}
+\label{fig:impulse_responses}
+\end{figure}
+
+The impulse responses reveal several important dynamic patterns:
+
+\textbf{GDP responses}: The initial impact of the productivity shock on GDP is similar across uncertainty regimes, but the persistence and recovery dynamics differ substantially. During high uncertainty regimes, GDP remains below its pre-shock level for longer periods due to amplified fiscal policy responses.
+
+\textbf{Government spending responses}: The fiscal authority's response to the productivity shock becomes more aggressive as uncertainty increases. In normal regimes, government spending increases modestly to provide automatic stabilization. However, in high and extreme uncertainty regimes, the initial spending increase is larger and more persistent, reflecting the amplified fiscal response captured by the uncertainty multiplier.
+
+\textbf{Policy error dynamics}: Policy errors spike immediately following the shock and then decay gradually as the fiscal authority learns about the new economic conditions. The magnitude and persistence of errors increase substantially with uncertainty levels. In extreme uncertainty regimes, policy errors can persist for 10-15 periods following the initial shock.
+
+\textbf{Debt accumulation}: The more aggressive fiscal response during high uncertainty periods leads to larger increases in government debt, which then triggers stronger fiscal consolidation efforts in subsequent periods. This pattern creates a fiscal policy cycle that amplifies the initial shock's effects on the economy.
+
+\subsubsection{Welfare Analysis}
+
+To assess the economic significance of policy errors, we compute welfare losses associated with imperfect fiscal policy across different uncertainty regimes. The welfare loss is measured as the percentage reduction in steady-state consumption that would make households indifferent between the current policy regime and a hypothetical perfect information benchmark.
+
+Table \ref{tab:welfare_losses} presents welfare loss calculations:
+
+\begin{table}[h!]
+\centering
+\caption{Welfare Losses from Fiscal Policy Errors}
+\label{tab:welfare_losses}
+\begin{tabular}{lcccc}
+\toprule
+& Normal & Elevated & High & Extreme \\
+\midrule
+Average welfare loss (\%) & 0.08 & 0.19 & 0.47 & 1.23 \\
+95th percentile loss (\%) & 0.21 & 0.52 & 1.34 & 3.67 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Decomposition by source:}} \\
+Systematic bias & 0.02 & 0.06 & 0.17 & 0.48 \\
+Implementation noise & 0.06 & 0.13 & 0.30 & 0.75 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Frequency-weighted:}} \\
+Unconditional loss (\%) & 0.05 & 0.05 & 0.05 & 0.05 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The welfare analysis reveals that:
+
+\textbf{Substantial welfare costs}: Even in normal uncertainty regimes, fiscal policy errors generate welfare losses equivalent to a 0.08\% permanent reduction in consumption. These costs increase dramatically in high uncertainty regimes, reaching 1.23\% in extreme regimes.
+
+\textbf{Tail risk effects}: The 95th percentile welfare losses demonstrate that occasionally large policy errors can have severe economic consequences, with the worst-case scenarios in extreme regimes generating welfare losses exceeding 3.5\% of consumption.
+
+\textbf{Roughly equal contributions}: Both systematic bias and implementation noise contribute significantly to welfare losses, with implementation noise slightly more important in normal regimes and systematic bias becoming increasingly important in high uncertainty regimes.
+
+\textbf{Unconditional impact}: When weighted by the frequency of different uncertainty regimes, the overall welfare loss from fiscal policy errors is approximately 0.2\% of steady-state consumption. While this may seem modest, it represents a significant economic cost when applied to the entire economy over extended periods.
+
+\subsubsection{Sensitivity Analysis}
+
+We conduct sensitivity analysis to examine how the key results depend on the calibration of critical parameters. Table \ref{tab:sensitivity} presents results for alternative parameter values:
+
+\begin{table}[h!]
+\centering
+\caption{Sensitivity Analysis: Policy Error Magnitudes}
+\label{tab:sensitivity}
+\begin{tabular}{lcccc}
+\toprule
+Parameter variation & Normal & Elevated & High & Extreme \\
+\midrule
+\multicolumn{5}{l}{\textbf{Baseline calibration}} \\
+Mean absolute error & 0.012 & 0.021 & 0.045 & 0.089 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Higher signal noise ($\sigma_{signal} = 0.02$)}} \\
+Mean absolute error & 0.018 & 0.031 & 0.062 & 0.118 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Slower learning ($\lambda = 0.05$)}} \\
+Mean absolute error & 0.015 & 0.027 & 0.054 & 0.103 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Stronger debt response ($\phi_{debt} = -0.20$)}} \\
+Mean absolute error & 0.016 & 0.029 & 0.058 & 0.112 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Lower uncertainty multipliers ($\Omega \times 0.8$)}} \\
+Mean absolute error & 0.012 & 0.017 & 0.032 & 0.054 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The sensitivity analysis confirms that our main results are robust to reasonable variations in parameter values:
+
+\textbf{Signal noise}: Increasing the noise in the government's information increases policy errors across all regimes, but the relative pattern across uncertainty regimes remains similar.
+
+\textbf{Learning speed}: Slower learning (lower $\lambda$) increases policy error persistence but does not fundamentally alter the relationship between uncertainty and error magnitude.
+
+\textbf{Fiscal responsiveness}: Stronger fiscal responses to debt imbalances (more negative $\phi_{debt}$) increase policy errors by amplifying both systematic bias and implementation effects.
+
+\textbf{Uncertainty multipliers}: Reducing the uncertainty multipliers decreases policy errors in elevated and high uncertainty regimes but maintains the monotonic relationship across regimes.
+
+These sensitivity results demonstrate that while the exact magnitude of policy errors depends on parameter values, the core mechanism linking uncertainty to policy errors is robust and economically significant across a wide range of calibrations.
+
+\section{Conclusions and Policy Implications}
+
+This paper has developed and analyzed a Dynamic Stochastic General Equilibrium model that explicitly incorporates the information processing challenges faced by fiscal policymakers under economic uncertainty. By modeling the government as a learning agent that observes noisy signals about economic conditions and makes policy decisions under regime-dependent uncertainty, we have provided new theoretical insights into the systematic nature of fiscal policy errors and their macroeconomic consequences.
+
+\subsection{Summary of Main Results}
+
+Our analysis has generated several key findings that advance both theoretical understanding and practical policy guidance:
+
+\subsubsection{Systematic Nature of Policy Errors}
+
+Our most fundamental result is the demonstration that fiscal policy errors are not merely random deviations from optimal policy but arise systematically from the interaction between imperfect information processing and uncertainty regimes. The model shows that these errors can be decomposed into two distinct components: systematic bias arising from over-reaction to economic conditions during high uncertainty periods, and implementation noise that increases with uncertainty levels.
+
+The systematic bias component reflects the tendency for fiscal authorities to adopt more aggressive policy stances when uncertainty is high, leading to over-correction that can amplify rather than stabilize economic fluctuations. This finding provides theoretical foundation for the empirical observation that fiscal policy often appears procyclical during crisis periods, when countercyclical responses would be most beneficial.
+
+The implementation noise component captures the practical difficulties of executing fiscal policy under uncertain conditions, including legislative delays, coordination problems, and administrative constraints that become more binding when rapid policy responses are required. Both components contribute roughly equally to total policy errors in normal conditions, but systematic bias becomes increasingly important as uncertainty rises.
+
+\subsubsection{Nonlinear Amplification Effects}
+
+The relationship between economic uncertainty and fiscal policy errors exhibits strong nonlinearities that have important implications for policy design. While policy errors increase monotonically with uncertainty levels, the rate of increase accelerates dramatically as uncertainty moves from elevated to high and extreme regimes. Mean absolute policy errors increase seven-fold between normal and extreme uncertainty regimes, with the largest increases occurring at the highest uncertainty levels.
+
+This nonlinear pattern reflects the compounding effects of multiple channels through which uncertainty degrades policy effectiveness. As uncertainty rises, not only do information signals become noisier and learning slower, but the fiscal authority also adopts more aggressive policy responses that amplify both correct and incorrect adjustments. The interaction between these effects generates the observed acceleration in error rates at high uncertainty levels.
+
+The nonlinearity has crucial implications for policy design, as it suggests that modest improvements in information processing or institutional design may have disproportionately large benefits during the most critical periods when fiscal policy is most needed.
+
+\subsubsection{Economic Significance}
+
+The welfare analysis demonstrates that fiscal policy errors under uncertainty generate economically significant costs. Even in normal uncertainty regimes, policy errors reduce welfare by an amount equivalent to a 0.08\% permanent reduction in consumption. These costs rise to 1.23\% of consumption during extreme uncertainty periods, with tail risks reaching 3.67\% in the worst-case scenarios.
+
+When weighted by the frequency of different uncertainty regimes, the overall welfare cost of fiscal policy errors is approximately 0.2\% of steady-state consumption. While this may appear modest in percentage terms, it represents a substantial economic burden when applied to entire economies over extended periods. For a large economy, this welfare loss corresponds to tens of billions of dollars annually.
+
+Moreover, these welfare calculations likely underestimate the true costs of policy errors, as they do not fully capture dynamic effects such as hysteresis in employment, permanent damage to productive capacity, or the erosion of policy credibility that may result from systematic policy mistakes during crisis periods.
+
+\subsubsection{Robust Mechanisms}
+
+The sensitivity analysis confirms that our main results are robust to reasonable variations in key parameter values. While the exact magnitude of policy errors varies with calibration choices, the fundamental relationships between uncertainty, information quality, learning speed, and policy effectiveness remain consistent across different specifications.
+
+This robustness provides confidence that the mechanisms identified in our model reflect general features of fiscal policy decision-making under uncertainty rather than artifacts of particular modeling assumptions. The consistency of results across different parameter ranges suggests that the insights derived from our framework are likely to apply broadly across different institutional settings and economic environments.
+
+\subsection{Policy Implications}
+
+The theoretical framework and simulation results have several important implications for the design of fiscal institutions and policy procedures:
+
+\subsubsection{Information Infrastructure Investment}
+
+One of the most direct implications of our analysis is that investments in improving the quality and timeliness of economic information available to fiscal policymakers can generate substantial returns, particularly during periods of high uncertainty. The model shows that reducing signal noise or increasing learning speed can significantly reduce policy errors and their associated welfare costs.
+
+Practical measures to improve information infrastructure include:
+
+\textbf{Enhanced data collection and processing}: Investing in more frequent and comprehensive data collection, particularly for high-frequency indicators that can provide early warning signals about economic conditions. This includes expanding the coverage of administrative data sources that are available with shorter lags than traditional survey-based statistics.
+
+\textbf{Improved forecasting systems}: Developing more sophisticated forecasting frameworks that explicitly account for model uncertainty and provide probabilistic assessments rather than point forecasts. Such systems should incorporate the multidimensional uncertainty framework developed in the companion paper to provide policymakers with better guidance about the reliability of different information sources.
+
+\textbf{Real-time analysis capabilities}: Establishing institutional capabilities for rapid analysis of incoming information and translation of complex economic developments into actionable policy guidance. This includes both technical infrastructure and human capital investments in analytical capacity.
+
+\textbf{Integration of diverse information sources}: Developing systems that can systematically combine information from traditional macroeconomic statistics, financial market indicators, business surveys, and alternative data sources to provide more comprehensive and timely assessments of economic conditions.
+
+The welfare analysis suggests that even modest improvements in information quality can generate benefits that far exceed the costs of implementing such systems, particularly given the nonlinear relationship between information quality and policy effectiveness.
+
+\subsubsection{Institutional Design for Learning}
+
+The model's emphasis on learning suggests that fiscal institutions should be designed to facilitate rapid and accurate belief updating while avoiding both excessive reactivity to noisy signals and dangerous persistence of mistaken beliefs.
+
+\textbf{Decision-making processes}: Fiscal institutions should establish formal processes for integrating new information into policy assessments, including regular review cycles that balance the need for timely responses with adequate deliberation time. The optimal review frequency may vary with uncertainty regimes, with more frequent reassessment during high uncertainty periods.
+
+\textbf{Multiple information sources}: Institutions should systematically gather information from diverse sources and analytical approaches to reduce dependence on any single information channel. This corresponds to addressing the "model dispersion" dimension of uncertainty by ensuring that policy decisions consider multiple analytical perspectives.
+
+\textbf{Institutional memory and expertise}: Maintaining institutional expertise and memory helps ensure that lessons from previous uncertainty episodes inform current policy decisions. This includes both technical expertise in economic analysis and institutional knowledge about the practical challenges of implementing fiscal policy under different conditions.
+
+\textbf{Communication and transparency}: Clear communication about the information basis for policy decisions can help build public understanding and support for necessary policy adjustments while also creating accountability mechanisms that encourage careful information processing.
+
+\subsubsection{Regime-Contingent Policy Rules}
+
+The finding that optimal policy responses vary systematically with uncertainty regimes suggests that fiscal rules and institutions should explicitly incorporate uncertainty considerations rather than applying fixed response coefficients across all economic conditions.
+
+\textbf{State-contingent fiscal rules}: Fiscal rules should specify different response coefficients for different uncertainty regimes, with more cautious responses during high uncertainty periods to avoid the systematic over-reaction bias identified in our model. This might involve lower debt response coefficients or longer adjustment periods when uncertainty is elevated.
+
+\textbf{Uncertainty assessment procedures}: Fiscal institutions should develop systematic procedures for assessing the current uncertainty regime and adjusting policy responses accordingly. This could involve regular uncertainty assessments based on the multidimensional framework developed in the companion paper.
+
+\textbf{Escape clauses and flexibility}: Fiscal rules should include well-defined escape clauses that provide additional flexibility during extreme uncertainty episodes while maintaining credibility through clear criteria for activation and deactivation.
+
+\textbf{Automatic stabilizers}: The analysis suggests that automatic fiscal stabilizers may be particularly valuable during high uncertainty periods, as they provide appropriate policy responses without requiring active decision-making under conditions where discretionary policy is most likely to generate errors.
+
+\subsubsection{Crisis Preparedness}
+
+The concentration of the largest policy errors and welfare losses during extreme uncertainty episodes highlights the importance of crisis preparedness in fiscal policy design.
+
+\textbf{Contingency planning}: Fiscal authorities should develop detailed contingency plans for different types of crisis scenarios, including pre-positioned policy responses and implementation procedures that can be activated quickly when extreme uncertainty conditions arise.
+
+\textbf{Stress testing}: Regular stress testing of fiscal policy frameworks against high uncertainty scenarios can help identify potential weaknesses and areas for improvement before crisis conditions actually emerge.
+
+\textbf{International coordination}: The global nature of many extreme uncertainty episodes suggests that international coordination mechanisms for fiscal policy may be particularly valuable during crisis periods, both for information sharing and coordinated policy responses.
+
+\textbf{Fiscal space management}: The model's emphasis on debt dynamics suggests that maintaining adequate fiscal space during normal periods is crucial for providing the flexibility needed during extreme uncertainty episodes, when policy errors are most likely and most costly.
+
+\subsection{Limitations and Future Research}
+
+While our analysis provides new insights into fiscal policy under uncertainty, several limitations suggest important directions for future research:
+
+\subsubsection{Model Extensions}
+
+\textbf{Multiple policy instruments}: Our model focuses exclusively on government spending as the fiscal policy instrument. Future work could extend the framework to include tax policy, transfers, and other fiscal tools, each with their own information requirements and implementation challenges.
+
+\textbf{Political economy considerations}: The current model treats the fiscal authority as a unified decision-maker, but real-world fiscal policy emerges from complex political processes involving multiple actors with potentially conflicting objectives. Incorporating political economy considerations could provide additional insights into the sources of policy errors.
+
+\textbf{Heterogeneous agents}: The representative agent framework could be extended to include heterogeneous households and firms with different information sets and policy preferences, potentially generating richer dynamics in the relationship between uncertainty and policy effectiveness.
+
+\textbf{Financial sector interactions}: The model abstracts from financial sector dynamics that may be particularly important during extreme uncertainty episodes. Including banking sector and financial market interactions could provide additional insights into the transmission of uncertainty to fiscal policy effectiveness.
+
+\subsubsection{Empirical Validation}
+
+\textbf{Historical episode analysis}: The theoretical predictions of the model should be tested against detailed analysis of historical fiscal policy episodes, particularly during periods of high uncertainty such as financial crises, wars, and major structural transitions.
+
+\textbf{Cross-country comparisons}: Different countries have different fiscal institutions and information processing capabilities, providing natural experiments for testing the model's predictions about the relationship between institutional design and policy effectiveness under uncertainty.
+
+\textbf{Micro-level evidence}: The learning mechanisms in the model could be tested using micro-level evidence on how individual policymakers and institutions process information and update beliefs in response to new data.
+
+\textbf{Real-time analysis}: Testing the model's predictions requires analysis of real-time data and policy decisions rather than revised data that may not reflect the information actually available to policymakers at the time decisions were made.
+
+\subsubsection{Policy Design Applications}
+
+\textbf{Optimal fiscal rules}: The framework developed here could be used to derive optimal fiscal rules that explicitly account for information processing constraints and uncertainty regimes, providing more sophisticated guidance than current simple rules.
+
+\textbf{Institutional reform evaluation}: The model provides a framework for evaluating proposed reforms to fiscal institutions, allowing quantitative assessment of the potential benefits of different approaches to improving information processing and decision-making procedures.
+
+\textbf{Crisis response protocols}: Future work could develop specific protocols for fiscal policy responses during different types of uncertainty episodes, building on the regime-dependent approach developed in this paper.
+
+\textbf{International coordination mechanisms}: The framework could be extended to analyze the benefits and challenges of international coordination in fiscal policy, particularly during global uncertainty episodes.
+
+\subsection{Final Remarks}
+
+This paper has demonstrated that incorporating realistic information processing constraints and uncertainty regimes into macroeconomic models can generate important new insights into fiscal policy effectiveness. The finding that policy errors are systematic rather than random, and that their magnitude and welfare costs increase nonlinearly with uncertainty levels, has significant implications for both theoretical understanding and practical policy design.
+
+The multidimensional approach to uncertainty developed in the companion paper provides a valuable foundation for this analysis, allowing us to move beyond simple volatility measures to a more nuanced understanding of how different types of uncertainty affect policy decision-making. The integration of this uncertainty framework with a formal DSGE model creates a powerful tool for analyzing policy effectiveness under realistic conditions.
+
+The policy implications of our analysis suggest that relatively modest investments in information infrastructure, institutional design, and crisis preparedness could generate substantial welfare benefits by reducing the frequency and magnitude of fiscal policy errors during the periods when effective policy responses are most crucial. These insights are particularly relevant as policymakers grapple with increasing global economic uncertainty and the challenges of maintaining effective fiscal policy in an increasingly complex and interconnected world economy.
+
+Future research building on this framework has the potential to provide even more detailed guidance for policy design and institutional reform, ultimately contributing to more effective fiscal policy and improved macroeconomic stability in uncertain times.
+
+
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+
+\end{document}
