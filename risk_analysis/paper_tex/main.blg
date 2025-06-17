@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+The style file: elsarticle-harv.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: bib.bib
+I was expecting a `,' or a `}'---line 46 of file bib.bib
+ :   pmid    = {30344046} 
+ :                        % PMID según las fuentes
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 81 of file bib.bib
+ :   note   = {Unpublished manuscript} 
+ :                                     % Basado en tu descripción y la fuente [5, 6]
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 92 of file bib.bib
+ :   doi     = {10.1257/aer.20131193} 
+ :                                    % Basado en la fuente [8, 10]
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 100 of file bib.bib
+ :   address   = {Boston} 
+ :                        % Basado en las fuentes [9, 11]
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Baker2016"
+Warning--I didn't find a database entry for "Bloom2009"
+Warning--I didn't find a database entry for "Rossi2019"
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 10 entries,
+            2990 wiz_defined-function locations,
+            707 strings with 6894 characters,
+and the built_in function-call counts, 5843 in all, are:
+= -- 464
+> -- 172
+< -- 9
++ -- 71
+- -- 57
+* -- 600
+:= -- 860
+add.period$ -- 35
+call.type$ -- 10
+change.case$ -- 68
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 459
+empty$ -- 450
+format.name$ -- 85
+if$ -- 1084
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 83
+newline$ -- 70
+num.names$ -- 40
+pop$ -- 157
+preamble$ -- 1
+purify$ -- 59
+quote$ -- 0
+skip$ -- 137
+stack$ -- 0
+substring$ -- 251
+swap$ -- 307
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 87
+warning$ -- 0
+while$ -- 39
+width$ -- 0
+write$ -- 164
+(There were 4 error messages)

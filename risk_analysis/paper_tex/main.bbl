@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Baker et~al.(2016)Baker, Bloom and Davis}]{baker_epu}
+\bibinfo{author}{Baker, S.R.}, \bibinfo{author}{Bloom, N.},
+  \bibinfo{author}{Davis, S.J.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Measuring economic policy uncertainty}.
+\newblock \bibinfo{journal}{The Quarterly Journal of Economics}
+  \bibinfo{volume}{131}, \bibinfo{pages}{1593--1636}.
+\newblock \DOIprefix\doi{10.1093/qje/qjw024}.
+%Type = Techreport
+\bibitem[{Berge(2021)}]{berge2020}
+\bibinfo{author}{Berge, T.J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Time-varying uncertainty of the Federal Reserve’s
+  output gap estimate}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{2020-012r1}. Board
+  of Governors of the Federal Reserve System. \bibinfo{address}{Washington,
+  D.C.}
+\newblock \URLprefix
+  \url{https://www.federalreserve.gov/econres/feds/time-varying-uncertainty-of-the-federal-reserves-output-gap-estimate.htm},
+  \DOIprefix\doi{10.17016/FEDS.2020.012r1}.
+%Type = Article
+\bibitem[{Bloom(2009)}]{bloomuncer}
+\bibinfo{author}{Bloom, N.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{The impact of uncertainty shocks}.
+\newblock \bibinfo{journal}{Econometrica} \bibinfo{volume}{77},
+  \bibinfo{pages}{623--685}.
+\newblock \URLprefix \url{http://econometricsociety.org/ecta/Supmat/6248_data
+  and programs.zip}, \DOIprefix\doi{10.3982/ECTA6248}.
+%Type = Article
+\bibitem[{Carriero et~al.(2018)Carriero, Clark and Marcellino}]{carriero2018}
+\bibinfo{author}{Carriero, A.}, \bibinfo{author}{Clark, T.E.},
+  \bibinfo{author}{Marcellino, M.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Measuring uncertainty and its impact on the economy}.
+\newblock \bibinfo{journal}{The Review of Economics and Statistics}
+  \bibinfo{volume}{100}, \bibinfo{pages}{799--815}.
+\newblock \DOIprefix\doi{10.1162/rest_a_00693}.
+%Type = Techreport
+\bibitem[{Clark and Mertens(2017)}]{clark2017}
+\bibinfo{author}{Clark, T.E.}, \bibinfo{author}{Mertens, E.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Measuring uncertainty measures for point forecasts
+  from surveys such as the Survey of Professional Forecasters, Blue Chip, or
+  the Federal Open Market Committee's Summary of Economic Projections}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{667}. Bank for
+  International Settlements.
+%Type = Article
+\bibitem[{Ellsberg(1961)}]{Ellsberg1961}
+\bibinfo{author}{Ellsberg, D.}, \bibinfo{year}{1961}.
+\newblock \bibinfo{title}{Risk, ambiguity, and the savage axioms}.
+\newblock \bibinfo{journal}{The Quarterly Journal of Economics}
+  \bibinfo{volume}{75}, \bibinfo{pages}{643--669}.
+%Type = Unpublished
+\bibitem[{Hidalgo-Pérez and Airef(202X)}]{risk_analysis}
+\bibinfo{author}{Hidalgo-Pérez, M.}, \bibinfo{author}{Airef, L.},
+  \bibinfo{year}{202X}.
+\newblock \bibinfo{title}{A multidimensional framework for economic uncertainty
+  quantification}.
+\newblock \bibinfo{note}{Unpublished manuscript}.
+%Type = Article
+\bibitem[{Jurado et~al.(2015)Jurado, Ludvigson and Ng}]{jurado2015}
+\bibinfo{author}{Jurado, K.}, \bibinfo{author}{Ludvigson, S.C.},
+  \bibinfo{author}{Ng, S.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Measuring uncertainty}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{105},
+  \bibinfo{pages}{1177--1216}.
+\newblock \DOIprefix\doi{10.1257/aer.20131193}.
+%Type = Book
+\bibitem[{Knight(1921)}]{Knight1921}
+\bibinfo{author}{Knight, F.H.}, \bibinfo{year}{1921}.
+\newblock \bibinfo{title}{Risk, Uncertainty and Profit}.
+\newblock \bibinfo{publisher}{Houghton Mifflin}, \bibinfo{address}{Boston}.
+%Type = Unpublished
+\bibitem[{Rossi and Sekhposyan(2016)}]{rossi2016}
+\bibinfo{author}{Rossi, B.}, \bibinfo{author}{Sekhposyan, T.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Understanding the sources of macroeconomic
+  uncertainty}.
+\newblock \bibinfo{note}{Mimeo}.
+
+\end{thebibliography}

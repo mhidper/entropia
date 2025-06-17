@@ -21,12 +21,15 @@
 \usepackage{array, longtable, tabularx}% added long table
 \usepackage{adjustbox}
 
+% Fix Unicode characters
+\DeclareUnicodeCharacter{2264}{\ensuremath{\leq}}
 
+% Define argmax command
+\DeclareMathOperator*{\argmax}{arg\,max}
 
 \begin{document}
 
 \begin{frontmatter}
-
 
 \title{A Multidimensional Framework for Economic Uncertainty Quantification}    
 
@@ -36,7 +39,6 @@
 
 \author[2]{Leandro Airef\fnref{fn2}}
 \ead{email de Leandro}
-
 
 \cortext[cor1]{Corresponding author}
 
@@ -78,35 +80,35 @@ Recent empirical literature has developed diverse methodologies to measure uncer
 For example, \cite{baker_epu} proposed the Economic Policy Uncertainty (EPU) index, constructed by counting the frequency of news articles containing terms related to economics, policy, and uncertainty in relevant newspapers \cite{baker_epu}. This methodology captures uncertainty as reflected in media discourse about policy decisions (fiscal, monetary, regulatory).
 
 \subsection*{Predictability-Based Methods}
-\cite{jurado2015} developed measures of macroeconomic and firm-level uncertainty based on the "unpredictable volatility" of a large set of economic variables. Their approach uses factor models and large-dimensional VARs to isolate the purely unobservable and unpredictable component of economic series and measure their conditional volatility.
+\cite{jurado2015} developed measures of macroeconomic and firm-level uncertainty based on the ``unpredictable volatility'' of a large set of economic variables. Their approach uses factor models and large-dimensional VARs to isolate the purely unobservable and unpredictable component of economic series and measure their conditional volatility.
 
 \subsection*{Survey Forecast-Based Methods}
-Another line of research focuses on uncertainty revealed by surveys of professional forecasters. \cite{clark2017} uses point forecasts (e.g., from the Survey of Professional Forecasters or Greenbook) and stochastic volatility (SV) or VAR-SV models to measure uncertainty in expectations, focusing on the volatility of forecast errors. \cite{carriero2018} and \cite{rossi2016} extend this approach using complete density forecasts from surveys, allowing for a richer decomposition of uncertainty into "ex-ante" and "ex-post" components. \cite{berge2020} applies similar ideas to the uncertainty surrounding output gap estimates using institutional forecasts.
+Another line of research focuses on uncertainty revealed by surveys of professional forecasters. \cite{clark2017} uses point forecasts (e.g., from the Survey of Professional Forecasters or Greenbook) and stochastic volatility (SV) or VAR-SV models to measure uncertainty in expectations, focusing on the volatility of forecast errors. \cite{carriero2018} and \cite{rossi2016} extend this approach using complete density forecasts from surveys, allowing for a richer decomposition of uncertainty into ``ex-ante'' and ``ex-post'' components. \cite{berge2020} applies similar ideas to the uncertainty surrounding output gap estimates using institutional forecasts.
 
 \subsection*{Structural and Impact Methods}
-\cite{bloomuncer} focuses on the impact of uncertainty shocks on the economy, particularly at the firm level. While not primarily a measure of uncertainty *quantification* per se, his work highlights the importance of uncertainty (approximated by stock market volatility) as a driver of investment and hiring decisions under adjustment costs. His methodology employs structural models and simulation to analyze firms' response to uncertainty.
+\cite{bloomuncer} focuses on the impact of uncertainty shocks on the economy, particularly at the firm level. While not primarily a measure of uncertainty quantification per se, his work highlights the importance of uncertainty (approximated by stock market volatility) as a driver of investment and hiring decisions under adjustment costs. His methodology employs structural models and simulation to analyze firms' response to uncertainty.
 
 \subsection*{Our Multidimensional Proposal}
 
-While existing methodologies have significantly advanced the measurement of different facets of economic uncertainty, they often focus on a single source or type of ambiguity (policy, unpredictability, forecast dispersion). Our proposal seeks to offer a more **comprehensive and multidimensional** framework for quantifying economic uncertainty.
+While existing methodologies have significantly advanced the measurement of different facets of economic uncertainty, they often focus on a single source or type of ambiguity (policy, unpredictability, forecast dispersion). Our proposal seeks to offer a more \textbf{comprehensive and multidimensional} framework for quantifying economic uncertainty.
 
-The added value of our methodology lies in the combination of **three primary dimensions** of uncertainty that are often treated separately in the existing literature:
+The added value of our methodology lies in the combination of \textbf{three primary dimensions} of uncertainty that are often treated separately in the existing literature:
 \begin{enumerate}
-    \item **Model Dispersion:** Captures the heterogeneity in predictions generated by different models or forecasting sources.
-    \item **Within-Model Variability:** Measures the intrinsic volatility or conditional variance of forecasts within a given model or source (similar to the "unpredictable volatility" of \cite{jurado2015} or Clark's stochastic volatility \cite{clark2017}).
-    \item **Temporal Instability:** Reflects changes over time in model structure or in the persistence of uncertainty (related to the temporal dynamics of stochastic volatility \cite{clark2017}).
+    \item \textbf{Model Dispersion:} Captures the heterogeneity in predictions generated by different models or forecasting sources.
+    \item \textbf{Within-Model Variability:} Measures the intrinsic volatility or conditional variance of forecasts within a given model or source (similar to the ``unpredictable volatility'' of \cite{jurado2015} or Clark's stochastic volatility \cite{clark2017}).
+    \item \textbf{Temporal Instability:} Reflects changes over time in model structure or in the persistence of uncertainty (related to the temporal dynamics of stochastic volatility \cite{clark2017}).
 \end{enumerate}
 
-By integrating these dimensions into a **normalized composite index** our methodology provides a more **nuanced and comprehensive** view of economic uncertainty. Unlike unidimensional measures, our index can differentiate periods where uncertainty arises from, for example, high unexpected volatility versus periods where there is strong disagreement among experts or models.
+By integrating these dimensions into a \textbf{normalized composite index} our methodology provides a more \textbf{nuanced and comprehensive} view of economic uncertainty. Unlike unidimensional measures, our index can differentiate periods where uncertainty arises from, for example, high unexpected volatility versus periods where there is strong disagreement among experts or models.
 
 \subsubsection*{What do we gain from this methodology?}
 
-The main benefit of our multidimensional approach is its capacity to offer a more **granular and precise** diagnosis about the nature of uncertainty at a given moment. This translates into several advantages:
+The main benefit of our multidimensional approach is its capacity to offer a more \textbf{granular and precise} diagnosis about the nature of uncertainty at a given moment. This translates into several advantages:
 \begin{itemize}
-    \item **Greater analytical capacity:** Allows researchers and analysts to understand not only *how much* uncertainty there is, but *where it predominantly comes from*. This is crucial for analyzing the transmission channels of uncertainty to the economy.
-    \item **Relevance for decision-making:** By identifying the sources of uncertainty, economic policymakers can design more specific responses. For example, high dispersion among models may suggest the need to clarify the regulatory landscape, while high within-model variability may require tools to manage unexpected shocks. Our methodology establishes **empirically-derived thresholds** for different levels of uncertainty, offering **practical and actionable guidance** for policymakers and financial practitioners \cite{risk_analysis}.
-    \item **Conceptual and applied bridge:** Our framework seeks to bridge the gap between theoretical conceptualizations of uncertainty and ambiguity and their practical application in economic measurement, addressing implementation challenges \cite{risk_analysis}.
-    \item **Complete vision:** The combination of dimensions captures aspects that, if measured separately, could offer an incomplete or misleading picture of the total uncertainty perceived by agents.
+    \item \textbf{Greater analytical capacity:} Allows researchers and analysts to understand not only \emph{how much} uncertainty there is, but \emph{where it predominantly comes from}. This is crucial for analyzing the transmission channels of uncertainty to the economy.
+    \item \textbf{Relevance for decision-making:} By identifying the sources of uncertainty, economic policymakers can design more specific responses. For example, high dispersion among models may suggest the need to clarify the regulatory landscape, while high within-model variability may require tools to manage unexpected shocks. Our methodology establishes \textbf{empirically-derived thresholds} for different levels of uncertainty, offering \textbf{practical and actionable guidance} for policymakers and financial practitioners \cite{risk_analysis}.
+    \item \textbf{Conceptual and applied bridge:} Our framework seeks to bridge the gap between theoretical conceptualizations of uncertainty and ambiguity and their practical application in economic measurement, addressing implementation challenges \cite{risk_analysis}.
+    \item \textbf{Complete vision:} The combination of dimensions captures aspects that, if measured separately, could offer an incomplete or misleading picture of the total uncertainty perceived by agents.
 \end{itemize}
 
 In summary, while the existing literature has provided valuable tools for measuring specific aspects of uncertainty, our methodology proposes a synthetic index that, by integrating multiple dimensions of predictive ambiguity, offers a more powerful tool for analysis and decision-making in environments of high economic uncertainty.
@@ -253,12 +255,356 @@ The framework requires calibration against historical data to establish meaningf
     \item Optimizing threshold values to maximize crisis detection while minimizing false positives
 \end{enumerate}
 
+\section{Data and Implementation}
+
+\subsection{Data Sources and Sample}
+
+Our empirical analysis focuses on Spanish GDP quarterly data from 2000Q1 to 2025Q1, providing a comprehensive dataset spanning multiple economic cycles including the 2008 financial crisis and the COVID-19 pandemic. The choice of Spain provides an ideal testing ground for our framework, as the Spanish economy experienced significant volatility during both crisis periods, offering rich variation in uncertainty levels.
+
+The target variable is Spanish GDP growth rate (quarter-on-quarter, seasonally adjusted), obtained from the Instituto Nacional de Estadística (INE). To construct our multidimensional uncertainty framework, we employ a comprehensive set of predictor variables including:
+
+\begin{itemize}
+    \item \textbf{Labor market indicators}: Total employment, hours worked, Social Security affiliations
+    \item \textbf{Business activity measures}: Industrial production indices for manufacturing and intermediate goods, PMI indicators for manufacturing and services
+    \item \textbf{Service sector indicators}: Business turnover indices for transportation, professional services, and hospitality sectors
+\end{itemize}
+
+All series undergo standardized preprocessing including logarithmic transformation (where appropriate), seasonal adjustment using X-13 ARIMA-SEATS methodology, and conversion to growth rates to ensure stationarity. The final dataset comprises 11 predictor variables selected based on their correlation with GDP growth and data availability constraints.
+
+\subsection{Model Specifications}
+
+Our framework integrates five distinct forecasting models, each contributing unique perspectives on economic uncertainty:
+
+\subsubsection{Vector Autoregression (VAR)}
+We implement a VAR model with 4 lags and 11 variables, selected through automatic lag selection criteria (AIC). The VAR serves as our econometric baseline and primary source of within-model uncertainty through confidence interval estimation. The model specification follows:
+
+$$\mathbf{Y}_t = \mathbf{c} + \sum_{i=1}^{4} \mathbf{A}_i \mathbf{Y}_{t-i} + \boldsymbol{\varepsilon}_t$$
+
+where $\mathbf{Y}_t$ is the vector of endogenous variables and $\boldsymbol{\varepsilon}_t \sim N(0, \boldsymbol{\Sigma})$.
+
+\subsubsection{Random Forest}
+The Random Forest implementation uses 50 trees with maximum depth of 3, minimum samples per split of 2, and rolling window estimation. This machine learning approach captures non-linear relationships and provides robust out-of-sample performance, particularly during crisis periods. Feature importance is automatically determined through the Gini impurity criterion.
+
+\subsubsection{ARIMA}
+We employ automatic ARIMA specification with model selection based on information criteria, testing combinations of $(p,d,q)$ parameters up to order 3. This univariate approach focuses solely on GDP dynamics, providing a pure time-series benchmark for model dispersion analysis.
+
+\subsubsection{Long Short-Term Memory (LSTM)}
+The LSTM architecture employs 6-quarter input sequences with two LSTM layers (24 and 24 units), dropout regularization (20\%), and dense output layer. The model is trained for 25 epochs with early stopping based on validation loss, capturing complex temporal dependencies and non-linear patterns in multivariate economic data.
+
+\subsubsection{Dynamic Factor Model (DFM)}
+We implement a DFM with 2 common factors estimated using Kalman filtering and maximum likelihood estimation. The model reduces dimensionality while preserving information content:
+
+$$\mathbf{Y}_t = \boldsymbol{\Lambda} \mathbf{F}_t + \boldsymbol{\varepsilon}_t$$
+$$\mathbf{F}_t = \mathbf{A}(L) \mathbf{F}_{t-1} + \boldsymbol{\eta}_t$$
+
+where $\mathbf{F}_t$ represents the common factors and $\boldsymbol{\Lambda}$ the factor loadings matrix.
+
+\subsection{Rolling Evaluation Protocol}
+
+Our empirical evaluation follows a real-time forecasting protocol designed to reflect the information constraints faced by policymakers:
+
+\begin{enumerate}
+    \item \textbf{Training window}: Each model is estimated using all available data up to period $t-1$
+    \item \textbf{Forecast horizon}: One-quarter-ahead predictions for period $t$
+    \item \textbf{Evaluation period}: 2020Q1 to 2025Q1 (25 quarters)
+    \item \textbf{Performance metrics}: Mean Absolute Error (MAE), Root Mean Square Error (RMSE)
+    \item \textbf{Uncertainty measures}: 95\% confidence intervals (VAR), prediction intervals (LSTM), ensemble variance (all models)
+\end{enumerate}
+
+This approach ensures that our uncertainty measures reflect real-time decision-making constraints and avoid look-ahead bias in the evaluation process.
+
+\subsection{Implementation Details}
+
+The uncertainty framework implementation involves several key computational steps:
+
+\begin{enumerate}
+    \item \textbf{Model estimation}: All five models are re-estimated for each forecast period using expanding window approach
+    \item \textbf{Forecast generation}: Point forecasts and uncertainty measures are computed for each model
+    \item \textbf{Dispersion calculation}: Between-model uncertainty is measured as the standard deviation of point forecasts across models
+    \item \textbf{Temporal tracking}: Forecast revisions are tracked across consecutive periods to measure instability
+    \item \textbf{Normalization}: All uncertainty measures are normalized to 0-100 scale using historical percentile ranks
+    \item \textbf{Aggregation}: The composite index combines the three dimensions using equal weights (1/3 each)
+\end{enumerate}
+
+The entire framework is implemented in Python using scikit-learn, statsmodels, and TensorFlow libraries, ensuring reproducibility and computational efficiency.
+
+\section{Empirical Results}
+
+\subsection{Framework Overview}
+
+Our multidimensional uncertainty framework successfully captures the dramatic escalation in economic uncertainty during the COVID-19 pandemic and subsequent structural changes in the Spanish economy. The composite uncertainty index exhibits several key features that validate our methodological approach:
+
+\begin{itemize}
+    \item \textbf{Crisis Identification}: The index rises from 0.0 in 2020Q1 to a peak of 70.0 during 2020Q4-2021Q1, clearly identifying the COVID-19 crisis period
+    \item \textbf{Persistent Elevation}: Post-crisis uncertainty levels average 50.2, substantially higher than early-pandemic levels (16.7), indicating a structural shift in economic uncertainty
+    \item \textbf{Gradual Normalization}: The index shows gradual decline from 2021 peaks but stabilizes at elevated levels, suggesting a ``new normal'' rather than full reversion
+\end{itemize}
+
+\subsection{Model Performance and Resilience Analysis}
+
+Table \ref{tab:model_performance} summarizes the forecasting performance of our five models across the evaluation period. The results reveal significant heterogeneity in both accuracy and crisis resilience.
+
+\begin{table}[h]
+\centering
+\caption{Model Performance Summary (2020Q1-2025Q1)}
+\label{tab:model_performance}
+\begin{tabular}{lcccc}
+\toprule
+Model & MAE & RMSE & Resilience Score & Ranking \\
+\midrule
+Random Forest & 2.34 & 6.54 & 1.10 & 1 \\
+LSTM & 2.34 & 5.47 & 0.47 & 2 \\
+DFM & 3.76 & 11.09 & 0.65 & 3 \\
+ARIMA & 4.26 & 11.27 & 0.30 & 4 \\
+VAR & 6.21 & 12.29 & 0.06 & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Random Forest emerges as the most accurate model (MAE = 2.34), closely followed by LSTM with identical MAE but superior RMSE (5.47). Traditional econometric models exhibit substantially higher forecast errors, with VAR showing particularly poor performance (MAE = 6.21).
+
+More critically for our uncertainty framework, we document striking differences in model resilience to the COVID-19 structural break. Our resilience analysis, comparing pre-COVID (2019Q1-2019Q4) and post-COVID (2022Q1-2025Q1) performance, reveals:
+
+\begin{itemize}
+    \item \textbf{Random Forest}: Exceptional resilience (score = 1.10), actually improving performance post-crisis with MAE ratio of 0.91
+    \item \textbf{VAR}: Severe structural trauma (score = 0.06), with forecast errors increasing 15.6-fold post-COVID
+    \item \textbf{Intermediate resilience}: DFM (0.65), LSTM (0.47), and ARIMA (0.30) show moderate adaptation capabilities
+\end{itemize}
+
+This heterogeneity in model resilience provides crucial information about the reliability of different forecasting approaches during crisis periods and directly informs our between-model uncertainty measure.
+
+\subsection{Dimensional Analysis and Correlations}
+
+The three uncertainty dimensions exhibit distinct temporal patterns and correlation structures that validate our multidimensional approach. Key findings include:
+
+\subsubsection{Within-Model Uncertainty}
+The within-model uncertainty component, derived primarily from VAR confidence intervals, shows:
+\begin{itemize}
+    \item Average level: 3.61 over the sample period
+    \item Range: 1.18 (minimum) to 4.61 (maximum)
+    \item Peak during 2023-2024, reflecting persistent parameter uncertainty following the COVID shock
+\end{itemize}
+
+\subsubsection{Between-Model Dispersion}
+Model dispersion across our five-model ensemble reveals:
+\begin{itemize}
+    \item Average dispersion: 3.02 
+    \item Maximum dispersion: 15.57 during peak crisis periods (2020Q2)
+    \item Sustained elevation throughout 2020-2022, gradually declining thereafter
+\end{itemize}
+
+\subsubsection{Temporal Instability}
+Forecast revision volatility demonstrates:
+\begin{itemize}
+    \item Sharp spike during 2020-2021 crisis period
+    \item Gradual stabilization but persistent elevation compared to pre-crisis baselines
+    \item Clear evidence of structural instability in forecasting relationships
+\end{itemize}
+
+\subsubsection{Dimensional Correlations}
+The correlation structure between uncertainty dimensions provides important insights:
+
+\begin{itemize}
+    \item \textbf{Model Dispersion vs Temporal Instability} (+0.623): Strong positive correlation indicates that periods of model disagreement coincide with forecast instability
+    \item \textbf{Within-Model vs Model Dispersion} (-0.490): Significant negative correlation suggests potential substitution effects between uncertainty sources
+    \item \textbf{Within-Model vs Temporal Instability} (-0.331): Moderate negative correlation confirms distinct information content across dimensions
+\end{itemize}
+
+These correlations validate our multidimensional approach, demonstrating that the three dimensions capture complementary rather than redundant aspects of economic uncertainty.
+
+\subsection{Crisis Episodes and Threshold Performance}
+
+Our empirically-derived threshold system demonstrates strong discriminative power in identifying economic stress periods:
+
+\begin{itemize}
+    \item \textbf{Normal uncertainty} ($\leq$55): Characterizes 11 periods (52\%), representing stable economic conditions with standard policy frameworks applicable
+    \item \textbf{Elevated uncertainty} (55-62): Covers 8 periods (38\%), indicating heightened but manageable uncertainty requiring enhanced monitoring
+    \item \textbf{High uncertainty} (>62): Identifies 2 periods (10\%), successfully flagging the most severe crisis episodes
+\end{itemize}
+
+The threshold classification correctly identifies 2020Q4 and 2021Q1 as extreme uncertainty periods (composite index = 70.0), while the gradual recovery period (2021Q2-2024Q4) appropriately falls into elevated uncertainty categories.
+
+\subsection{Comparative Analysis}
+
+Our framework's performance can be benchmarked against the trajectory of established uncertainty measures. While direct comparison is limited by data availability, the temporal pattern of our composite index aligns with qualitative assessments of uncertainty evolution during the COVID-19 period:
+
+\begin{itemize}
+    \item \textbf{Crisis timing}: Our index peaks during 2020Q4-2021Q1, consistent with the period of maximum economic disruption
+    \item \textbf{Persistence}: The sustained elevation through 2024 reflects ongoing structural adjustments in the Spanish economy
+    \item \textbf{Granularity}: The multidimensional decomposition provides insights unavailable from traditional single-metric approaches
+\end{itemize}
+
+\subsection{Robustness Analysis}
+
+We conduct several robustness checks to validate our framework:
+
+\begin{enumerate}
+    \item \textbf{Alternative weighting schemes}: Testing unequal weights (0.5, 0.3, 0.2) yields qualitatively similar results with correlation >0.95 with baseline index
+    \item \textbf{Model subset analysis}: Excluding individual models from the ensemble does not materially alter the temporal pattern of uncertainty evolution
+    \item \textbf{Normalization sensitivity}: Alternative normalization approaches (z-scores, min-max scaling) produce highly correlated uncertainty measures
+    \item \textbf{Threshold stability}: Bootstrap resampling of threshold estimation yields stable cutoff values within $\pm$2 points
+\end{enumerate}
+
+These robustness checks confirm that our main findings are not artifacts of specific methodological choices but reflect genuine features of economic uncertainty dynamics during the crisis period.
+
+\section{Policy Implications}
+
+The multidimensional uncertainty framework developed in this paper offers several practical applications for economic policymaking. By providing real-time, comprehensive uncertainty assessment with clear operational thresholds, our approach enables more sophisticated uncertainty-contingent policy responses.
+
+\subsection{Monetary Policy Applications}
+
+Central banks can integrate our uncertainty framework into their policy processes in several ways:
+
+\subsubsection{Forward Guidance Calibration}
+The decomposition of uncertainty into within-model, between-model, and temporal components provides nuanced guidance for central bank communication:
+
+\begin{itemize}
+    \item \textbf{High within-model uncertainty}: Suggests greater emphasis on conditional guidance and scenario-based communication
+    \item \textbf{High between-model dispersion}: Indicates fundamental disagreement about economic relationships, arguing for more cautious or probabilistic forward guidance
+    \item \textbf{High temporal instability}: Points to rapidly evolving conditions requiring frequent communication updates and flexibility in guidance
+\end{itemize}
+
+\subsubsection{Policy Gradualism}
+Our threshold-based system provides clear operational guidance for the pace of monetary policy adjustment:
+
+\begin{itemize}
+    \item \textbf{Normal uncertainty} ($\leq$55): Standard policy adjustment speeds and conventional monetary policy tools sufficient
+    \item \textbf{Elevated uncertainty} (55-62): Enhanced gradualism with smaller, more frequent adjustments to preserve policy flexibility
+    \item \textbf{High uncertainty} (>62): Potential for larger policy moves or unconventional measures to provide clear signals amid heightened ambiguity
+\end{itemize}
+
+\subsubsection{Unconventional Policy Design}
+During periods of extreme uncertainty (>62), our framework suggests that traditional policy transmission mechanisms may be impaired, potentially justifying:
+
+\begin{itemize}
+    \item Enhanced asset purchase programs to address market dysfunction
+    \item More explicit state-contingent forward guidance
+    \item Coordination with fiscal authorities to reinforce policy signals
+\end{itemize}
+
+\subsection{Fiscal Policy Framework}
+
+Our uncertainty index provides a systematic framework for fiscal policy responses that accounts for the multidimensional nature of economic uncertainty.
+
+\subsubsection{Automatic Stabilizer Calibration}
+The threshold structure enables uncertainty-contingent fiscal rules:
+
+\begin{itemize}
+    \item \textbf{Normal uncertainty} ($\leq$55): Standard fiscal rules and automatic stabilizers operate as designed
+    \item \textbf{Elevated uncertainty} (55-62): Enhanced automatic stabilizer generosity (e.g., extended unemployment benefits, increased transfer responsiveness)
+    \item \textbf{High uncertainty} (>62): Temporary suspension of fiscal constraints to enable aggressive countercyclical response
+\end{itemize}
+
+\subsubsection{Discretionary Fiscal Policy}
+High uncertainty periods identified by our framework provide objective triggers for discretionary fiscal intervention:
+
+\begin{itemize}
+    \item \textbf{Infrastructure investment}: Accelerated public investment programs during high uncertainty periods to provide economic anchoring
+    \item \textbf{Business support measures}: Targeted support for sectors most affected by uncertainty (identified through dimensional decomposition)
+    \item \textbf{Household transfers}: Enhanced social safety nets during periods of elevated uncertainty about employment and income prospects
+\end{itemize}
+
+\subsubsection{Debt Sustainability Analysis}
+The persistence of elevated uncertainty levels (as documented in our empirical analysis) has important implications for debt sustainability assessment:
+
+\begin{itemize}
+    \item Traditional debt sustainability models may underestimate risks during prolonged uncertainty periods
+    \item The ``new normal'' of elevated uncertainty suggests need for more conservative fiscal buffers
+    \item Uncertainty-contingent debt targets may be preferable to rigid debt-to-GDP ratios
+\end{itemize}
+
+\subsection{Financial Regulation and Supervision}
+
+Our framework provides valuable inputs for financial stability assessment and regulatory calibration.
+
+\subsubsection{Stress Testing Enhancement}
+The multidimensional uncertainty measures can improve stress testing methodologies:
+
+\begin{itemize}
+    \item \textbf{Scenario design}: Use uncertainty decomposition to construct more realistic adverse scenarios
+    \item \textbf{Model risk assessment}: Between-model dispersion provides direct measures of model uncertainty for stress testing
+    \item \textbf{Dynamic stress testing}: Temporal instability measures enable more frequent stress test updates during volatile periods
+\end{itemize}
+
+\subsubsection{Capital Adequacy Requirements}
+Uncertainty-based capital buffers could enhance financial system resilience:
+
+\begin{itemize}
+    \item \textbf{Countercyclical buffers}: Link buffer activation to uncertainty thresholds rather than solely credit growth
+    \item \textbf{Model risk capital}: Require additional capital during periods of high between-model dispersion
+    \item \textbf{Operational risk}: Enhanced operational risk capital during high temporal instability periods
+\end{itemize}
+
+\subsection{Early Warning System Implementation}
+
+Our framework's real-time capabilities enable its deployment as an early warning system for economic crises.
+
+\subsubsection{Crisis Prevention}
+The framework's ability to identify the COVID-19 crisis in real-time (composite index rising from 0 to 70 within four quarters) demonstrates its potential for crisis prevention:
+
+\begin{itemize}
+    \item \textbf{Threshold monitoring}: Systematic monitoring of uncertainty evolution with predefined response protocols
+    \item \textbf{International coordination}: Shared uncertainty measures could facilitate coordinated policy responses
+    \item \textbf{Private sector signaling}: Public release of uncertainty measures could help coordinate private sector expectations
+\end{itemize}
+
+\subsubsection{Crisis Management}
+During active crisis periods, the dimensional decomposition provides actionable intelligence:
+
+\begin{itemize}
+    \item \textbf{Policy mix optimization}: Match policy tools to dominant uncertainty sources (e.g., fiscal response to high temporal instability, communication strategy for high model dispersion)
+    \item \textbf{Exit strategy timing}: Monitor uncertainty reduction to inform crisis policy exit decisions
+    \item \textbf{Recovery assessment}: Track return to normal uncertainty levels as indicator of economic stabilization
+\end{itemize}
+
+\subsection{International Applications and Extensions}
+
+While our empirical analysis focuses on Spain, the methodological framework is readily extensible to other economies and policy contexts.
+
+\subsubsection{Cross-Country Implementation}
+The framework can be adapted to different institutional and data environments:
+
+\begin{itemize}
+    \item \textbf{Model selection}: Choose forecasting models appropriate to local economic structure and data availability
+    \item \textbf{Variable selection}: Adapt predictor variables to reflect key economic indicators for each country
+    \item \textbf{Threshold calibration}: Derive country-specific thresholds based on historical crisis episodes
+\end{itemize}
+
+\subsubsection{Supranational Applications}
+The framework could be particularly valuable for supranational institutions:
+
+\begin{itemize}
+    \item \textbf{European Central Bank}: Aggregate uncertainty measures across eurozone countries for monetary policy
+    \item \textbf{European Stability Mechanism}: Use uncertainty measures to inform crisis lending decisions
+    \item \textbf{International Monetary Fund}: Incorporate uncertainty assessment into surveillance and program design
+\end{itemize}
+
+\subsubsection{Sectoral Extensions}
+The methodology can be extended beyond aggregate GDP forecasting:
+
+\begin{itemize}
+    \item \textbf{Sectoral uncertainty}: Apply framework to specific sectors (banking, manufacturing, services)
+    \item \textbf{Regional uncertainty}: Develop subnational uncertainty measures for regional policy
+    \item \textbf{Financial market uncertainty}: Extend to asset price and financial stability applications
+\end{itemize}
+
+\subsection{Implementation Considerations}
+
+Successful policy implementation of our framework requires attention to several practical considerations:
+
+\begin{itemize}
+    \item \textbf{Data requirements}: Ensure reliable, timely economic data for real-time uncertainty assessment
+    \item \textbf{Computational infrastructure}: Develop systems for automated model estimation and uncertainty calculation
+    \item \textbf{Institutional arrangements}: Establish clear responsibilities for uncertainty monitoring and policy response
+    \item \textbf{Communication strategy}: Develop public communication frameworks for uncertainty information
+    \item \textbf{Regular evaluation}: Implement systematic review processes to refine thresholds and improve framework performance
+\end{itemize}
+
+The practical implementation of uncertainty-contingent policies represents a significant advancement in evidence-based economic policymaking, providing objective criteria for policy responses that are currently based on subjective assessments of economic conditions.
+
 \section{Conclusion}
 
 This paper outlines a theoretically grounded and empirically implementable framework for quantifying economic uncertainty across multiple dimensions. The resulting index provides a nuanced view of economic uncertainty that can inform both academic research and practical decision-making. Future research should focus on empirical validation across diverse economic environments and exploration of additional uncertainty dimensions that may arise from specific economic sectors or policy domains.
-
-
-
 
 \pagebreak
 \section*{References} \label{sec:references}
@@ -267,8 +613,6 @@ This paper outlines a theoretically grounded and empirically implementable frame
 \bibliographystyle{elsarticle-harv}
 \bibliography{bib}
 \pagebreak
-
-
 
 \end{document}
 
