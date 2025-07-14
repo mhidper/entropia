@@ -1,0 +1,26 @@
+\begin{table}[h]
+\centering
+\caption{Análisis de Crisis: Amplificación de Errores de Revisión}
+\label{tab:analisis_crisis}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Período} & \textbf{EAM} & \textbf{Obs.} & \textbf{Factor de} & \textbf{Intervalo} \\
+ & & & \textbf{Amplificación} & \textbf{Temporal} \\
+\midrule
+\textbf{Normal} & 0,1338 & 85 & 1,00x & 1996-2025 \\
+& & & \textit{(baseline)} & \textit{(excl. crisis)} \\
+\midrule
+\textbf{Crisis Financiera} & 0,2412 & 8 & 1,80x & 2008-2009 \\
+\textbf{Crisis Deuda Soberana} & 0,4801 & 12 & \textbf{3,59x} & 2010-2012 \\
+\textbf{COVID-19} & 0,3930 & 12 & 2,94x & 2020-2022 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Nota: EAM = Error Absoluto Medio expresado en puntos porcentuales.
+\item Factor de Amplificación = EAM(Crisis) / EAM(Normal).
+\item El período "Normal" excluye los años de crisis identificados.
+\item La Crisis de Deuda Soberana muestra la mayor amplificación de errores.
+\item COVID-19 presenta amplificación significativa pero menor que la crisis europea.
+\end{tablenotes}
+\end{table}
