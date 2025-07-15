@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  15 JUL 2025 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  15 JUL 2025 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -23,18 +23,46 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lato\lato.sty
+Package: lato 2019/06/20 Style file for Lato.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes-v1.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count193
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2023/08/29 v3.93 The Babel package
-\babel@savecnt=\count193
+\babel@savecnt=\count194
 \U@D=\dimen141
 \l@unhyphenated=\language79
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count194
+\bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
@@ -44,7 +72,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks19
-\es@quotdepth=\count195
+\es@quotdepth=\count196
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -69,14 +97,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count196
+\inf@bad=\count197
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
+\uproot@=\count198
+\leftroot@=\count199
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count199
-\DOTSCASE@=\count266
+\classnum@=\count266
+\DOTSCASE@=\count267
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -89,20 +117,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen144
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
+\macc@depth=\count268
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count268
+\c@MaxMatrixCols=\count269
 \dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
 \tag@help=\toks21
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
 \andhelp@=\toks22
 \eqnshift@=\dimen145
 \alignsep@=\dimen146
@@ -125,67 +153,49 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks25
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen151
-\Gin@req@width=\dimen152
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen153
-\lightrulewidth=\dimen154
-\cmidrulewidth=\dimen155
-\belowrulesep=\dimen156
-\belowbottomsep=\dimen157
-\aboverulesep=\dimen158
-\abovetopsep=\dimen159
-\cmidrulesep=\dimen160
-\cmidrulekern=\dimen161
-\defaultaddspace=\dimen162
-\@cmidla=\count274
-\@cmidlb=\count275
-\@aboverulesep=\dimen163
-\@belowrulesep=\dimen164
-\@thisruleclass=\count276
-\@lastruleclass=\count277
-\@thisrulewidth=\dimen165
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
+\@cmidla=\count275
+\@cmidlb=\count276
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
+\@thisruleclass=\count277
+\@lastruleclass=\count278
+\@thisrulewidth=\dimen163
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
 \LTpre=\skip55
 \LTpost=\skip56
-\LTchunksize=\count278
-\LTcapwidth=\dimen166
+\LTchunksize=\count279
+\LTcapwidth=\dimen164
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
 \LT@gbox=\box57
-\LT@cols=\count279
-\LT@rows=\count280
-\c@LT@tables=\count281
-\c@LT@chunks=\count282
-\LT@p@ftn=\toks26
+\LT@cols=\count280
+\LT@rows=\count281
+\c@LT@tables=\count282
+\c@LT@chunks=\count283
+\LT@p@ftn=\toks25
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen167
+\col@sep=\dimen165
 \ar@mcellbox=\box58
-\extrarowheight=\dimen168
-\NC@list=\toks27
+\extrarowheight=\dimen166
+\NC@list=\toks26
 \extratabsurround=\skip57
 \backup@length=\skip58
 \ar@cellbox=\box59
@@ -193,21 +203,19 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count283
-\Gm@cntv=\count284
-\c@Gm@tempcnt=\count285
-\Gm@bindingoffset=\dimen169
-\Gm@wd@mp=\dimen170
-\Gm@odd@mp=\dimen171
-\Gm@even@mp=\dimen172
-\Gm@layoutwidth=\dimen173
-\Gm@layoutheight=\dimen174
-\Gm@layouthoffset=\dimen175
-\Gm@layoutvoffset=\dimen176
-\Gm@dimlist=\toks28
+)
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen167
+\Gm@wd@mp=\dimen168
+\Gm@odd@mp=\dimen169
+\Gm@even@mp=\dimen170
+\Gm@layoutwidth=\dimen171
+\Gm@layoutheight=\dimen172
+\Gm@layouthoffset=\dimen173
+\Gm@layoutvoffset=\dimen174
+\Gm@dimlist=\toks27
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip59
@@ -224,13 +232,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip70
 \f@nch@widthC=\skip71
 \f@nch@widthR=\skip72
-\@temptokenb=\toks29
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip73
-\bibsep=\skip74
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count286
+\@temptokenb=\toks28
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
@@ -269,7 +271,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count288
 )
-\@linkdim=\dimen177
+\@linkdim=\dimen175
 \Hy@linkcounter=\count289
 \Hy@pagecounter=\count290
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
@@ -298,15 +300,15 @@ Package hyperref Info: Bookmarks ON on input line 4434.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4772.
-\XeTeXLinkMargin=\dimen178
+\XeTeXLinkMargin=\dimen176
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count293
-\Field@Width=\dimen179
-\Fld@charsize=\dimen180
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
 Package hyperref Info: Hyper figures OFF on input line 6051.
 Package hyperref Info: Link nesting OFF on input line 6056.
 Package hyperref Info: Hyper index ON on input line 6059.
@@ -338,7 +340,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip75
+\Hy@SectionHShift=\skip73
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
@@ -348,21 +350,31 @@ Package: threeparttable 2003/06/13  v 3.0
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip76
+\multirow@colwidth=\skip74
 \multirow@cntb=\count299
-\multirow@dima=\skip77
-\bigstrutjot=\dimen181
+\multirow@dima=\skip75
+\bigstrutjot=\dimen179
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)))
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks30
+\AP@output=\toks29
 \AP@partial=\box61
 \AP@footins=\box62
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/capt-of\capt-of.sty
@@ -370,9 +382,9 @@ Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count300
-\float@exts=\toks31
+\float@exts=\toks30
 \float@box=\box63
-\@float@everytoks=\toks32
+\@float@everytoks=\toks31
 \@floatcapt=\box64
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
@@ -380,14 +392,14 @@ Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package: caption 2023/07/31 v3.6n Customizing captions (AR)
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen182
-\captionmargin=\dimen183
-\caption@leftmargin=\dimen184
-\caption@rightmargin=\dimen185
-\caption@width=\dimen186
-\caption@indent=\dimen187
-\caption@parindent=\dimen188
-\caption@hangindent=\dimen189
+\caption@tempdima=\dimen180
+\captionmargin=\dimen181
+\caption@leftmargin=\dimen182
+\caption@rightmargin=\dimen183
+\caption@width=\dimen184
+\caption@indent=\dimen185
+\caption@parindent=\dimen186
+\caption@hangindent=\dimen187
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count301
@@ -404,80 +416,107 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count303
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count304
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen188
+\TX@old@table=\dimen189
+\TX@old@col=\dimen190
+\TX@target=\dimen191
+\TX@delta=\dimen192
+\TX@cols=\count305
+\TX@ftn=\toks34
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip76
+\bibsep=\skip77
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count306
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen193
+\Gin@req@width=\dimen194
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip78
+\RaggedLeftLeftskip=\skip79
+\RaggedRightLeftskip=\skip80
+\CenteringRightskip=\skip81
+\RaggedLeftRightskip=\skip82
+\RaggedRightRightskip=\skip83
+\CenteringParfillskip=\skip84
+\RaggedLeftParfillskip=\skip85
+\RaggedRightParfillskip=\skip86
+\JustifyingParfillskip=\skip87
+\CenteringParindent=\skip88
+\RaggedLeftParindent=\skip89
+\RaggedRightParindent=\skip90
+\JustifyingParindent=\skip91
+)
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 52.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
+\l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box65
 ) (paper_replicacion_pavia.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `paper_replicacion_pavia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen190
-\scratchbox=\box66
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen191
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks34
-) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+\c@mv@tabular=\count308
+\c@mv@boldtabular=\count309
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=702.78308pt
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -487,85 +526,251 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 52.
 (paper_replicacion_pavia.out) (paper_replicacion_pavia.out)
 \@outlinefile=\write3
 \openout3 = `paper_replicacion_pavia.out'.
 
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count310
+\scratchdimen=\dimen195
+\scratchbox=\box66
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen196
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks36
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (tabla_metodologia_comparacion.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [3] [4] (../tablas/tabla_2_latex_interanuales.tex) (tabla_errores_trimestre.tex [5]) (tabla_analisis_crisis.tex) [6]
-<../figuras/figura_2_pavia_robusta_2005_2016.png, id=218, 858.5676pt x 568.7649pt>
-File: ../figuras/figura_2_pavia_robusta_2005_2016.png Graphic file (type png)
-<use ../figuras/figura_2_pavia_robusta_2005_2016.png>
-Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2016.png  used on input line 199.
-(pdftex.def)             Requested size: 364.19667pt x 241.25757pt.
-<../figuras/figura_2_pavia_robusta_2005_2024.png, id=220, 858.5676pt x 568.7649pt>
-File: ../figuras/figura_2_pavia_robusta_2005_2024.png Graphic file (type png)
-<use ../figuras/figura_2_pavia_robusta_2005_2024.png>
-Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used on input line 210.
-(pdftex.def)             Requested size: 364.19667pt x 241.25757pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=221, 860.013pt x 712.8231pt>
-File: ../figuras/evolucion_estimaciones_2020Q1_robusto.png Graphic file (type png)
-<use ../figuras/evolucion_estimaciones_2020Q1_robusto.png>
-Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  used on input line 221.
-(pdftex.def)             Requested size: 364.19667pt x 301.86357pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figuras/analisis_cntr_graficos.png, id=222, 1077.3048pt x 859.0494pt>
-File: ../figuras/analisis_cntr_graficos.png Graphic file (type png)
-<use ../figuras/analisis_cntr_graficos.png>
-Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input line 232.
-(pdftex.def)             Requested size: 364.19667pt x 290.4082pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <../figuras/figura_2_pavia_robusta_2005_2016.png>] [8 <../figuras/figura_2_pavia_robusta_2005_2024.png>] [9 <../figuras/evolucion_estimaciones_2020Q1_robusto.png>]
-Overfull \hbox (1.18019pt too wide) in paragraph at lines 276--277
-[]\OT1/cmr/bx/n/12 Crisis con-tem-por^^Saneas\OT1/cmr/m/n/12 : Pri-me-ra eva-lua-ci^^Son de ca-li-dad de CNTR du-ran-te COVID-
+{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd)
+Underfull \hbox (badness 2452) in paragraph at lines 156--156
+[]|\T1/cmss/bx/n/10 Pregunta de In-ves-ti-ga-
  []
 
-[10 <../figuras/analisis_cntr_graficos.png>] [11] [12] (paper_replicacion_pavia.bbl) [13] (paper_replicacion_pavia.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+
+Underfull \hbox (badness 1117) in paragraph at lines 156--156
+[]|\T1/cmss/m/n/10 Desarrolla un mo-de-lo es-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmss/bx/n/10 Shock de Se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 los fun-da-men-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Cambio en la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/bx/n/10 va-rian-za \T1/cmss/m/n/10 (in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 cer-ti-dum-bre) de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 los fun-da-men-tos
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Pausa/retraso de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Desaceleración
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Caída abrup-ta y
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 221--221
+\T1/cmss/m/n/10 re-pen-ti-na se-gui-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 den juz-gar mal
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 221--221
+\T1/cmss/m/n/10 la \T1/cmss/m/it/10 mag-ni-tud \T1/cmss/m/n/10 del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 shock (error de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 pro-nós-ti-co más
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 de cap-tu-rar el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 com-por-ta-mien-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 de ``pau-sa'' \T1/cmss/m/it/10 no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Principalmente
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 221--221
+\T1/cmss/m/n/10 ``no-ti-cias'' a me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 di-da que lle-gan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Una mez-cla de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 ``no-ti-cias'' y la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 do'' sis-te-má-ti-co,
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 221--221
+\T1/cmss/m/n/10 a me-di-da que el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 com-por-ta-mien-to
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 221--221
+\T1/cmss/m/n/10 río-dos ``nor-ma-les''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmss/m/n/10 Representa los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\T1/cmss/m/n/10 yor am-pli-fi-ca-ción
+ []
+
+[7] [8] (tabla_metodologia_comparacion.tex) [9] [10] (../tablas/tabla_2_latex_interanuales.tex) (tabla_errores_trimestre.tex) [11] (tabla_analisis_crisis.tex)
+<../figuras/figura_2_pavia_robusta_2005_2016.png, id=338, 858.5676pt x 568.7649pt>
+File: ../figuras/figura_2_pavia_robusta_2005_2016.png Graphic file (type png)
+<use ../figuras/figura_2_pavia_robusta_2005_2016.png>
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2016.png  used on input line 326.
+(pdftex.def)             Requested size: 377.62642pt x 250.16187pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figuras/figura_2_pavia_robusta_2005_2024.png, id=340, 858.5676pt x 568.7649pt>
+File: ../figuras/figura_2_pavia_robusta_2005_2024.png Graphic file (type png)
+<use ../figuras/figura_2_pavia_robusta_2005_2024.png>
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used on input line 337.
+(pdftex.def)             Requested size: 377.62642pt x 250.16187pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=341, 860.013pt x 712.8231pt>
+File: ../figuras/evolucion_estimaciones_2020Q1_robusto.png Graphic file (type png)
+<use ../figuras/evolucion_estimaciones_2020Q1_robusto.png>
+Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  used on input line 348.
+(pdftex.def)             Requested size: 377.62642pt x 312.99052pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../figuras/analisis_cntr_graficos.png, id=342, 1077.3048pt x 859.0494pt>
+File: ../figuras/analisis_cntr_graficos.png Graphic file (type png)
+<use ../figuras/analisis_cntr_graficos.png>
+Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input line 359.
+(pdftex.def)             Requested size: 377.62642pt x 301.11746pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13 <../figuras/figura_2_pavia_robusta_2005_2016.png>] [14 <../figuras/figura_2_pavia_robusta_2005_2024.png>] [15 <../figuras/evolucion_estimaciones_2020Q1_robusto.png>] [16 <../figuras/analisis_cntr_graficos.png>] [17] (paper_replicacion_pavia.bbl) [18] (paper_replicacion_pavia.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `paper_replicacion_pavia.out' has not changed.
-(rerunfilecheck)             Checksum: EADF99B9921A067237D31BEFBBBFE58B;7206.
+(rerunfilecheck)             Checksum: 89D0AEA5377C3164E7C7B1A841005B8F;11653.
  ) 
 Here is how much of TeX's memory you used:
- 14495 strings out of 475248
- 236414 string characters out of 5756869
- 1934801 words of memory out of 5000000
- 35701 multiletter control sequences out of 15000+600000
- 569255 words of font info for 79 fonts, out of 8000000 for 9000
+ 15404 strings out of 475248
+ 253113 string characters out of 5756869
+ 1935801 words of memory out of 5000000
+ 36543 multiletter control sequences out of 15000+600000
+ 577835 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,1347b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on paper_replicacion_pavia.pdf (13 pages, 1881612 bytes).
+ 89i,15n,131p,1347b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi525\ecss0800.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on paper_replicacion_pavia.pdf (18 pages, 2010893 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1106 PDF objects out of 1200 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

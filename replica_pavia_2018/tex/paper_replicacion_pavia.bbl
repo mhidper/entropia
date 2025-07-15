@@ -1,33 +1,50 @@
-\ifx\undefined\bysame
-\newcommand{\bysame}{\leavevmode\hbox to\leftmargin{\hrulefill\,\,}}
-\fi
-\begin{thebibliography}{xx}
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\harvarditem[Aruoba]{Aruoba}{2008}{aruoba2008}
-{\bf Aruoba, S~Bora}, ``Data revisions are not well behaved,'' {\it Journal of
-  Money, Credit and Banking}, 2008, {\it 40} (2-3), 319--340.
+\bibitem[Aruoba(2008)]{aruoba2008}
+S~Bora Aruoba.
+\newblock Data revisions are not well behaved.
+\newblock \emph{Journal of Money, Credit and Banking}, 40\penalty0
+  (2-3):\penalty0 319--340, 2008.
 
-\harvarditem[Baker et al.]{Baker, Bloom and Davis}{2016}{baker2016}
-{\bf Baker, Scott~R, Nicholas Bloom, and Steven~J Davis}, ``Measuring economic
-  policy uncertainty,'' {\it The Quarterly Journal of Economics}, 2016, {\it
-  131} (4), 1593--1636.
+\bibitem[Baker et~al.(2016)Baker, Bloom, and Davis]{baker2016}
+Scott~R Baker, Nicholas Bloom, and Steven~J Davis.
+\newblock Measuring economic policy uncertainty.
+\newblock \emph{The Quarterly Journal of Economics}, 131\penalty0 (4):\penalty0
+  1593--1636, 2016.
 
-\harvarditem[Bloom]{Bloom}{2009}{bloom2009}
-{\bf Bloom, Nicholas}, ``The impact of uncertainty shocks,'' {\it
-  Econometrica}, 2009, {\it 77} (3), 623--685.
+\bibitem[Bloom(2009)]{bloom2009}
+Nicholas Bloom.
+\newblock The impact of uncertainty shocks.
+\newblock \emph{Econometrica}, 77\penalty0 (3):\penalty0 623--685, 2009.
 
-\harvarditem[Croushore]{Croushore}{2011}{croushore2011}
-{\bf Croushore, Dean}, ``Frontiers of real-time data analysis,'' {\it Journal
-  of Economic Literature}, 2011, {\it 49} (1), 72--100.
+\bibitem[Croushore(2011)]{croushore2011}
+Dean Croushore.
+\newblock Frontiers of real-time data analysis.
+\newblock \emph{Journal of Economic Literature}, 49\penalty0 (1):\penalty0
+  72--100, 2011.
 
-\harvarditem[Pavia et al.]{Pavia, Cabrer-Borrás and Serrano}{2017}{pavia2017}
-{\bf Pavia, José~M, Bernardino Cabrer-Borrás, and Gonzalo Serrano},
-  ``Evaluación del sesgo en las estimaciones de Contabilidad Nacional
-  Trimestral: Estudio de las añadas en España,'' {\it Estudios de Economía
-  Aplicada}, 2017, {\it 35} (2), 271--298.
+\bibitem[Orphanides(2001)]{orphanides2001}
+Athanasios Orphanides.
+\newblock Monetary policy rules based on real-time data.
+\newblock \emph{American Economic Review}, 91\penalty0 (4):\penalty0 964--985,
+  2001.
 
-\harvarditem[Young]{Young}{1993}{young1993}
-{\bf Young, Allan~H}, ``Reliability and Accuracy of the Quarterly Estimates of
-  GDP,'' {\it Survey of Current Business}, 1993, {\it 73} (10), 29--43.
+\bibitem[Pavia et~al.(2017)Pavia, Cabrer-Borrás, and Serrano]{pavia2017}
+José~M Pavia, Bernardino Cabrer-Borrás, and Gonzalo Serrano.
+\newblock Evaluación del sesgo en las estimaciones de contabilidad nacional
+  trimestral: Estudio de las añadas en españa.
+\newblock \emph{Estudios de Economía Aplicada}, 35\penalty0 (2):\penalty0
+  271--298, 2017.
+
+\bibitem[Young(1993)]{young1993}
+Allan~H Young.
+\newblock Reliability and accuracy of the quarterly estimates of gdp.
+\newblock \emph{Survey of Current Business}, 73\penalty0 (10):\penalty0 29--43,
+  1993.
 
 \end{thebibliography}
