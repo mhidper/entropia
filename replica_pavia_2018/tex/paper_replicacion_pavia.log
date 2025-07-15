@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  14 JUL 2025 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  14 JUL 2025 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,8 +408,10 @@ Package caption Info: New subtype `subtable' on input line 238.
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box65
+) (paper_replicacion_pavia.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 )
-No file paper_replicacion_pavia.aux.
 \openout1 = `paper_replicacion_pavia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -432,7 +434,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count306
 \scratchdimen=\dimen190
@@ -486,13 +488,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 38.
+(paper_replicacion_pavia.out) (paper_replicacion_pavia.out)
 \@outlinefile=\write3
 \openout3 = `paper_replicacion_pavia.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
@@ -500,194 +503,47 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-Package natbib Warning: Citation `pavia2017' on page 2 undefined on input line 56.
-
-
-Package natbib Warning: Citation `young1993' on page 2 undefined on input line 66.
-
-
-Package natbib Warning: Citation `pavia2017' on page 2 undefined on input line 68.
-
-[2]
-
-Package natbib Warning: Citation `pavia2017' on page 3 undefined on input line 78.
-
-
-Package natbib Warning: Citation `aruoba2008' on page 3 undefined on input line 90.
-
-
-Package natbib Warning: Citation `croushore2011' on page 3 undefined on input line 90.
-
-
-Package natbib Warning: Citation `bloom2009' on page 3 undefined on input line 92.
-
-
-Package natbib Warning: Citation `baker2016' on page 3 undefined on input line 92.
-
-
-Package natbib Warning: Citation `pavia2017' on page 3 undefined on input line 98.
-
-
-LaTeX Warning: Reference `tab:metodologia_comparacion' on page 3 undefined on input line 98.
-
-
-c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex:108: LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 Fuente de datos & CNTR del INE & ✓
-                                           CNTR del INE \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex:109: LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 Variable & PIB trimestral & ✓
-                                      PIB trimestral \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex:110: LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...�n & Niveles → Tasas interanuales & ✓
-                                                   Niveles → Tasas interan...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex:111: LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 Período base & 2005-2016 & ✓
-                                      2005-2016 + extensión \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex:112: LaTeX Error: Unicode character ✓ (U+2713)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 Metodología & A0 vs DEF & ✓
-                                     A0 vs DEF \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
+{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (tabla_metodologia_comparacion.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `pavia2017' on page 3 undefined on input line 119.
-
-[3]
-
-Package natbib Warning: Citation `pavia2017' on page 4 undefined on input line 143.
-
-[4]
-
-LaTeX Warning: Reference `tab:resultados_replicacion' on page 5 undefined on input line 176.
-
-
-Package natbib Warning: Citation `pavia2017' on page 5 undefined on input line 176.
-
-(tabla_2_latex_interanuales.tex)
-
-Package natbib Warning: Citation `pavia2017' on page 5 undefined on input line 180.
-
-
-LaTeX Warning: Reference `tab:errores_trimestre' on page 5 undefined on input line 184.
-
-(tabla_errores_trimestre.tex
-
-tabla_errores_trimestre.tex:21: LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \item El patrón Q4 ≈
-                             Q3 < Q1 confirma los hallazgos de Pavia et al. ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[5])
-
-LaTeX Warning: Reference `tab:analisis_crisis' on page 6 undefined on input line 194.
-
-(tabla_analisis_crisis.tex) [6]
-<../figuras/figura_2_pavia_robusta_2005_2016.png, id=69, 858.5676pt x 568.7649pt>
+) [3] [4] (../tablas/tabla_2_latex_interanuales.tex) (tabla_errores_trimestre.tex [5]) (tabla_analisis_crisis.tex) [6]
+<../figuras/figura_2_pavia_robusta_2005_2016.png, id=218, 858.5676pt x 568.7649pt>
 File: ../figuras/figura_2_pavia_robusta_2005_2016.png Graphic file (type png)
 <use ../figuras/figura_2_pavia_robusta_2005_2016.png>
-Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2016.png  used on input line 214.
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2016.png  used on input line 199.
 (pdftex.def)             Requested size: 364.19667pt x 241.25757pt.
-<../figuras/figura_2_pavia_robusta_2005_2024.png, id=71, 858.5676pt x 568.7649pt>
+<../figuras/figura_2_pavia_robusta_2005_2024.png, id=220, 858.5676pt x 568.7649pt>
 File: ../figuras/figura_2_pavia_robusta_2005_2024.png Graphic file (type png)
 <use ../figuras/figura_2_pavia_robusta_2005_2024.png>
-Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used on input line 225.
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used on input line 210.
 (pdftex.def)             Requested size: 364.19667pt x 241.25757pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=72, 860.013pt x 712.8231pt>
+<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=221, 860.013pt x 712.8231pt>
 File: ../figuras/evolucion_estimaciones_2020Q1_robusto.png Graphic file (type png)
 <use ../figuras/evolucion_estimaciones_2020Q1_robusto.png>
-Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  used on input line 236.
+Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  used on input line 221.
 (pdftex.def)             Requested size: 364.19667pt x 301.86357pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figuras/analisis_cntr_graficos.png, id=73, 1077.3048pt x 859.0494pt>
+<../figuras/analisis_cntr_graficos.png, id=222, 1077.3048pt x 859.0494pt>
 File: ../figuras/analisis_cntr_graficos.png Graphic file (type png)
 <use ../figuras/analisis_cntr_graficos.png>
-Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input line 247.
+Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input line 232.
 (pdftex.def)             Requested size: 364.19667pt x 290.4082pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `pavia2017' on page 7 undefined on input line 260.
-
 [7 <../figuras/figura_2_pavia_robusta_2005_2016.png>] [8 <../figuras/figura_2_pavia_robusta_2005_2024.png>] [9 <../figuras/evolucion_estimaciones_2020Q1_robusto.png>]
-Overfull \hbox (1.18019pt too wide) in paragraph at lines 291--292
+Overfull \hbox (1.18019pt too wide) in paragraph at lines 276--277
 []\OT1/cmr/bx/n/12 Crisis con-tem-por^^Saneas\OT1/cmr/m/n/12 : Pri-me-ra eva-lua-ci^^Son de ca-li-dad de CNTR du-ran-te COVID-
  []
 
-[10 <../figuras/analisis_cntr_graficos.png>]
-
-Package natbib Warning: Citation `pavia2017' on page 11 undefined on input line 320.
-
-[11] [12]
-No file paper_replicacion_pavia.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[13] (paper_replicacion_pavia.aux
+[10 <../figuras/analisis_cntr_graficos.png>] [11] [12] (paper_replicacion_pavia.bbl) [13] (paper_replicacion_pavia.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -695,34 +551,21 @@ LaTeX Info: Redefining \% on input line 22.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `paper_replicacion_pavia.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper_replicacion_pavia.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EADF99B9921A067237D31BEFBBBFE58B;7206.
+Package rerunfilecheck Info: File `paper_replicacion_pavia.out' has not changed.
+(rerunfilecheck)             Checksum: EADF99B9921A067237D31BEFBBBFE58B;7206.
  ) 
 Here is how much of TeX's memory you used:
- 14414 strings out of 475248
- 234421 string characters out of 5756869
+ 14494 strings out of 475248
+ 236399 string characters out of 5756869
  1934801 words of memory out of 5000000
- 35640 multiletter control sequences out of 15000+600000
- 569592 words of font info for 80 fonts, out of 8000000 for 9000
+ 35700 multiletter control sequences out of 15000+600000
+ 569255 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1059b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on paper_replicacion_pavia.pdf (13 pages, 1844431 bytes).
+ 75i,15n,79p,1347b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on paper_replicacion_pavia.pdf (13 pages, 1881350 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 

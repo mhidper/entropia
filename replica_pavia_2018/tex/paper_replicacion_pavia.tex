@@ -40,7 +40,7 @@
 \maketitle
 
 \begin{abstract}
-\noindent Este trabajo presenta una replicación completa y una extensión del análisis de Pavia et al. (2017) sobre la calidad de las añadas de la Contabilidad Nacional Trimestral (CNTR) española. Replicamos exactamente su metodología para el período 2005-2016 y extendemos el análisis hasta 2025, incluyendo el período de la pandemia del COVID-19. Nuestra replicación valida los hallazgos originales de que las estimaciones del cuarto trimestre exhiben menores errores de revisión para las tasas de crecimiento interanuales. La extensión revela que el COVID-19 generó factores de amplificación de 2,94x comparado con períodos normales, mientras que la crisis de deuda soberana mostró la mayor amplificación (3,59x). Implementamos el análisis en código Python de acceso abierto, asegurando la reproducibilidad completa y proporcionando una base para futuras investigaciones sobre evaluación de calidad de cuentas nacionales.
+\noindent La fiabilidad de las estimaciones económicas preliminares es crucial para la toma de decisiones y la investigación. Este estudio realiza una doble contribución al análisis de la calidad de los datos de la Contabilidad Nacional Trimestral (CNTR) en España, tomando como referencia el trabajo seminal de Pavia et al. (2017). Primero, se lleva a cabo una replicación metodológica exhaustiva de su análisis para el período original 2005-2016, validando sus hallazgos clave, como la mayor precisión de las estimaciones del cuarto trimestre para las tasas de crecimiento interanual. Segundo, el análisis se extiende hasta 2025, lo que permite evaluar el comportamiento de los errores de revisión durante episodios de estrés económico sin precedentes. Nuestros resultados revelan una heterogeneidad notable en el impacto de las crisis; mientras que la pandemia de COVID-19 amplificó los errores de revisión en un factor de 2,94, este impacto fue superado por el de la crisis de deuda soberana (3,59). Al implementar todo el análisis en código Python de acceso abierto, no solo garantizamos la reproducibilidad total del estudio, sino que también ofrecemos una herramienta robusta para futuras investigaciones.
 
 \noindent \textbf{Palabras clave:} Contabilidad Nacional, Revisiones de Datos, Replicación, COVID-19, Estadísticas Económicas
 
@@ -158,9 +158,9 @@ Además de la replicación exacta, introducimos las siguientes extensiones:
 
 \subsection{Validación de Resultados Originales}
 
-La tabla \ref{tab:resultados_replicacion} presenta los resultados de nuestra replicación para el período base 2005-2016, confirmando los hallazgos principales de \citet{pavia2017}.
+La tabla presenta los resultados de nuestra replicación para el período base 2005-2016, confirmando los hallazgos principales de \citet{pavia2017}.
 
-\input{tabla_2_latex_interanuales.tex}
+\input{../tablas/tabla_2_latex_interanuales.tex}
 
 Nuestros resultados confirman el patrón estacional identificado por \citet{pavia2017}: las estimaciones del cuarto trimestre efectivamente muestran menor error absoluto medio que las del tercer trimestre, validando su hipótesis central.
 
