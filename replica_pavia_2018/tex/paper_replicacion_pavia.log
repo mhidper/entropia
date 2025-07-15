@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  15 JUL 2025 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.25)  15 JUL 2025 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,194 +561,202 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd)
-Underfull \hbox (badness 2452) in paragraph at lines 156--156
+{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd)
+Underfull \hbox (badness 2452) in paragraph at lines 181--181
 []|\T1/cmss/bx/n/10 Pregunta de In-ves-ti-ga-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 156--156
+Underfull \hbox (badness 1117) in paragraph at lines 181--181
 []|\T1/cmss/m/n/10 Desarrolla un mo-de-lo es-
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/cmss/bx/n/10 Shock de Se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 los fun-da-men-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Cambio en la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/bx/n/10 va-rian-za \T1/cmss/m/n/10 (in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 cer-ti-dum-bre) de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 los fun-da-men-tos
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 221--221
+Underfull \hbox (badness 7012) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Pausa/retraso de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Desaceleración
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 221--221
+Underfull \hbox (badness 3965) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Caída abrup-ta y
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 221--221
+Underfull \hbox (badness 2772) in paragraph at lines 246--246
 \T1/cmss/m/n/10 re-pen-ti-na se-gui-da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 den juz-gar mal
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 221--221
+Underfull \hbox (badness 4608) in paragraph at lines 246--246
 \T1/cmss/m/n/10 la \T1/cmss/m/it/10 mag-ni-tud \T1/cmss/m/n/10 del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 shock (error de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 pro-nós-ti-co más
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 de cap-tu-rar el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 com-por-ta-mien-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 de ``pau-sa'' \T1/cmss/m/it/10 no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Principalmente
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 221--221
+Underfull \hbox (badness 4366) in paragraph at lines 246--246
 \T1/cmss/m/n/10 ``no-ti-cias'' a me-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 di-da que lle-gan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Una mez-cla de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 ``no-ti-cias'' y la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 do'' sis-te-má-ti-co,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 221--221
+Underfull \hbox (badness 1292) in paragraph at lines 246--246
 \T1/cmss/m/n/10 a me-di-da que el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 com-por-ta-mien-to
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 221--221
+Underfull \hbox (badness 3460) in paragraph at lines 246--246
 \T1/cmss/m/n/10 río-dos ``nor-ma-les''
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\T1/cmss/m/n/10 Representa los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 \T1/cmss/m/n/10 yor am-pli-fi-ca-ción
  []
 
-[7] [8] (tabla_metodologia_comparacion.tex) [9] [10] (../tablas/tabla_2_latex_interanuales.tex) (tabla_errores_trimestre.tex) [11] (tabla_analisis_crisis.tex)
-<../figuras/figura_2_pavia_robusta_2005_2016.png, id=338, 858.5676pt x 568.7649pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(tabla_metodologia_comparacion.tex [8]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [9] [10] (../tablas/tabla_2_latex_interanuales.tex) [11] (tabla_errores_trimestre.tex) (tabla_analisis_crisis.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [12]
+<../figuras/figura_2_pavia_robusta_2005_2016.png, id=375, 858.5676pt x 568.7649pt>
 File: ../figuras/figura_2_pavia_robusta_2005_2016.png Graphic file (type png)
 <use ../figuras/figura_2_pavia_robusta_2005_2016.png>
-Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2016.png  used on input line 326.
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2016.png  used on input line 351.
 (pdftex.def)             Requested size: 377.62642pt x 250.16187pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figuras/figura_2_pavia_robusta_2005_2024.png, id=340, 858.5676pt x 568.7649pt>
+<../figuras/figura_2_pavia_robusta_2005_2024.png, id=377, 858.5676pt x 568.7649pt>
 File: ../figuras/figura_2_pavia_robusta_2005_2024.png Graphic file (type png)
 <use ../figuras/figura_2_pavia_robusta_2005_2024.png>
-Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used on input line 337.
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used on input line 362.
 (pdftex.def)             Requested size: 377.62642pt x 250.16187pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=341, 860.013pt x 712.8231pt>
+<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=378, 860.013pt x 712.8231pt>
 File: ../figuras/evolucion_estimaciones_2020Q1_robusto.png Graphic file (type png)
 <use ../figuras/evolucion_estimaciones_2020Q1_robusto.png>
-Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  used on input line 348.
+Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  used on input line 373.
 (pdftex.def)             Requested size: 377.62642pt x 312.99052pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figuras/analisis_cntr_graficos.png, id=342, 1077.3048pt x 859.0494pt>
+<../figuras/analisis_cntr_graficos.png, id=379, 1077.3048pt x 859.0494pt>
 File: ../figuras/analisis_cntr_graficos.png Graphic file (type png)
 <use ../figuras/analisis_cntr_graficos.png>
-Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input line 359.
+Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input line 384.
 (pdftex.def)             Requested size: 377.62642pt x 301.11746pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12] [13 <../figuras/figura_2_pavia_robusta_2005_2016.png>] [14 <../figuras/figura_2_pavia_robusta_2005_2024.png>] [15 <../figuras/evolucion_estimaciones_2020Q1_robusto.png>] [16 <../figuras/analisis_cntr_graficos.png>] [17] (paper_replicacion_pavia.bbl) [18] (paper_replicacion_pavia.aux
+[13 <../figuras/figura_2_pavia_robusta_2005_2016.png>] [14 <../figuras/figura_2_pavia_robusta_2005_2024.png>] [15 <../figuras/evolucion_estimaciones_2020Q1_robusto.png>] [16 <../figuras/analisis_cntr_graficos.png>] [17] (paper_replicacion_pavia.bbl [18]) [19] (paper_replicacion_pavia.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -760,17 +768,17 @@ Package rerunfilecheck Info: File `paper_replicacion_pavia.out' has not changed.
 (rerunfilecheck)             Checksum: 89D0AEA5377C3164E7C7B1A841005B8F;11653.
  ) 
 Here is how much of TeX's memory you used:
- 15404 strings out of 475248
- 253113 string characters out of 5756869
- 1935801 words of memory out of 5000000
- 36543 multiletter control sequences out of 15000+600000
+ 15434 strings out of 475248
+ 253689 string characters out of 5756869
+ 1937801 words of memory out of 5000000
+ 36563 multiletter control sequences out of 15000+600000
  577835 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,15n,131p,1347b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,15n,131p,1347b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi525\ecss0800.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi450\ecss0800.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on paper_replicacion_pavia.pdf (18 pages, 2010893 bytes).
+Output written on paper_replicacion_pavia.pdf (19 pages, 2022925 bytes).
 PDF statistics:
- 1106 PDF objects out of 1200 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
+ 1154 PDF objects out of 1200 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

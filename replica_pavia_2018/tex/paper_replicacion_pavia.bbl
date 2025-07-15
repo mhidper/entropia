@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,6 +10,23 @@ S~Bora Aruoba.
 \newblock Data revisions are not well behaved.
 \newblock \emph{Journal of Money, Credit and Banking}, 40\penalty0
   (2-3):\penalty0 319--340, 2008.
+
+\bibitem[Asimakopoulos et~al.(2023)Asimakopoulos, Paredes, and
+  Tsiaplias]{bce_wp_2857}
+Stylianos Asimakopoulos, Joan Paredes, and Stylianos Tsiaplias.
+\newblock What do data revisions tell us about gdp?
+\newblock Working Paper Series 2857, European Central Bank, 2023.
+
+\bibitem[Asimakopoulos et~al.(2024)Asimakopoulos, Paredes, and
+  Tsiaplias]{suerf_pb_807}
+Stylianos Asimakopoulos, Joan Paredes, and Stylianos Tsiaplias.
+\newblock What do data revisions tell us about gdp?
+\newblock \emph{SUERF Policy Brief}, \penalty0 (807), 2024.
+
+\bibitem[{Australian Bureau of Statistics}(2021)]{abs_revisions}
+{Australian Bureau of Statistics}.
+\newblock Analysis of revisions to gross domestic product.
+\newblock Technical report, Australian Bureau of Statistics, October 2021.
 
 \bibitem[Baker et~al.(2016)Baker, Bloom, and Davis]{baker2016}
 Scott~R Baker, Nicholas Bloom, and Steven~J Davis.
@@ -27,6 +44,24 @@ Dean Croushore.
 \newblock Frontiers of real-time data analysis.
 \newblock \emph{Journal of Economic Literature}, 49\penalty0 (1):\penalty0
   72--100, 2011.
+
+\bibitem[Croushore and Stark(2001)]{croushore2001}
+Dean Croushore and Tom Stark.
+\newblock A real-time data set for macroeconomists.
+\newblock \emph{Journal of Econometrics}, 105\penalty0 (1):\penalty0 111--130,
+  2001.
+
+\bibitem[Di~Fonzo(2009)]{oecd_revisions}
+Tommaso Di~Fonzo.
+\newblock Interim results from a revisions analysis of quarterly gdp in 18 oecd
+  countries.
+\newblock Statistics directorate working paper, Organisation for Economic
+  Co-operation and Development (OECD), 2009.
+
+\bibitem[{Office for National Statistics}(2022)]{ons_bluebook_2022}
+{Office for National Statistics}.
+\newblock Gdp revisions in blue book 2022.
+\newblock \emph{Office for National Statistics Articles}, 2022.
 
 \bibitem[Orphanides(2001)]{orphanides2001}
 Athanasios Orphanides.
