@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex paper_replicacion_pavia"] 1752491480 "paper_replicacion_pavia.aux" "paper_replicacion_pavia.bbl" "paper_replicacion_pavia" 1752491484 0
-  "./referencias.bib" 1752482708 3880 c008e80511f595bfde945ff2e7743688 ""
+["bibtex paper_replicacion_pavia"] 1752573602 "paper_replicacion_pavia.aux" "paper_replicacion_pavia.bbl" "paper_replicacion_pavia" 1752573607 0
+  "./referencias.bib" 1752571780 5920 45ce51ba9b2d92adb018726465b04a97 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/bibtex/bst/economic/aer.bst" 1222085570 26812 2ae6e48450a8c17a93d98067b7084a7a ""
-  "paper_replicacion_pavia.aux" 1752491483 8630 fa20954dc8864da87fdf83acaae38d1f "pdflatex"
+  "paper_replicacion_pavia.aux" 1752573606 8627 996aa79e853032b493396d0c072837a5 "pdflatex"
   (generated)
   "paper_replicacion_pavia.bbl"
   "paper_replicacion_pavia.blg"
   (rewritten before read)
-["pdflatex"] 1752491480 "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" "paper_replicacion_pavia.pdf" "paper_replicacion_pavia" 1752491484 0
+["pdflatex"] 1752573602 "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" "paper_replicacion_pavia.pdf" "paper_replicacion_pavia" 1752573607 0
   "../figuras/analisis_cntr_graficos.png" 1752488823 367732 dd2a4678444eedae956cd65b6469eb47 ""
   "../figuras/evolucion_estimaciones_2020Q1_robusto.png" 1752488901 256508 13f8e0f4c14d168d5e4111004c7398d0 ""
   "../figuras/figura_2_pavia_robusta_2005_2016.png" 1752488875 594718 34ec1d7bad1842b6ec0d24ff871b23ff ""
@@ -132,11 +132,11 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/tools/dcolumn.sty" 1686255640 2758 e40d567548bec26177b312c119fdc7ce ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1686255640 12892 9bf66c117eb84b63209e14e7fd6c3bee ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" 1752491447 21518 b8ae2b4bc614b7595b20786bc6ae403a ""
-  "paper_replicacion_pavia.aux" 1752491483 8630 fa20954dc8864da87fdf83acaae38d1f "pdflatex"
-  "paper_replicacion_pavia.bbl" 1752491480 1544 48bdb57547fb2bf3984cded286723488 "bibtex paper_replicacion_pavia"
-  "paper_replicacion_pavia.out" 1752491483 7206 eadf99b9921a067237d31befbbbfe58b "pdflatex"
-  "paper_replicacion_pavia.tex" 1752491447 21518 b8ae2b4bc614b7595b20786bc6ae403a ""
+  "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" 1752573590 21518 b8ae2b4bc614b7595b20786bc6ae403a ""
+  "paper_replicacion_pavia.aux" 1752573606 8627 996aa79e853032b493396d0c072837a5 "pdflatex"
+  "paper_replicacion_pavia.bbl" 1752573602 1504 3c040a92469f9656a3651b438ed568a8 "bibtex paper_replicacion_pavia"
+  "paper_replicacion_pavia.out" 1752573606 7206 eadf99b9921a067237d31befbbbfe58b "pdflatex"
+  "paper_replicacion_pavia.tex" 1752573590 21518 b8ae2b4bc614b7595b20786bc6ae403a ""
   "tabla_analisis_crisis.tex" 1752482708 1082 2d7ae6b81845913f073c8762c2a874a4 ""
   "tabla_errores_trimestre.tex" 1752484175 987 928d60b4a1b2fdefeb43725a29481fb2 ""
   "tabla_metodologia_comparacion.tex" 1752484175 665 d924a9a7822cb0cb44dfeecc3fe2561f ""
