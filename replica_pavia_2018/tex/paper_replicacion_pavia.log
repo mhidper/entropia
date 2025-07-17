@@ -552,116 +552,90 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+LaTeX Font Info:    Trying te `fig:evolucion_2005_2016' on page 13 undefined on inpu
+t line 276.
+
+[13]
+<../figuras/figura_2_pavia_robusta_2005_2024.png, id=110, 858.5676pt x 568.7649
+pt>
+File: ../figuras/figura_2_pavia_robusta_2005_2024.png Graphic file (type png)
+<use ../figuras/figura_2_pavia_robusta_2005_2024.png>
+Package pdftex.def Info: ../figuras/figura_2_pavia_robusta_2005_2024.png  used 
+on input line 284.
+(pdftex.def)             Requested size: 364.19667pt x 241.25757pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:evolucion_completa' on page 14 undefined on input
+ line 293.
+
+[14 <../figuras/figura_2_pavia_robusta_2005_2016.png>]
+<../figuras/evolucion_estimaciones_2020Q1_robusto.png, id=118, 860.013pt x 712.
+8231pt>
+File: ../figuras/evolucion_estimaciones_2020Q1_robusto.png Graphic file (type p
+ng)
+<use ../figuras/evolucion_estimaciones_2020Q1_robusto.png>
+Package pdftex.def Info: ../figuras/evolucion_estimaciones_2020Q1_robusto.png  
+used on input line 301.
+(pdftex.def)             Requested size: 364.19667pt x 301.86357pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:covid_impact' on page 15 undefined on input line 
+310.
+
+[15 <../figuras/figura_2_pavia_robusta_2005_2024.png>]
+<../figuras/analisis_cntr_graficos.png, id=126, 1077.3048pt x 859.0494pt>
+File: ../figuras/analisis_cntr_graficos.png Graphic file (type png)
+<use ../figuras/analisis_cntr_graficos.png>
+Package pdftex.def Info: ../figuras/analisis_cntr_graficos.png  used on input l
+ine 320.
+(pdftex.def)             Requested size: 364.19667pt x 290.4082pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:analisis_general' on page 16 undefined on input l
+ine 329.
+
+[16 <../figuras/evolucion_estimaciones_2020Q1_robusto.png>]
+
+Package natbib Warning: Citation `pavia2017' on page 17 undefined on input line
+ 344.
+
+[17 <../figuras/analisis_cntr_graficos.png>] [18] [19] [20] [21]
+Overfull \hbox (4.85945pt too wide) in paragraph at lines 410--411
+[]\OT1/cmr/m/n/12 Particularmente no-ta-ble es la per-sis-ten-cia del patr^^Son
+ es-ta-cio-nal in-clu-so du-ran-te per^^S^^Podos
+ []
+
+[22] [23]
+
+Package natbib Warning: Citation `pavia2017' on page 24 undefined on input line
+ 460.
+
+[24] [25] [26]
+Overfull \hbox (5.64363pt too wide) in paragraph at lines 513--514
+[]\OT1/cmr/bx/n/12 Desarrollo de ca-pa-ci-da-des ins-ti-tu-cio-na-les\OT1/cmr/m
+/n/12 : El va-lor de man-te-ner re-gis-tros hist^^Sori-
+ []
+
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+Runaway argument?
+{InversiÃ³n en resiliencia**: La evidencia de aprendizaje institucion\ETC.
+! File ended while scanning use of \textbf .
+<inserted text> 
+                \par 
+<*> ./paper_replicacion_pavia.tex
+                                 
+? 
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] [4] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd)
-Underfull \hbox (badness 2452) in paragraph at lines 181--181
-[]|\T1/cmss/bx/n/10 Pregunta de In-ves-ti-ga-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 181--181
-[]|\T1/cmss/m/n/10 Desarrolla un mo-de-lo es-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\T1/cmss/bx/n/10 Shock de Se-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 los fun-da-men-tos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\T1/cmss/m/n/10 Cambio en la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/bx/n/10 va-rian-za \T1/cmss/m/n/10 (in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 cer-ti-dum-bre) de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 los fun-da-men-tos
- []
-
-
-Underfull \hbox (badness 7012) in paragraph at lines 246--246
-[]|\T1/cmss/m/n/10 Pausa/retraso de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\T1/cmss/m/n/10 Desaceleración
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 246--246
-[]|\T1/cmss/m/n/10 Caída abrup-ta y
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 246--246
-\T1/cmss/m/n/10 re-pen-ti-na se-gui-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 den juz-gar mal
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 246--246
-\T1/cmss/m/n/10 la \T1/cmss/m/it/10 mag-ni-tud \T1/cmss/m/n/10 del
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 shock (error de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 pro-nós-ti-co más
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 de cap-tu-rar el
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 com-por-ta-mien-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-\T1/cmss/m/n/10 de ``pau-sa'' \T1/cmss/m/it/10 no
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[]|\T1/cmss/m/n/10 Principalmente
+*palmente
  []
 
 
