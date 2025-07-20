@@ -248,10 +248,6 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\s
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss0800.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss0800.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcss1000.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1000.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
@@ -315,8 +311,6 @@ INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\e
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi525\ecss0800.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi525\ecss0800.pk
-INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1000.pk
-INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1000.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk
