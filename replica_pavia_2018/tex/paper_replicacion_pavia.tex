@@ -94,7 +94,7 @@ donde la precisión de las estimaciones iniciales varía sistemáticamente con e
 Pero la evidencia nos señala que las revisiones de las cifras del Producto Interno Bruto (PIB) no son meras correcciones ante la llegada de información que completa la previa fakta de ella, sino que representa además una característica intrínseca de la estadística económica que revela las prioridades institucionales de las agencias nacionales. Así, un análisis comparativo de las prácticas de revisión en la Eurozona, Australia y el Reino Unido ofrece información valiosa para los analistas.
 
 \subsection*{La Eurozona: Estabilidad Agregada y Reequilibrio Interno}
-Por ejemplo, un análisis del Banco Central Europeo (BCE) sobre Alemania, Francia, Italia y España demuestra que las agencias estadísticas minimizan sistemáticamente las revisiones del PIB agregado para mantener la credibilidad \cite{bce_wp_2857}, \cite{suerf_pb_807}. Esta estabilidad en la cifra principal se logra mediante un reequilibrio significativo entre los componentes del gasto. Específicamente, se observa una fuerte correlación negativa (aproximadamente -50\%) entre las revisiones del comercio neto y las de las existencias. Esto sugiere que las existencias funcionan como un "elemento de equilibrio" para compensar las revisiones en otros componentes, particularmente en el comercio exterior, que es más volátil \cite{bce_wp_2857}.
+Por ejemplo, un análisis del Banco Central Europeo (BCE) sobre Alemania, Francia, Italia y España demuestra que las agencias estadísticas minimizan sistemáticamente las revisiones del PIB agregado para mantener la credibilidad \cite{bce_wp_2857}. Esta estabilidad en la cifra principal se logra mediante un reequilibrio significativo entre los componentes del gasto. Específicamente, se observa una fuerte correlación negativa (aproximadamente -50\%) entre las revisiones del comercio neto y las de las existencias. Esto sugiere que las existencias funcionan como un "elemento de equilibrio" para compensar las revisiones en otros componentes, particularmente en el comercio exterior, que es más volátil \cite{bce_wp_2857}.
 
 Aunque Francia e Italia no muestran sesgos agregados significativos, Alemania presenta un sesgo positivo único y persistente en las revisiones totales del PIB \cite{bce_wp_2857}. Este fenómeno puede atribuirse a la estructura de su economía, fuertemente orientada a la exportación, cuyos datos a menudo se revisan al alza a medida que se dispone de información más completa.
 
@@ -104,18 +104,18 @@ Fuera de la Eurozona, las agencias de Australia y el Reino Unido muestran práct
 Por su parte, la Oficina Nacional de Estadísticas del Reino Unido (ONS) documenta una magnitud de revisión absoluta media similar, de 0.14 pp \cite{ons_bluebook_2022}. Junto a ello, un estudio de la OCDE sitúa tanto a Australia como al Reino Unido en el nivel superior de países con las revisiones más bajas, lo que sugiere una "primera división" de agencias estadísticas con datos iniciales más fiables \cite{oecd_revisions}.
 
 \begin{table}[h!]
-\centering
-\caption{Resumen Comparativo de Prácticas de Revisión del PIB}
-\label{tab:revision_summary}
-\begin{tabular}{llll}
-\toprule
-\textbf{Característica} & \textbf{Eurozona (Principales 4)} & \textbf{Australia} & \textbf{Reino Unido} \\
-\midrule
-Revisión Absoluta Media & Minimizada a nivel agregado & 0.19 pp & 0.14 pp \\
-Mecanismo de Ajuste & Inventarios vs. Comercio Neto & Conciliación de enfoques & Conciliación SUTs \\
-Sesgo Agregado Notorio & Positivo en Alemania & No significativo & No significativo \\
-\bottomrule
-\end{tabular}
+    \centering
+    \caption{Resumen Comparativo de Prácticas de Revisión del PIB}
+    \label{tab:revision_summary}
+    \begin{tabular}{llll}
+        \toprule
+        \textbf{Característica} & \textbf{Eurozona (Principales 4)} & \textbf{Australia} & \textbf{Reino Unido} \\
+        \midrule
+        Revisión Absoluta Media & Minimizada a nivel agregado & 0.19 pp & 0.14 pp \\
+        Mecanismo de Ajuste & Inventarios vs. Comercio Neto & Conciliación de enfoques & Conciliación SUTs \\
+        Sesgo Agregado Notorio & Positivo en Alemania & No significativo & No significativo \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
 Así pues, la comprensión de estas dinámicas de revisión es fundamental. Los analistas deben descomponer las cifras agregadas, dar más peso a los datos de producción en las previsiones a corto plazo y considerar la fiabilidad de la fuente estadística.
@@ -145,7 +145,7 @@ Esta hipótesis se formaliza en la expectativa de que $\text{EAM}_{Q4} < \text{E
 
 La investigación sobre patrones de revisión a través de ciclos económicos revela que las revisiones son mayores y más persistentes durante las recesiones, con períodos de crisis mostrando patrones sistemáticos donde las estimaciones iniciales subestiman la severidad de la desaceleración. La crisis financiera de 2008 demostró esto dramáticamente, con las estimaciones del PIB del Q4 2008 revisadas de -3.8\% a -8.9\% a medida que se hizo aparente la magnitud completa de la crisis.
 
-Las restricciones de datos en tiempo real resultan particularmente agudas durante períodos de crisis, afectando tanto la efectividad de la política monetaria como fiscal. La investigación extensa sobre la estimación de la regla de Taylor muestra que las recomendaciones de política difieren sustancialmente cuando se basan en datos en tiempo real versus datos revisados \citep{orphanides2001}.
+Las restricciones de datos en tiempo real resultan particularmente agudas durante períodos de crisis, afectando tanto la efectividad de la política monetaria como fiscal (idea de la doble entropía). La investigación extensa sobre la estimación de la regla de Taylor muestra que las recomendaciones de política difieren sustancialmente cuando se basan en datos en tiempo real versus datos revisados \citep{orphanides2001}.
 
 \subsection{Literatura sobre Crisis Económicas y Calidad Estadística}
 
@@ -531,7 +531,6 @@ jupyter >= 1.0.0
 
 Los autores agradecen al Instituto Nacional de Estadística (INE) por la disponibilidad de los datos de la CNTR, y a la comunidad académica por las valiosas contribuciones y feedback recibidos durante el desarrollo de este trabajo. Manuel A. Hidalgo-Pérez agradece el apoyo institucional de la Universidad Pablo de Olavide, y Leandro Navarro Pablo el apoyo de la Autoridad Independiente de Responsabilidad Fiscal (AIReF).
 
-\bibliographystyle{aer}
 \bibliography{referencias}
 
 \end{document}

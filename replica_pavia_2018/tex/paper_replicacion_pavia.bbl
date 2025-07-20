@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,14 +14,9 @@ S~Bora Aruoba.
 \bibitem[Asimakopoulos et~al.(2023)Asimakopoulos, Paredes, and
   Tsiaplias]{bce_wp_2857}
 Stylianos Asimakopoulos, Joan Paredes, and Stylianos Tsiaplias.
-\newblock What do data revisions tell us about gdp?
+\newblock Gdp revisions are not cool: the impact of statistical agencies’
+  trade-of.
 \newblock Working Paper Series 2857, European Central Bank, 2023.
-
-\bibitem[Asimakopoulos et~al.(2024)Asimakopoulos, Paredes, and
-  Tsiaplias]{suerf_pb_807}
-Stylianos Asimakopoulos, Joan Paredes, and Stylianos Tsiaplias.
-\newblock What do data revisions tell us about gdp?
-\newblock \emph{SUERF Policy Brief}, \penalty0 (807), 2024.
 
 \bibitem[{Australian Bureau of Statistics}(2021)]{abs_revisions}
 {Australian Bureau of Statistics}.
