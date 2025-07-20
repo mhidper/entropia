@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex paper_replicacion_pavia"] 1753026236 "paper_replicacion_pavia.aux" "paper_replicacion_pavia.bbl" "paper_replicacion_pavia" 1753026240 0
+["bibtex paper_replicacion_pavia"] 1753026954 "paper_replicacion_pavia.aux" "paper_replicacion_pavia.bbl" "paper_replicacion_pavia" 1753026957 0
   "./referencias.bib" 1753025818 7564 5eeef2b071b3b8f2b89784c9955ebdef ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "paper_replicacion_pavia.aux" 1753026239 13608 c260f2552208dcfb4467fb155ef99c64 "pdflatex"
+  "paper_replicacion_pavia.aux" 1753026957 16142 81ebb52a2cab38cf1fda99be5acccddb "pdflatex"
   (generated)
   "paper_replicacion_pavia.bbl"
   "paper_replicacion_pavia.blg"
   (rewritten before read)
-["pdflatex"] 1753026236 "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" "paper_replicacion_pavia.pdf" "paper_replicacion_pavia" 1753026240 0
+["pdflatex"] 1753026954 "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" "paper_replicacion_pavia.pdf" "paper_replicacion_pavia" 1753026957 0
   "../figuras/analisis_cntr_graficos.png" 1752488823 367732 dd2a4678444eedae956cd65b6469eb47 ""
   "../figuras/evolucion_estimaciones_2020Q1_robusto.png" 1752488901 256508 13f8e0f4c14d168d5e4111004c7398d0 ""
   "../figuras/figura_2_pavia_robusta_2005_2016.png" 1752488875 594718 34ec1d7bad1842b6ec0d24ff871b23ff ""
   "../figuras/figura_2_pavia_robusta_2005_2024.png" 1752488876 478651 6b97d826d7bc9f3c939b65a6b4538428 ""
-  "../tablas/tabla_2_latex_interanuales.tex" 1752488971 808 2d8e8fafc030cfffa094b4e96b75b706 ""
+  "../tablas/tabla_2_latex_interanuales.tex" 1753026949 1022 21e66354ecc21c1b3d5aef5517bcbae6 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1752575665 155363 c3971e7f9913bba29d3559d807721c00 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi450/ecss0800.pk" 1752575685 11964 1cfe530e4f49734f05a1cb9ec614613d ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi525/ecss0800.pk" 1752575706 14032 cbf41ceed85281c8f82649dbf74f9e14 ""
@@ -22,6 +22,7 @@
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0900.pk" 1752575683 17932 6b90011a905a2cd2d42dcec9c511b2b1 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss1000.pk" 1752575687 19932 75cac17f4c8ce7ed9eda2278e98ba355 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss1200.pk" 1752575695 23684 394252156c9425f85bb1b205eb663e2e ""
+  "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx0800.pk" 1753026732 16772 947cb6f01e9455286bc63b6d6d33b06c ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx0900.pk" 1752575708 18372 dc9797c7cffb442a43ae94e7681963fe ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx1000.pk" 1752575688 21580 de7832f4de89b0b736272593d5dfbd96 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsx1200.pk" 1752575677 27340 755a2d22ca9a8ad171547d23920ea3c8 ""
@@ -39,6 +40,7 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecss1200.tfm" 993062236 3176 f34de6d605be5cc6bf472e93240318a5 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecss1440.tfm" 993062238 3172 4899601a9936b64c50f58b8551c74357 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecss1728.tfm" 993062238 3172 7a899ac63e9156f24670a4d9400336e3 ""
+  "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx0800.tfm" 993062270 3196 41c2669bbd08544e8fbeb56d6a9e718a ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx0900.tfm" 993062272 3160 ebf5076c2772cc0b2af30126a72da1c2 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx1000.tfm" 993062274 3132 8f6a92c0d7398c5da4b953b5b8578281 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecsx1200.tfm" 993062276 3180 599b3b5297559680c761cb378da37988 ""
@@ -167,13 +169,13 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1686255640 7147 d80d8cf72d313443d08c13c1af59c90f ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" 1753026234 53269 23790e4117d3798d67ee3417fbd15cf3 ""
-  "paper_replicacion_pavia.aux" 1753026239 13608 c260f2552208dcfb4467fb155ef99c64 "pdflatex"
-  "paper_replicacion_pavia.bbl" 1753026236 4194 df4ed0a3c6e967a6182dc422d175a462 "bibtex paper_replicacion_pavia"
-  "paper_replicacion_pavia.out" 1753026239 12862 52e72c76308785c12fb61f6c8482c422 "pdflatex"
-  "paper_replicacion_pavia.tex" 1753026234 53269 23790e4117d3798d67ee3417fbd15cf3 ""
-  "tabla_analisis_crisis.tex" 1752482708 1082 2d7ae6b81845913f073c8762c2a874a4 ""
-  "tabla_errores_trimestre.tex" 1752484175 987 928d60b4a1b2fdefeb43725a29481fb2 ""
+  "c:/Users/Usuario/Documents/Github/Entropía/replica_pavia_2018/tex/paper_replicacion_pavia.tex" 1753026697 62212 1dd0e98fcd3e6eaa247cfa439867ed3a ""
+  "paper_replicacion_pavia.aux" 1753026957 16142 81ebb52a2cab38cf1fda99be5acccddb "pdflatex"
+  "paper_replicacion_pavia.bbl" 1753026954 4194 df4ed0a3c6e967a6182dc422d175a462 "bibtex paper_replicacion_pavia"
+  "paper_replicacion_pavia.out" 1753026957 17344 96e54e8ae886e797a0956f01f75ed8a7 "pdflatex"
+  "paper_replicacion_pavia.tex" 1753026697 62212 1dd0e98fcd3e6eaa247cfa439867ed3a ""
+  "tabla_analisis_crisis.tex" 1753026725 1011 489bd1ebf00e66d26caa1ce17e72985d ""
+  "tabla_errores_trimestre.tex" 1753026868 1244 93c43d268b849d2b4d75b3329560bdd8 ""
   "tabla_metodologia_comparacion.tex" 1752484175 665 d924a9a7822cb0cb44dfeecc3fe2561f ""
   (generated)
   "paper_replicacion_pavia.aux"

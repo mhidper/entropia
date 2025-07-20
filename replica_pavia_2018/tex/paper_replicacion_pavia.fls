@@ -270,6 +270,7 @@ INPUT tabla_errores_trimestre.tex
 INPUT .\tabla_analisis_crisis.tex
 INPUT .\tabla_analisis_crisis.tex
 INPUT tabla_analisis_crisis.tex
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx0800.tfm
 INPUT ..\figuras\figura_2_pavia_robusta_2005_2016.png
 INPUT ..\figuras\figura_2_pavia_robusta_2005_2016.png
 INPUT ..\figuras\figura_2_pavia_robusta_2005_2016.png
@@ -304,6 +305,8 @@ INPUT paper_replicacion_pavia.bbl
 INPUT paper_replicacion_pavia.aux
 INPUT .\paper_replicacion_pavia.out
 INPUT .\paper_replicacion_pavia.out
+INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx0800.pk
+INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx0800.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1000.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1000.pk
 INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk

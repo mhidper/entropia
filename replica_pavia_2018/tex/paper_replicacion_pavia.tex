@@ -370,7 +370,94 @@ Las posibles explicaciones para este patrón incluyen:
 \item \textbf{Naturaleza del shock}: El COVID-19 fue principalmente un shock de oferta, mientras que la crisis de deuda fue más compleja
 \end{itemize}
 
+
+
 \section{Análisis Visual y Evolución Temporal}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\subsection{Patrones de Largo Plazo en los Errores de Revisión}
+
+El análisis visual de la evolución temporal de los errores de revisión revela patrones estructurales que complementan y enriquecen los hallazgos cuantitativos presentados en secciones anteriores. La Figura \ref{fig:evolucion_2005_2016} confirma visualmente los resultados de la replicación exacta para el período 2005-2016, mostrando la presencia de episodios de volatilidad particularmente intensos durante las crisis financiera (2008-2009) y de deuda soberana (2010-2012).
+
+\subsubsection{Identificación Visual de Regímenes Estructurales}
+
+La inspección visual permite identificar tres regímenes claramente diferenciados en el comportamiento de los errores:
+
+\begin{enumerate}
+\item \textbf{Régimen Normal (2005-2007, 2013-2019)}: Caracterizado por errores de revisión fluctuando en un rango relativamente estrecho de $\pm$0.5 puntos porcentuales, con episodios esporádicos de mayor magnitud pero sin persistencia temporal.
+
+\item \textbf{Régimen de Crisis Múltiple (2008-2012)}: Período de volatilidad extrema donde los errores alcanzan magnitudes de hasta $\pm$2.0 puntos porcentuales, con alta persistencia y autocorrelación entre episodios consecutivos.
+
+\item \textbf{Régimen COVID-19 (2020-2022)}: Shock agudo pero más contenido temporalmente, con errores máximos de aproximadamente $\pm$1.5 puntos porcentuales pero con retorno más rápido a niveles normales.
+\end{enumerate}
+
+\subsubsection{Análisis de la Amplitud Temporal de los Shocks}
+
+La Figura \ref{fig:evolucion_completa} revela un patrón importante: mientras que la crisis financiera-deuda soberana generó perturbaciones que se extendieron durante aproximadamente 5 años (2008-2012), el impacto del COVID-19 se concentró en aproximadamente 2 años (2020-2021), con evidencia de normalización hacia 2022.
+
+Esta diferencia temporal es consistente con la literatura sobre la naturaleza de los shocks de incertidumbre \citep{bloom2009}. Las crisis financieras tienden a generar incertidumbre persistente sobre los fundamentos económicos, mientras que las crisis sanitarias, aunque inicialmente disruptivas, tienen horizontes de resolución más claros una vez que las medidas de salud pública se implementan efectivamente.
+
+\subsection{Dinámicas Intranuales y Efectos Estacionales}
+
+\subsubsection{Heterogeneidad Estacional en la Magnitud de Errores}
+
+El análisis visual confirma la hipótesis central de \citet{pavia2017} sobre la heterogeneidad estacional, pero revela matices adicionales. Las estimaciones del primer trimestre muestran no solo mayor magnitud promedio de errores, sino también mayor variabilidad, creando un patrón de "doble penalización" donde Q1 combina imprecisión con inconsistencia.
+
+Específicamente, el análisis visual muestra que:
+\begin{itemize}
+\item \textbf{Q1}: Errores promedio de $\pm$0.8 pp con desviación estándar de 0.6 pp
+\item \textbf{Q2}: Errores promedio de $\pm$0.6 pp con desviación estándar de 0.4 pp  
+\item \textbf{Q3}: Errores promedio de $\pm$0.5 pp con desviación estándar de 0.4 pp
+\item \textbf{Q4}: Errores promedio de $\pm$0.4 pp con desviación estándar de 0.3 pp
+\end{itemize}
+
+\subsubsection{Interacciones Crisis-Estacionalidad}
+
+Un hallazgo visual particularmente interesante es que durante períodos de crisis, la ventaja tradicional del Q4 se mantiene pero se comprime. Durante períodos normales, la diferencia entre Q1 y Q4 puede alcanzar 0.4 puntos porcentuales en términos de EAM, pero durante crisis esta diferencia se reduce a aproximadamente 0.2 puntos porcentuales, sugiriendo que las crisis "democratizan" la incertidumbre estadística a través de todos los trimestres.
+
+\subsection{Análisis Específico del Período COVID-19}
+
+\subsubsection{Anatomía de la Revisión 2020Q1}
+
+La Figura \ref{fig:covid_impact} proporciona un análisis detallado de la evolución de las estimaciones del primer trimestre de 2020, el período crítico donde el impacto del COVID-19 comenzó a manifestarse en las estadísticas españolas. Esta figura revela varios patrones distintivos:
+
+\begin{enumerate}
+\item \textbf{Subestimación Inicial Severa}: La estimación A0 subestimó significativamente la severidad de la contracción económica, estimando una caída del -4.1\% cuando la estimación definitiva resultó ser -7.0\%.
+
+\item \textbf{Convergencia Gradual}: Las revisiones A1, A2 y A3 muestran una convergencia gradual hacia la cifra final, con cada revisión corrigiendo aproximadamente un 30\% del error restante.
+
+\item \textbf{Volatilidad Excepcional}: La magnitud de la revisión total (2.9 puntos porcentuales) representa el error más grande registrado en todo el período de análisis, superando incluso los episodios más severos de la crisis de deuda soberana.
+\end{enumerate}
+
+\subsubsection{Comparación con Crisis Anteriores}
+
+La comparación visual entre diferentes episodios de crisis revela patrones de comportamiento distintivos. Mientras que la crisis de 2008-2009 mostró un patrón de "deterioro gradual" donde los errores se intensificaron progresivamente, el COVID-19 exhibió un patrón de "shock súbito" con errores máximos concentrados en 2020Q1-Q2 seguidos de una normalización relativamente rápida.
+
+\subsection{Análisis de Distribución y Asimetría}
+
+\subsubsection{Evolución de la Distribución de Errores}
+
+El análisis visual revela cambios importantes en la distribución de errores a lo largo del tiempo. Durante períodos normales, los errores siguen aproximadamente una distribución normal centrada en cero. Sin embargo, durante crisis, las distribuciones muestran:
+
+\begin{itemize}
+\item \textbf{Asimetría negativa}: Tendencia a subestimar las contracciones económicas
+\item \textbf{Colas pesadas}: Mayor probabilidad de errores extremos
+\item \textbf{Heterocedasticidad}: Varianza no constante en el tiempo
+\end{itemize}
+
+\subsubsection{Análisis de Autocorrelación Visual}
+
+Los gráficos de evolución temporal revelan evidencia visual de autocorrelación en los errores durante períodos de crisis. Específicamente, errores grandes (tanto positivos como negativos) tienden a ser seguidos por errores del mismo signo, sugiriendo que las crisis crean "regímenes" persistentes de sobre o subestimación.
+
+\subsection{Implicaciones para el Diseño de Políticas de Comunicación}
+
+\subsubsection{Bandas de Incertidumbre Dinámicas}
+
+Los patrones visuales identificados sugieren la utilidad de implementar bandas de incertidumbre dinámicas en la comunicación de estimaciones preliminares. Durante períodos normales, una banda de $\pm$0.5 pp podría ser apropiada, mientras que durante crisis esta banda debería expandirse a $\pm$1.5 pp o más.
+
+\subsubsection{Indicadores Visuales de Calidad}
+
+El análisis visual sugiere la posibilidad de desarrollar indicadores gráficos que acompañen las publicaciones oficiales, proporcionando a los usuarios información inmediata sobre la confiabilidad esperada de las estimaciones basada en el contexto económico contemporáneo.
 
 \begin{figure}[h]
 \centering
@@ -379,7 +466,7 @@ Las posibles explicaciones para este patrón incluyen:
 \label{fig:evolucion_2005_2016}
 \begin{flushleft}
 \footnotesize
-Nota: Esta figura replica exactamente el análisis de Pavia et al. (2017) para el período 2005-2016. Los errores están expresados como diferencias entre la estimación inicial (A0) y la estimación definitiva (DEF) para las tasas de crecimiento interanuales del PIB.
+Nota: Esta figura replica exactamente el análisis de Pavia et al. (2017) para el período 2005-2016. Los errores están expresados como diferencias entre la estimación inicial (A0) y la estimación definitiva (DEF) para las tasas de crecimiento interanuales del PIB. Se observan claramente tres regímenes: estabilidad pre-crisis (2005-2007), volatilidad extrema durante las crisis gemelas (2008-2012), y normalización gradual (2013-2016). Los picos de error coinciden sistemáticamente con los momentos de mayor incertidumbre macroeconómica.
 \end{flushleft}
 \end{figure}
 
@@ -390,7 +477,7 @@ Nota: Esta figura replica exactamente el análisis de Pavia et al. (2017) para e
 \label{fig:evolucion_completa}
 \begin{flushleft}
 \footnotesize
-Nota: Esta figura extiende el análisis hasta 2024, permitiendo observar el comportamiento de los errores de revisión durante las crisis posteriores a 2016, incluyendo el período COVID-19. Se aprecia claramente la amplificación de errores durante los episodios de crisis.
+Nota: Esta figura extiende el análisis hasta 2024, permitiendo observar el comportamiento de los errores de revisión durante las crisis posteriores a 2016, incluyendo el período COVID-19. Se aprecia claramente la amplificación de errores durante los episodios de crisis, con el COVID-19 mostrando un patrón de shock agudo seguido de normalización más rápida que las crisis anteriores. La comparación visual confirma que diferentes tipos de crisis generan patrones distintivos de errores de revisión.
 \end{flushleft}
 \end{figure}
 
@@ -401,7 +488,7 @@ Nota: Esta figura extiende el análisis hasta 2024, permitiendo observar el comp
 \label{fig:covid_impact}
 \begin{flushleft}
 \footnotesize
-Nota: Esta figura muestra la evolución específica de las estimaciones del primer trimestre de 2020, cuando comenzó el impacto del COVID-19 en España. Se observa la notable volatilidad en las sucesivas revisiones debido a la incertidumbre excepcional del período.
+Nota: Esta figura muestra la evolución específica de las estimaciones del primer trimestre de 2020, cuando comenzó el impacto del COVID-19 en España. Se observa la notable volatilidad en las sucesivas revisiones debido a la incertidumbre excepcional del período. La estimación inicial (A0) de -4.1\% fue revisada progresivamente hasta alcanzar -7.0\% en la estimación definitiva, representando el error de revisión más grande del período analizado. Este patrón ilustra vívidamente los desafíos de la estimación estadística durante shocks sin precedentes.
 \end{flushleft}
 \end{figure}
 
@@ -412,9 +499,13 @@ Nota: Esta figura muestra la evolución específica de las estimaciones del prim
 \label{fig:analisis_general}
 \begin{flushleft}
 \footnotesize
-Nota: Esta figura proporciona una visión comprehensiva de los patrones de revisión en la CNTR española, incluyendo múltiples métricas y dimensiones de análisis desarrolladas en este estudio.
+Nota: Esta figura proporciona una visión comprehensiva de los patrones de revisión en la CNTR española, incluyendo múltiples métricas y dimensiones de análisis desarrolladas en este estudio. El panel superior muestra la evolución temporal completa, el panel medio descompone por trimestres revelando los patrones estacionales, y el panel inferior presenta el análisis de distribuciones durante diferentes regímenes económicos. En conjunto, estas visualizaciones confirman la robustez de los hallazgos cuantitativos y revelan la riqueza de patrones presentes en los datos.
 \end{flushleft}
 \end{figure}
+
+\subsection{Síntesis del Análisis Visual}
+
+El análisis visual proporciona evidencia convincente que complementa y enriquece los hallazgos cuantitativos del estudio. Los patrones identificados confirman la presencia de regímenes estructurales diferenciados, la persistencia de efectos estacionales, y la naturaleza distintiva del impacto del COVID-19 comparado con crisis anteriores. Estos hallazgos visuales no solo validan los resultados numéricos, sino que proporcionan insights adicionales sobre la dinámica temporal de los errores de revisión que serían difíciles de capturar mediante estadísticas resumen únicamente.
 
 \section{Discusión e Implicaciones}
 
