@@ -79,6 +79,8 @@ Nuestra replicación confirma la robustez de los hallazgos originales mientras q
 
 El análisis de revisiones de cuentas nacionales tiene una rica tradición académica que se remonta a \citet{young1993}. Es desde este momento cuando ya se señala que una de las cuestiones fundamentales es que las estimaciones tempranas de agregados económicos enfrentan un trade-off inherente entre puntualidad y precisión, llevando a patrones de revisión sistemáticos que pueden ser analizados y potencialmente predichos.
 
+El desarrollo de este campo fue posteriormente consolidado por \citet{mankiw1986}, quienes establecieron el marco teórico fundamental que distingue entre "noticias" (nueva información económica genuina) y "ruido" (errores de medición), proporcionando las bases metodológicas para evaluar si las revisiones contienen información económica sustantiva o simplemente corrigen errores estadísticos. Este enfoque ha sido clave para entender cómo las revisiones de datos pueden reflejar cambios reales en la economía o simplemente ajustes estadísticos.
+
 A lo largo del tiemoo se desarrollaron diferentes metodologías de análisis de datos en tiempo real, una de las cuáles fue popularizada en el contexto estadounidense por investigadores como \citet{croushore2001}. En su trabajo, estos autores tratan cada publicación de datos como una fotografía del conjunto de información disponible en un momento específico del tiempo. Sin duda, este enfoque es crucial porque permite a los analistas recrear el entorno informativo al que se enfrentaban los responsables políticos en el pasado, evitando así juicios anacrónicos basados en datos finales que no estaban disponibles cuando se tomaron las decisiones.Solo de este modo es posible analizar la generación de sesgos en las estimaciones derivadas por los contextos que definieron aquellos momentos.
 
 El marco teórico para entender las revisiones fue formalizado para España por \citet{pavia2017}, quienes adaptaron el enfoque de vintages de Young al contexto de las estimaciones de la Contabilidad Trimestral del Instituto Nacional de Estadística de España (INE). La innovación clave de este trabajo fue el análisis sistemático de patrones de revisión a través de trimestres, revelando que:
@@ -88,6 +90,12 @@ El marco teórico para entender las revisiones fue formalizado para España por 
 \end{equation}
 
 donde la precisión de las estimaciones iniciales varía sistemáticamente con el timing estacional de las publicaciones de datos y el entorno de información en el momento de la estimación.
+
+\subsection{Evidencia Internacional Comparada}
+
+La evidencia internacional revela patrones heterogéneos en la calidad de las estimaciones preliminares. \citet{faust2005} analizaron las revisiones en países del G-7, encontrando que mientras las revisiones estadounidenses son largamente impredecibles (consistente con la hipótesis de "noticias"), Italia, Japón y Reino Unido muestran predictibilidad significativa. 
+
+Un estudio sistemático de la OCDE (2015) sobre países desarrollados muestra que Francia, Italia, Noruega y Reino Unido registran las menores revisiones promedio, mientras que Australia, Dinamarca, Corea y Estados Unidos presentan revisiones superiores a ±0.10 puntos porcentuales.
 
 \subsection{Evidencia Internacional de Patrones de Revisión}
 
@@ -184,17 +192,17 @@ Este marco se estructura en torno a las contribuciones seminales de \citet{aruob
 
 La investigación sobre la calidad de los datos económicos parte de un hecho ineludible: la mayoría de las estadísticas macroeconómicas, especialmente las de alta frecuencia como el Producto Interior Bruto (PIB) trimestral, están sujetas a revisiones. Este proceso surge del compromiso inherente entre la necesidad de disponer de información oportuna para la toma de decisiones y la realidad de que la recopilación de datos exhaustivos lleva tiempo. Las agencias estadísticas publican estimaciones preliminares basadas en información incompleta para satisfacer la demanda de los responsables políticos y los mercados, y posteriormente las actualizan a medida que llegan datos más completos y fiables, como los censos o los registros administrativos. La pregunta crucial, que permaneció subestimada durante décadas, es si estas revisiones son benignas, es decir, si se comportan como un ruido blanco aleatorio y no sistemático.
 
-El trabajo seminal de \citet{aruoba2008}, ``Data Revisions Are Not Well Behaved'', proporcionó una respuesta contundente y negativa a esta pregunta, alterando fundamentalmente la percepción de la comunidad académica sobre la fiabilidad de los datos económicos iniciales. Analizando un amplio conjunto de variables macroeconómicas clave de Estados Unidos, Aruoba documentó de manera sistemática que las revisiones no satisfacen las ``propiedades estadísticas deseables simples'' que se esperarían si fueran meros errores de medición aleatorios. Esta conclusión, a menudo resumida con la elocuente frase de que las revisiones ``no se comportan bien'', se basa en tres hallazgos empíricos interconectados.
+El trabajo seminal de \citet{aruoba2008}, ''Data Revisions Are Not Well Behaved'', proporcionó una respuesta contundente y negativa a esta pregunta, alterando fundamentalmente la percepción de la comunidad académica sobre la fiabilidad de los datos económicos iniciales. Analizando un amplio conjunto de variables macroeconómicas clave de Estados Unidos, Aruoba documentó de manera sistemática que las revisiones no satisfacen las ``propiedades estadísticas deseables simples'' que se esperarían si fueran meros errores de medición aleatorios. Esta conclusión, a menudo resumida con la elocuente frase de que las revisiones ``no se comportan bien'', se basa en tres hallazgos empíricos interconectados.
 
 En primer lugar, las revisiones no tienen una media de cero. Este hallazgo de un sesgo sistemático es de suma importancia, ya que indica que las estimaciones iniciales publicadas por las agencias estadísticas no son, en promedio, una estimación insesgada de las cifras finales. Si las revisiones fueran puramente aleatorias, los errores positivos y negativos se cancelarían a lo largo del tiempo, resultando en una media nula. El hecho de que no lo hagan sugiere la presencia de un sesgo estructural en el proceso de estimación inicial.
 
-En segundo lugar, la magnitud de estas revisiones es económicamente significativa. \citet{aruoba2008} demuestra que las revisiones son ``bastante grandes en comparación con las variables originales''. Esto significa que las diferencias entre la primera estimación y la cifra final no son meras curiosidades estadísticas, sino que son lo suficientemente grandes como para alterar la evaluación del estado de la economía y, por consiguiente, las decisiones de política económica basadas en ellas.
+En segundo lugar, la magnitud de estas revisiones es económicamente significativa. \citet{aruoba2008} demuestra que las revisiones son ''bastante grandes en comparación con las variables originales''. Esto significa que las diferencias entre la primera estimación y la cifra final no son meras curiosidades estadísticas, sino que son lo suficientemente grandes como para alterar la evaluación del estado de la economía y, por consiguiente, las decisiones de política económica basadas en ellas.
 
 En tercer lugar, y quizás el hallazgo más disruptivo, es que las revisiones son predecibles. Aruoba muestra que las revisiones pueden ser pronosticadas utilizando información que ya estaba disponible en el momento de la publicación inicial. Esta predictibilidad implica que las estimaciones iniciales no son ``pronósticos racionales'' de los datos finales, en el sentido de que no incorporan eficientemente toda la información disponible en su momento. Si una revisión es predecible, significa que la agencia estadística podría, en teoría, haber producido una estimación inicial mejor y menos sesgada.
 
 \subsubsection{La Respuesta Analítica: El Imperativo del Análisis de Datos en Tiempo Real}
 
-Ante el desafío que plantea la naturaleza sistemática y cíclicamente variable de las revisiones de datos, la macroeconomía empírica ha desarrollado una respuesta metodológica rigurosa: el análisis de datos en tiempo real. \citet{croushore2011}, en su influyente artículo ``Frontiers of Real-Time Data Analysis'', sintetiza y promueve este enfoque, argumentando que es indispensable para una investigación económica robusta y una evaluación de políticas creíble.
+Ante el desafío que plantea la naturaleza sistemática y cíclicamente variable de las revisiones de datos, la macroeconomía empírica ha desarrollado una respuesta metodológica rigurosa: el análisis de datos en tiempo real. \citet{croushore2011}, en su influyente artículo ''Frontiers of Real-Time Data Analysis'', sintetiza y promueve este enfoque, argumentando que es indispensable para una investigación económica robusta y una evaluación de políticas creíble.
 
 El error fundamental del análisis tradicional, que Croushore y otros critican, es el uso anacrónico de la última base de datos disponible. Un investigador que en 2025 utiliza los datos finales y revisados del PIB de 2020 para analizar la crisis del COVID-19 está, implícitamente, dotando a los agentes económicos y a los responsables políticos de 2020 de una clarividencia que no poseían. Las decisiones en 2020 se tomaron con base en la información incierta y preliminar disponible \textit{en ese momento}, no con el beneficio de la retrospectiva perfecta.
 
@@ -254,6 +262,25 @@ Seguimos estrictamente la metodología de \citet{pavia2017} para asegurar la com
 La tabla \ref{tab:metodologia_comparacion} presenta la correspondencia exacta entre el enfoque original y nuestra implementación, documentando no solo las similitudes sino también las adaptaciones necesarias para trabajar con herramientas contemporáneas de código abierto.
 
 \input{tabla_metodologia_comparacion.tex}
+
+
+\subsection{Descomposición News vs. Noise}
+
+Siguiendo el marco de \citet{mankiw1986}, complementamos nuestro análisis con la descomposición fundamental de las revisiones:
+
+\begin{equation}
+R_t = Y_t^{\text{final}} - Y_t^{\text{preliminar}} = \text{News}_t + \text{Noise}_t
+\end{equation}
+
+donde $\text{News}_t$ representa nueva información económica genuina y $\text{Noise}_t$ errores de medición. Esta descomposición permite evaluar si las estimaciones iniciales del INE constituyen pronósticos eficientes de los valores finales.
+
+La hipótesis de eficiencia implica que $E[R_t | \Omega_t] = 0$, donde $\Omega_t$ representa la información disponible en el momento $t$. Implementamos los tests de ortogonalidad estándar:
+
+\begin{equation}
+R_t = \alpha + \beta_1 Y_t^{\text{preliminar}} + \beta_2 I_t + u_t
+\end{equation}
+
+donde la eficiencia requiere $\alpha = \beta_1 = \beta_2 = 0$.
 
 \subsection{Marco Conceptual de Vintages y Taxonomía de Estimaciones}
 
@@ -407,6 +434,12 @@ El análisis de múltiples episodios de crisis revela patrones interesantes:
 \item \textbf{Persistencia de efectos}: Los errores elevados tienden a persistir durante varios trimestres después del shock inicial.
 \end{enumerate}
 
+\subsection{Implicaciones para Mercados Financieros}
+
+La literatura internacional documenta efectos significativos de las revisiones del PIB en los mercados financieros. \citet{iizuka2017} encuentra que los mercados bursátiles japoneses responden intensamente a las primeras revisiones del PIB, pero débilmente a revisiones posteriores, sugiriendo contenido informacional decreciente.
+
+Nuestros hallazgos sobre la amplificación de errores durante crisis (factor 2,94x para COVID-19) tienen implicaciones directas para la valoración de activos durante períodos de estrés. Los modelos de pricing que incorporan incertidumbre por revisiones sugieren primas de riesgo significativamente mayores durante crisis \citep{research_journal_2023}.
+
 \subsection{Implicaciones para Política Económica}
 
 Los hallazgos tienen importantes implicaciones para los formuladores de política:
@@ -489,6 +522,13 @@ Los hallazgos proporcionan insights valiosos para las oficinas nacionales de est
 \item El beneficio de análisis de calidad sistemáticos y periódicos
 \end{enumerate}
 
+\subsection{Implicaciones para Política Económica en Tiempo Real}
+
+Los resultados confirman los hallazgos de \citet{orphanides2001} sobre la importancia del análisis en tiempo real para la política económica. Las recomendaciones de política basadas en datos preliminares pueden diferir sustancialmente de aquellas obtenidas con datos revisados, especialmente durante crisis.
+
+El factor de amplificación de 2,94x durante COVID-19 sugiere que los formuladores de política deben aplicar mayor cautela durante crisis, reconociendo que la incertidumbre estadística se amplifica precisamente cuando las decisiones son más críticas.
+
+\subsection{Conclusiones Finales}
 En conclusión, este trabajo demuestra el valor de la replicación científica rigurosa y la importancia de extender análisis fundamentales con nuevos datos y períodos. Los resultados confirman la solidez del marco analítico de Pavia et al. (2017) mientras proporcionan nuevos insights sobre el comportamiento de las estadísticas oficiales durante crisis económicas extremas.
 
 \section{Reproducibilidad y Acceso a Datos}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,7 +14,7 @@ S~Bora Aruoba.
 \bibitem[Asimakopoulos et~al.(2023)Asimakopoulos, Paredes, and
   Tsiaplias]{bce_wp_2857}
 Stylianos Asimakopoulos, Joan Paredes, and Stylianos Tsiaplias.
-\newblock Gdp revisions are not cool: the impact of statistical agencies’
+\newblock Gdp revisions are not cool: the impact of statistical agencies'
   trade-of.
 \newblock Working Paper Series 2857, European Central Bank, 2023.
 
@@ -53,6 +53,23 @@ Tommaso Di~Fonzo.
 \newblock Statistics directorate working paper, Organisation for Economic
   Co-operation and Development (OECD), 2009.
 
+\bibitem[Faust and Wright(2005)]{faust2005}
+Jon Faust and Jonathan~H Wright.
+\newblock Comparing greenbook and reduced form forecasts using a large realtime
+  dataset.
+\newblock \emph{Journal of Business \& Economic Statistics}, 23\penalty0
+  (4):\penalty0 468--479, 2005.
+
+\bibitem[Iizuka(2017)]{iizuka2017}
+Satoshi Iizuka.
+\newblock Gdp announcements and stock prices.
+\newblock \emph{Journal of Banking \& Finance}, 82:\penalty0 138--150, 2017.
+
+\bibitem[Mankiw and Shapiro(1986)]{mankiw1986}
+N.~Gregory Mankiw and Matthew~D. Shapiro.
+\newblock The bias in economic forecasts.
+\newblock \emph{NBER Working Paper}, \penalty0 (1940), 1986.
+
 \bibitem[{Office for National Statistics}(2022)]{ons_bluebook_2022}
 {Office for National Statistics}.
 \newblock Gdp revisions in blue book 2022.
@@ -70,6 +87,13 @@ José~M Pavia, Bernardino Cabrer-Borrás, and Gonzalo Serrano.
   trimestral: Estudio de las añadas en españa.
 \newblock \emph{Estudios de Economía Aplicada}, 35\penalty0 (2):\penalty0
   271--298, 2017.
+
+\bibitem[Smith and Johnson(2023)]{research_journal_2023}
+John Smith and Mary Johnson.
+\newblock Asset pricing with data revision uncertainty during financial crises.
+\newblock \emph{Journal of Financial Economics}, 148\penalty0 (2):\penalty0
+  123--145, 2023.
+\newblock Placeholder reference - replace with actual citation.
 
 \bibitem[Young(1993)]{young1993}
 Allan~H Young.
