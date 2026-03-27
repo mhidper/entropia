@@ -1136,6 +1136,21 @@ The impulse responses reveal several important dynamic patterns:
 
 \textbf{Debt accumulation}: The more aggressive fiscal response during high uncertainty periods leads to larger increases in government debt, which then triggers stronger fiscal consolidation efforts in subsequent periods. This pattern creates a fiscal policy cycle that amplifies the initial shock's effects on the economy.
 
+\subsubsection{Empirical Calibration with Multidimensional Index}
+
+To bridge our theoretical framework with the empirical findings of the companion paper, we simulate the DSGE model using the exact chronological sequence of uncertainty regimes identified during the COVID-19 crisis (2019Q1 to 2025Q1). Specifically, we calibrate the uncertainty multiplier $\Omega_t$ to follow the empirically-derived composite index, which transitioned from a "Normal" regime in 2019 to an "Extreme" regime during 2020Q3-2021Q1, followed by a persistent "High" and "Elevated" phase.
+
+Figure \ref{fig:empirical_dsge} compares the trajectory of public debt under two scenarios: a perfectly informed government (optimal policy) versus a government subject to the structural signal extraction problem under the empirical COVID-19 uncertainty timeline.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\textwidth]{dsge_empirical_calibration.png}
+\caption{Public Debt and Fiscal Policy Errors under the Empirically Calibrated COVID-19 Uncertainty Shock}
+\label{fig:empirical_dsge}
+\end{figure}
+
+The simulation demonstrates a critical policy implication: the "Extreme" uncertainty period detected by the multidimensional index (2020Q3-2021Q1) fundamentally distorts the fiscal response. The government, overwhelmed by the noisy signals of the pandemic shock, systematically misestimates the true recovery of the GDP and over-dimensions its fiscal spending. This translates into a permanent structural gap in Public Debt (a permanent scar) that would not have occurred under perfect information. These results confirm that the peak dispersion observed among forecasting models (as measured in the empirical paper) is not merely a statistical artifact, but a critical driver of structural macroeconomic imbalances when ignored by fiscal authorities.
+
 \subsubsection{Welfare Analysis}
 
 To assess the economic significance of policy errors, we compute welfare losses associated with imperfect fiscal policy across different uncertainty regimes. The welfare loss is measured as the percentage reduction in steady-state consumption that would make households indifferent between the current policy regime and a hypothetical perfect information benchmark.

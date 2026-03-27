@@ -1,0 +1,164 @@
+
+
+
+GUIA DE PROMPTS - RONDA 2
+Correcciones pendientes, incompletas
+e inconsistencias nuevas detectadas
+"A Multidimensional Framework for Economic Uncertainty Quantification"
+ATENCION: Este documento incluye 3 errores criticos que deben resolverse ANTES de cualquier otro cambio. Un referee rechazaria el paper inmediatamente si detecta las inconsistencias numericas actuales.
+
+Marzo 2026 — Proyecto Entropia
+
+
+INDICE DE TAREAS
+
+BLOQUE 0: ERRORES CRITICOS (resolver primero)
+Estos tres problemas son inconsistencias numericas internas que invalidan la credibilidad del paper. Deben resolverse ANTES de cualquier otro cambio, porque los demas prompts dependen de que los numeros base sean correctos.
+
+R1: Inconsistencia R-cuadrado entre Tabla 5 y Tabla 9
+
+El problema
+La Tabla 5 (entropy_regression), columna (1), reporta la regresion sigma_rev ~ CEUI con R2 = 0.40. La Tabla 9 (horserace), columna (1), reporta EXACTAMENTE la misma regresion (CEUI Only, misma muestra, misma variable dependiente) con R2 = 0.860. Es imposible que la misma regresion produzca dos R2 diferentes. Un referee lo detectaria en 30 segundos.
+
+Prompt R1: Diagnostico y correccion
+
+Criterio de aceptacion
+Si un lector busca 'sigma_rev ~ CEUI' en el paper, debe encontrar los MISMOS numeros en todas las tablas donde aparece esa regresion, o una explicacion clara de por que difieren (variable dependiente distinta, transformacion, etc.).
+
+R2: Inconsistencia Spearman rho (0.63 vs 0.796)
+
+El problema
+La Tabla 5, columna (5), reporta Spearman rho = 0.63 (p<0.001) para la muestra completa (N=25). Pero la Seccion 5.8 (ex-COVID analysis, linea 610) dice: 'Spearman rank correlation of rho = 0.704 (compared to rho = 0.796 for the full sample)'. El 0.796 contradice el 0.63 de la Tabla 5. Ambos se refieren a la muestra completa.
+
+Prompt R2: Verificar y unificar
+
+R3: Inconsistencia coeficiente CEUI (0.008 vs 0.0162)
+
+El problema
+Estrechamente ligado a R1. El coeficiente de CEUI sobre sigma_rev es 0.008 (t=3.81) en Tabla 5 y 0.0162 (t=11.90) en Tabla 9. Un factor 2x de diferencia con t-stats que van de 3.81 a 11.90 es demasiado grande para ser explicado por diferencias menores de especificacion.
+
+Prompt R3: Auditar el pipeline completo
+
+BLOQUE A: TAREAS CRITICAS PENDIENTES
+Estas tareas fueron solicitadas en la Ronda 1 y no se completaron satisfactoriamente.
+
+TAREA 1 (revisada): Analisis de influencia COMPLETO
+
+Que falta
+La Seccion 5.8 actual menciona Cook's D maximo = 0.651 pero no desglosa por trimestre, no presenta tabla, no incluye DFBETAS, no tiene leverage plots, y no incluye figuras. Es un resultado narrativo, no una evidencia auditable.
+
+Prompt 1-R2: Analisis de influencia completo con tabla y figuras
+
+Donde insertar
+La tabla de influencia va en Apendice (Table A1). Las figuras como Fig A1 y Fig A2 en Apendice o Seccion 6. La tabla de regresiones comparativas sustituye el parrafo narrativo actual de Seccion 5.8. Referencia desde el texto principal a las figuras del apendice.
+
+TAREA 2 (revisada): Wild bootstrap IMPLEMENTADO en Tabla 5
+
+Que falta
+La carta al referee dice que se hizo wild bootstrap, pero la Tabla 5 no ha cambiado: no muestra IC bootstrap, no reporta p-values bootstrap, y la nota al pie no lo menciona. El texto de la Seccion 5.7 dice 'Bootstrap confidence intervals (1,000 replications) complement the asymptotic t-statistics' pero la tabla no los contiene.
+
+Prompt 2-R2: Generar Tabla 5 con bootstrap integrado
+
+Criterio de aceptacion
+La Tabla 5 publicada debe mostrar visualmente los intervalos bootstrap. Un referee que lea la tabla debe poder verificar que los IC bootstrap no cruzan cero para los coeficientes marcados como significativos.
+
+TAREA 7: Verificacion numerica JSD + corregir Remark
+
+Que falta
+La linea 331 del main.tex dice textualmente: 'Our robustness analysis in Section 6 confirms that the qualitative results are insensitive to this approximation.' Pero la Seccion 6 NO contiene ningun test del supuesto de varianzas homogeneas. Esto es una afirmacion falsa verificable.
+
+Prompt 7-R2: Verificacion JSD + correccion del Remark
+
+Donde insertar
+Si Opcion A: tabla y figura en Seccion 6 (nueva subseccion 6.5 'Variance Homogeneity Approximation'). Si Opcion B: solo cambiar el texto del Remark en Seccion 3.4.
+
+BLOQUE B: TAREAS MUY RECOMENDABLES
+
+TAREA 4 (completar): Regresion en escala bruta
+
+Que falta
+La Seccion 4.6 nueva justifica narrativamente la normalizacion. Pero el referee pedia verificacion EMPIRICA: ejecutar la regresion sigma_rev ~ u_within_raw + u_between_raw + u_temporal_raw (sin normalizar a 0-100) y comparar con la version normalizada.
+
+Prompt 4-R2
+
+TAREA 5 (completar): Moderacion lenguaje causal - instancias restantes
+
+Instancias concretas que persisten
+La revision anterior modero el Abstract pero dejo sin tocar multiples pasajes del cuerpo del paper. Aqui estan las instancias exactas con las lineas:
+
+Prompt 5-R2: Listado exacto de cambios
+
+TAREA 6 (completar): Sobreparametrizacion VAR
+
+Que falta
+Se justifico el lag=4, pero no se aborda que 11 variables x 4 lags = 495 parametros con ~80 observaciones. La frase 'dimensionality concerns are mitigated by the aggregate ensemble architecture' no es convincente sin evidencia.
+
+Prompt 6-R2: Robustez VAR parsimonioso
+
+TAREA 10: Parrafo puente Pavia-CEUI
+
+Que falta
+La transicion entre Seccion 5.1 (replicacion Pavia, factores de amplificacion) y Seccion 5.2 (framework overview) es abrupta. No hay conexion explicita entre el QUE (amplificacion) y el POR QUE (entropia).
+
+Prompt 10-R2
+
+BLOQUE C: TAREAS RECOMENDABLES
+
+TAREA 9 (completar): Panel C correlaciones entre modelos
+
+Prompt 9-R2
+
+TAREA 13: Reducir companion paper en Conclusion
+
+Prompt 13-R2
+
+TAREA 14 (completar): Control por madurez de vintages
+
+Prompt 14-R2
+
+BLOQUE D: SECUENCIA DE EJECUCION
+
+Fase 0: Emergencias (Tareas R1, R2, R3)
+HACER PRIMERO. Sin resolver las inconsistencias numericas, todos los demas prompts produciran resultados sobre una base incorrecta. Dedicar una sesion exclusiva a diagnosticar y corregir la discrepancia entre Tabla 5 y Tabla 9. Una vez resuelto, fijar los numeros correctos como referencia para todo lo demas.
+
+Fase 1: Analisis empirico (Tareas 1, 2)
+Con los numeros correctos de la Fase 0, ejecutar el analisis de influencia completo (Tarea 1) y el wild bootstrap (Tarea 2). Estos son los cambios mas visibles para un referee y los que mas fortalecen la inferencia.
+
+Fase 2: Coherencia teorica (Tareas 7, 4)
+Verificacion numerica de la JSD (Tarea 7) y regresion en escala bruta (Tarea 4). Ambas refuerzan la conexion teoria-empiria.
+
+Fase 3: Robustez adicional (Tareas 6, 14)
+VAR parsimonioso (Tarea 6) y control por madurez (Tarea 14). Son adiciones incrementales que complementan la Seccion 6.
+
+Fase 4: Redaccion y pulido (Tareas 5, 10, 9, 13)
+Moderacion del lenguaje (Tarea 5), parrafo puente (Tarea 10), panel de correlaciones (Tarea 9) y companion paper (Tarea 13). Hacer AL FINAL porque dependen de que el contenido empirico este cerrado.
+
+Tiempo estimado: 10-15 horas de trabajo con IA, distribuidas en 2-3 sesiones. La Fase 0 puede requerir inspeccion manual del Jupyter notebook.
+
+
+BLOQUE E: CHECKLIST DE VERIFICACION FINAL
+Antes de enviar la version revisada, verificar CADA uno de estos puntos:
+
+Consistencia numerica
+1. El coeficiente de sigma_rev ~ CEUI es el MISMO en todas las tablas donde aparece.
+2. El Spearman rho es el MISMO en Abstract, Tabla 5, Seccion 5.8, y Conclusion.
+3. Los umbrales de regimen son los MISMOS en texto, Tabla 6, y Tabla 8.
+4. El R2 de la regresion central es consistente entre tablas.
+
+Completitud de evidencia
+5. La Tabla 5 muestra intervalos bootstrap [entre corchetes].
+6. Hay una tabla de influencia (Cook's D) en el Apendice.
+7. Hay un scatterplot con puntos COVID coloreados.
+8. La correlacion sin COVID esta reportada con p-value.
+9. El Remark de varianzas homogeneas NO afirma algo que Section 6 no contiene.
+
+Lenguaje
+10. Buscar 'predicts' en el .tex: debe aparecer solo en contextos matizados.
+11. Buscar 'leading indicator': debe estar acompanado de caveat o sustituido.
+12. El parrafo de Limitations incluye la discusion de shock comun.
+13. El companion paper en la Conclusion es una sola frase.
+
+Response letter
+14. Actualizar la response letter para que sea coherente con los cambios reales (no con los declarados). La version actual afirma cambios que no estan en el paper.
+
+Prompt para response letter actualizada
