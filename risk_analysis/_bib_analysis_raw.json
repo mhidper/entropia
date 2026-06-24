@@ -1,0 +1,3802 @@
+{
+  "bib_results": [
+    {
+      "filename": "Auditoría de Novedad_ Entropía y Revisiones.pdf",
+      "total_refs": 15,
+      "cites_main": [
+        "baker_2016",
+        "croushore_2011",
+        "patterson_1991"
+      ],
+      "other_count": 10
+    },
+    {
+      "filename": "Efficiently Measuring Complexity.pdf",
+      "total_refs": 4,
+      "cites_main": [],
+      "other_count": 4
+    },
+    {
+      "filename": "Elicit - Quantifying Economic Uncertainty Index - Report.pdf",
+      "total_refs": 8,
+      "cites_main": [
+        "carriero_2018",
+        "rossi_2016",
+        "shoja_2017"
+      ],
+      "other_count": 2
+    },
+    {
+      "filename": "Presentation_paper_10_Sekhposyan.pdf",
+      "total_refs": 1,
+      "cites_main": [
+        "knight_1921"
+      ],
+      "other_count": 0
+    },
+    {
+      "filename": "Rojo_benchmarking.pdf",
+      "total_refs": 34,
+      "cites_main": [],
+      "other_count": 33
+    },
+    {
+      "filename": "aruoba2008.pdf",
+      "total_refs": 22,
+      "cites_main": [
+        "aruoba_2008",
+        "clark_2017",
+        "croushore_2011",
+        "faust_2005"
+      ],
+      "other_count": 14
+    },
+    {
+      "filename": "asimakopoulos2023.pdf",
+      "total_refs": 2,
+      "cites_main": [
+        "asimakopoulos_2023",
+        "clark_2017"
+      ],
+      "other_count": 0
+    },
+    {
+      "filename": "baker2016measuring.pdf",
+      "total_refs": 2,
+      "cites_main": [
+        "baker_2016"
+      ],
+      "other_count": 0
+    },
+    {
+      "filename": "berge2020.pdf",
+      "total_refs": 3,
+      "cites_main": [],
+      "other_count": 3
+    },
+    {
+      "filename": "bloomuncer.pdf",
+      "total_refs": 63,
+      "cites_main": [
+        "bloom_2009"
+      ],
+      "other_count": 2
+    },
+    {
+      "filename": "carriero2018.pdf",
+      "total_refs": 14,
+      "cites_main": [
+        "baker_2016",
+        "bloom_2009",
+        "carriero_2018",
+        "clark_2017"
+      ],
+      "other_count": 8
+    },
+    {
+      "filename": "carriero2018tech.pdf",
+      "total_refs": 1,
+      "cites_main": [],
+      "other_count": 0
+    },
+    {
+      "filename": "clark2017.pdf",
+      "total_refs": 13,
+      "cites_main": [],
+      "other_count": 12
+    },
+    {
+      "filename": "croushore2011.pdf",
+      "total_refs": 74,
+      "cites_main": [
+        "aruoba_2008",
+        "clark_2017",
+        "croushore_2011",
+        "faust_2005",
+        "orphanides_2001",
+        "patterson_1991",
+        "rossi_2016"
+      ],
+      "other_count": 48
+    },
+    {
+      "filename": "ellsberg1961.pdf",
+      "total_refs": 10,
+      "cites_main": [],
+      "other_count": 9
+    },
+    {
+      "filename": "faust2005.pdf",
+      "total_refs": 37,
+      "cites_main": [
+        "clark_2017",
+        "croushore_2011",
+        "faust_2005",
+        "orphanides_2001"
+      ],
+      "other_count": 26
+    },
+    {
+      "filename": "galvao2019.pdf",
+      "total_refs": 4,
+      "cites_main": [
+        "aruoba_2008",
+        "galvao_2019"
+      ],
+      "other_count": 1
+    },
+    {
+      "filename": "ghirelli2019.pdf",
+      "total_refs": 12,
+      "cites_main": [
+        "baker_2016",
+        "ghirelli_2019"
+      ],
+      "other_count": 4
+    },
+    {
+      "filename": "haussler1997.pdf",
+      "total_refs": 60,
+      "cites_main": [
+        "clark_2017",
+        "haussler_1997"
+      ],
+      "other_count": 6
+    },
+    {
+      "filename": "heskes1998.pdf",
+      "total_refs": 1,
+      "cites_main": [],
+      "other_count": 0
+    },
+    {
+      "filename": "jurado2015.pdf",
+      "total_refs": 54,
+      "cites_main": [
+        "baker_2016",
+        "bloom_2009",
+        "carriero_2018",
+        "jurado_2015",
+        "orphanides_2001"
+      ],
+      "other_count": 40
+    },
+    {
+      "filename": "knight1921.pdf",
+      "total_refs": 0,
+      "cites_main": [],
+      "other_count": 0
+    },
+    {
+      "filename": "mankiw1984.pdf",
+      "total_refs": 13,
+      "cites_main": [],
+      "other_count": 12
+    },
+    {
+      "filename": "mankiw1986.pdf",
+      "total_refs": 9,
+      "cites_main": [],
+      "other_count": 7
+    },
+    {
+      "filename": "orphanides2001.pdf",
+      "total_refs": 14,
+      "cites_main": [
+        "clark_2017",
+        "orphanides_2001"
+      ],
+      "other_count": 8
+    },
+    {
+      "filename": "patterson1991.pdf",
+      "total_refs": 11,
+      "cites_main": [],
+      "other_count": 1
+    },
+    {
+      "filename": "pavia2018.pdf",
+      "total_refs": 36,
+      "cites_main": [
+        "patterson_1991",
+        "pavia_2018"
+      ],
+      "other_count": 10
+    },
+    {
+      "filename": "pavia2019.pdf",
+      "total_refs": 9,
+      "cites_main": [
+        "pavia_2018"
+      ],
+      "other_count": 6
+    },
+    {
+      "filename": "rossi2016.pdf",
+      "total_refs": 12,
+      "cites_main": [
+        "jurado_2015",
+        "knight_1921",
+        "rossi_2016"
+      ],
+      "other_count": 8
+    },
+    {
+      "filename": "shoja2017.pdf",
+      "total_refs": 50,
+      "cites_main": [
+        "bloom_2009",
+        "jurado_2015",
+        "orphanides_2001",
+        "shoja_2017"
+      ],
+      "other_count": 39
+    }
+  ],
+  "cross_citations": {
+    "croushore_2011": 4,
+    "patterson_1991": 3,
+    "baker_2016": 5,
+    "rossi_2016": 3,
+    "shoja_2017": 2,
+    "carriero_2018": 3,
+    "knight_1921": 2,
+    "aruoba_2008": 3,
+    "clark_2017": 7,
+    "faust_2005": 3,
+    "asimakopoulos_2023": 1,
+    "bloom_2009": 4,
+    "orphanides_2001": 5,
+    "galvao_2019": 1,
+    "ghirelli_2019": 1,
+    "haussler_1997": 1,
+    "jurado_2015": 3,
+    "pavia_2018": 2
+  },
+  "gap_pool": {
+    "charts_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "charts_2026",
+        "first_author": "Charts",
+        "year": "2026",
+        "title_fragment": ", https://escoe-website.s3.amazonaws.com/wp-content/uploads/2020/07/1415270 2/ES",
+        "raw": "Charts” for Historical GDP Growth - AWS, fecha de acceso: abril 5, 2026, https://escoe-website.s3.amazonaws.com/wp-content/uploads/2020/07/1415270 2/ESCoE-DP-2019-08.pdf 9. Real-Time Perceptions of Hi"
+      }
+    },
+    "warwick_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "warwick_2026",
+        "first_author": "Warwick",
+        "year": "2026",
+        "title_fragment": ", https://warwick.ac.uk/fac/soc/wbs/subjects/finance/mpf/working-papers/emf_wp_ ",
+        "raw": "Warwick, fecha de acceso: abril 5, 2026, https://warwick.ac.uk/fac/soc/wbs/subjects/finance/mpf/working-papers/emf_wp_ 35.pdf 10. A Survey of Methods to Interpolate, Distribute and Extrapolate Time Se"
+      }
+    },
+    "research_2026": {
+      "count": 3,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "research_2026",
+        "first_author": "Research",
+        "year": "2026",
+        "title_fragment": ", https://www.researchgate.net/publication/228986784_A_Survey_of_Methods_to_I nt",
+        "raw": "ResearchGate, fecha de acceso: abril 5, 2026, https://www.researchgate.net/publication/228986784_A_Survey_of_Methods_to_I nterpolate_Distribute_and_Extrapolate_Time_Series 11. On estimating contempora"
+      }
+    },
+    "victoria_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "victoria_2026",
+        "first_author": "Victoria",
+        "year": "2026",
+        "title_fragment": ", https://ojs.victoria.ac.nz/pq/article/download/4606/4095/6226 16. Economic flu",
+        "raw": "Victoria University of Wellington, fecha de acceso: abril 5, 2026, https://ojs.victoria.ac.nz/pq/article/download/4606/4095/6226 16. Economic fluctuations and policy uncertainty - ePrints Soton - Univ"
+      }
+    },
+    "southampton_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "southampton_2026",
+        "first_author": "Southampton",
+        "year": "2026",
+        "title_fragment": ", https://eprints.soton.ac.uk/490813/1/Economic_fluctuations_with_policy_uncerta",
+        "raw": "Southampton, fecha de acceso: abril 5, 2026, https://eprints.soton.ac.uk/490813/1/Economic_fluctuations_with_policy_uncertain ty.pdf 17. Subjective Expectations and Uncertainty - Nbp, fecha de acceso:"
+      }
+    },
+    "information_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "information_2026",
+        "first_author": "Information",
+        "year": "2026",
+        "title_fragment": ", https://www.gc.cuny.edu/sites/default/files/2021-07/Ogneva_Nallareddy_Full.pdf",
+        "raw": "Information - CUNY Graduate Center, fecha de acceso: abril 5, 2026, https://www.gc.cuny.edu/sites/default/files/2021-07/Ogneva_Nallareddy_Full.pdf 20. 2025 article iv consultation—press release; staff"
+      }
+    },
+    "commons_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "commons_2026",
+        "first_author": "Commons",
+        "year": "2026",
+        "title_fragment": ", https://digitalcommons.georgiasouthern.edu/cgi/viewcontent.cgi?article=1183&co",
+        "raw": "Commons, fecha de acceso: abril 5, 2026, https://digitalcommons.georgiasouthern.edu/cgi/viewcontent.cgi?article=1183&co ntext=economics-facpubs 28. Uncertainty, information, and disagreement of econom"
+      }
+    },
+    "forecasts_2026": {
+      "count": 1,
+      "cited_by": [
+        "Auditoría de Novedad_ Entropía y Revisiones.pdf"
+      ],
+      "data": {
+        "key": "forecasts_2026",
+        "first_author": "Forecasts",
+        "year": "2026",
+        "title_fragment": ", https://www.researchgate.net/publication/336687842_An_Entropy-Based_Machin e_L",
+        "raw": "Forecasts, fecha de acceso: abril 5, 2026, https://www.researchgate.net/publication/336687842_An_Entropy-Based_Machin e_Learning_Algorithm_for_Combining_Macroeconomic_Forecasts 32. Real Estate Valuati"
+      }
+    },
+    "references_2000": {
+      "count": 1,
+      "cited_by": [
+        "Efficiently Measuring Complexity.pdf"
+      ],
+      "data": {
+        "key": "references_2000",
+        "first_author": "References",
+        "year": "2000",
+        "title_fragment": "2. Grassberger, P.; Procaccia, I. Measuring the strangeness of strange attractor",
+        "raw": "References 1. Walters,P.AnIntroductiontoErgodicTheory;Springer-Verlag: NewYork,NY,USA,2000. 2. Grassberger, P.; Procaccia, I. Measuring the strangeness of strange attractors. Physica D 1983, 9, 189–20"
+      }
+    },
+    "top_2013": {
+      "count": 2,
+      "cited_by": [
+        "Efficiently Measuring Complexity.pdf"
+      ],
+      "data": {
+        "key": "top_2013",
+        "first_author": "Top",
+        "year": "2013",
+        "title_fragment": ",222,263–273. 11. Keller, K.; Emonds, J.; Sinn, M. Time series from the ordinal ",
+        "raw": "Top. 2013,222,263–273. 11. Keller, K.; Emonds, J.; Sinn, M. Time series from the ordinal viewpoint. Stoch. Dynam. 2007, 2, 247–272. 12. Amigo´, J.M. Permutation Complexity in Dynamical Systems; Spring"
+      }
+    },
+    "med_2006": {
+      "count": 1,
+      "cited_by": [
+        "Efficiently Measuring Complexity.pdf"
+      ],
+      "data": {
+        "key": "med_2006",
+        "first_author": "Med",
+        "year": "2006",
+        "title_fragment": ",44,179–187. 21. Parlitz, U.; Berg, S.; Luther, S.; Schirdewan, A.; Kurths, J.; ",
+        "raw": "Med. Biol. Eng. Comput. 2006,44,179–187. 21. Parlitz, U.; Berg, S.; Luther, S.; Schirdewan, A.; Kurths, J.; Wessel, N. Classifying cardiac biosignals using ordinal pattern statistics and symbolic dyna"
+      }
+    },
+    "review_2024": {
+      "count": 1,
+      "cited_by": [
+        "Elicit - Quantifying Economic Uncertainty Index - Report.pdf"
+      ],
+      "data": {
+        "key": "review_2024",
+        "first_author": "Review",
+        "year": "2024",
+        "title_fragment": "",
+        "raw": "Review of Asset Pricing Studies, 2024."
+      }
+    },
+    "science_2021": {
+      "count": 1,
+      "cited_by": [
+        "Elicit - Quantifying Economic Uncertainty Index - Report.pdf"
+      ],
+      "data": {
+        "key": "science_2021",
+        "first_author": "Science",
+        "year": "2021",
+        "title_fragment": "12",
+        "raw": "Science Research Network, 2021. 12"
+      }
+    },
+    "abad_2004": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "abad_2004",
+        "first_author": "Abad",
+        "year": "2004",
+        "title_fragment": "). Programs for cyclical analysis: <F>, <G>, and <FDESC> (User’s Guide). Retriev",
+        "raw": "Abad, A., & Quilis, E. M. (2004). Programs for cyclical analysis: <F>, <G>, and <FDESC> (User’s Guide). Retrieved from http://www.ine.es/en/daco/daco42/daco4214/manual_en.pdf"
+      }
+    },
+    "bisio_2018": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "bisio_2018",
+        "first_author": "Bisio",
+        "year": "2018",
+        "title_fragment": "). Temporal disaggregation by dynamic regressions: Recent developments in Italia",
+        "raw": "Bisio, L., & Moauro, F. (2018). Temporal disaggregation by dynamic regressions: Recent developments in Italian quarterly national accounts. Statistica Neerlandica, 72(4), 471-494. https://doi.org/10.1"
+      }
+    },
+    "box_1973": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "box_1973",
+        "first_author": "Box",
+        "year": "1973",
+        "title_fragment": "). Bayesian inference in statistical analysis. Boston, MA, USA: Addison Wesley.",
+        "raw": "Box, G. E. P., & Tiao, G. C. (1973). Bayesian inference in statistical analysis. Boston, MA, USA: Addison Wesley."
+      }
+    },
+    "bozik_1988": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "bozik_1988",
+        "first_author": "Bozik",
+        "year": "1988",
+        "title_fragment": "). Benchmarking: Evaluating methods that preserve month-to-month changes (CENSUS",
+        "raw": "Bozik, J. E., & Otto, M. C. (1988). Benchmarking: Evaluating methods that preserve month-to-month changes (CENSUS/SRD/RR-88/07). Retrieved from http://citeseerx.ist.psu.edu/viewdoc/ download;jsessioni"
+      }
+    },
+    "broemeling_1985": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "broemeling_1985",
+        "first_author": "Broemeling",
+        "year": "1985",
+        "title_fragment": "). Bayesian analysis of linear models. New York, NY, USA: Marcel Dekker.",
+        "raw": "Broemeling, L. D. (1985). Bayesian analysis of linear models. New York, NY, USA: Marcel Dekker."
+      }
+    },
+    "causey_1981": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "causey_1981",
+        "first_author": "Causey",
+        "year": "1981",
+        "title_fragment": "). Derivation of solution to the benchmarking problem: Trend revision (Unpublish",
+        "raw": "Causey, B., & Trager, M. L. (1981). Derivation of solution to the benchmarking problem: Trend revision (Unpublished research notes) [Available as an Appendix in Bozik & Otto (1988)]. Washington, DC, U"
+      }
+    },
+    "chen_1997": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "chen_1997",
+        "first_author": "Chen",
+        "year": "1997",
+        "title_fragment": "). A recursive method for predicting variables with temporal and contemporaneous",
+        "raw": "Chen, Z. G., & Dagum, E. B. (1997). A recursive method for predicting variables with temporal and contemporaneous constraints. In Proceedings of the Business and Economic Statistics Section, American "
+      }
+    },
+    "chen_2018": {
+      "count": 2,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "chen_2018",
+        "first_author": "Chen",
+        "year": "2018",
+        "title_fragment": "). The statistical reconciliation of time series of accounts between two benchma",
+        "raw": "Chen, B., Di Fonzo, T., Howells, T., & Marini, M. (2018). The statistical reconciliation of time series of accounts between two benchmark revisions. Statistica Neerlandica, 72(4), 533-552. https://doi"
+      }
+    },
+    "cholette_1988": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "cholette_1988",
+        "first_author": "Cholette",
+        "year": "1988",
+        "title_fragment": "). Benchmarking systems of socio-economic time series (Working Paper No. TSRA-88",
+        "raw": "Cholette, P. A. (1988). Benchmarking systems of socio-economic time series (Working Paper No. TSRA-88-017E). Ottawa, Canada: Statistics Canada."
+      }
+    },
+    "cuevas_2011": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "cuevas_2011",
+        "first_author": "Cuevas",
+        "year": "2011",
+        "title_fragment": "). Combining benchmarking and chain linking for short- term regional forecasting",
+        "raw": "Cuevas, A., Quilis, E. M., & Espasa, A. (2011). Combining benchmarking and chain linking for short- term regional forecasting (Working Paper No 2011/4). Madrid, Spain: Department of Statistics Univers"
+      }
+    },
+    "cuevas_2015": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "cuevas_2015",
+        "first_author": "Cuevas",
+        "year": "2015",
+        "title_fragment": "). Quarterly regional GDP flash estimates by means of benchmarking and chain lin",
+        "raw": "Cuevas, A., Quilis, E., & Espasa, A. (2015). Quarterly regional GDP flash estimates by means of benchmarking and chain linking. Journal of Official Statistics, 31(4), 627-647. https://doi.org/10.1515/"
+      }
+    },
+    "dagum_2006": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "dagum_2006",
+        "first_author": "Dagum",
+        "year": "2006",
+        "title_fragment": "). Benchmarking, temporal distribution and reconciliation methods of time series",
+        "raw": "Dagum, E. B., & Cholette, P. A. (2006). Benchmarking, temporal distribution and reconciliation methods of time series. New York, NY, USA: Springer Science+Business Media."
+      }
+    },
+    "denton_1971": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "denton_1971",
+        "first_author": "Denton",
+        "year": "1971",
+        "title_fragment": "). Adjustment of monthly or quarterly series to annual totals: An approach based",
+        "raw": "Denton, F. T. (1971). Adjustment of monthly or quarterly series to annual totals: An approach based on quadratic minimization. Journal of the American Statistical Association, 66(333), 99-102. https:/"
+      }
+    },
+    "di_1994": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "di_1994",
+        "first_author": "Di",
+        "year": "1994",
+        "title_fragment": "). Temporal disaggregation of a system of time series when the aggregate is know",
+        "raw": "Di Fonzo, T. (1994). Temporal disaggregation of a system of time series when the aggregate is known: Optimal vs. adjustment methods [Paper presentation]. Workshop on Quarterly National Accounts, Euros"
+      }
+    },
+    "di_2003": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "di_2003",
+        "first_author": "Di",
+        "year": "2003",
+        "title_fragment": "). Temporal Disaggregation of Economic Time Series: Towards a dynamic extension ",
+        "raw": "Di Fonzo, T. (2003). Temporal Disaggregation of Economic Time Series: Towards a dynamic extension (Working Paper). Luxembourg, Luxembourg: Office for Official Publication of the European Communities. "
+      }
+    },
+    "di_1987": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "di_1987",
+        "first_author": "Di",
+        "year": "1987",
+        "title_fragment": ", May 18-20). Methods of estimation of quarterly national account series: A comp",
+        "raw": "Di Fonzo, T., & Filosa, R. (1987, May 18-20). Methods of estimation of quarterly national account series: A comparison [Paper presentention]. Journée Franco-Italienne de Comptabilité Nationale (Journé"
+      }
+    },
+    "di_2005": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "di_2005",
+        "first_author": "Di",
+        "year": "2005",
+        "title_fragment": "). Benchmarking systems of seasonally adjusted time series. Journal of Business ",
+        "raw": "Di Fonzo, T., & Marini, M. (2005). Benchmarking systems of seasonally adjusted time series. Journal of Business Cycle Measurement and Analysis, 2015(1), 89-123. https://doi.org/10.1787/jbcma-2005-5km7"
+      }
+    },
+    "di_2011": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "di_2011",
+        "first_author": "Di",
+        "year": "2011",
+        "title_fragment": "). Simultaneous and two-step reconciliation of systems of time series: Methodolo",
+        "raw": "Di Fonzo, T., & Marini, M. (2011). Simultaneous and two-step reconciliation of systems of time series: Methodological and practical issues. Journal of the Royal Statistical Society: Series C, 60(2), 1"
+      }
+    },
+    "di_2015": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "di_2015",
+        "first_author": "Di",
+        "year": "2015",
+        "title_fragment": "). Reconciliation of systems of time series according to a growth rates preserva",
+        "raw": "Di Fonzo, T., & Marini, M. (2015). Reconciliation of systems of time series according to a growth rates preservation principle. Statistical Methods & Applications, 24, 651-669. https://doi.org/10.1007"
+      }
+    },
+    "eiglsperger_2008": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "eiglsperger_2008",
+        "first_author": "Eiglsperger",
+        "year": "2008",
+        "title_fragment": "). Seasonal adjustment of chain-linked volume measures in Quarterly National Acc",
+        "raw": "Eiglsperger, M. (2008). Seasonal adjustment of chain-linked volume measures in Quarterly National Accounts: Findings of a European Task Force. Retrieved from https://nanopdf.com/download/residential-p"
+      }
+    },
+    "gamerman_1997": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "gamerman_1997",
+        "first_author": "Gamerman",
+        "year": "1997",
+        "title_fragment": "). Markov Chain Monte Carlo: Stochastic simulation for Bayesian inference. Londo",
+        "raw": "Gamerman, D. (1997). Markov Chain Monte Carlo: Stochastic simulation for Bayesian inference. London, United Kingdom: Chapman & Hall."
+      }
+    },
+    "guerrero_2018": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "guerrero_2018",
+        "first_author": "Guerrero",
+        "year": "2018",
+        "title_fragment": "). Retropolating some relevant series of Mexico’s system of National Accounts at",
+        "raw": "Guerrero, V. M., & Corona, F. (2018). Retropolating some relevant series of Mexico’s system of National Accounts at constant prices: The case of Mexico City’s GDP. Statistica Neerlandica, 72(4), 495-5"
+      }
+    },
+    "international_2018": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "international_2018",
+        "first_author": "International",
+        "year": "2018",
+        "title_fragment": "). Quarterly national accounts manual. Washington, DC, USA: IMF.",
+        "raw": "International Monetary Fund. (2018). Quarterly national accounts manual. Washington, DC, USA: IMF."
+      }
+    },
+    "quilis_2018": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "quilis_2018",
+        "first_author": "Quilis",
+        "year": "2018",
+        "title_fragment": "). Temporal disaggregation of economic time series: The view from the trenches. ",
+        "raw": "Quilis, E. M. (2018). Temporal disaggregation of economic time series: The view from the trenches. Statistica Neerlandica, 72(4), 447-470. https://doi.org/10.1111/stan.12150"
+      }
+    },
+    "rojo_1999": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "rojo_1999",
+        "first_author": "Rojo",
+        "year": "1999",
+        "title_fragment": "). Una propuesta bayesiana para la distribución de Contabilidades regionales por",
+        "raw": "Rojo, J. L., & Sanz, J. A. (1999). Una propuesta bayesiana para la distribución de Contabilidades regionales por procedimientos indirectos. In Cambios Regionales en la U.E. y Nuevos Retos"
+      }
+    },
+    "territoriales_2001": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "territoriales_2001",
+        "first_author": "Territoriales",
+        "year": "2001",
+        "title_fragment": ", pp. 1-19.",
+        "raw": "Territoriales, AECR, ISBN: 84-607-3322-X, Madrid, 2001, pp. 1-19."
+      }
+    },
+    "rojo_2005": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "rojo_2005",
+        "first_author": "Rojo",
+        "year": "2005",
+        "title_fragment": "). A Bayesian benchmarking method with applications to the Quarterly National Ac",
+        "raw": "Rojo, J. L., & Sanz, J. A. (2005). A Bayesian benchmarking method with applications to the Quarterly National Accounts. Luxembourg, Luxembourg: Office for Official Publications of the European Communi"
+      }
+    },
+    "rojo_2017": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "rojo_2017",
+        "first_author": "Rojo",
+        "year": "2017",
+        "title_fragment": "). Benchmarking and reconciliation of time series. An applied Bayesian method. M",
+        "raw": "Rojo, J. L., & Sanz, J. A. (2017). Benchmarking and reconciliation of time series. An applied Bayesian method. Methodology, 13(4), 123-134. https://doi.org/10.1027/1614-2241/a000136 Methodology 2020, "
+      }
+    },
+    "shrestha_2013": {
+      "count": 2,
+      "cited_by": [
+        "Rojo_benchmarking.pdf",
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "shrestha_2013",
+        "first_author": "Shrestha",
+        "year": "2013",
+        "title_fragment": "). Update of the Quarterly National Accounts manual: An outline (Real Sector Div",
+        "raw": "Shrestha, M. (2013). Update of the Quarterly National Accounts manual: An outline (Real Sector Division, IMF Statistics Department). Washington, DC, USA: IMF."
+      }
+    },
+    "spiegelhalter_1999": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "spiegelhalter_1999",
+        "first_author": "Spiegelhalter",
+        "year": "1999",
+        "title_fragment": "). WinBUGS (Version 1.2) [User Manual]. Cambridge, United Kingdom: MRC Biostatis",
+        "raw": "Spiegelhalter, D., Thomas, A., & Best, N. (1999). WinBUGS (Version 1.2) [User Manual]. Cambridge, United Kingdom: MRC Biostatistics Unit."
+      }
+    },
+    "young_1996": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "young_1996",
+        "first_author": "Young",
+        "year": "1996",
+        "title_fragment": "). Robust seasonal adjustment by Bayesian modelling. Journal of Forecasting, 15(",
+        "raw": "Young, M. R. (1996). Robust seasonal adjustment by Bayesian modelling. Journal of Forecasting, 15(5), 355-367. https://doi.org/10.1002/(SICI)1099-131X(199609)15:5<355::AID-FOR625>3.0.CO;2-K"
+      }
+    },
+    "zellner_1971": {
+      "count": 1,
+      "cited_by": [
+        "Rojo_benchmarking.pdf"
+      ],
+      "data": {
+        "key": "zellner_1971",
+        "first_author": "Zellner",
+        "year": "1971",
+        "title_fragment": "). An introduction to Bayesian inference in econometrics. New York, NY, USA: Joh",
+        "raw": "Zellner, A. (1971). An introduction to Bayesian inference in econometrics. New York, NY, USA: John Wiley & Sons. Methodology is the official journal of the European Association of Methodology (EAM). P"
+      }
+    },
+    "full_1984": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "full_1984",
+        "first_author": "Full",
+        "year": "1984",
+        "title_fragment": "Post-1984 Noise/ Noise/ Noise/ N Mean signal N Mean signal N Mean signal Annual ",
+        "raw": "Full sample Pre-1984 Post-1984 Noise/ Noise/ Noise/ N Mean signal N Mean signal N Mean signal Annual growth variables Nominal Output 150 0.31 0.28 74 0.47 0.33 76 0.16 0.36 Real Output 150 0.17 0.31 7"
+      }
+    },
+    "conrad_1979": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "conrad_1979",
+        "first_author": "Conrad",
+        "year": "1979",
+        "title_fragment": ") \"Application ofthe Kalman Filter to Revisions in Monthly Retail Sales Estimate",
+        "raw": "Conrad, William, and Carol Corrado. (1979) \"Application ofthe Kalman Filter to Revisions in Monthly Retail Sales Estimates.\" Journal of Economic Dynamics and Control, 1, 177-98."
+      }
+    },
+    "durbin_2001": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "durbin_2001",
+        "first_author": "Durbin",
+        "year": "2001",
+        "title_fragment": ") Time Series Analysis by State Space Methods. Oxford, UK: Oxford University Pre",
+        "raw": "Durbin, James, and Siem J. Koopman. (2001) Time Series Analysis by State Space Methods. Oxford, UK: Oxford University Press."
+      }
+    },
+    "fixler_2002": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "fixler_2002",
+        "first_author": "Fixler",
+        "year": "2002",
+        "title_fragment": ") \"Reliability of GDP and Related NIPA Esti mates.\" Survey of Current Business, ",
+        "raw": "Fixler, Dennis J., and Bruce T. Grimm. (2002) \"Reliability of GDP and Related NIPA Esti mates.\" Survey of Current Business, 82, 9-27."
+      }
+    },
+    "howrey_1978": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "howrey_1978",
+        "first_author": "Howrey",
+        "year": "1978",
+        "title_fragment": ") \"The Use of Preliminary Data in Economic Forecasting.\" Review of Economics and",
+        "raw": "Howrey, E. Philip. (1978) \"The Use of Preliminary Data in Economic Forecasting.\" Review of Economics and Statistics, 60, 193-200."
+      }
+    },
+    "kavajecz_1994": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "kavajecz_1994",
+        "first_author": "Kavajecz",
+        "year": "1994",
+        "title_fragment": ") \"The Evolution of the Federal Reserve's Monetary Aggregates: A Timeline.\" Fede",
+        "raw": "Kavajecz, Kenneth A. (1994) \"The Evolution of the Federal Reserve's Monetary Aggregates: A Timeline.\" Federal Reserve Bank of St. Louis Review, 76:2, 32-66."
+      }
+    },
+    "kavajecz_1995": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "kavajecz_1995",
+        "first_author": "Kavajecz",
+        "year": "1995",
+        "title_fragment": ") \"Rationality of Preliminary Money Stock Estimates.\" Review of Economics and St",
+        "raw": "Kavajecz, Kenneth A., and Sean S. Collins. (1995) \"Rationality of Preliminary Money Stock Estimates.\" Review of Economics and Statistics, 11, 32-41."
+      }
+    },
+    "mankiw_1984": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "mankiw_1984",
+        "first_author": "Mankiw",
+        "year": "1984",
+        "title_fragment": ") \"Are Preliminary Announcements of the Money Stock Rational Forecasts?\" Journal",
+        "raw": "Mankiw, N. Gregory, David E. Runkle, and Matthew D. Shapiro. (1984) \"Are Preliminary Announcements of the Money Stock Rational Forecasts?\" Journal of Monetary Economics, 14, 15-27."
+      }
+    },
+    "mankiw_1986": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "mankiw_1986",
+        "first_author": "Mankiw",
+        "year": "1986",
+        "title_fragment": ") \"News or Noise: An Analysis of GNP Revisions.\" Survey of Current Business, 66,",
+        "raw": "Mankiw, N. Gregory, and Matthew D. Shapiro. (1986) \"News or Noise: An Analysis of GNP Revisions.\" Survey of Current Business, 66, 20-5."
+      }
+    },
+    "mork_1987": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "mork_1987",
+        "first_author": "Mork",
+        "year": "1987",
+        "title_fragment": ") \"Ain't Behavin': Forecast Errors and Measurement Errors in Early GNP Estimates",
+        "raw": "Mork, Knut A. (1987) \"Ain't Behavin': Forecast Errors and Measurement Errors in Early GNP Estimates.\" Journal of Business and Economic Statistics, 5, 165-75."
+      }
+    },
+    "mork_1990": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "mork_1990",
+        "first_author": "Mork",
+        "year": "1990",
+        "title_fragment": ") \"Forecastable Money-Growth Revisions: A Closer Look at the Data.\" Canadian Jou",
+        "raw": "Mork, Knut A. (1990) \"Forecastable Money-Growth Revisions: A Closer Look at the Data.\" Canadian Journal of Economics, 23, 593-616."
+      }
+    },
+    "newey_1987": {
+      "count": 2,
+      "cited_by": [
+        "aruoba2008.pdf",
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "newey_1987",
+        "first_author": "Newey",
+        "year": "1987",
+        "title_fragment": ") \"A Simple Positive Semi-Definite, Het eroskedasticity and Autocorrelation Cons",
+        "raw": "Newey, Whitney K., and Kenneth D. West. (1987) \"A Simple Positive Semi-Definite, Het eroskedasticity and Autocorrelation Consistent Covariance Matrix.\" Econometrica, 55,703 8."
+      }
+    },
+    "stock_2003": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "stock_2003",
+        "first_author": "Stock",
+        "year": "2003",
+        "title_fragment": ") \"Has the Business Cycle Changed? Evidence and Explanations.\" Monetary Policy a",
+        "raw": "Stock, James H., and Mark W. Watson. (2003) \"Has the Business Cycle Changed? Evidence and Explanations.\" Monetary Policy and Uncertainty, Federal Reserve Bank of Kansas City, 9-56."
+      }
+    },
+    "tanizaki_1995": {
+      "count": 1,
+      "cited_by": [
+        "aruoba2008.pdf"
+      ],
+      "data": {
+        "key": "tanizaki_1995",
+        "first_author": "Tanizaki",
+        "year": "1995",
+        "title_fragment": ") \"Prediction of Final Data with Use of Preliminary and/or Revised Data.\" Journa",
+        "raw": "Tanizaki, Hisashi, and Roberto S. Mariano. (1995) \"Prediction of Final Data with Use of Preliminary and/or Revised Data.\" Journal of Forecasting, 14, 351-80. This content downloaded from (cid:0)(cid:0"
+      }
+    },
+    "figure_1999": {
+      "count": 1,
+      "cited_by": [
+        "berge2020.pdf"
+      ],
+      "data": {
+        "key": "figure_1999",
+        "first_author": "Figure",
+        "year": "1999",
+        "title_fragment": "). Divide the parameters into five blocks: the volatility states for t = 1,...,T",
+        "raw": "Figure A10: Response to GDP innovation, VAR-8. 0 2 4 6 8 10 12 14 16 18 20 5.1 0.1 5.0 0.0 5.0− 0.1− 5.1− Response of S&P 500 % 0 2 4 6 8 10 12 14 16 18 20 2.0 1.0 0.0 1.0− 2.0− Response of policy rat"
+      }
+    },
+    "nakajima_2007": {
+      "count": 1,
+      "cited_by": [
+        "berge2020.pdf"
+      ],
+      "data": {
+        "key": "nakajima_2007",
+        "first_author": "Nakajima",
+        "year": "2007",
+        "title_fragment": ") provide a routine for drawing the time-series of h condi- ft tional on the par",
+        "raw": "Nakajima & Shephard (2007) provide a routine for drawing the time-series of h condi- ft tional on the parameters and a draw of the states. The routine involves the forward-filter backwards-sampling ap"
+      }
+    },
+    "following_2005": {
+      "count": 1,
+      "cited_by": [
+        "berge2020.pdf"
+      ],
+      "data": {
+        "key": "following_2005",
+        "first_author": "Following",
+        "year": "2005",
+        "title_fragment": ") and Baumeister & Peersman (2013), figure A13 provides evidence regarding the c",
+        "raw": "Following Primiceri (2005) and Baumeister & Peersman (2013), figure A13 provides evidence regarding the convergence and efficiency of the Gibbs sampler. Specifically, for each draw of the Gibbs sample"
+      }
+    },
+    "plants_1992": {
+      "count": 1,
+      "cited_by": [
+        "bloomuncer.pdf"
+      ],
+      "data": {
+        "key": "plants_1992",
+        "first_author": "Plants",
+        "year": "1992",
+        "title_fragment": ",187–249.[648]",
+        "raw": "Plants,”BrookingsPapersonEconomicActivity,1992,187–249.[648]"
+      }
+    },
+    "manuscriptreceived_2006": {
+      "count": 1,
+      "cited_by": [
+        "bloomuncer.pdf"
+      ],
+      "data": {
+        "key": "manuscriptreceived_2006",
+        "first_author": "Manuscriptreceived",
+        "year": "2006",
+        "title_fragment": ";finalrevisionreceivedDecember,2008.",
+        "raw": "ManuscriptreceivedJanuary,2006;finalrevisionreceivedDecember,2008."
+      }
+    },
+    "oilsupply_2003": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "oilsupply_2003",
+        "first_author": "Oilsupply",
+        "year": "2003",
+        "title_fragment": ") 0.144 0.150 (1985:Q1–2014:Q2) (0.039) (0.009)",
+        "raw": "Oilsupply:Hamilton(2003) 0.144 0.150 (1985:Q1–2014:Q2) (0.039) (0.009)"
+      }
+    },
+    "oilsupply_2008": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "oilsupply_2008",
+        "first_author": "Oilsupply",
+        "year": "2008",
+        "title_fragment": ") −0.123 0.064 (1985:Q1–2004:Q3) (0.236) (0.651)",
+        "raw": "Oilsupply:Kilian(2008) −0.123 0.064 (1985:Q1–2004:Q3) (0.236) (0.651)"
+      }
+    },
+    "monetarypolicy_2005": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "monetarypolicy_2005",
+        "first_author": "Monetarypolicy",
+        "year": "2005",
+        "title_fragment": ") −0.054 0.159 (1990:Q1–2004:Q4) (0.570) (0.029)",
+        "raw": "Monetarypolicy:Gürkaynaketal.(2005) −0.054 0.159 (1990:Q1–2004:Q4) (0.570) (0.029)"
+      }
+    },
+    "monetarypolicy_2016": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "monetarypolicy_2016",
+        "first_author": "Monetarypolicy",
+        "year": "2016",
+        "title_fragment": ") −0.143 −0.332 (1985:Q1–2008:Q4) (0.173) (0.000)",
+        "raw": "Monetarypolicy:Coibionetal.(2016) −0.143 −0.332 (1985:Q1–2008:Q4) (0.173) (0.000)"
+      }
+    },
+    "fiscalpolicy_2011": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "fiscalpolicy_2011",
+        "first_author": "Fiscalpolicy",
+        "year": "2011",
+        "title_fragment": ") 0.076 0.093 (1985:Q1–2008:Q4) (0.343) (0.036)",
+        "raw": "Fiscalpolicy:Ramey(2011) 0.076 0.093 (1985:Q1–2008:Q4) (0.343) (0.036)"
+      }
+    },
+    "banking_2005": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "banking_2005",
+        "first_author": "Banking",
+        "year": "2005",
+        "title_fragment": "),55–93. Andrews,DonaldW.K.,andJ.ChristopherMonahan,“AnImprovedHet- Hamilton,Jam",
+        "raw": "Banking1(2005),55–93. Andrews,DonaldW.K.,andJ.ChristopherMonahan,“AnImprovedHet- Hamilton,JamesD.,“WhatIsanOilShock?”JournalofEconometrics113 eroskedasticityandAutocorrelationConsistentCovarianceMatri"
+      }
+    },
+    "effective_2017": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "effective_2017",
+        "first_author": "Effective",
+        "year": "2017",
+        "title_fragment": "), 937–958. 10.3982/ EffectsofAnticipatedandUnanticipatedU.S.TaxPolicyShocks,”",
+        "raw": "Effective Demand,” Econometrica 85 (2017), 937–958. 10.3982/ EffectsofAnticipatedandUnanticipatedU.S.TaxPolicyShocks,”"
+      }
+    },
+    "statistics_2020": {
+      "count": 1,
+      "cited_by": [
+        "carriero2018.pdf"
+      ],
+      "data": {
+        "key": "statistics_2020",
+        "first_author": "Statistics",
+        "year": "2020",
+        "title_fragment": "),367–379.10.1080/07350015.2018.1506342 with Stochastic Volatility and Non-Conju",
+        "raw": "Statistics38(2020),367–379.10.1080/07350015.2018.1506342 with Stochastic Volatility and Non-Conjugate Priors’,” Journal of Econometrics 227 (2022), 498–505. 10.1016/j.jeconom.2021 .10.008 Downloaded f"
+      }
+    },
+    "october_2017": {
+      "count": 4,
+      "cited_by": [
+        "clark2017.pdf"
+      ],
+      "data": {
+        "key": "october_2017",
+        "first_author": "October",
+        "year": "2017",
+        "title_fragment": "Constraints Nikola Tarashev 665 Interest rates and house prices in the United Gr",
+        "raw": "October 2017 Constraints Nikola Tarashev 665 Interest rates and house prices in the United Gregory D Sutton, Dubravko"
+      }
+    },
+    "september_2017": {
+      "count": 1,
+      "cited_by": [
+        "clark2017.pdf"
+      ],
+      "data": {
+        "key": "september_2017",
+        "first_author": "September",
+        "year": "2017",
+        "title_fragment": "Gambacorta and Enrico Sette 661 How important is the Global Financial Cycle? Eug",
+        "raw": "September 2017 Gambacorta and Enrico Sette 661 How important is the Global Financial Cycle? Eugenio Cerutti, Stijn Claessens and"
+      }
+    },
+    "august_2017": {
+      "count": 7,
+      "cited_by": [
+        "clark2017.pdf"
+      ],
+      "data": {
+        "key": "august_2017",
+        "first_author": "August",
+        "year": "2017",
+        "title_fragment": "Evidence from capital flows Andrew K Rose 660 Informal one-sided target zone mod",
+        "raw": "August 2017 Evidence from capital flows Andrew K Rose 660 Informal one-sided target zone model and Yu-Fu Chen, Michael Funke and"
+      }
+    },
+    "references_2001": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "references_2001",
+        "first_author": "References",
+        "year": "2001",
+        "title_fragment": "“The sure improves dramatically as time passes. Real-Time Predictive Content of ",
+        "raw": "References the analytical concept at the end of the sam- ple, but the accuracy of a gap or trend mea- Amato, Jeffery D., and Norman R. Swanson. 2001. “The sure improves dramatically as time passes. Re"
+      }
+    },
+    "as_2007": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "as_2007",
+        "first_author": "As",
+        "year": "2007",
+        "title_fragment": ") notes: “one-sided esti-",
+        "raw": "As Watson (2007) notes: “one-sided esti-"
+      }
+    },
+    "aoki_2003": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "aoki_2003",
+        "first_author": "Aoki",
+        "year": "2003",
+        "title_fragment": "“On the Optimal Monetary Policy mates necessary for real-time policy analysis Re",
+        "raw": "Aoki, Kosuke. 2003. “On the Optimal Monetary Policy mates necessary for real-time policy analysis Response to Noisy Indicators.” Journal of Monetary are substantially less accurate than the two- Econo"
+      }
+    },
+    "bernanke_2003": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "bernanke_2003",
+        "first_author": "Bernanke",
+        "year": "2003",
+        "title_fragment": "“Monetary cal concepts; instead, much of the work is Policy in a Data-Rich Envir",
+        "raw": "Bernanke, Ben S., and Jean Boivin. 2003. “Monetary cal concepts; instead, much of the work is Policy in a Data-Rich Environment.” Journal of Mon- purely statistical. etary Economics, 50(3): 525–46. Be"
+      }
+    },
+    "boivin_2006": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "boivin_2006",
+        "first_author": "Boivin",
+        "year": "2006",
+        "title_fragment": "“Has U.S. Monetary Policy available only recently, the field of real-time Change",
+        "raw": "Boivin, Jean. 2006. “Has U.S. Monetary Policy available only recently, the field of real-time Changed? Evidence from Drifting Coefficients and data analysis is fertile and there are many Real-Time Dat"
+      }
+    },
+    "boschen_1982": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "boschen_1982",
+        "first_author": "Boschen",
+        "year": "1982",
+        "title_fragment": "Indexes Help Forecast Consumer Spending in Real “Tests of Equilibrium Macroecono",
+        "raw": "Boschen, John F., and Herschel I. Grossman. 1982. Indexes Help Forecast Consumer Spending in Real “Tests of Equilibrium Macroeconomics Using Con- Time?” North American Journal of Economics and tempora"
+      }
+    },
+    "brainard_1967": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "brainard_1967",
+        "first_author": "Brainard",
+        "year": "1967",
+        "title_fragment": "“Uncertainty and the Effec- Macroeconomic Data.” In Handbook of Economic tivenes",
+        "raw": "Brainard, William C. 1967. “Uncertainty and the Effec- Macroeconomic Data.” In Handbook of Economic tiveness of Policy.” American Economic Review, Forecasting, Volume 1, ed. Graham Elliott, Clive W. 5"
+      }
+    },
+    "bureau_2009": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "bureau_2009",
+        "first_author": "Bureau",
+        "year": "2009",
+        "title_fragment": "“Concepts and dam and Oxford: Elsevier, North-Holland.",
+        "raw": "Bureau of Economic Analysis. 2009. “Concepts and dam and Oxford: Elsevier, North-Holland."
+      }
+    },
+    "chauvet_2003": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "chauvet_2003",
+        "first_author": "Chauvet",
+        "year": "2003",
+        "title_fragment": "“Iden- Cukierman, Alex, and Francesco Lippi. 2005. “Endog- tifying Business Cycl",
+        "raw": "Chauvet, Marcelle, and Jeremy M. Piger. 2003. “Iden- Cukierman, Alex, and Francesco Lippi. 2005. “Endog- tifying Business Cycle Turning Points in Real Time.” enous Monetary Policy with Unobserved Pote"
+      }
+    },
+    "chauvet_2008": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "chauvet_2008",
+        "first_author": "Chauvet",
+        "year": "2008",
+        "title_fragment": "“A Cunningham, Alastair, Jana Eklund, Chris Jeffery, Comparison of the Real-Time",
+        "raw": "Chauvet, Marcelle, and Jeremy M. Piger. 2008. “A Cunningham, Alastair, Jana Eklund, Chris Jeffery, Comparison of the Real-Time Performance of Busi- George Kapetanios, and Vincent Labhard. Forth- ness "
+      }
+    },
+    "swanson_2002": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "swanson_2002",
+        "first_author": "Swanson",
+        "year": "2002",
+        "title_fragment": "“Let’s Get ‘Real’ About Using Eco- Denton, Frank T., and John Kuiper. 1965. “The",
+        "raw": "Swanson. 2002. “Let’s Get ‘Real’ About Using Eco- Denton, Frank T., and John Kuiper. 1965. “The Effect nomic Data.” Journal of Empirical Finance, 9(3): of Measurement Errors on Parameter Estimates and"
+      }
+    },
+    "cole_1969": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "cole_1969",
+        "first_author": "Cole",
+        "year": "1969",
+        "title_fragment": "“Data Errors and Forecasting Cycle Analysis in Germany.” Journal of Business Acc",
+        "raw": "Cole, Rosanne. 1969. “Data Errors and Forecasting Cycle Analysis in Germany.” Journal of Business Accuracy.” In Economic Forecasts and Expectations: Cycle Measurement and Analysis, 1(3): 337–61."
+      }
+    },
+    "analysis_2001": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "analysis_2001",
+        "first_author": "Analysis",
+        "year": "2001",
+        "title_fragment": "“Do ed. Jacob A. Mincer, 47–82. Cambridge, Mass.: Provisional Estimates of Outpu",
+        "raw": "Analysis of Forecasting Behavior and Performance, Dynan, Karen E., and Douglas Elmendorf. 2001. “Do ed. Jacob A. Mincer, 47–82. Cambridge, Mass.: Provisional Estimates of Output Miss Economic National"
+      }
+    },
+    "fitzgerald_1989": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "fitzgerald_1989",
+        "first_author": "Fitzgerald",
+        "year": "1989",
+        "title_fragment": "“A Predictability Tests for Real-Time Data.” Journal of Simple Way to Estimate C",
+        "raw": "Fitzgerald, Terry J., and Preston J. Miller. 1989. “A Predictability Tests for Real-Time Data.” Journal of Simple Way to Estimate Current-Quarter GNP.” Business and Economic Statistics, 23(3): 336–45."
+      }
+    },
+    "federal_2006": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "federal_2006",
+        "first_author": "Federal",
+        "year": "2006",
+        "title_fragment": "Review, 13(4): 27–31. “Modeling Data Revisions: Measurement Error and Fixler, De",
+        "raw": "Federal Reserve Bank of Minneapolis Quarterly Jacobs, Jan P. A. M., and Simon van Norden. 2006. Review, 13(4): 27–31. “Modeling Data Revisions: Measurement Error and Fixler, Dennis J., Bruce T. Grimm,"
+      }
+    },
+    "case_2005": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "case_2005",
+        "first_author": "Case",
+        "year": "2005",
+        "title_fragment": "“Real-Time Estimation of the Business, 83(12): 43–50. Output Gap in Japan and It",
+        "raw": "Case of Exports and Imports.” Survey of Current Kamada, Koichiro. 2005. “Real-Time Estimation of the Business, 83(12): 43–50. Output Gap in Japan and Its Usefulness for Infla-"
+      }
+    },
+    "fixler_2010": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "fixler_2010",
+        "first_author": "Fixler",
+        "year": "2010",
+        "title_fragment": "“News, tion Forecasting and Policymaking.” North American Noise, and Estimates o",
+        "raw": "Fixler, Dennis J., and Jeremy J. Nalewaik. 2010. “News, tion Forecasting and Policymaking.” North American Noise, and Estimates of the ‘True’ Unobserved State Journal of Economics and Finance, 16(3): "
+      }
+    },
+    "working_2010": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "working_2010",
+        "first_author": "Working",
+        "year": "2010",
+        "title_fragment": "-04. ity of Preliminary Money Stock Estimates.” Review Garratt, Anthony, Gary Ko",
+        "raw": "Working Paper 2010-04. ity of Preliminary Money Stock Estimates.” Review Garratt, Anthony, Gary Koop, Emi Mise, and Shaun P. of Economics and Statistics, 77(1): 32–41."
+      }
+    },
+    "vahey_2009": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "vahey_2009",
+        "first_author": "Vahey",
+        "year": "2009",
+        "title_fragment": "“Real-Time Prediction with U.K. Mon- Kennedy, James E. 1990. “An Analysis of Rev",
+        "raw": "Vahey. 2009. “Real-Time Prediction with U.K. Mon- Kennedy, James E. 1990. “An Analysis of Revisions to etary Aggregates in the Presence of Model Uncer- the Industrial Production Index.” Board of Gover"
+      }
+    },
+    "garratt_2006": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "garratt_2006",
+        "first_author": "Garratt",
+        "year": "2006",
+        "title_fragment": "“U.K. Kishor, N. Kundan, and Evan F. Koenig. Forthcoming. Real-Time Macro Data C",
+        "raw": "Garratt, Anthony, and Shaun P. Vahey. 2006. “U.K. Kishor, N. Kundan, and Evan F. Koenig. Forthcoming. Real-Time Macro Data Characteristics.” Economic “VAR Estimation and Forecasting When Data Are Jour"
+      }
+    },
+    "worms_2005": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "worms_2005",
+        "first_author": "Worms",
+        "year": "2005",
+        "title_fragment": "“How the Bundesbank Really Con- Koenig, Evan F. 2003. “Is the Markup a Useful Re",
+        "raw": "Worms. 2005. “How the Bundesbank Really Con- Koenig, Evan F. 2003. “Is the Markup a Useful Real- ducted Monetary Policy.” North American Journal of Time Predictor of Inflation?” Economics Letters, Eco"
+      }
+    },
+    "gerdesmeier_2005": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "gerdesmeier_2005",
+        "first_author": "Gerdesmeier",
+        "year": "2005",
+        "title_fragment": "“The Koenig, Evan F., Sheila Dolmas, and Jeremy M. Piger.",
+        "raw": "Gerdesmeier, Dieter, and Barbara Roffia. 2005. “The Koenig, Evan F., Sheila Dolmas, and Jeremy M. Piger."
+      }
+    },
+    "relevance_2003": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "relevance_2003",
+        "first_author": "Relevance",
+        "year": "2003",
+        "title_fragment": "“The Use and Abuse of Real-Time Data in Functions for the Euro Area.” North Amer",
+        "raw": "Relevance of Real-Time Data in Estimating Reaction 2003. “The Use and Abuse of Real-Time Data in Functions for the Euro Area.” North American Jour- Economic Forecasting.” Review of Economics and nal o"
+      }
+    },
+    "giannone_2002": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "giannone_2002",
+        "first_author": "Giannone",
+        "year": "2002",
+        "title_fragment": "“Comments on ‘Forecasting",
+        "raw": "Giannone, Domenico, Lucrezia Reichlin, and Luca Kozicki, Sharon. 2002. “Comments on ‘Forecasting"
+      }
+    },
+    "sala_2005": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "sala_2005",
+        "first_author": "Sala",
+        "year": "2005",
+        "title_fragment": "“Monetary Policy in Real Time.” In NBER with a Real-Time Data Set for Macroecono",
+        "raw": "Sala. 2005. “Monetary Policy in Real Time.” In NBER with a Real-Time Data Set for Macroeconomists.’”"
+      }
+    },
+    "macroeconomics_2004": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "macroeconomics_2004",
+        "first_author": "Macroeconomics",
+        "year": "2004",
+        "title_fragment": ", ed. Mark Gertler and Journal of Macroeconomics, 24(4): 541–57.",
+        "raw": "Macroeconomics Annual 2004, ed. Mark Gertler and Journal of Macroeconomics, 24(4): 541–57."
+      }
+    },
+    "kenneth_2004": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "kenneth_2004",
+        "first_author": "Kenneth",
+        "year": "2004",
+        "title_fragment": "“How Do Data Revisions Affect MIT Press. the Evaluation and Conduct of Monetary ",
+        "raw": "Kenneth Rogoff, 161–200. Cambridge and London: Kozicki, Sharon. 2004. “How Do Data Revisions Affect MIT Press. the Evaluation and Conduct of Monetary Policy?”"
+      }
+    },
+    "guerrero_1993": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "guerrero_1993",
+        "first_author": "Guerrero",
+        "year": "1993",
+        "title_fragment": "“Combining Historical and Federal Reserve Bank of Kansas City Economic Prelimina",
+        "raw": "Guerrero, Victor M. 1993. “Combining Historical and Federal Reserve Bank of Kansas City Economic Preliminary Information to Obtain Timely Time Review, 89(1): 5–38. Series Data.” International Journal "
+      }
+    },
+    "maravall_1986": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "maravall_1986",
+        "first_author": "Maravall",
+        "year": "1986",
+        "title_fragment": "“The GDP.” Economic Journal, 101(407): 887–901.",
+        "raw": "Maravall, Agustín, and David A. Pierce. 1986. “The GDP.” Economic Journal, 101(407): 887–901."
+      }
+    },
+    "transmission_1998": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "transmission_1998",
+        "first_author": "Transmission",
+        "year": "1998",
+        "title_fragment": "“Data Monetary Control.” Econometrica, 54(4): 961–79. Vintages and Measuring For",
+        "raw": "Transmission of Data Noise into Policy Noise in U.S. Robertson, John C., and Ellis W. Tallman. 1998. “Data Monetary Control.” Econometrica, 54(4): 961–79. Vintages and Measuring Forecast Model Perfor-"
+      }
+    },
+    "mc_1989": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "mc_1989",
+        "first_author": "Mc",
+        "year": "1989",
+        "title_fragment": "“Forecasts and Actuals: The mance.” Federal Reserve Bank of Atlanta Economic Tra",
+        "raw": "McNees, Stephen K. 1989. “Forecasts and Actuals: The mance.” Federal Reserve Bank of Atlanta Economic Trade-Off between Timeliness and Accuracy.” Inter- Review, 83(4): 4–20. national Journal of Foreca"
+      }
+    },
+    "molodtsova_2008": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "molodtsova_2008",
+        "first_author": "Molodtsova",
+        "year": "2008",
+        "title_fragment": "“Real-Time Exchange Rate Growth and Its Production (Output), Expenditure Predict",
+        "raw": "Molodtsova, Tanya. 2008. “Real-Time Exchange Rate Growth and Its Production (Output), Expenditure Predictability with Taylor Rule Fundamentals.” and Income Components.” Economic Trends, 625: http://ww"
+      }
+    },
+    "molodtsova_1998": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "molodtsova_1998",
+        "first_author": "Molodtsova",
+        "year": "1998",
+        "title_fragment": "“Do Measures of Mon-",
+        "raw": "Molodtsova, Tanya, Alex Nikolsko-Rzhevskyy, and Rudebusch, Glenn D. 1998. “Do Measures of Mon-"
+      }
+    },
+    "david_2008": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "david_2008",
+        "first_author": "David",
+        "year": "2008",
+        "title_fragment": "“Taylor Rules with Real-Time etary Policy in a VAR Make Sense?” International Da",
+        "raw": "David H. Papell. 2008. “Taylor Rules with Real-Time etary Policy in a VAR Make Sense?” International Data: A Tale of Two Countries and One Exchange Economic Review, 39(4): 907–31."
+      }
+    },
+    "rate_2001": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "rate_2001",
+        "first_author": "Rate",
+        "year": "2001",
+        "title_fragment": "“Is the Fed Too Timid? ment 1): S63–79. Monetary Policy in an Uncertain World.” ",
+        "raw": "Rate.” Journal of Monetary Economics, 55(Supple- Rudebusch, Glenn D. 2001. “Is the Fed Too Timid? ment 1): S63–79. Monetary Policy in an Uncertain World.” Review of"
+      }
+    },
+    "errors_2002": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "errors_2002",
+        "first_author": "Errors",
+        "year": "2002",
+        "title_fragment": "“Assessing Nominal mates.” Journal of Business and Economic Statistics, Income R",
+        "raw": "Errors and Measurement Errors in Early GNP Esti- Rudebusch, Glenn D. 2002. “Assessing Nominal mates.” Journal of Business and Economic Statistics, Income Rules for Monetary Policy with Model and 5(2):"
+      }
+    },
+    "nalewaik_2007": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "nalewaik_2007",
+        "first_author": "Nalewaik",
+        "year": "2007",
+        "title_fragment": "“Estimating Probabilities 402–32. of Recession in Real Time Using GDP and GDI.” ",
+        "raw": "Nalewaik, Jeremy J. 2007. “Estimating Probabilities 402–32. of Recession in Real Time Using GDP and GDI.” Sargent, Thomas J. 1979. Macroeconomic Theory. New Board of Governors of the Federal Reserve S"
+      }
+    },
+    "finance_2007": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "finance_2007",
+        "first_author": "Finance",
+        "year": "2007",
+        "title_fragment": "-07. Sargent, Thomas J. 1989. “Two Models of Measure-",
+        "raw": "Finance and Economics Discussion Paper 2007-07. Sargent, Thomas J. 1989. “Two Models of Measure-"
+      }
+    },
+    "nelson_2003": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "nelson_2003",
+        "first_author": "Nelson",
+        "year": "2003",
+        "title_fragment": "“UK Infla- ments and the Investment Accelerator.” Journal of tion in the 1970s a",
+        "raw": "Nelson, Edward, and Kalin Nikolov. 2003. “UK Infla- ments and the Investment Accelerator.” Journal of tion in the 1970s and 1980s: The Role of Output Gap Political Economy, 97(2): 251–87."
+      }
+    },
+    "mismeasurement_2005": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "mismeasurement_2005",
+        "first_author": "Mismeasurement",
+        "year": "2005",
+        "title_fragment": "“Early Estimates of GDP: Infor- ness, 55(4): 353–70. mation Content and Forecast",
+        "raw": "Mismeasurement.” Journal of Economics and Busi- Skipper, Hugh. 2005. “Early Estimates of GDP: Infor- ness, 55(4): 353–70. mation Content and Forecasting Methods.” Eco-"
+      }
+    },
+    "oh_1990": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "oh_1990",
+        "first_author": "Oh",
+        "year": "1990",
+        "title_fragment": "“The nomic Trends, 617: 26–35.",
+        "raw": "Oh, Seonghwan, and Michael Waldman. 1990. “The nomic Trends, 617: 26–35."
+      }
+    },
+    "macroeconomic_2002": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "macroeconomic_2002",
+        "first_author": "Macroeconomic",
+        "year": "2002",
+        "title_fragment": "“Output Gap Uncertainty: Does It Quarterly Journal of Economics, 105(4): 1017–34",
+        "raw": "Macroeconomic Effects of False Announcements.” Smets, Frank. 2002. “Output Gap Uncertainty: Does It Quarterly Journal of Economics, 105(4): 1017–34. Matter for the Taylor Rule?” Empirical Economics,"
+      }
+    },
+    "review_1997": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "review_1997",
+        "first_author": "Review",
+        "year": "1997",
+        "title_fragment": "“The NAIRU, Unemployment and Monetary",
+        "raw": "Review, 91(4): 964–85. 1997. “The NAIRU, Unemployment and Monetary"
+      }
+    },
+    "reifschneider_2002": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "reifschneider_2002",
+        "first_author": "Reifschneider",
+        "year": "2002",
+        "title_fragment": "“Mac- 2000. “Errors in the Measurement of the Output roeconomic Forecasting Usin",
+        "raw": "Reifschneider, Robert Tetlow, and Frederico Finan. Stock, James H., and Mark W. Watson. 2002. “Mac- 2000. “Errors in the Measurement of the Output roeconomic Forecasting Using Diffusion Indexes.” Gap "
+      }
+    },
+    "trivellato_1986": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "trivellato_1986",
+        "first_author": "Trivellato",
+        "year": "1986",
+        "title_fragment": "“Prelimi- Business, 55(1): 87–119. nary Data Errors and Their Impact on the Fore",
+        "raw": "Trivellato, Ugo, and Enrico Rettore. 1986. “Prelimi- Business, 55(1): 87–119. nary Data Errors and Their Impact on the Forecast Zellner, Arnold. 1958. “A Statistical Analysis of Provi- Error of Simult"
+      }
+    },
+    "watson_2007": {
+      "count": 1,
+      "cited_by": [
+        "croushore2011.pdf"
+      ],
+      "data": {
+        "key": "watson_2007",
+        "first_author": "Watson",
+        "year": "2007",
+        "title_fragment": "“How Accurate Are Real-Time nents, and of Personal Saving.” Journal of the Ameri",
+        "raw": "Watson, Mark W. 2007. “How Accurate Are Real-Time nents, and of Personal Saving.” Journal of the Ameri- Estimates of Output Trends and Gaps?” Federal can Statistical Association, 53(281): 54–65."
+      }
+    },
+    "this_2025": {
+      "count": 7,
+      "cited_by": [
+        "ellsberg1961.pdf"
+      ],
+      "data": {
+        "key": "this_2025",
+        "first_author": "This",
+        "year": "2025",
+        "title_fragment": "07:38:23 UTC All use subject to https://about.jstor.org/terms 664 QUARTERLY JOUR",
+        "raw": "This content downloaded from 193.147.188.5 on Wed, 28 May 2025 07:38:23 UTC All use subject to https://about.jstor.org/terms 664 QUARTERLY JOURNAL OF ECONOMICS empirically (at least, with respect to o"
+      }
+    },
+    "vol_1952": {
+      "count": 1,
+      "cited_by": [
+        "ellsberg1961.pdf"
+      ],
+      "data": {
+        "key": "vol_1952",
+        "first_author": "Vol",
+        "year": "1952",
+        "title_fragment": "), pp. 396-407. The discussion throughout Section III of this paper derives heav",
+        "raw": "Vol. 23 (Sept. 1952), pp. 396-407. The discussion throughout Section III of this paper derives heavily from the Hodges and Lehmann argument, although their approach is motivated and rationalized somew"
+      }
+    },
+    "econometric_1951": {
+      "count": 1,
+      "cited_by": [
+        "ellsberg1961.pdf"
+      ],
+      "data": {
+        "key": "econometric_1951",
+        "first_author": "Econometric",
+        "year": "1951",
+        "title_fragment": "), pp. 343--44 (abstract). This deals with the same sort of problem and presents",
+        "raw": "Econometric Models,\" Econometrica, Vol. 19 (July 1951), pp. 343--44 (abstract). This deals with the same sort of problem and presents a \"generalized Bayes-mini- max principle\" equivalent, in more gene"
+      }
+    },
+    "this_2026": {
+      "count": 6,
+      "cited_by": [
+        "faust2005.pdf",
+        "haussler1997.pdf",
+        "patterson1991.pdf"
+      ],
+      "data": {
+        "key": "this_2026",
+        "first_author": "This",
+        "year": "2026",
+        "title_fragment": "07:43:55 UTC All use subject to https://about.jstor.org/terms TABLE 5 FORECAST E",
+        "raw": "This content downloaded from 84.122.248.89 on Sun, 05 Apr 2026 07:43:55 UTC All use subject to https://about.jstor.org/terms TABLE 5 FORECAST EFFICIENCY REGRESSION, SHORT- AND LONG-TERM REVISIONS, FUL"
+      }
+    },
+    "barklem_2000": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "barklem_2000",
+        "first_author": "Barklem",
+        "year": "2000",
+        "title_fragment": "). \"Revisions Analysis of Initial Estimates of Key Economic Indicators and GDP C",
+        "raw": "Barklem, A. (2000). \"Revisions Analysis of Initial Estimates of Key Economic Indicators and GDP Components.\" Economic Trends 556, 31-52."
+      }
+    },
+    "campbell_1995": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "campbell_1995",
+        "first_author": "Campbell",
+        "year": "1995",
+        "title_fragment": "). \"Exact Nonparametric Orthogonality and Random Walk Tests.\" Review of Economic",
+        "raw": "Campbell, B., and J-M. Dufour (1995). \"Exact Nonparametric Orthogonality and Random Walk Tests.\" Review of Economics and Statistics 77, 1-16."
+      }
+    },
+    "christoffersen_2001": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "christoffersen_2001",
+        "first_author": "Christoffersen",
+        "year": "2001",
+        "title_fragment": "). \"Let's get 'Real' about Using Economic Data.\" Journal of Empirical Finance 9,",
+        "raw": "Christoffersen, P., E. Ghysels, and N.R. Swanson (2001). \"Let's get 'Real' about Using Economic Data.\" Journal of Empirical Finance 9, 343-360."
+      }
+    },
+    "de_1987": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "de_1987",
+        "first_author": "De",
+        "year": "1987",
+        "title_fragment": "). \"Rational Economic Data Revisions.\" Journal of Business and Economic Statisti",
+        "raw": "De Jong, P. (1987). \"Rational Economic Data Revisions.\" Journal of Business and Economic Statistics 5, 539-548."
+      }
+    },
+    "diebold_1995": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "diebold_1995",
+        "first_author": "Diebold",
+        "year": "1995",
+        "title_fragment": "). \"Comparing Predictive Accuracy.\" Journal of Busi- ness and Economic Statistic",
+        "raw": "Diebold, F.X., and R.S. Mariano (1995). \"Comparing Predictive Accuracy.\" Journal of Busi- ness and Economic Statistics 13, 253-263."
+      }
+    },
+    "diebold_1991": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "diebold_1991",
+        "first_author": "Diebold",
+        "year": "1991",
+        "title_fragment": "). \"Forecasting Output with the Composite Leading Index: A Real-time Analysis.\" ",
+        "raw": "Diebold, F.X., and G. Rudebusch (1991). \"Forecasting Output with the Composite Leading Index: A Real-time Analysis.\" Journal of the American Statistical Association 86,603-610."
+      }
+    },
+    "economic_2000": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "economic_2000",
+        "first_author": "Economic",
+        "year": "2000",
+        "title_fragment": "). \"The Recent Opinions on Japan's GDP Figures and Our Approach.\" Economic Plann",
+        "raw": "Economic Research Institute (2000). \"The Recent Opinions on Japan's GDP Figures and Our Approach.\" Economic Planning Institute, mimeo (June 9)."
+      }
+    },
+    "evans_1998": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "evans_1998",
+        "first_author": "Evans",
+        "year": "1998",
+        "title_fragment": "). \"Real-time Taylor Rules and the Federal Funds Futures Market.\" Federal Reserv",
+        "raw": "Evans, C.L. (1998). \"Real-time Taylor Rules and the Federal Funds Futures Market.\" Federal Reserve Bank of Chicago Economic Perspectives 22, 44-55."
+      }
+    },
+    "howrey_1984": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "howrey_1984",
+        "first_author": "Howrey",
+        "year": "1984",
+        "title_fragment": "). \"Data Revision, Reconstruction and Prediction: an Application to Inventory In",
+        "raw": "Howrey, E.P. (1984). \"Data Revision, Reconstruction and Prediction: an Application to Inventory Investment.\" Review of Economics and Statistics 66, 386-393."
+      }
+    },
+    "survey_1986": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "survey_1986",
+        "first_author": "Survey",
+        "year": "1986",
+        "title_fragment": "), 20-25.",
+        "raw": "Survey of Current Business (May 1986), 20-25."
+      }
+    },
+    "mariano_1995": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "mariano_1995",
+        "first_author": "Mariano",
+        "year": "1995",
+        "title_fragment": "). \"Prediction of Final Data with Use of Preliminary and/or Revised Data.\" Journ",
+        "raw": "Mariano, R.S., and H. Tanizaki (1995). \"Prediction of Final Data with Use of Preliminary and/or Revised Data.\" Journal of Forecasting 14, 351-380."
+      }
+    },
+    "mc_1999": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "mc_1999",
+        "first_author": "Mc",
+        "year": "1999",
+        "title_fragment": "). Asymptotics of Out of Sample Tests of Causality, mimeo.",
+        "raw": "McCracken, M.W. (1999). Asymptotics of Out of Sample Tests of Causality, mimeo."
+      }
+    },
+    "milboure_1989": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "milboure_1989",
+        "first_author": "Milboure",
+        "year": "1989",
+        "title_fragment": "). \"How Informative are Preliminary Announcements of the Money Stock in Canada?\"",
+        "raw": "Milboure, R.D., and G.W. Smith (1989). \"How Informative are Preliminary Announcements of the Money Stock in Canada?\" Canadian Journal of Economics 22, 595-606."
+      }
+    },
+    "mincer_1969": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "mincer_1969",
+        "first_author": "Mincer",
+        "year": "1969",
+        "title_fragment": "). \"The Evaluation of Economic Forecasts.\" In Economic Forecasts and Expectation",
+        "raw": "Mincer, J., and V. Zamowitz (1969). \"The Evaluation of Economic Forecasts.\" In Economic Forecasts and Expectations, edited by J. Mincer. New York: NBER."
+      }
+    },
+    "new_2000": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "new_2000",
+        "first_author": "New",
+        "year": "2000",
+        "title_fragment": "). Japan Assailed for Omitting Data in Growth Calculations, May 24, p. Cl.",
+        "raw": "New York Times (2000). Japan Assailed for Omitting Data in Growth Calculations, May 24, p. Cl."
+      }
+    },
+    "nordhaus_1975": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "nordhaus_1975",
+        "first_author": "Nordhaus",
+        "year": "1975",
+        "title_fragment": "). \"The Political Business Cycle.\" Review of Economic Studies 42, 169-190.",
+        "raw": "Nordhaus, W. (1975). \"The Political Business Cycle.\" Review of Economic Studies 42, 169-190."
+      }
+    },
+    "reed_2000": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "reed_2000",
+        "first_author": "Reed",
+        "year": "2000",
+        "title_fragment": "). \"How the Preliminary Estimate of GDP is Produced.\" Economic Trends 556, 53-61",
+        "raw": "Reed, G. (2000). \"How the Preliminary Estimate of GDP is Produced.\" Economic Trends 556, 53-61."
+      }
+    },
+    "robertson_1998": {
+      "count": 1,
+      "cited_by": [
+        "faust2005.pdf"
+      ],
+      "data": {
+        "key": "robertson_1998",
+        "first_author": "Robertson",
+        "year": "1998",
+        "title_fragment": "). \"Data Vintages and Measuring Forecast Model Performance.\" Federal Reserve Ban",
+        "raw": "Robertson, J.C., and E.W. Tallman (1998). \"Data Vintages and Measuring Forecast Model Performance.\" Federal Reserve Bank of Atlanta Working Paper."
+      }
+    },
+    "figure_2017": {
+      "count": 1,
+      "cited_by": [
+        "galvao2019.pdf"
+      ],
+      "data": {
+        "key": "figure_2017",
+        "first_author": "Figure",
+        "year": "2017",
+        "title_fragment": ") and the",
+        "raw": "Figure 10: Data Uncertainty and Macroeconomic Uncertainty as measured by Redl (2017) and the"
+      }
+    },
+    "roehe_2017": {
+      "count": 1,
+      "cited_by": [
+        "ghirelli2019.pdf"
+      ],
+      "data": {
+        "key": "roehe_2017",
+        "first_author": "Roehe",
+        "year": "2017",
+        "title_fragment": "), Fontaine et al. (2017), Caggiano et al. (2017) and incertidumbre. They scale ",
+        "raw": "Roehe (2017), Fontaine et al. (2017), Caggiano et al. (2017) and incertidumbre. They scale the raw count by the total number of Colombo(2013). articles in the same newspaper/month, standardize the mon"
+      }
+    },
+    "references_2016": {
+      "count": 1,
+      "cited_by": [
+        "ghirelli2019.pdf"
+      ],
+      "data": {
+        "key": "references_2016",
+        "first_author": "References",
+        "year": "2016",
+        "title_fragment": "AnIndexofGlobalEconomicPolicyUncertainty.WorkingPaper 22740,NationalBureauofEcon",
+        "raw": "References Davis,S.J.,2016.AnIndexofGlobalEconomicPolicyUncertainty.WorkingPaper 22740,NationalBureauofEconomicResearch."
+      }
+    },
+    "castelnuovo_2017": {
+      "count": 1,
+      "cited_by": [
+        "ghirelli2019.pdf"
+      ],
+      "data": {
+        "key": "castelnuovo_2017",
+        "first_author": "Castelnuovo",
+        "year": "2017",
+        "title_fragment": "A short review of the recent Spain.WorkingPaper1905,BankofSpain. literatureonunc",
+        "raw": "Castelnuovo, E., Lim, G., Pellegrino, G., 2017. A short review of the recent Spain.WorkingPaper1905,BankofSpain. literatureonuncertainty.Aust.Econ.Rev.50(1),68–78. Meinen, P., Roehe, O., 2017. On meas"
+      }
+    },
+    "colombo_2013": {
+      "count": 1,
+      "cited_by": [
+        "ghirelli2019.pdf"
+      ],
+      "data": {
+        "key": "colombo_2013",
+        "first_author": "Colombo",
+        "year": "2013",
+        "title_fragment": "Economic policy uncertainty in the US: Does it matter for investment:Cross-count",
+        "raw": "Colombo, V., 2013. Economic policy uncertainty in the US: Does it matter for investment:Cross-countryevidencefromtheeuroarea.Eur.Econ.Rev.92, theeuroarea?.Econom.Lett.121(1),39–42. 161–179."
+      }
+    },
+    "ci_1990": {
+      "count": 1,
+      "cited_by": [
+        "haussler1997.pdf"
+      ],
+      "data": {
+        "key": "ci_1990",
+        "first_author": "Ci",
+        "year": "1990",
+        "title_fragment": "). Information-theoretic asymptotics of Bayes methods. IEEE Trans. Inform. Theor",
+        "raw": "[15] CiARKE, B. and BARRON, A. (1990). Information-theoretic asymptotics of Bayes methods. IEEE Trans. Inform. Theory 36 453-471."
+      }
+    },
+    "di_1986": {
+      "count": 1,
+      "cited_by": [
+        "haussler1997.pdf"
+      ],
+      "data": {
+        "key": "di_1986",
+        "first_author": "Di",
+        "year": "1986",
+        "title_fragment": "). On the consistency of Bayes estimates. Ann. Statist. 14 1-26.",
+        "raw": "[21] DiACONIS, P. and FREEDMAN, D. (1986). On the consistency of Bayes estimates. Ann. Statist. 14 1-26."
+      }
+    },
+    "kom_1994": {
+      "count": 1,
+      "cited_by": [
+        "haussler1997.pdf"
+      ],
+      "data": {
+        "key": "kom_1994",
+        "first_author": "Kom",
+        "year": "1994",
+        "title_fragment": "). On asymptotic properties of predictive distributions. Technical Report METR 9",
+        "raw": "[38] KomA1I, F. (1994). On asymptotic properties of predictive distributions. Technical Report METR 94-21, Dept. Math. Engrg. Phys., Univ. Tokyo."
+      }
+    },
+    "yu_1996": {
+      "count": 1,
+      "cited_by": [
+        "haussler1997.pdf"
+      ],
+      "data": {
+        "key": "yu_1996",
+        "first_author": "Yu",
+        "year": "1996",
+        "title_fragment": "). Lower bounds on expected redundancy for nonparametric classes. IEEE Trans. In",
+        "raw": "[55] Yu, B. (1996). Lower bounds on expected redundancy for nonparametric classes. IEEE Trans. Inform. Theory 42 272-275."
+      }
+    },
+    "abraham_1986": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "abraham_1986",
+        "first_author": "Abraham",
+        "year": "1986",
+        "title_fragment": "“Cyclical Unemployment: Sectoral Shifts or Aggregate Disturbances?” Journal of P",
+        "raw": "Abraham, Katharine G., and Lawrence F. Katz. 1986. “Cyclical Unemployment: Sectoral Shifts or Aggregate Disturbances?” Journal of Political Economy 94 3 : 507–22. ( )"
+      }
+    },
+    "andersen_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "andersen_2013",
+        "first_author": "Andersen",
+        "year": "2013",
+        "title_fragment": "“Financial Risk Measurement for Financial Risk Management.” In Handbook of the E",
+        "raw": "Andersen, Torben G., Tim Bollerslev, Peter F. Christoffersen, and Francis X. Diebold. 2013. “Financial Risk Measurement for Financial Risk Management.” In Handbook of the Economics of Finance, Vol. 2,"
+      }
+    },
+    "arellano_2012": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "arellano_2012",
+        "first_author": "Arellano",
+        "year": "2012",
+        "title_fragment": "“Financial Frictions and Fluctuations in Vola- tility.” Federal Reserve Bank of ",
+        "raw": "Arellano, Cristina, Yan Bai, and Patrick J. Kehoe. 2012. “Financial Frictions and Fluctuations in Vola- tility.” Federal Reserve Bank of Minneapolis Research Department Staff Report 466."
+      }
+    },
+    "bachmann_2011": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "bachmann_2011",
+        "first_author": "Bachmann",
+        "year": "2011",
+        "title_fragment": "“Uncertainty Business Cycles––Really?” National Bureau of Economic Research Work",
+        "raw": "Bachmann, Rüdiger, and Christian Bayer. 2011. “Uncertainty Business Cycles––Really?” National Bureau of Economic Research Working Paper 16862."
+      }
+    },
+    "bachmann_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "bachmann_2013",
+        "first_author": "Bachmann",
+        "year": "2013",
+        "title_fragment": "“Uncertainty and Economic Activity: Evi- dence from Business Survey Data.” Ameri",
+        "raw": "Bachmann, Rüdiger, Steffen Elstner, and Eric R. Sims. 2013. “Uncertainty and Economic Activity: Evi- dence from Business Survey Data.” American Economic Journal: Macroeconomics 5 2 : 217–49. ( )"
+      }
+    },
+    "bai_2002": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "bai_2002",
+        "first_author": "Bai",
+        "year": "2002",
+        "title_fragment": "“Determining the Number of Factors in Approximate Factor Models.” Econometrica 7",
+        "raw": "Bai, Jushan, and Serena Ng. 2002. “Determining the Number of Factors in Approximate Factor Models.” Econometrica 70 1 : 191–221. ( )"
+      }
+    },
+    "bai_2006": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "bai_2006",
+        "first_author": "Bai",
+        "year": "2006",
+        "title_fragment": "“Confidence Intervals for Diffusion Index Forecasts and Inference for Factor-Aug",
+        "raw": "Bai, Jushan, and Serena Ng. 2006. “Confidence Intervals for Diffusion Index Forecasts and Inference for Factor-Augmented Regressions.” Econometrica 74 4 : 1133–50. ( )"
+      }
+    },
+    "bai_2008": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "bai_2008",
+        "first_author": "Bai",
+        "year": "2008",
+        "title_fragment": "“Forecasting Economic Time Series Using Targeted Predictors.” Journal of Econome",
+        "raw": "Bai, Jushan, and Serena Ng. 2008. “Forecasting Economic Time Series Using Targeted Predictors.” Journal of Econometrics 146 2 : 304–17. ( )"
+      }
+    },
+    "basu_2012": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "basu_2012",
+        "first_author": "Basu",
+        "year": "2012",
+        "title_fragment": "“Uncertainty Shocks in a Model of Effective Demand.” http://fmwww.bc.edu/ec-p/wp",
+        "raw": "Basu, Susanto, and Brent Bundick. 2012. “Uncertainty Shocks in a Model of Effective Demand.” http://fmwww.bc.edu/ec-p/wp774.pdf."
+      }
+    },
+    "bekaert_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "bekaert_2013",
+        "first_author": "Bekaert",
+        "year": "2013",
+        "title_fragment": "“Risk, Uncertainty and Monetary Policy.” Journal of Monetary Economics 60 7 : 77",
+        "raw": "Bekaert, Geert, Marie Hoerova, and Marco Lo Duca. 2013. “Risk, Uncertainty and Monetary Policy.” Journal of Monetary Economics 60 7 : 771–88. ( )"
+      }
+    },
+    "becker_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "becker_2013",
+        "first_author": "Becker",
+        "year": "2013",
+        "title_fragment": "NBER-CES Manufacturing Industry Data- base. http://www.nber.org/nberces accessed",
+        "raw": "Becker, Randy, Wayne Gray, and Jordan Marvakov. 2013. NBER-CES Manufacturing Industry Data- base. http://www.nber.org/nberces accessed January 18, 2014 . ( )"
+      }
+    },
+    "christiano_2005": {
+      "count": 2,
+      "cited_by": [
+        "jurado2015.pdf",
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "christiano_2005",
+        "first_author": "Christiano",
+        "year": "2005",
+        "title_fragment": "“Nominal Rigidities and the Dynamic Effects of a Shock to Monetary Policy.” Jour",
+        "raw": "Christiano, Lawrence J., Martin Eichenbaum, and Charles L. Evans. 2005. “Nominal Rigidities and the Dynamic Effects of a Shock to Monetary Policy.” Journal of Political Economy 113 1 : 1–45. ( )"
+      }
+    },
+    "cochrane_1994": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "cochrane_1994",
+        "first_author": "Cochrane",
+        "year": "1994",
+        "title_fragment": "“Permanent and Transitory Components of GNP and Stock Prices.” Quar- terly Journ",
+        "raw": "Cochrane, John H. 1994. “Permanent and Transitory Components of GNP and Stock Prices.” Quar- terly Journal of Economics 109 1 : 241–65. ( )"
+      }
+    },
+    "cochrane_2005": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "cochrane_2005",
+        "first_author": "Cochrane",
+        "year": "2005",
+        "title_fragment": "Asset Pricing. Princeton: Princeton University Press.",
+        "raw": "Cochrane, John H. 2005. Asset Pricing. Princeton: Princeton University Press."
+      }
+    },
+    "cogley_2005": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "cogley_2005",
+        "first_author": "Cogley",
+        "year": "2005",
+        "title_fragment": "“Drifts and Volatilities: Monetary Policies and Out- comes in the Post WWII US.”",
+        "raw": "Cogley, Timothy, and Thomas J. Sargent. 2005. “Drifts and Volatilities: Monetary Policies and Out- comes in the Post WWII US.” Review of Economic Dynamics 8 2 : 262–302. ( )"
+      }
+    },
+    "forecasting_2008": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "forecasting_2008",
+        "first_author": "Forecasting",
+        "year": "2008",
+        "title_fragment": "–56.",
+        "raw": "Forecasting.” Federal Reserve Board Finance and Economics Discussion Series 2008–56."
+      }
+    },
+    "diether_2002": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "diether_2002",
+        "first_author": "Diether",
+        "year": "2002",
+        "title_fragment": "“Differences of Opinion and the Cross Section of Stock Returns.” Journal of Fina",
+        "raw": "Diether, Karl B., Christopher J. Malloy, and Anna Scherbina. 2002. “Differences of Opinion and the Cross Section of Stock Returns.” Journal of Finance 57 5 : 2113–41. ( )"
+      }
+    },
+    "fama_1992": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "fama_1992",
+        "first_author": "Fama",
+        "year": "1992",
+        "title_fragment": "“The Cross-Section of Expected Returns.” Journal of Finance 47 2 : 427–65. ( )",
+        "raw": "Fama, Eugene F., and Kenneth R. French. 1992. “The Cross-Section of Expected Returns.” Journal of Finance 47 2 : 427–65. ( )"
+      }
+    },
+    "fernández-_2011": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "fernández-_2011",
+        "first_author": "Fernández-",
+        "year": "2011",
+        "title_fragment": "“Risk Matters: The Real Effects of Volatility Shocks.” American Economic Review ",
+        "raw": "Fernández-Villaverde, Jesús, Pablo Guerrón-Quintana, Juan F. Rubio-Ramírez, and Martin Uribe. 2011. “Risk Matters: The Real Effects of Volatility Shocks.” American Economic Review 6 101 : 2530–61. ( )"
+      }
+    },
+    "gilchrist_2010": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "gilchrist_2010",
+        "first_author": "Gilchrist",
+        "year": "2010",
+        "title_fragment": "“Uncertainty, Financial Frictions, and Invest- ment Dynamics.” Society for Econo",
+        "raw": "Gilchrist, Simon, Jae W. Sim, and Egon Zakrajsek. 2010. “Uncertainty, Financial Frictions, and Invest- ment Dynamics.” Society for Economic Dynamics 2010 Meeting Paper 1285."
+      }
+    },
+    "greasley_2006": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "greasley_2006",
+        "first_author": "Greasley",
+        "year": "2006",
+        "title_fragment": "“Investment and Uncertainty: Precipitating the Great Depression in the United St",
+        "raw": "Greasley, David, and Jakob B. Madsen. 2006. “Investment and Uncertainty: Precipitating the Great Depression in the United States.” Economica 73 291 : 393–412. ( )"
+      }
+    },
+    "hassler_2001": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "hassler_2001",
+        "first_author": "Hassler",
+        "year": "2001",
+        "title_fragment": "“Uncertainty and the Timing of Automobile Purchases.” Scandinavian Journal of Ec",
+        "raw": "Hassler, John. 2001. “Uncertainty and the Timing of Automobile Purchases.” Scandinavian Journal of Economics 103 2 : 351–66. ( )"
+      }
+    },
+    "herskovic_2014": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "herskovic_2014",
+        "first_author": "Herskovic",
+        "year": "2014",
+        "title_fragment": "“The Common Factor in Idiosyncratic Volatility: Quantitative Asset Pricing Impli",
+        "raw": "Herskovic, Bernard, Bryan Kelly, Hanno Lustig, and Stijn Van Nieuwerburgh. 2014. “The Common Factor in Idiosyncratic Volatility: Quantitative Asset Pricing Implications.” http://econ.as.nyu.edu/ docs/"
+      }
+    },
+    "hodrick_1997": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "hodrick_1997",
+        "first_author": "Hodrick",
+        "year": "1997",
+        "title_fragment": "“Post-War U.S. Business Cycles: An Empirical Investigation.” Journal of Money, C",
+        "raw": "Hodrick, Robert J., and Edward C. Prescott. 1997. “Post-War U.S. Business Cycles: An Empirical Investigation.” Journal of Money, Credit, and Banking 29 1 : 1–16. ( )"
+      }
+    },
+    "kastner_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "kastner_2013",
+        "first_author": "Kastner",
+        "year": "2013",
+        "title_fragment": "“Ancillarity-Sufficiency Interweaving Strat- egy ASIS for Boosting MCMC Estimati",
+        "raw": "Kastner, Gregor, and Sylvia Frühwirth-Schnatter. 2013. “Ancillarity-Sufficiency Interweaving Strat- egy ASIS for Boosting MCMC Estimation of Stochastic Volatility Models.” Computational Sta- ( ) tisti"
+      }
+    },
+    "kim_1998": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "kim_1998",
+        "first_author": "Kim",
+        "year": "1998",
+        "title_fragment": "“Stochastic Volatility: Likelihood Infer- ence and Comparison with ARCH Models.”",
+        "raw": "Kim, Sangjoon, Neil Shephard, and Siddhartha Chib. 1998. “Stochastic Volatility: Likelihood Infer- ence and Comparison with ARCH Models.” Review of Economic Studies 65 3 : 361–93. ( )"
+      }
+    },
+    "knotek_2011": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "knotek_2011",
+        "first_author": "Knotek",
+        "year": "2011",
+        "title_fragment": "“How Do Households Respond to Uncertainty Shocks?” Federal Reserve Bank of Kansa",
+        "raw": "Knotek, Edward S., II, and Shujaat Khan. 2011. “How Do Households Respond to Uncertainty Shocks?” Federal Reserve Bank of Kansas City Economic Review 96 2 : 5–34. ( )"
+      }
+    },
+    "lahiri_2010": {
+      "count": 2,
+      "cited_by": [
+        "jurado2015.pdf",
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "lahiri_2010",
+        "first_author": "Lahiri",
+        "year": "2010",
+        "title_fragment": "“Measuring Forecast Uncertainty by Disagreement: The Missing Link.” Journal of A",
+        "raw": "Lahiri, Kajal, and Xuguang Sheng. 2010. “Measuring Forecast Uncertainty by Disagreement: The Missing Link.” Journal of Applied Econometrics 25 4 : 514–38. ( )"
+      }
+    },
+    "leahy_1996": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "leahy_1996",
+        "first_author": "Leahy",
+        "year": "1996",
+        "title_fragment": "“The Effect of Uncertainty on Investment: Some Stylized Facts.” Journal of Money",
+        "raw": "Leahy, John V., and Toni M. Whited. 1996. “The Effect of Uncertainty on Investment: Some Stylized Facts.” Journal of Money, Credit, and Banking 28 1 : 64–83. ( )"
+      }
+    },
+    "leduc_2012": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "leduc_2012",
+        "first_author": "Leduc",
+        "year": "2012",
+        "title_fragment": "“Uncertainty Shocks are Aggregate Demand Shocks.” Federal",
+        "raw": "Leduc, Sylvain, and Zheng Liu. 2012. “Uncertainty Shocks are Aggregate Demand Shocks.” Federal"
+      }
+    },
+    "reserve_2012": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "reserve_2012",
+        "first_author": "Reserve",
+        "year": "2012",
+        "title_fragment": "–10.",
+        "raw": "Reserve Bank of San Francisco Working Paper 2012–10."
+      }
+    },
+    "mankiw_2004": {
+      "count": 2,
+      "cited_by": [
+        "jurado2015.pdf",
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "mankiw_2004",
+        "first_author": "Mankiw",
+        "year": "2004",
+        "title_fragment": "“Disagreement About Inflation Expec- tations.” In NBER Macroeconomics Annual 200",
+        "raw": "Mankiw, N. Gregory, Ricardo Reis, and Justin Wolfers. 2004. “Disagreement About Inflation Expec- tations.” In NBER Macroeconomics Annual 2003, edited by Mark Gertler and Kenneth Rogoff, 209–48. Cambri"
+      }
+    },
+    "nakamura_2012": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "nakamura_2012",
+        "first_author": "Nakamura",
+        "year": "2012",
+        "title_fragment": "“Growth-Rate and Uncertainty Shocks in Consumption: Cross-Country Evidence.” Nat",
+        "raw": "Nakamura, Emi, Dmitriy Sergeyev, and Jón Steinsson. 2012. “Growth-Rate and Uncertainty Shocks in Consumption: Cross-Country Evidence.” National Bureau of Economic Research Working Paper 18128."
+      }
+    },
+    "orlik_2014": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "orlik_2014",
+        "first_author": "Orlik",
+        "year": "2014",
+        "title_fragment": "“Understanding Uncertainty Shocks and the Role of Black Swans.” http://people.st",
+        "raw": "Orlik, Anna, and Laura Veldkamp. 2014. “Understanding Uncertainty Shocks and the Role of Black Swans.” http://people.stern.nyu.edu/lveldkam/pdfs/uncertaintyOV.pdf."
+      }
+    },
+    "romer_1990": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "romer_1990",
+        "first_author": "Romer",
+        "year": "1990",
+        "title_fragment": "“The Great Crash and the Onset of the Great Depression.” Quarterly Jour- nal of ",
+        "raw": "Romer, Christina D. 1990. “The Great Crash and the Onset of the Great Depression.” Quarterly Jour- nal of Economics 105 3 : 597–624. ( )"
+      }
+    },
+    "schaal_2011": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "schaal_2011",
+        "first_author": "Schaal",
+        "year": "2011",
+        "title_fragment": "“Uncertainty, Productivity, and Unemployment in the Great Recession.” https://ww",
+        "raw": "Schaal, Edouard. 2011. “Uncertainty, Productivity, and Unemployment in the Great Recession.” https://www.economicdynamics.org/meetpapers/2011/paper_1450.pdf."
+      }
+    },
+    "scotti_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "scotti_2013",
+        "first_author": "Scotti",
+        "year": "2013",
+        "title_fragment": "“Surprise and Uncertainty Indexes: Real-Time Aggregation of Real-Activity",
+        "raw": "Scotti, Chiara. 2013. “Surprise and Uncertainty Indexes: Real-Time Aggregation of Real-Activity"
+      }
+    },
+    "macro_2013": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "macro_2013",
+        "first_author": "Macro",
+        "year": "2013",
+        "title_fragment": "/1093/ifdp1093.pdf.",
+        "raw": "Macro Surprises.” http://www.federalreserve.gov/pubs/ifdp/2013/1093/ifdp1093.pdf."
+      }
+    },
+    "so_2013": {
+      "count": 2,
+      "cited_by": [
+        "jurado2015.pdf",
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "so_2013",
+        "first_author": "So",
+        "year": "2013",
+        "title_fragment": "“A New Approach to Predicting Analyst Forecast Errors: Do Investors Overweight A",
+        "raw": "So, Eric C. 2013. “A New Approach to Predicting Analyst Forecast Errors: Do Investors Overweight Analyst Forecasts?” Journal of Financial Economics 108 3 : 615–40. ( ) Stock, James H., and Mark W. Wat"
+      }
+    },
+    "stock_2006": {
+      "count": 1,
+      "cited_by": [
+        "jurado2015.pdf"
+      ],
+      "data": {
+        "key": "stock_2006",
+        "first_author": "Stock",
+        "year": "2006",
+        "title_fragment": "“Forecasting with Many Predictors.” In Handbook of Forecasting, edited by Hashem",
+        "raw": "Stock, James H., and Mark W. Watson. 2006. “Forecasting with Many Predictors.” In Handbook of Forecasting, edited by Hashem M. Pesaran and Martin Weale, 515–54. Amsterdam: Elsevier."
+      }
+    },
+    "forecasting_1954": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "forecasting_1954",
+        "first_author": "Forecasting",
+        "year": "1954",
+        "title_fragment": ":I to 197X:I V.” .._.._ _ - ---- .--.-_- _--__--_-. - __ ._ __ _ ___ _ Independe",
+        "raw": "Forecasting equations, dcpeqdent variable z*; 1954:I to 197X:I V.” .._.._ _ - ---- .--.-_- _--__--_-. - __ ._ __ _ ___ _ Independent \\rariables II. II.. s. I;‘.U C-:K‘. 1 ._--__-..-_-.-_ --.--.~__ ---"
+      }
+    },
+    "rozeff_1974": {
+      "count": 2,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "rozeff_1974",
+        "first_author": "Rozeff",
+        "year": "1974",
+        "title_fragment": ") surveys the many studies that ertamine whether stwk returns can be forecast us",
+        "raw": "Rozeff (1974) surveys the many studies that ertamine whether stwk returns can be forecast using available information on money growth. He concludes that the evidence confirms the efficient markets hyp"
+      }
+    },
+    "board_1976": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "board_1976",
+        "first_author": "Board",
+        "year": "1976",
+        "title_fragment": ", Improving the monetary aggregates: Report of the Advisory Committee on Monetar",
+        "raw": "Board of Governors of the Federal Reserve System, 1976, Improving the monetary aggregates: Report of the Advisory Committee on Monetary Statistics."
+      }
+    },
+    "board_1980": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "board_1980",
+        "first_author": "Board",
+        "year": "1980",
+        "title_fragment": ", The redefined monetary aggregates, Federal Reserve Bulletin 66, Feb., 97-114.",
+        "raw": "Board of Governors of the Federal Reserve System, 1980, The redefined monetary aggregates, Federal Reserve Bulletin 66, Feb., 97-114."
+      }
+    },
+    "bsschen_1982": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "bsschen_1982",
+        "first_author": "Bsschen",
+        "year": "1982",
+        "title_fragment": ", Tests of equihbrium macroeconomics using contempora- neous monetary data, Jour",
+        "raw": "Bsschen, J.F. and H.I. Grossman, 1982, Tests of equihbrium macroeconomics using contempora- neous monetary data, Journal of Monetary Economics 10, 309-333."
+      }
+    },
+    "cornell_1983": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "cornell_1983",
+        "first_author": "Cornell",
+        "year": "1983",
+        "title_fragment": ",,T he money supply announcement pwzle: Review and interpretation, American Econ",
+        "raw": "Cornell, B., 1983,,T he money supply announcement pwzle: Review and interpretation, American Economic Review 73,644-657."
+      }
+    },
+    "frankel_1983": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "frankel_1983",
+        "first_author": "Frankel",
+        "year": "1983",
+        "title_fragment": ", Commodity prices, overshooting, money surprises, and Fed credibility, National",
+        "raw": "Frankel, J.A. and G.A. Hardouvelis, 1983, Commodity prices, overshooting, money surprises, and Fed credibility, National Bureau of Economic Research working paper no. 1121 (NBER, Cambridge, MA)."
+      }
+    },
+    "grossman_1982": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "grossman_1982",
+        "first_author": "Grossman",
+        "year": "1982",
+        "title_fragment": ", The natural-rate hypothesis, the rational-expectations hypothesis, and the rem",
+        "raw": "Grossman, HI., 1982, The natural-rate hypothesis, the rational-expectations hypothesis, and the remarkable survival of non-market-clearing assumptions. National Bureau of Economic Re- search work@ pap"
+      }
+    },
+    "hafer_1983": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "hafer_1983",
+        "first_author": "Hafer",
+        "year": "1983",
+        "title_fragment": ", The wayward money supply; A post-mortem of 1982, Federal Reserve Bank of St. L",
+        "raw": "Hafer, R.W. and S. E. Hein, 1983, The wayward money supply; A post-mortem of 1982, Federal Reserve Bank of St. Louis Review 65, no. 3, 17-25."
+      }
+    },
+    "king_1981": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "king_1981",
+        "first_author": "King",
+        "year": "1981",
+        "title_fragment": ", Monetary information and monetary neutrality, Journal of Monetary Economics 7,",
+        "raw": "King, R.G., 1981, Monetary information and monetary neutrality, Journal of Monetary Economics 7, 195-206."
+      }
+    },
+    "shiller_1983": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1984.pdf"
+      ],
+      "data": {
+        "key": "shiller_1983",
+        "first_author": "Shiller",
+        "year": "1983",
+        "title_fragment": ", Forward rates and future policy: Interpreting the term structure of the intere",
+        "raw": "Shiller, R.J., J.Y. Campbell and K.L. Schoenhcltz, 1983, Forward rates and future policy: Interpreting the term structure of the interest rates, Brookings Papers on Economic Activity. No. I, 173-217."
+      }
+    },
+    "growth_1972": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1986.pdf"
+      ],
+      "data": {
+        "key": "growth_1972",
+        "first_author": "Growth",
+        "year": "1972",
+        "title_fragment": ") dollars: Mean ...... 1.7 2.0 2.2 2.5 2.4 Standarddeviation .. .. 3.8 4.0 4.2 4",
+        "raw": "Growth of GNP in constant (1972) dollars: Mean ...... 1.7 2.0 2.2 2.5 2.4 Standarddeviation .. .. 3.8 4.0 4.2 4.1 4.6"
+      }
+    },
+    "estimation_1976": {
+      "count": 4,
+      "cited_by": [
+        "mankiw1986.pdf"
+      ],
+      "data": {
+        "key": "estimation_1976",
+        "first_author": "Estimation",
+        "year": "1976",
+        "title_fragment": ":I—1982:IV 18 Table 3.--Standard )eviations of Revisions in GNP Growth Rates [Pe",
+        "raw": "Estimation period: 1976:I—1982:IV 18 Table 3.--Standard )eviations of Revisions in GNP Growth Rates [Percentage points, at annual rates] To: From: Y2 Y3 Y4 Y5 GNP in current dollars Vi 1.2 1.9 1.9 3.1"
+      }
+    },
+    "constant_1972": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1986.pdf"
+      ],
+      "data": {
+        "key": "constant_1972",
+        "first_author": "Constant",
+        "year": "1972",
+        "title_fragment": ") dollars Vi.... '(2 — /*/0.38 /*/0.37 0.21 (2.12) (2.04) (1.12) (2.... Y3 - .09",
+        "raw": "Constant (1972) dollars Vi.... '(2 — /*/0.38 /*/0.37 0.21 (2.12) (2.04) (1.12) (2.... Y3 - .09 .15 .32 .31 1*142 (.44) (.79) (1.69) (1.67) (2.37) Y3.... '(4 - -.08 -.10 .02 .01 (.41) (.53) (.55) (.09)"
+      }
+    },
+    "current_1972": {
+      "count": 1,
+      "cited_by": [
+        "mankiw1986.pdf"
+      ],
+      "data": {
+        "key": "current_1972",
+        "first_author": "Current",
+        "year": "1972",
+        "title_fragment": ") dollars Y3—Y2 Y4-Y3 Y5-Y4 Y5-Y3 Y3-Y2 Y4-Y3 Y5-Y4 Y5—Y3 Equation.... 7.1 7.2 7",
+        "raw": "Current dollars Constant (1972) dollars Y3—Y2 Y4-Y3 Y5-Y4 Y5-Y3 Y3-Y2 Y4-Y3 Y5-Y4 Y5—Y3 Equation.... 7.1 7.2 7.3 7.4 7.5 7.6 7.7 7.8 Intercept... 0.27 /**/0,34 0.23 0.35 0.12 I**/0.32 —0.11 0.07 (1.24"
+      }
+    },
+    "gertler_1997": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "gertler_1997",
+        "first_author": "Gertler",
+        "year": "1997",
+        "title_fragment": ")findsuchrulesusefulfordescribingGerman the rule operational without reliance on",
+        "raw": "Gertler(1997)findsuchrulesusefulfordescribingGerman the rule operational without reliance on monetarypolicyaswell. forecasts.15 14Use of Greenbook forecasts in estimating reaction functions was introd"
+      }
+    },
+    "to_1997": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "to_1997",
+        "first_author": "To",
+        "year": "1997",
+        "title_fragment": ", 29(2), pp. 214–34. promisetoprovideausefulbaselineforimprov- Henderson, Dale a",
+        "raw": "To the extent simple policy rules offer the 1997, 29(2), pp. 214–34. promisetoprovideausefulbaselineforimprov- Henderson, Dale and McKibbin, Warwick J. “A ing policy decisions, a step toward clarifica"
+      }
+    },
+    "bernanke_1996": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "bernanke_1996",
+        "first_author": "Bernanke",
+        "year": "1996",
+        "title_fragment": ", pp. 340– tionForecastsandMonetaryPolicy.”Journal 66. of Money, Credit, and Ban",
+        "raw": "Bernanke, Ben and Woodford, Michael. “Infla- Conference Papers, Vol. 2, 1996, pp. 340– tionForecastsandMonetaryPolicy.”Journal 66. of Money, Credit, and Banking, Pt. 2, No- Lowe, Philip, ed. Monetary "
+      }
+    },
+    "carnegie-_1996": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "carnegie-_1996",
+        "first_author": "Carnegie-",
+        "year": "1996",
+        "title_fragment": "licPolicy,December1993b,39,pp.215–20. Rotemberg, Julio and Woodford, Michael. “A",
+        "raw": "Carnegie-RochesterConferenceSeriesonPub- ing Paper No. 5692, July 1996. licPolicy,December1993b,39,pp.215–20. Rotemberg, Julio and Woodford, Michael. “An . “Issues in the Design of Monetary Optimizati"
+      }
+    },
+    "woodford_1997": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "woodford_1997",
+        "first_author": "Woodford",
+        "year": "1997",
+        "title_fragment": "ics. Amsterdam: Elsevier, 1999. Svensson,LarsE.O.“InflationForecastTarget- McNee",
+        "raw": "Woodford,eds.,Handbookofmacroeconom- Mimeo, Princeton University, 1997. ics. Amsterdam: Elsevier, 1999. Svensson,LarsE.O.“InflationForecastTarget- McNees, Stephen K. “Modeling the Fed: A For- ing: Imp"
+      }
+    },
+    "function_1997": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "function_1997",
+        "first_author": "Function",
+        "year": "1997",
+        "title_fragment": ", 41(6), pp. 1111–46.",
+        "raw": "Function.” New England Economic Review, 1997, 41(6), pp. 1111–46."
+      }
+    },
+    "federal_1997": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "federal_1997",
+        "first_author": "Federal",
+        "year": "1997",
+        "title_fragment": "Williams, John. “Simple Rules for Monetary . “Monetary Policy Evaluation With Po",
+        "raw": "Federal Reserve Board, December 1997. Williams, John. “Simple Rules for Monetary . “Monetary Policy Evaluation With Policy.” Finance and Economics Discussion Noisy Information.” Finance and Economics "
+      }
+    },
+    "discussion_1998": {
+      "count": 1,
+      "cited_by": [
+        "orphanides2001.pdf"
+      ],
+      "data": {
+        "key": "discussion_1998",
+        "first_author": "Discussion",
+        "year": "1998",
+        "title_fragment": "-50, Board of Gover- eral Reserve System, February 1999.",
+        "raw": "Discussion Series 1998-50, Board of Gover- eral Reserve System, February 1999."
+      }
+    },
+    "sinclair_2011": {
+      "count": 1,
+      "cited_by": [
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "sinclair_2011",
+        "first_author": "Sinclair",
+        "year": "2011",
+        "title_fragment": "). Se define como error de estimación a la diferencia entre las tasas de variaci",
+        "raw": "Sinclair y Stekler (2011). Se define como error de estimación a la diferencia entre las tasas de variación de los avances de las primeras estimaciones y los últimos valores de las estimaciones para el"
+      }
+    },
+    "estudios_2017": {
+      "count": 4,
+      "cited_by": [
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "estudios_2017",
+        "first_author": "Estudios",
+        "year": "2017",
+        "title_fragment": ": 271-298  Vol. 35-2 EVALUACIÓN DEL SESGO EN LAS ESTIMACIONES DE CONTABILIDAD N",
+        "raw": "Estudios de Economía Aplicada, 2017: 271-298  Vol. 35-2 EVALUACIÓN DEL SESGO EN LAS ESTIMACIONES DE CONTABILIDAD NACIONAL TRIMESTRAL:… 293 predicciones son pequeños. Mientras, cuando la variable pres"
+      }
+    },
+    "pain_2014": {
+      "count": 1,
+      "cited_by": [
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "pain_2014",
+        "first_author": "Pain",
+        "year": "2014",
+        "title_fragment": "). En línea con la idea anterior, la influencia del fechado de las series tempor",
+        "raw": "Pain et al. (2014). En línea con la idea anterior, la influencia del fechado de las series temporales -que, por ejemplo determinaría donde se alcanza un punto de inflexión o cambio de tendencia (ciclo"
+      }
+    },
+    "evidence_2008": {
+      "count": 1,
+      "cited_by": [
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "evidence_2008",
+        "first_author": "Evidence",
+        "year": "2008",
+        "title_fragment": "Financial Crisis”. International Monetary Fund. IMF Working Paper 13/60, pp. 1-4",
+        "raw": "Evidence from the 2008 Financial Crisis”. International Monetary Fund. IMF Working Paper 13/60, pp. 1-42."
+      }
+    },
+    "estimates_2011": {
+      "count": 1,
+      "cited_by": [
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "estimates_2011",
+        "first_author": "Estimates",
+        "year": "2011",
+        "title_fragment": "-001. Research Program on Forecasting (RPF). The George Washington University. W",
+        "raw": "Estimates Between Recession and Expansions”. RPF Working Paper, 2011-001. Research Program on Forecasting (RPF). The George Washington University. Washington. USA."
+      }
+    },
+    "tasas_1996": {
+      "count": 1,
+      "cited_by": [
+        "pavia2018.pdf"
+      ],
+      "data": {
+        "key": "tasas_1996",
+        "first_author": "Tasas",
+        "year": "1996",
+        "title_fragment": "1-2016.1) e intertrimestrales (1995.2-2016.1) PRIMER TRIMESTRE SEGUNDO TRIMESTRE",
+        "raw": "Tasas de variación interanuales (1996.1-2016.1) e intertrimestrales (1995.2-2016.1) PRIMER TRIMESTRE SEGUNDO TRIMESTRE TERCER TRIMESTRE CUARTO TRIMESTRE EAM de las estimaciones del PIB A0 A1 A2 A3 P1 "
+      }
+    },
+    "references_1957": {
+      "count": 1,
+      "cited_by": [
+        "pavia2019.pdf"
+      ],
+      "data": {
+        "key": "references_1957",
+        "first_author": "References",
+        "year": "1957",
+        "title_fragment": ",106,620–630.[CrossRef] 2. Jaynes,E.T.InformationTheoryandStatisticalMechanicsII",
+        "raw": "References 1. Jaynes,E.T.InformationTheoryandStatisticalMechanicsI.Phys.Rev.1957,106,620–630.[CrossRef] 2. Jaynes,E.T.InformationTheoryandStatisticalMechanicsII.Phys.Rev.1957,108,171–190.[CrossRef] 3."
+      }
+    },
+    "springer_2001": {
+      "count": 1,
+      "cited_by": [
+        "pavia2019.pdf"
+      ],
+      "data": {
+        "key": "springer_2001",
+        "first_author": "Springer",
+        "year": "2001",
+        "title_fragment": ";pp.417–439. Entropy2019,21,1015 13of13 11. Fernández-Vázquez,E.;Moreno,B.Entrop",
+        "raw": "Springer:Boston,MA,USA,2001;pp.417–439. Entropy2019,21,1015 13of13 11. Fernández-Vázquez,E.;Moreno,B.EntropyEconometricsforCombiningRegionalEconomicForecasts:"
+      }
+    },
+    "simple_2013": {
+      "count": 1,
+      "cited_by": [
+        "pavia2019.pdf"
+      ],
+      "data": {
+        "key": "simple_2013",
+        "first_author": "Simple",
+        "year": "2013",
+        "title_fragment": ",29,108–121.[CrossRef] 14. Moreno,B.;Lopez,A.J.CombiningEconomicForecastsThrough",
+        "raw": "SimpleAverage?Int.J.Forecast.2013,29,108–121.[CrossRef] 14. Moreno,B.;Lopez,A.J.CombiningEconomicForecastsThroughInformationMeasures.Appl.Econ.Lett. 2007,14,899–903.[CrossRef] 15. Moreno, B.; López, A"
+      }
+    },
+    "approach_2013": {
+      "count": 1,
+      "cited_by": [
+        "pavia2019.pdf"
+      ],
+      "data": {
+        "key": "approach_2013",
+        "first_author": "Approach",
+        "year": "2013",
+        "title_fragment": ",32,124–136.[CrossRef] 16. Capistrán,C.;Timmermann,A.ForecastCombinationwithEntr",
+        "raw": "Approach.J.Forecast.2013,32,124–136.[CrossRef] 16. Capistrán,C.;Timmermann,A.ForecastCombinationwithEntryandExitofExperts.J.Bus.Ecol.Stat.2009, 27,428–440.[CrossRef] 17. Zarnowitz,V.AnAppraisalofShort"
+      }
+    },
+    "forecasts_1974": {
+      "count": 1,
+      "cited_by": [
+        "pavia2019.pdf"
+      ],
+      "data": {
+        "key": "forecasts_1974",
+        "first_author": "Forecasts",
+        "year": "1974",
+        "title_fragment": ",137,131–146.[CrossRef] 21. Granger,C.W.;Ramanathan,R.ImprovedMethodsofCombining",
+        "raw": "Forecasts.J.R.Stat.Soc.Ser.AGener.1974,137,131–146.[CrossRef] 21. Granger,C.W.;Ramanathan,R.ImprovedMethodsofCombiningForecasts. J.Forecast. 1984,3,197–204. [CrossRef] 22. Hastie,T.;Tibshirani,R.;Frie"
+      }
+    },
+    "vienna_2019": {
+      "count": 1,
+      "cited_by": [
+        "pavia2019.pdf"
+      ],
+      "data": {
+        "key": "vienna_2019",
+        "first_author": "Vienna",
+        "year": "2019",
+        "title_fragment": "Availableonline:https://www.r-project.org/(accessedon5July2019). 27. Steven, G.J",
+        "raw": "Vienna,Austria,2019.Availableonline:https://www.r-project.org/(accessedon5July2019). 27. Steven, G.J. The NLopt Nonlinear-Optimization Package. 2019. Available online: http://github.com/ stevengj/nlop"
+      }
+    },
+    "the_2015": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "the_2015",
+        "first_author": "The",
+        "year": "2015",
+        "title_fragment": "-11 version of the FRED-QD (Quarterly Database for Macroeconomic Research) discu",
+        "raw": "The variables are downloaded from the 2015-11 version of the FRED-QD (Quarterly Database for Macroeconomic Research) discussed in McCracken and Ng (2015). The labels on the impulse responses carry the"
+      }
+    },
+    "real_2009": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "real_2009",
+        "first_author": "Real",
+        "year": "2009",
+        "title_fragment": "Dollars)",
+        "raw": "Real Consumption PCECC96 Real Personal Consumption Expenditures (Billions of Chained 2009 Dollars)"
+      }
+    },
+    "total_2009": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "total_2009",
+        "first_author": "Total",
+        "year": "2009",
+        "title_fragment": "Dollars per Hour), de‡ated by Core PCE hours HOANBS Nonfarm Business Sector: Hou",
+        "raw": "Total Private (2009 Dollars per Hour), de‡ated by Core PCE hours HOANBS Nonfarm Business Sector: Hours of All Persons (Index 2009=100) federal funds rate FEDFUNDS E¤ective Federal Funds Rate (Percent)"
+      }
+    },
+    "mc_2015": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "mc_2015",
+        "first_author": "Mc",
+        "year": "2015",
+        "title_fragment": "), “FRED-MD: A Monthly Database for Macroeconomic Research,”",
+        "raw": "McCracken and Ng (2015), “FRED-MD: A Monthly Database for Macroeconomic Research,”"
+      }
+    },
+    "federal_2015": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "federal_2015",
+        "first_author": "Federal",
+        "year": "2015",
+        "title_fragment": "-012B.",
+        "raw": "Federal Reserve Bank of St. Louis Working Paper 2015-012B."
+      }
+    },
+    "murphy_1986": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "murphy_1986",
+        "first_author": "Murphy",
+        "year": "1986",
+        "title_fragment": "), “A New Decomposition of the Brier Score: Formulation and Interpreta- tion,”Mo",
+        "raw": "Murphy, A.H. (1986), “A New Decomposition of the Brier Score: Formulation and Interpreta- tion,”Monthly Weather Review 114(12), 2671-2673."
+      }
+    },
+    "stephenson_2008": {
+      "count": 1,
+      "cited_by": [
+        "rossi2016.pdf"
+      ],
+      "data": {
+        "key": "stephenson_2008",
+        "first_author": "Stephenson",
+        "year": "2008",
+        "title_fragment": "), “Two Extra Components in the Brier Score Decomposition,”Weather and Forecasti",
+        "raw": "Stephenson, D.B., C.A.S. Coelho and I.T. Joli¤e (2008), “Two Extra Components in the Brier Score Decomposition,”Weather and Forecasting 23, 752-757. 53 Electronic copy available at: https://ssrn.com/a"
+      }
+    },
+    "bao_2007": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "bao_2007",
+        "first_author": "Bao",
+        "year": "2007",
+        "title_fragment": ").Comparingdensityforecastmodels.JournalofForecasting26:203–225.",
+        "raw": "Bao,Y.,Lee,T.-H,Saltog,B.(2007).Comparingdensityforecastmodels.JournalofForecasting26:203–225."
+      }
+    },
+    "barnea_1979": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "barnea_1979",
+        "first_author": "Barnea",
+        "year": "1979",
+        "title_fragment": ").Theeffectofpriceleveluncertaintyonthedeterminationofnominalinterest rates:Some",
+        "raw": "Barnea,A.,Dotan,A.,Lakonishok,J.(1979).Theeffectofpriceleveluncertaintyonthedeterminationofnominalinterest rates:Someempiricalevidence.SouthernEconomicJournal46:609–614."
+      }
+    },
+    "boero_2008": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "boero_2008",
+        "first_author": "Boero",
+        "year": "2008",
+        "title_fragment": ").Uncertaintyanddisagreementineconomicprediction:TheBankofEngland surveyofextern",
+        "raw": "Boero,G.,Smith,J.,Wallis,K.F.(2008).Uncertaintyanddisagreementineconomicprediction:TheBankofEngland surveyofexternalforecasters.EconomicJournal118:1107–1127."
+      }
+    },
+    "boero_2014": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "boero_2014",
+        "first_author": "Boero",
+        "year": "2014",
+        "title_fragment": ").Themeasurementandcharacteristicsofprofessionalforecasters’uncertainty. Journal",
+        "raw": "Boero,G.,Smith,J.,Wallis,K.F.(2014).Themeasurementandcharacteristicsofprofessionalforecasters’uncertainty. JournalofAppliedEconometrics.DOI:10.1002/jae.2400."
+      }
+    },
+    "bomberger_1996": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "bomberger_1996",
+        "first_author": "Bomberger",
+        "year": "1996",
+        "title_fragment": ").Disagreementasameasureofuncertainty.JournalofMoney,CreditandBanking28:381–392.",
+        "raw": "Bomberger,W.A.(1996).Disagreementasameasureofuncertainty.JournalofMoney,CreditandBanking28:381–392."
+      }
+    },
+    "bomberger_1981": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "bomberger_1981",
+        "first_author": "Bomberger",
+        "year": "1981",
+        "title_fragment": ").Interestrates,uncertaintyandtheLivingstondata.JournalofFinance36:661-675.",
+        "raw": "Bomberger,W.A.,Frazer,W.J.(1981).Interestrates,uncertaintyandtheLivingstondata.JournalofFinance36:661-675."
+      }
+    },
+    "de_1962": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "de_1962",
+        "first_author": "De",
+        "year": "1962",
+        "title_fragment": "). Uncertainty, information, and sequential experiments. Annals of Mathematical ",
+        "raw": "DeGroot, M. H. (1962). Uncertainty, information, and sequential experiments. Annals of Mathematical Statistics 33:404–419."
+      }
+    },
+    "engelberg_2009": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "engelberg_2009",
+        "first_author": "Engelberg",
+        "year": "2009",
+        "title_fragment": ").Comparingthepointpredictionsandsubjectiveprobabilitydistribution ofprofessiona",
+        "raw": "Engelberg,J.,Manski,C.F.,Williams,J.(2009).Comparingthepointpredictionsandsubjectiveprobabilitydistribution ofprofessionalforecasters.JournalofBusinessandEconomicStatistics27:30–41."
+      }
+    },
+    "friedman_1977": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "friedman_1977",
+        "first_author": "Friedman",
+        "year": "1977",
+        "title_fragment": ").Nobellecture:Inflationandunemployment.JournalofPoliticalEconomy85:451–472.",
+        "raw": "Friedman,M.(1977).Nobellecture:Inflationandunemployment.JournalofPoliticalEconomy85:451–472."
+      }
+    },
+    "giordani_2003": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "giordani_2003",
+        "first_author": "Giordani",
+        "year": "2003",
+        "title_fragment": ").Inflationforecastuncertainty.EuropeanEconomicReview47:1037–1059.",
+        "raw": "Giordani,P.,Söderlind,P.(2003).Inflationforecastuncertainty.EuropeanEconomicReview47:1037–1059."
+      }
+    },
+    "golan_2000": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "golan_2000",
+        "first_author": "Golan",
+        "year": "2000",
+        "title_fragment": ").EstimatingCoke’sandPepsi’spriceandadvertisingstrategies.JournalofBusiness andE",
+        "raw": "Golan,A.,Karp,L.S.,Perloff,J.M.(2000).EstimatingCoke’sandPepsi’spriceandadvertisingstrategies.JournalofBusiness andEconomicStatistics18:398–409"
+      }
+    },
+    "granger_2004": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "granger_2004",
+        "first_author": "Granger",
+        "year": "2004",
+        "title_fragment": ").Adependencemetricforpossiblynonlinearprocesses.JournalofTime SeriesAnalysis25:",
+        "raw": "Granger,C.W.,Maasoumi,E.,Racine,J.(2004).Adependencemetricforpossiblynonlinearprocesses.JournalofTime SeriesAnalysis25:649–669. ECONOMETRICREVIEWS 817"
+      }
+    },
+    "hall_1990": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "hall_1990",
+        "first_author": "Hall",
+        "year": "1990",
+        "title_fragment": "). Akaike’s information criterion and Kullback-Leibler loss for histogram densit",
+        "raw": "Hall, P. (1990). Akaike’s information criterion and Kullback-Leibler loss for histogram density estimation. Probability TheoryandRelatedFields85:449–467."
+      }
+    },
+    "hall_1993": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "hall_1993",
+        "first_author": "Hall",
+        "year": "1993",
+        "title_fragment": ").Ontheestimationofentropy.AnnalsofInstituteofMathematicalStatistics45:69–88.",
+        "raw": "Hall,P.,Morton,S.C.(1993).Ontheestimationofentropy.AnnalsofInstituteofMathematicalStatistics45:69–88."
+      }
+    },
+    "hall_2007": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "hall_2007",
+        "first_author": "Hall",
+        "year": "2007",
+        "title_fragment": ").Combiningdensityforecasts.InternationalJournalofForecasting23:1–13.",
+        "raw": "Hall,S.G.,Mitchell,J.(2007).Combiningdensityforecasts.InternationalJournalofForecasting23:1–13."
+      }
+    },
+    "hirschberg_1991": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "hirschberg_1991",
+        "first_author": "Hirschberg",
+        "year": "1991",
+        "title_fragment": "). Cluster analysis and the quality of life across countries. Journal of Econome",
+        "raw": "Hirschberg, J. Maasoumi, E., Slottje, D.J. (1991). Cluster analysis and the quality of life across countries. Journal of Econometrics50:131–150."
+      }
+    },
+    "kendall_1962": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "kendall_1962",
+        "first_author": "Kendall",
+        "year": "1962",
+        "title_fragment": ").TheAdvancedTheoryofStatistics,VolumeI.NewYork:Hafner.",
+        "raw": "Kendall,M.G.,Stuart,A.(1962).TheAdvancedTheoryofStatistics,VolumeI.NewYork:Hafner."
+      }
+    },
+    "lahiri_1988": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "lahiri_1988",
+        "first_author": "Lahiri",
+        "year": "1988",
+        "title_fragment": ").Interestrateandsubjectivedistributionofinflationforecasts.Journalof Money,Cred",
+        "raw": "Lahiri,K.,Teigland,C.,Zaporowski,M.(1988).Interestrateandsubjectivedistributionofinflationforecasts.Journalof Money,CreditandBanking20:233–248."
+      }
+    },
+    "levi_1980": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "levi_1980",
+        "first_author": "Levi",
+        "year": "1980",
+        "title_fragment": ").Inflationuncertaintyandthephillipscurve:Someempiricalevidence.AmericanEconomic",
+        "raw": "Levi,M.D.,Makin,J.H.(1980).Inflationuncertaintyandthephillipscurve:Someempiricalevidence.AmericanEconomic Review70:1022–1027."
+      }
+    },
+    "maasoumi_1993": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "maasoumi_1993",
+        "first_author": "Maasoumi",
+        "year": "1993",
+        "title_fragment": "). A compendium to information theory in economics and econometrics. Econometric",
+        "raw": "Maasoumi, E. (1993). A compendium to information theory in economics and econometrics. Econometric Reviews 12:137–181."
+      }
+    },
+    "makin_1982": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "makin_1982",
+        "first_author": "Makin",
+        "year": "1982",
+        "title_fragment": ").Anticipatedmoney,inflationuncertainty,andrealeconomicactivity.ReviewofEconomic",
+        "raw": "Makin,J.H.(1982).Anticipatedmoney,inflationuncertainty,andrealeconomicactivity.ReviewofEconomicsandStatistics 64:126–134."
+      }
+    },
+    "mitchell_2005": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "mitchell_2005",
+        "first_author": "Mitchell",
+        "year": "2005",
+        "title_fragment": ").Evaluating,comparingandcombiningdensityforecastsusingtheKLICwithanapplication ",
+        "raw": "Mitchell,J.,Hall,S.G.(2005).Evaluating,comparingandcombiningdensityforecastsusingtheKLICwithanapplication totheBankofEnglandandNIESR“fan”chartsofinflation.OxfordBulletinofEconomicsandStatistics67:995–"
+      }
+    },
+    "mitchell_2010": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "mitchell_2010",
+        "first_author": "Mitchell",
+        "year": "2010",
+        "title_fragment": ").Evaluatingdensityforecasts:Forecastcombinations,modelmixtures,calibrationand s",
+        "raw": "Mitchell,J.,Wallis,W.F.(2010).Evaluatingdensityforecasts:Forecastcombinations,modelmixtures,calibrationand sharpness.JournalofAppliedEconometrics26:1023–1040."
+      }
+    },
+    "okun_1971": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "okun_1971",
+        "first_author": "Okun",
+        "year": "1971",
+        "title_fragment": ").Themirageofsteadyinflation.BrookingsPapersonEconomicActivity2:485–498.",
+        "raw": "Okun,A.M.(1971).Themirageofsteadyinflation.BrookingsPapersonEconomicActivity2:485–498."
+      }
+    },
+    "rényi_1961": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "rényi_1961",
+        "first_author": "Rényi",
+        "year": "1961",
+        "title_fragment": ").Onmeasuresofentropyandinformation.ProceedingsofFourthBerkeleySymposium1:547–56",
+        "raw": "Rényi,A.(1961).Onmeasuresofentropyandinformation.ProceedingsofFourthBerkeleySymposium1:547–561."
+      }
+    },
+    "rich_2010": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "rich_2010",
+        "first_author": "Rich",
+        "year": "2010",
+        "title_fragment": "). The relationships among expected inflation, disagreement, and uncertainty: Ev",
+        "raw": "Rich, R., Tracy, J. (2010). The relationships among expected inflation, disagreement, and uncertainty: Evidence from matchedpointanddensityforecasts.ReviewofEconomicsandStatistics92:200–207."
+      }
+    },
+    "sims_2003": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "sims_2003",
+        "first_author": "Sims",
+        "year": "2003",
+        "title_fragment": ").Implicationsofrationalinattention.JournalofMonetaryEconomics50:665–690.",
+        "raw": "Sims,C.A.(2003).Implicationsofrationalinattention.JournalofMonetaryEconomics50:665–690."
+      }
+    },
+    "sims_2006": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "sims_2006",
+        "first_author": "Sims",
+        "year": "2006",
+        "title_fragment": ").Rationalinattention:Beyondthelinear-quadraticcase.AmericanEconomicReview96:158",
+        "raw": "Sims,C.A.(2006).Rationalinattention:Beyondthelinear-quadraticcase.AmericanEconomicReview96:158–163."
+      }
+    },
+    "sims_2011": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "sims_2011",
+        "first_author": "Sims",
+        "year": "2011",
+        "title_fragment": ").Rationalinattentionandmonetaryeconomics.InFriedman,B.M.andWoodford,M.,(eds.),H",
+        "raw": "Sims,C.A.(2011).Rationalinattentionandmonetaryeconomics.InFriedman,B.M.andWoodford,M.,(eds.),Handbook ofMonetaryEconomicsVol.3AAmsterdam:NorthHolland,pp.155–182."
+      }
+    },
+    "spigelhalter_2002": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "spigelhalter_2002",
+        "first_author": "Spigelhalter",
+        "year": "2002",
+        "title_fragment": ").Bayesianmeasuresofmodelcomplexityandfit(with discussions).JournaloftheRoyalSta",
+        "raw": "Spigelhalter,D.J.,Best,N.G.,Carlin,B.P.,vanderLinde,A.(2002).Bayesianmeasuresofmodelcomplexityandfit(with discussions).JournaloftheRoyalStatisticalSociety,SeriesB64:583–616. vanErven,T.,Harremoös,P.(2"
+      }
+    },
+    "wallis_2005": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "wallis_2005",
+        "first_author": "Wallis",
+        "year": "2005",
+        "title_fragment": "). Combining density and interval forecasts: A modest proposal. Oxford Bulletin ",
+        "raw": "Wallis, K. F. (2005). Combining density and interval forecasts: A modest proposal. Oxford Bulletin of Economics and Statistics67:983–994."
+      }
+    },
+    "wallis_2006": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "wallis_2006",
+        "first_author": "Wallis",
+        "year": "2006",
+        "title_fragment": ").A Note on Calculation of Entropy from Histogram. http://mpra.ub.unimuenchen.de",
+        "raw": "Wallis, K. F. (2006).A Note on Calculation of Entropy from Histogram. http://mpra.ub.unimuenchen.de/52856/1/ MPRA_paper_52856.pdf."
+      }
+    },
+    "wallis_2008": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "wallis_2008",
+        "first_author": "Wallis",
+        "year": "2008",
+        "title_fragment": ").Forecastuncertainty,itsrepresentationandevaluation.EconometricForecastingandHi",
+        "raw": "Wallis,K.F.(2008).Forecastuncertainty,itsrepresentationandevaluation.EconometricForecastingandHigh-Frequency DataAnalysis13:1–51."
+      }
+    },
+    "woodford_2009": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "woodford_2009",
+        "first_author": "Woodford",
+        "year": "2009",
+        "title_fragment": ").Information-constrainedstate-dependentpricing.JournalofMonetaryEconomics56:100",
+        "raw": "Woodford,M.(2009).Information-constrainedstate-dependentpricing.JournalofMonetaryEconomics56:100–124."
+      }
+    },
+    "zarnowitz_1987": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "zarnowitz_1987",
+        "first_author": "Zarnowitz",
+        "year": "1987",
+        "title_fragment": ").Consensusanduncertaintyineconomicprediction.JournalofPoliticalEconomy 95:591–6",
+        "raw": "Zarnowitz,V.,Lambros,L.A.(1987).Consensusanduncertaintyineconomicprediction.JournalofPoliticalEconomy 95:591–621."
+      }
+    },
+    "zellner_1988": {
+      "count": 1,
+      "cited_by": [
+        "shoja2017.pdf"
+      ],
+      "data": {
+        "key": "zellner_1988",
+        "first_author": "Zellner",
+        "year": "1988",
+        "title_fragment": "). Calculation of maximum entropy distributions and approximation of marginal po",
+        "raw": "Zellner, A., Highfield, R. A. (1988). Calculation of maximum entropy distributions and approximation of marginal posteriordistributions.JournalofEconometrics37:197–209."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+CLAIMS CHECKER  Valores fuente de verdad para main.tex
+======================================================================
+A1. Spearman rho (full sample): 0.729 (p=0.0000)
+A3. R-squared (full sample):   0.417
+A4. Beta coefficient (full):   0.0199
+A6. N periods available:       37
+
+[B] CRISIS AMPLIFICATION FACTORS (Table 3):
+   Financial Crisis: factor = 1.5x, MAE=0.200
+   Sovereign Debt: factor = 1.7x, MAE=0.227
+   COVID-19: factor = 2.8x, MAE=0.379
+
+[C] REGIME AMPLIFICATION FACTORS (Table 5):
+   Regime Elevated: factor = 3.5x, MAE=0.3
+   Regime High: factor = 4.7x, MAE=0.403
+
+[D] CEUI THRESHOLDS & PEAKS:
+D1. CEUI Peak value:           18.88 (2020Q3)
+D3. Threshold p60 (Elevated):  1.69
+D4. Threshold p90 (High):      13.62
+
+[E] SENSITIVITY RANGE (Table 7):
+E. Beta range: [0.0199, 0.0354]
+E. R2 range:   [0.417, 0.701]
+
+[F] INFLUENCE DIAGNOSTICS:
+F1. Most influential quarter:  2020Q3
+F2. Cook's D (max):           0.581
+
+[G] BOOTSTRAP STABILITY (95% CI):
+   Elevated (p60): mean=2.11, CI=[0.64, 4.78]
+   High (p90): mean=13.29, CI=[5.19, 18.68]
+
+[H] PER-MODEL MAE / RESILIENCE:
+   VAR: MAE_full=7.10pp, MAE_ratio=26.39x, resilience=0.038
+   ARIMA: MAE_full=4.46pp, MAE_ratio=36.30x, resilience=0.028
+   RF: MAE_full=2.18pp, MAE_ratio=10.33x, resilience=0.097
+   LSTM: MAE_full=2.15pp, MAE_ratio=6.02x, resilience=0.166
+   DFM: MAE_full=2.42pp, MAE_ratio=15.83x, resilience=0.063
+
+[I] SEASONAL MAE (Table 2):
+Quarter  Mean Error   MAE  Obs
+     Q1      -0.012 0.123   21
+     Q2       0.005 0.111   21
+     Q3       0.045 0.266   21
+     Q4      -0.007 0.226   21
+Average       0.008 0.182   84
+
+[J] CEUI RANGE:
+   min=0.25 (2018Q1); max=18.88 (2020Q3)
+
+[K] SENSITIVITY TABLE (Table 7):
+                   Subsample     beta        t            p       R²      rho  N
+                 Full sample 0.019923 3.129778 1.749387e-03 0.417186 0.729256 37
+        Ex-COVID (2020Q2-Q4) 0.029738 4.153074 3.280387e-05 0.575131 0.686173 34
+   Ex-crisis (2020Q1-2021Q1) 0.035448 5.401737 6.599878e-08 0.700931 0.678519 32
+Ex-most influential (2020Q3) 0.023931 3.239267 1.198374e-03 0.488056 0.717117 36
+
+[L] BOOTSTRAP TABLE:
+     Threshold  Baseline  Boot mean  Boot std  CI 2.5%  CI 97.5%
+Elevated (p60)      1.69       2.11      1.21     0.64      4.78
+    High (p90)     13.62      13.29      3.11     5.19     18.68
+
+[M] INFLUENCE DIAGNOSTICS (top 5):
+         CEUI  sigma_rev  Cook's D  Leverage  Std Resid Flagged
+2020Q3  18.88     0.2270    0.5807    0.2124    -2.0755     Yes
+2020Q4  18.68     0.2756    0.3509    0.2073    -1.6380     Yes
+2021Q3  11.85     0.6365    0.2165    0.0782     2.2601     Yes
+2021Q4  14.08     0.6120    0.1967    0.1117     1.7684     Yes
+2021Q1  13.31     0.1390    0.1714    0.0992    -1.7643     Yes
+
+[N] APPENDIX C REGRESSIONS:
+   (1) baseline:   beta=0.0199, R2=0.417, N=37
+   (2) +vint ctrl: beta_CEUI=0.0187, beta_vint=0.0050, R2=0.427
+   (3) excl young: beta=0.0197, R2=0.410
+
+======================================================================

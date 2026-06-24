@@ -1,0 +1,24 @@
+\begin{tabular}{lccccc}
+\toprule
+\multicolumn{6}{l}{\textbf{Panel A: Summary Statistics (YoY \% Growth)}} \\
+Variable & Mean & Std.\ Dev. & Min & Max & Obs. \\
+\midrule
+GDP Realized & 2.26 & 5.80 & -21.45 & 19.77 & 40 \\
+VAR Forecast & 1.14 & 15.86 & -64.62 & 40.91 & 40 \\
+DFM Forecast & 1.68 & 5.19 & -22.79 & 14.29 & 40 \\
+ARIMA Forecast & 1.38 & 9.20 & -44.71 & 16.68 & 40 \\
+Random Forest & 2.02 & 3.46 & -8.03 & 8.94 & 40 \\
+LSTM Forecast & 2.45 & 3.88 & -11.97 & 8.63 & 40 \\
+\midrule 
+CEUI Index (Raw) & 4.08 & 5.76 & 0.25 & 18.97 & 37 \\
+\midrule
+\multicolumn{6}{l}{\textbf{Panel B: Pearson Correlation Matrix between Model Forecasts}} \\
+ & VAR & RF & ARIMA & LSTM & DFM \\
+\midrule
+VAR & 1.000 & -- & -- & -- & -- \\
+RF & 0.127 & 1.000 & -- & -- & -- \\
+ARIMA & 0.664 & 0.578 & 1.000 & -- & -- \\
+LSTM & 0.181 & 0.774 & 0.663 & 1.000 & -- \\
+DFM & 0.498 & 0.819 & 0.812 & 0.846 & 1.000 \\
+\bottomrule
+\end{tabular}

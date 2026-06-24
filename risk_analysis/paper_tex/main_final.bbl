@@ -1,0 +1,159 @@
+\begin{thebibliography}{}
+
+\bibitem[Aruoba, 2008]{aruoba2008}
+Aruoba, S.~B. (2008).
+\newblock Data revisions are not well-behaved.
+\newblock {\em Journal of Money, Credit and Banking}, 40(2-3):319--346.
+
+\bibitem[Asimakopoulos et~al., 2023]{asimakopoulos2023}
+Asimakopoulos, S., Lalik, M., Paredes, J., and Salvado~Garc\'ia, J. (2023).
+\newblock Gdp revisions are not cool: The impact of statistical agencies’
+  trade-off.
+\newblock Working Paper 2857, European Central Bank.
+
+\bibitem[Baker et~al., 2016]{baker2016measuring}
+Baker, S.~R., Bloom, N., and Davis, S.~J. (2016).
+\newblock Measuring economic policy uncertainty.
+\newblock {\em The Quarterly Journal of Economics}, 131(4):1593--1636.
+
+\bibitem[Berge, 2021]{berge2020}
+Berge, T.~J. (2021).
+\newblock Time-varying uncertainty of the federal reserve’s output gap
+  estimate.
+\newblock Technical Report 2020-012r1, Board of Governors of the Federal
+  Reserve System, Washington, D.C.
+
+\bibitem[Bloom, 2009]{bloomuncer}
+Bloom, N. (2009).
+\newblock The impact of uncertainty shocks.
+\newblock {\em Econometrica}, 77(3):623--685.
+
+\bibitem[Bret\'o et~al., 2019]{breto2019}
+Bret\'o, C., Espinosa, F., Hern\'andez, M., and Pav\'ia, J.~M. (2019).
+\newblock An entropy-based machine learning algorithm for combining
+  macroeconomic forecasts.
+\newblock {\em Entropy}, 21(10):1015.
+
+\bibitem[Carriero et~al., 2018]{carriero2018}
+Carriero, A., Clark, T.~E., and Marcellino, M. (2018).
+\newblock Measuring uncertainty and its impact on the economy.
+\newblock {\em The Review of Economics and Statistics}, 100(5):799--815.
+
+\bibitem[Chen et~al., 2018]{chen2018}
+Chen, B., Di~Fonzo, T., Howells, T., and Marini, M. (2018).
+\newblock The statistical reconciliation of time series of accounts.
+\newblock {\em Journal of Official Statistics}, 34(2):297--327.
+
+\bibitem[Clark and Mertens, 2017]{clark2017}
+Clark, T.~E. and Mertens, E. (2017).
+\newblock Measuring uncertainty measures for point forecasts from surveys such
+  as the survey of professional forecasters, blue chip, or the federal open
+  market committee's summary of economic projections.
+\newblock Technical Report 667, Bank for International Settlements.
+
+\bibitem[Croushore, 2011]{croushore2011}
+Croushore, D. (2011).
+\newblock Frontiers of real-time data analysis.
+\newblock {\em Journal of Economic Literature}, 49(1):72--100.
+
+\bibitem[Ellsberg, 1961]{ellsberg1961}
+Ellsberg, D. (1961).
+\newblock Risk, ambiguity, and the savage axioms.
+\newblock {\em The Quarterly Journal of Economics}, 75(4):643--669.
+
+\bibitem[Faust et~al., 2005]{faust2005}
+Faust, J., Rogers, J.~H., and Wright, J.~H. (2005).
+\newblock News and noise in {G-7} {GDP} announcements.
+\newblock {\em Journal of Money, Credit and Banking}, 37(3):403--419.
+
+\bibitem[Fixler and Grimm, 2002]{fixler2002}
+Fixler, D.~J. and Grimm, B.~T. (2002).
+\newblock Reliability of {GDP} and related {NIPA} estimates.
+\newblock {\em Survey of Current Business}, 82(2):9--22.
+
+\bibitem[Ghirelli et~al., 2019]{ghirelli2019}
+Ghirelli, C., Gil, M., P\'erez, J.~J., and Urtasun, A. (2019).
+\newblock Measuring economic and policy uncertainty, and their macroeconomic
+  effects: The case of spain.
+\newblock Working Paper 1910, Banco de Espa\~na.
+
+\bibitem[Haussler and Opper, 1997]{haussler1997}
+Haussler, D. and Opper, M. (1997).
+\newblock Mutual information, metric entropy, and cumulative relative entropy
+  risk.
+\newblock {\em Annals of Statistics}, 25(6):2451--2492.
+
+\bibitem[Heskes, 1998]{heskes1998}
+Heskes, T. (1998).
+\newblock Bias/variance decompositions for likelihood-based estimators.
+\newblock {\em Neural Computation}, 10(6):1425--1433.
+
+\bibitem[Howrey, 1978]{howrey1978}
+Howrey, E.~P. (1978).
+\newblock The use of preliminary data in economic forecasting.
+\newblock {\em The Review of Economics and Statistics}, 60(2):193--200.
+
+\bibitem[Jurado et~al., 2015]{jurado2015}
+Jurado, K., Ludvigson, S.~C., and Ng, S. (2015).
+\newblock Measuring uncertainty.
+\newblock {\em American Economic Review}, 105(3):1177--1216.
+
+\bibitem[Kavajecz and Collins, 1995]{kavajecz1995}
+Kavajecz, K.~A. and Collins, S.~S. (1995).
+\newblock Rationality of preliminary money stock estimates.
+\newblock {\em The Review of Economics and Statistics}, 77(1):32--41.
+
+\bibitem[Knight, 1921]{knight1921}
+Knight, F.~H. (1921).
+\newblock {\em Risk, Uncertainty and Profit}.
+\newblock Houghton Mifflin, Boston.
+
+\bibitem[Lahiri and Sheng, 2010]{lahiri2010}
+Lahiri, K. and Sheng, X. (2010).
+\newblock Measuring forecast uncertainty by disagreement: The missing link.
+\newblock {\em Journal of Applied Econometrics}, 25(4):514--538.
+
+\bibitem[Mankiw et~al., 2004]{mankiw2004}
+Mankiw, N.~G., Reis, R., and Wolfers, J. (2004).
+\newblock Disagreement about inflation expectations.
+\newblock {\em NBER Macroeconomics Annual 2003}, 18:209--270.
+
+\bibitem[Mankiw et~al., 1984]{mankiw1984}
+Mankiw, N.~G., Runkle, D.~E., and Shapiro, M.~D. (1984).
+\newblock Are preliminary announcements of the money stock rational forecasts?
+\newblock {\em Journal of Monetary Economics}, 14(1):15--27.
+
+\bibitem[Mankiw and Shapiro, 1986]{mankiw1986}
+Mankiw, N.~G. and Shapiro, M.~D. (1986).
+\newblock News or noise: An analysis of {GNP} revisions.
+\newblock {\em Survey of Current Business}, 66(5):20--25.
+
+\bibitem[Mork, 1987]{mork1987}
+Mork, K.~A. (1987).
+\newblock Ain't behavin': Forecast errors and measurement errors in early {GNP}
+  estimates.
+\newblock {\em Journal of Business \& Economic Statistics}, 5(2):165--175.
+
+\bibitem[Orphanides, 2001]{orphanides2001}
+Orphanides, A. (2001).
+\newblock Monetary policy rules based on real-time data.
+\newblock {\em American Economic Review}, 91(4):964--985.
+
+\bibitem[Patterson and Heravi, 1991]{patterson1991}
+Patterson, K. and Heravi, S. (1991).
+\newblock Direct estimation of entropy and revisions to the national income
+  accounts.
+\newblock {\em The Statistician}, 40(1):35--50.
+
+\bibitem[Pavía et~al., 2018]{pavia2018}
+Pavía, J.~M., Cánovas, J., and Caballero, R. (2018).
+\newblock A statistical approach to the measurement of the quality of official
+  statistics: the case of the spanish gdp.
+\newblock {\em Journal of Official Statistics}, 33(3):603--635.
+
+\bibitem[Shoja and Soofi, 2017]{shoja2017}
+Shoja, M. and Soofi, E.~S. (2017).
+\newblock Uncertainty, information, and disagreement of economic forecasters.
+\newblock {\em Journal of Business \& Economic Statistics}, 35(3):462--478.
+
+\end{thebibliography}

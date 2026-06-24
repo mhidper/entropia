@@ -1,0 +1,17 @@
+
+Regression results for QoQ Specification:
+-------------------------------------------
+Full Sample:
+  Beta: 0.0082 (p=0.0386)
+  R2: 0.2233
+  Spearman rho: 0.7745
+
+Ex-COVID:
+  Beta: 0.0115 (p=0.3704)
+  R2: 0.2687
+  Spearman rho: 0.7345
+
+Ex-crisis:
+  Beta: 0.0239 (p=0.0000)
+  R2: 0.4756
+  Spearman rho: 0.6939

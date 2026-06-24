@@ -1,0 +1,2 @@
+CEUI Baseline Spearman: rho=0.727, p=0.000
+CEUI U_within_train Spearman: rho=0.734, p=0.000
