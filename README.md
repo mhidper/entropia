@@ -1,249 +1,137 @@
-# 📊 ENTROPÍA: Framework Multidimensional de Incertidumbre Económica
+# 📊 ENTROPÍA: Composite Economic Uncertainty Index (CEUI)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![LaTeX](https://img.shields.io/badge/LaTeX-academic%20paper-green.svg)](https://www.latex-project.org/)
 
-Un framework avanzado para la cuantificación y análisis de la incertidumbre económica basado en modelos DSGE con información imperfecta y aprendizaje adaptativo.
+This repository hosts the replication code, vintage data pipeline, and LaTeX manuscript for the paper:
+**"A Real-Time Forecasting-Ensemble Index of Economic Uncertainty and the Volatility of GDP Revisions"**
 
-## 🎯 Descripción del Proyecto
+Targeted for submission to *Empirical Economics* (Springer Nature).
 
-**ENTROPÍA** es un proyecto de investigación que desarrolla metodologías innovadoras para medir y analizar la incertidumbre económica a través de múltiples dimensiones. El framework combina teoría económica avanzada con técnicas de machine learning para proporcionar herramientas robustas de análisis de riesgo macroeconómico.
+---
 
-### 🔬 Innovaciones Principales
+## 🎯 Project Overview
 
-- **Framework Multidimensional**: Captura tres dimensiones clave de incertidumbre:
-  - **Model Dispersion**: Desacuerdo entre diferentes metodologías de forecasting
-  - **Within-Model Variability**: Variabilidad intrínseca dentro de cada modelo
-  - **Temporal Instability**: Inestabilidad de predicciones a lo largo del tiempo
+The **Composite Economic Uncertainty Index (CEUI)** is a model-based, multi-dimensional gauge of real-time macroeconomic uncertainty. It is constructed from the internal properties of a heterogeneous five-model forecasting ensemble. Rather than measuring generalized risk (like the VIX or news-based EPU indices), the CEUI directly measures the ex-ante **informational disorder** of the economic environment to predict the ex-post volatility of GDP data revisions ($\sigma^{rev}_t$).
 
-- **Modelos DSGE con Información Imperfecta**: Incorpora autoridades fiscales que observan señales ruidosas y aprenden adaptativamente
+### 🔬 The 3 Dimensions of the CEUI
+1. **Within-Model Uncertainty ($\mathcal{U}^{\text{within}}_t$):** The average trailing forecast noise of the individual models, capturing their intrinsic predictive confidence.
+2. **Between-Model Dispersion ($\mathcal{U}^{\text{between}}_t$):** The real-time disagreement (empirical standard deviation) among different modeling paradigms.
+3. **Temporal Instability ($\mathcal{U}^{\text{temporal}}_t$):** The rate at which the ensemble updates its beliefs between consecutive periods, captured by the historical volatility of the forecast path.
 
-- **Análisis de Resiliencia Post-Crisis**: Evalúa la capacidad de recuperación de modelos después de shocks extremos (COVID-19)
+---
 
-## 📂 Estructura del Proyecto
+## 📂 Repository Structure
 
 ```
-entropia/
-├── src/                                    # Código fuente principal
-│   ├── dsge model incertidumbre.ipynb    # Modelo DSGE con información imperfecta
-│   └── risk index.ipynb                  # Framework de índice de riesgo multidimensional
-├── risk_analysis/                         # Análisis y documentación académica
-│   ├── paper_tex/                        # Papers en LaTeX
-│   │   ├── dsge_model.tex               # Paper modelo DSGE
-│   │   ├── dsge_model.pdf               # Versión compilada
-│   │   ├── main.tex                     # Paper framework principal
-│   │   └── bib.bib                      # Bibliografía
-│   └── bibliografía/                     # Literatura de referencia
-└── README.md                             # Este archivo
+Entropía/
+├── src/                                    # Main replication pipeline
+│   ├── risk_index_v2.py                    # Main YoY Python pipeline (run this to regenerate all tables/figures)
+│   ├── risk_index_v2.ipynb                 # Jupyter version of the YoY pipeline
+│   └── risk_index_v2_QoQ.py                # Robustness script for the QoQ specification
+├── risk_analysis/                         # Academic documentation & LaTeX source
+│   └── paper_tex/                          # LaTeX project
+│       ├── main_final.tex                  # Main paper text
+│       ├── main_final.pdf                  # Compiled PDF version
+│       ├── cover_letter.tex                # Cover letter for Empirical Economics
+│       ├── cover_letter.pdf                # Compiled Cover Letter
+│       ├── figures/                        # Generated charts (.pdf and .png)
+│       └── tables/                         # Generated LaTeX tables (.tex)
+├── replica_pavia_2018/                     # Replication base database
+│   └── datos/
+│       └── cntr2.xlsx                      # Real-time CNTR vintage database (INE)
+├── claims_new.txt                          # Single source of truth for paper statistics
+├── README.md                               # This file
+└── claims.txt                              # Old stats log
 ```
 
-## 🤖 Modelos Implementados
+---
 
-### 1. **Vector Autoregression (VAR)**
-- Modelo econométrico tradicional para análisis multivariado
-- **Fortaleza**: Captura relaciones dinámicas entre variables económicas
-- **Uso**: Generación de intervalos de confianza (within-model uncertainty)
+## 🤖 Ensemble Models & Indicators
 
-### 2. **Random Forest**
-- Modelo de machine learning para capturar no-linealidades
-- **Fortaleza**: Robusto ante outliers y cambios estructurales
-- **Uso**: Modelo alternativo para dispersión entre modelos
+The forecasting ensemble utilizes 10 indicator variables (GDP growth + 9 monthly indicators) to predict Spanish GDP in real time under a rolling, expanding-window protocol (minimum 20 training quarters):
 
-### 3. **ARIMA**
-- Modelo univariado clásico de series temporales
-- **Fortaleza**: Simplicidad y transparencia interpretativa
-- **Uso**: Tercer modelo para completar la dispersión multidimensional
+### The 5 Estimating Models
+1. **Vector Autoregression (VAR):** Linear multivariate framework. Lags selected recursively via AIC (max 4).
+2. **Random Forest (RF):** Non-linear machine learning algorithm. Trained with 100 trees, unlimited depth, and fixed random seed (`random_state=42`).
+3. **ARIMA:** Univariate time-series baseline. Configured with a fixed ARIMA(4,0,1) specification.
+4. **LSTM (Long Short-Term Memory):** Recurrent neural network capturing temporal sequence dependencies. Univariately trained with sequence length of 8 and 16 hidden units, with early stopping.
+5. **Dynamic Factor Model (DFM):** Condenses the indicator set into a single common factor using Kalman filtering.
 
-### 4. **LSTM (Long Short-Term Memory)**
-- Red neuronal para capturar dependencias temporales complejas
-- **Fortaleza**: Memoria de largo plazo y manejo de secuencias complejas
-- **Uso**: Análisis de patrones temporales no lineales
+### The 9 Monthly Indicators
+* **Social Security Affiliations** (Employment proxy)
+* **Industrial Production Index (IPI)** for Manufacturing
+* **Synthetic Construction Indicator** (Investment)
+* **Synthetic Capital Goods Indicator** (Investment)
+* **Real Interior Sales of Large Enterprises** (Consumption & Services)
+* **Manufacturing Purchasing Managers' Index (PMI)** (Expectations)
+* **OECD Composite Leading Indicator (CLI)** for Spain (Expectations)
 
-### 5. **Dynamic Factor Model (DFM)**
-- Extracción de factores latentes macroeconómicos
-- **Fortaleza**: Reducción dimensional e interpretación económica
-- **Uso**: Identificación de fuerzas económicas comunes
+---
 
-## 📊 Ranking de Performance
+## 📈 Canonical Metrics (YoY Specification)
 
-### Por Precisión (MAE)
-🥇 **Random Forest**: 2.34  
-🥈 **LSTM**: 2.34  
-🥉 **DFM**: 4.01  
-🏅 **ARIMA**: 4.26  
-🎖️ **VAR**: 6.22  
+The canonical run of the pipeline produces the following benchmark parameters (saved in `claims_new.txt`):
 
-### Por Resiliencia Post-COVID
-🥇 **Random Forest**: Score 1.096 (mejora post-crisis)  
-🥈 **LSTM**: Score 0.469  
-🥉 **ARIMA**: Score 0.303  
-🏅 **DFM**: Score 0.293  
-🎖️ **VAR**: Score 0.064 (trauma estructural)  
+### Model Accuracy & Resilience (2019Q1--2024Q4)
+* **LSTM:** MAE full = 2.15 pp | MAE ratio (Crisis/Normal) = 6.49x | Resilience = 0.154
+* **Random Forest:** MAE full = 2.18 pp | MAE ratio = 10.33x | Resilience = 0.097
+* **Dynamic Factor Model:** MAE full = 2.42 pp | MAE ratio = 15.83x | Resilience = 0.063
+* **ARIMA (4,0,1):** MAE full = 4.46 pp | MAE ratio = 36.30x | Resilience = 0.028
+* **VAR:** MAE full = 7.10 pp | MAE ratio = 26.39x | Resilience = 0.038
 
-## 🎨 Características Técnicas
+### Core Regression Results
+* **Spearman Rank Correlation ($\rho$):** **0.727** ($p < 0.001$) between the ex-ante CEUI and ex-post revision volatility $\sigma^{rev}_t$.
+* **OLS Slope Coefficient ($\hat{\beta}$):** **0.0198** ($p < 0.001$, HC3-robust standard errors).
+* **Baseline Goodness-of-Fit ($R^2$):** **0.413**.
+* **Robust In-Sample Variant ($U^{\text{within, train}}$):** Spearman correlation of **0.734** (stable within `[0.732, 0.739]` under a leave-one-model-out test).
 
-### Análisis de Incertidumbre
-- **Intervalos de Confianza**: Generación automática para cada modelo
-- **Monte Carlo Dropout**: Para modelos LSTM con incertidumbre epistémica
-- **Dispersión entre Modelos**: Medición de desacuerdo entre 5 metodologías
-- **Índice Compuesto**: Combinación ponderada de todas las dimensiones
+---
 
-### Evaluación Temporal
-- **Rolling Window Analysis**: Evaluación dinámica desde 2019Q1 hasta 2025Q1
-- **Out-of-Sample Testing**: Forecasting con ventana móvil
-- **Crisis Resilience**: Análisis pre/post-COVID para medir adaptabilidad
+## 🚀 Reproduction Instructions
 
-### Visualizaciones Avanzadas
-- **Dashboards Interactivos**: Series temporales, distribuciones, correlaciones
-- **Heatmaps de Dispersión**: Análisis visual de desacuerdo entre modelos
-- **Gráficos de Resiliencia**: Comparación de performance pre/post-crisis
-
-## 🚀 Instalación y Uso
-
-### Requisitos
-```python
-python >= 3.8
-pandas >= 1.3.0
-numpy >= 1.21.0
-matplotlib >= 3.4.0
+### Requirements
+```
+python >= 3.10
+pandas >= 1.4.0
+numpy >= 1.22.0
 scikit-learn >= 1.0.0
 statsmodels >= 0.13.0
-tensorflow >= 2.6.0 (para LSTM)
+tensorflow >= 2.8.0
+matplotlib >= 3.5.0
+openpyxl (for Excel reading)
 ```
 
-### Instalación Rápida
+### Quick Run
+To run the canonical pipeline, regenerate all tables, figures, and populate `claims_new.txt`:
 ```bash
+# Clone the repository
 git clone https://github.com/mhidper/entropia.git
-cd entropia
-pip install -r requirements.txt  # (crear este archivo con las dependencias)
+cd entropia/src
+
+# Execute main pipeline
+python risk_index_v2.py
+```
+To run the quarter-on-quarter (QoQ) robustness specification:
+```bash
+python risk_index_v2_QoQ.py
 ```
 
-### Ejecución
-```python
-# Ejecutar el framework completo
-jupyter notebook "src/risk index.ipynb"
-
-# Solo modelo DSGE
-jupyter notebook "src/dsge model incertidumbre.ipynb"
+### LaTeX Compilation
+To compile the manuscript with the updated tables and cover letter:
+```bash
+cd ../risk_analysis/paper_tex
+pdflatex main_final.tex
+pdflatex cover_letter.tex
 ```
-
-## 📈 Resultados Principales
-
-### Impacto de la Incertidumbre
-- **Pérdidas de Bienestar**: 0.08% en regímenes normales → 1.23% en extremos
-- **Multiplicadores de Crisis**: Errores de política se amplifican 2-20x
-- **Persistencia**: La incertidumbre se mantiene elevada post-COVID
-
-### Thresholds Empíricos
-- 🟢 **Normal** (0-2): Condiciones económicas estables
-- 🟡 **Elevada** (2-4): Vigilancia aumentada requerida  
-- 🟠 **Alta** (4-8): Medidas proactivas necesarias
-- 🔴 **Extrema** (>8): Respuesta de emergencia crítica
-
-## 📚 Publicaciones Académicas
-
-### Papers Incluidos
-1. **"Fiscal Policy Errors Under Economic Uncertainty: A DSGE Model with Imperfect Information and Learning"**
-   - Modelo teórico con autoridades fiscales que aprenden adaptativamente
-   - Análisis de errores sistemáticos de política durante crisis
-
-2. **"A Multidimensional Framework for Economic Uncertainty Quantification"**
-   - Framework metodológico para cuantificación de incertidumbre
-   - Integración de múltiples fuentes de ambigüedad predictiva
-
-### Bibliografía de Referencia
-- **Baker, Bloom & Davis (2016)**: Economic Policy Uncertainty Index
-- **Jurado, Ludvigson & Ng (2015)**: Measuring Uncertainty
-- **Bloom (2009)**: Impact of Uncertainty Shocks
-- **Carriero, Clark & Marcellino (2018)**: Measuring Uncertainty and its Impact
-- Y más referencias fundamentales en `/risk_analysis/bibliografía/`
-
-## 🎯 Aplicaciones Prácticas
-
-### Para Policymakers
-- **Timing de Intervenciones**: Basado en regímenes de incertidumbre
-- **Evaluación de Políticas**: Efectividad bajo diferentes niveles de ambigüedad
-- **Early Warning System**: Detección temprana de crisis emergentes
-
-### Para Instituciones Financieras
-- **Risk Management**: Asignación de capital basada en incertidumbre
-- **Stress Testing**: Escenarios de incertidumbre extrema
-- **Due Diligence**: Mejora en decisiones de inversión
-
-### Para Investigadores
-- **Framework Replicable**: Metodología extensible a diferentes economías
-- **Benchmarking**: Comparación de nuevos modelos de forecasting
-- **Análisis Sectorial**: Aplicable a sectores específicos
-
-## 🤝 Contribuciones
-
-### Autores
-- **Manuel Hidalgo-Pérez** - Universidad Pablo de Olavide
-- **Leandro Airef** - AIREF (Autoridad Independiente de Responsabilidad Fiscal)
-
-### Cómo Contribuir
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-### Guidelines
-- Seguir PEP 8 para código Python
-- Documentar funciones con docstrings
-- Incluir tests para nuevas funcionalidades
-- Mantener compatibilidad con versiones anteriores
-
-## 📊 Métricas del Proyecto
-
-### Completitud del Framework
-- ✅ **Within-Model Uncertainty**: Implementado
-- ✅ **Between-Model Uncertainty**: Implementado  
-- ✅ **Model Resilience Analysis**: Implementado
-- ⏳ **Temporal Instability**: En desarrollo
-
-**Estado**: 🚧 75% Completo - Operativo para aplicación práctica
-
-### Performance Benchmark
-| Modelo | MAE | RMSE | Resilience Score |
-|--------|-----|------|------------------|
-| Random Forest | 2.34 | 6.54 | 1.096 |
-| LSTM | 2.34 | 5.47 | 0.469 |
-| DFM | 4.01 | 9.55 | 0.293 |
-| ARIMA | 4.26 | 11.27 | 0.303 |
-| VAR | 6.22 | 12.30 | 0.064 |
-
-## 📄 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
-## 📞 Contacto
-
-- **Email**: mhidper@upo.es
-- **Institución**: Universidad Pablo de Olavide
-- **Proyecto**: Crisis Tracker v2 - Risk Index Framework
-
-## 🙏 Agradecimientos
-
-- Universidad Pablo de Olavide por el apoyo institucional
-- AIREF por la colaboración en la investigación aplicada
-- Comunidad académica por las valiosas contribuciones y feedback
 
 ---
 
-### 💡 Nota sobre Reproducibilidad
+## 📚 Declarations & Academic Information
 
-Este framework está diseñado para ser completamente reproducible. Todos los resultados pueden ser replicados ejecutando los notebooks en el orden especificado. Para cuestiones específicas sobre reproducibilidad, consultar la documentación técnica en los notebooks.
-
-### 🔮 Roadmap Futuro
-
-- [ ] Implementación completa de Temporal Instability
-- [ ] Extensión a economías emergentes
-- [ ] API REST para integración en sistemas externos
-- [ ] Dashboard web interactivo
-- [ ] Módulo de alertas en tiempo real
-
----
-
-*Última actualización: Junio 2025*
+* **JEL Classification:** C53, C82, E01, E32.
+* **Keywords:** Economic Uncertainty, Forecast Combinations, Informational Entropy, GDP Revisions, Real-time Data.
+* **Funding:** No funding was received for this study.
+* **Conflicts of Interest:** None.
+* **Replicability:** Data and code pipeline are open-source. Manuel Hidalgo-Pérez is the lead author and investigator.
